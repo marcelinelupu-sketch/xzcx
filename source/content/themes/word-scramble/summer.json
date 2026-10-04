@@ -1,0 +1,108 @@
+{
+ "shortTitle": "Summer Word Scramble",
+ "title": "Summer Word Scramble, Free Printable Vacation Puzzle",
+ "metaDescription": "Print a free summer word scramble with 24 sunny words, from sunscreen to lemonade. A boredom buster for car rides, camp rainy days and the first week of break.",
+ "h1": "Summer Word Scramble (Free Printable Puzzle)",
+ "intro": "Print a free summer word scramble with 24 sunny words to unscramble, from lemonade to fireflies. It fits in a beach bag, a camp cabin or the back of the car.",
+ "toolTitle": "Summer Word Scramble",
+ "items": [
+  "Sunshine",
+  "Lemonade",
+  "Sunscreen",
+  "Swimming",
+  "Vacation",
+  "Ice pop",
+  "Barbecue",
+  "Flip flops",
+  "Fireflies",
+  "Sandcastle",
+  "Seashell",
+  "Ice cream",
+  "Campfire",
+  "Watermelon",
+  "Sprinkler",
+  "Picnic",
+  "Hammock",
+  "Sunglasses",
+  "Lifeguard",
+  "Fireworks",
+  "Camping",
+  "Backyard",
+  "Beach ball",
+  "Kite"
+ ],
+ "itemsNote": "All 24 words are loaded above. Add places you are visiting this summer, or the names of your cousins, to make it your own.",
+ "defaultOptions": {
+  "puzzles": 3,
+  "case": "upper",
+  "hint": false,
+  "bank": false,
+  "key": true,
+  "shuffle": true
+ },
+ "season": [
+  6,
+  7,
+  8
+ ],
+ "hubs": [
+  "classroom-games",
+  "road-trip-and-outdoor-games"
+ ],
+ "related": [
+  "bingo/summer",
+  "word-search/summer",
+  "scavenger-hunt/beach",
+  "scavenger-hunt/camping",
+  "word-scramble/back-to-school",
+  "bingo/beach"
+ ],
+ "relatedHeading": "More summer printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to use a summer word scramble",
+   "body": [
+    "Summer boredom has a particular sound, usually a sigh from the back seat or the hammock. Keep a few sheets of this scramble in a folder and hand one out whenever it starts.",
+    "1. Print three different puzzles and keep them in a folder or a beach bag.\n2. Give a sheet and a pencil to anyone who looks restless.\n3. Allow a time limit if you want a race, or let the sheet stay out all week.\n4. Tick words as they are solved and check the answer key at the end.\n5. Keep unsolved sheets to finish later on a rainy day."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Summer variations",
+   "body": [
+    "* **Poolside race.** Set up a puzzle station at the pool or beach and send swimmers back to the towels to solve a word between swims.\n* **Camp cabin challenge.** Cabins compete to solve a whole sheet first, and the winning cabin picks the campfire song.\n* **Road trip relay.** Take turns, with each passenger solving one word before passing the sheet on."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for easy summer fun",
+   "body": [
+    "Choose three puzzles so siblings get different arrangements and cannot copy each other.",
+    "Add the word bank for younger children, or turn it off for older kids who will enjoy the challenge.",
+    "Print a few sheets for the end of term and use them as a calm activity when the weather is too hot for much else."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for hot weather",
+   "body": [
+    "Sun, sand and water are rough on paper, so print on cardstock or use a zip bag. Bright yellow or aqua paper adds to the mood. A sheet folded in half fits a back pocket, and a pencil is more reliable than a pen on damp paper."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What age is the summer word scramble for?",
+   "a": "With the word bank on, from about 7. Without it, it suits ages 10 and older and gives teens something to do on a long trip."
+  },
+  {
+   "q": "Can I use it as a summer camp activity?",
+   "a": "Yes. Print enough copies for each cabin or group and set a time limit for the race."
+  },
+  {
+   "q": "Does the list include any regional words?",
+   "a": "The words are common across many places. Replace barbecue or fireworks with something local, like a nearby lake, if you want a more personal list."
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "shortTitle": "Classroom Scavenger Hunt",
+ "title": "Classroom Scavenger Hunt, Free Printable for Back to School",
+ "metaDescription": "A free printable classroom scavenger hunt with 30 finds that help students learn their way around, from the pencil sharpener to the fire exit map.",
+ "h1": "Classroom Scavenger Hunt (Free Printable List)",
+ "intro": "Print a free classroom scavenger hunt with 30 things for students to find around the room and school. It helps new classes learn where everything lives in a fun, low-pressure way.",
+ "toolTitle": "Classroom Scavenger Hunt",
+ "items": [
+  "The pencil sharpener",
+  "The class library shelf",
+  "The clock",
+  "The fire exit map | 2",
+  "The class rules poster",
+  "The teacher's desk",
+  "The whiteboard or chalkboard",
+  "The lost and found box | 2",
+  "The recycling bin",
+  "A world map or globe",
+  "Your name on a coat hook or cubby",
+  "The hand sanitizer or sink",
+  "The supply cabinet",
+  "A book about animals | 2",
+  "A calendar",
+  "The pencil jar",
+  "The class pet or plant | 2",
+  "The nurse's office sign. Walk with an adult | 3",
+  "A classmate who shares your birthday month | 3",
+  "Today's date written somewhere",
+  "The classroom door sign",
+  "A poster with a number on it",
+  "The art supplies shelf",
+  "A dictionary | 2",
+  "A word wall | 2",
+  "A shape on the ceiling or wall",
+  "The bus line sign",
+  "A hall pass",
+  "A classmate whose name starts with the same letter as yours | 3",
+  "A thank-you note or kind message posted on a wall | 3"
+ ],
+ "itemsNote": "All 30 items are loaded above. Edit to match your classroom, because every room has different furniture and a different place for the extra markers.",
+ "defaultOptions": {
+  "layout": "team",
+  "names": true,
+  "timeLimit": true,
+  "copies": 25,
+  "shuffle": true,
+  "ageNote": "Grades K to 5"
+ },
+ "season": [
+  8,
+  9
+ ],
+ "hubs": [
+  "classroom-games"
+ ],
+ "related": [
+  "bingo/back-to-school",
+  "word-search/back-to-school",
+  "word-scramble/back-to-school",
+  "bingo/last-day-of-school",
+  "scavenger-hunt/indoor-for-kids",
+  "bingo/icebreaker-find-someone-who"
+ ],
+ "relatedHeading": "More back to school printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to run a classroom scavenger hunt",
+   "body": [
+    "A classroom hunt works as a tour of the room and the people in it. On the first days of school, it replaces a long lecture on where things live with a game children remember.",
+    "1. Before class, check the list against your room and cross out or add items.\n2. Set expectations: walking feet, quiet voices and no opening of cupboards without asking.\n3. Divide students into small teams of three or four, with a mix of confident and shy children.\n4. Give a time limit of ten to fifteen minutes and a signal for stopping, such as a chime.\n5. Review the answers as a class, using the finds to reinforce routines like where to hang coats and where to hand in homework."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Classroom variations",
+   "body": [
+    "* **Whole-school tour.** Extend the list to the hall, library and office, with a staff member walking along with each group.\n* **Silent search.** Students tick items without talking, and the first team to finish quietly wins. It builds calm and focus.\n* **Mystery message.** Place a letter beside each item and let teams collect the letters to unscramble a classroom motto."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for teachers",
+   "body": [
+    "Use the shuffle option to prevent crowding. Teams then head to different corners and the room stays calmer.",
+    "Pair children carefully. A hunt is a great chance to mix students who have not worked together before.",
+    "Keep a few items on the list that need conversation, like the birthday match, so students get to know each other."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Moving around the building",
+   "body": [
+    "Walking feet only, and teams should stay within the areas you have marked. Any item outside the classroom needs an adult escort. Keep the aisles clear of backpacks and chairs, and have students leave cupboards and desks closed unless you invite them to look."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for a full class",
+   "body": [
+    "Choose the number of copies to match your class or number of teams and print on regular paper. The sheets are light on ink, so a class set costs very little. For reuse, laminate a set and use dry erase markers, or slip sheets into plastic pockets that you can wipe clean at the end of each lesson."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What grade levels is the classroom hunt for?",
+   "a": "Kindergarten to grade 5 works well. Read the list aloud for early readers, or give each team a helper from an older class."
+  },
+  {
+   "q": "How long does it take?",
+   "a": "Plan 15 to 25 minutes with a short debrief. Shorten it by removing items outside the classroom."
+  },
+  {
+   "q": "Can I use it on the first day of school?",
+   "a": "Yes, it is a good first-week activity. Students move, talk to each other and learn where things are in a low-pressure way."
+  }
+ ]
+}

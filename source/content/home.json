@@ -1,0 +1,41 @@
+{
+  "title": "Free Printable Bingo, Word Searches and Party Games",
+  "metaDescription": "Make free printable bingo cards, word searches, scavenger hunts, word scrambles and kids' charts in your browser. No sign-up, Letter or A4, PDF or print.",
+  "h1": "Free Printable Bingo Cards, Word Searches & Party Games",
+  "subhead": "Make it, print it, play it in seconds. No sign-up.",
+  "intro": "Pick a tool, start from one of our ready-made theme lists or paste your own words, and print as many sheets as your group needs. Everything runs right in your browser, so it is quick on a phone, a laptop or a school Chromebook.",
+  "cta": { "label": "Make bingo cards", "path": "/bingo-card-generator/" },
+  "toolsHeading": "Pick a tool",
+  "popularHeading": "Popular themes",
+  "hubsHeading": "Printables for every occasion",
+  "tools": [
+    { "tool": "bingo", "blurb": "Word bingo, 75-ball, 90-ball UK tickets and 1 to 30 number cards, with a caller sheet. Up to 30 unique cards at a time." },
+    { "tool": "wordsearch", "blurb": "Grids from 10 x 10 to 20 x 20 in three difficulty levels, with an optional answer key." },
+    { "tool": "scavenger", "blurb": "Checklists, photo hunts and team score sheets, shuffled per copy so teams don't trail each other." },
+    { "tool": "scramble", "blurb": "Unscramble puzzles with optional first-letter hints, a word bank and an answer key." },
+    { "tool": "routine", "blurb": "Picture charts for bath, teeth, pajamas and story time, with your child's name at the top." },
+    { "tool": "reward", "blurb": "Sticker and tick-box charts for chores, reading, potty training and good days." },
+    { "tool": "caller", "blurb": "Call numbers or words on screen, with a called board, undo, auto-call and an optional voice." }
+  ],
+  "popular": [
+    { "path": "bingo/baby-shower", "label": "Baby shower bingo" },
+    { "path": "bingo/christmas", "label": "Christmas bingo" },
+    { "path": "word-search/halloween", "label": "Halloween word search" },
+    { "path": "bingo/road-trip", "label": "Road trip bingo" },
+    { "path": "bingo/esl-animals", "label": "ESL animals bingo" },
+    { "path": "bingo/sight-words-kindergarten", "label": "Sight words bingo" },
+    { "path": "bingo/bridal-shower", "label": "Bridal shower bingo" },
+    { "path": "scavenger-hunt/nature-walk", "label": "Nature walk scavenger hunt" },
+    { "path": "word-search/frog-life-cycle", "label": "Frog life cycle word search" },
+    { "path": "reward-chart-maker/potty-training-chart", "label": "Potty training chart" },
+    { "path": "bedtime-routine-chart/toddler-picture-chart", "label": "Toddler bedtime chart" },
+    { "path": "bingo/90-ball-bingo-tickets", "label": "90-ball bingo tickets" }
+  ],
+  "why": {
+    "heading": "Why Frog's Dream",
+    "body": [
+      "* **It's free to use.** Every tool on this site is free, and so is printing the results for home, classroom and party use.\n* **No sign-up.** There is no account to create and no email to hand over. Open a page and start.\n* **Works on phones and Chromebooks.** The tools run in any modern browser, so you can set up a game on your phone and print it from the school computer.\n* **Letter and A4.** Switch the paper size with one tap, and the sheets resize to fit.\n* **Friendly to your printer.** Ink saver mode prints clean black-and-white sheets that copy well.\n* **Share the exact set.** A share link brings back the same words and the same cards, which helps when a co-teacher or co-host needs a copy.",
+      "Frog's Dream is a small independent project. If something doesn't print right or a word list has a mistake, [let us know](/contact/) and we will fix it."
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "shortTitle": "Christmas Word Scramble",
+  "title": "Christmas Word Scramble, Free Printable with Answers",
+  "metaDescription": "Print a free Christmas word scramble with 24 festive words, an optional word bank and an answer key. Make up to 10 versions for class parties or family games.",
+  "h1": "Christmas Word Scramble (Free Printable with Answers)",
+  "intro": "Print a free Christmas word scramble with 24 holiday words, from reindeer to gingerbread. Every sheet has an optional word bank and a matching answer key page.",
+  "toolTitle": "Christmas Word Scramble",
+  "items": [
+    "Reindeer", "Snowman", "Stocking", "Ornament", "Candy cane", "Mistletoe", "Gingerbread", "Sleigh",
+    "Tinsel", "Wreath", "Presents", "Chimney", "Holly", "Carols", "Elves", "Snowflake",
+    "Cookies", "Fireplace", "Garland", "Nutcracker", "Eggnog", "Jingle bells", "Star", "Chestnuts"
+  ],
+  "itemsNote": "All 24 words are ready in the generator above. Add family names or inside jokes for a party version that only your crowd can solve.",
+  "defaultOptions": {"puzzles": 1, "case": "upper", "hint": false, "bank": true, "key": true, "shuffle": true},
+  "season": [11, 12],
+  "hubs": ["christmas-printables", "classroom-games"],
+  "related": ["bingo/christmas", "word-search/christmas", "scavenger-hunt/christmas-lights", "word-scramble/thanksgiving", "word-search/winter", "bingo/winter"],
+  "relatedHeading": "More Christmas printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use a Christmas word scramble",
+      "body": [
+        "A word scramble is a quiet, pencil-and-paper game, which makes it handy in the busy weeks of December. Hand it out during the last school days before winter break, keep a stack on the kids' table at a family dinner, or tuck one into a holiday activity pack for a long car ride.",
+        "1. Pick how many words you want; 12 suit younger children, all 24 suit older ones.\n2. Choose whether to show the word bank. With it, the puzzle is about matching; without it, solvers need to know the words.\n3. Print a sheet per player and keep the answer key page aside.\n4. Set a timer for ten minutes, or simply let everyone solve at their own pace."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "4 festive variations",
+      "body": [
+        "* **Relay race.** Split a class into teams and give each team one sheet. One player solves a word, then passes the pencil on.\n* **Gift tag clues.** Write each answer on a gift tag and hide them around the room. Solvers who get stuck can go and find the matching tag.\n* **Family names edition.** Add the names of everyone at the table, plus the dog. Unscrambling Grandma's name is always a highlight.\n* **Ten different sheets.** Set puzzles to 10 so neighbors get different letter orders and the class can't copy."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and hosts",
+      "body": [
+        "Switch on the first letter hint for early readers, since a word like gingerbread is a long one to untangle. For confident spellers, turn off the word bank and the mix becomes a proper challenge.",
+        "Two-word answers like candy cane and jingle bells are scrambled one word at a time, so the space gives solvers a useful clue."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips",
+      "body": [
+        "Each puzzle fits on one page, and the answer key prints on its own page so you can keep it out of sight. Red or green paper looks festive, and ink saver mode keeps the letter tiles readable on colored sheets. A4 and Letter both work; the layout adjusts to the page."
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "What age is this Christmas word scramble for?", "a": "With the word bank on, children from about 7 can solve it. Without the bank, it is a good challenge for ages 10 and up, and adults enjoy it at parties too."},
+    {"q": "Does every scrambled word end up different from the real word?", "a": "Yes. The generator checks each word and mixes it again if the letters land back in the original order, so no answer is given away."},
+    {"q": "Can I print several different versions?", "a": "Yes. Choose up to 10 puzzles and each gets a new word order and new letter mixes, each with its own answer key."}
+  ]
+}

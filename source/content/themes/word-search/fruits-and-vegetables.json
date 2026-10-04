@@ -1,0 +1,110 @@
+{
+  "shortTitle": "Fruits and Vegetables Word Search",
+  "title": "Fruits and Vegetables Word Search, Free Printable Page",
+  "metaDescription": "Print a free fruits and vegetables word search with 24 produce words, from strawberry to broccoli. Letter or A4, with an answer key and extra puzzle options.",
+  "h1": "Fruits and Vegetables Word Search (Free Printable)",
+  "intro": "Print a free fruits and vegetables word search with 24 words you would find in a produce aisle. It is a gentle way to bring up eating the rainbow at school or at home.",
+  "toolTitle": "Fruits and Vegetables Word Search",
+  "items": [
+    "Strawberry",
+    "Blueberry",
+    "Banana",
+    "Apple",
+    "Orange",
+    "Pineapple",
+    "Watermelon",
+    "Grapes",
+    "Mango",
+    "Peach",
+    "Carrot",
+    "Broccoli",
+    "Spinach",
+    "Cucumber",
+    "Tomato",
+    "Potato",
+    "Pepper",
+    "Celery",
+    "Lettuce",
+    "Cabbage",
+    "Zucchini",
+    "Radish",
+    "Pumpkin",
+    "Corn"
+  ],
+  "itemsNote": "A balanced mix of twelve fruits and twelve vegetables, so children can sort them once the puzzle is done.",
+  "defaultOptions": {
+    "size": 14,
+    "difficulty": "easy",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/healthy-food",
+    "word-search/kitchen",
+    "word-search/plants-and-flowers",
+    "word-search/farm",
+    "bingo/farm-animals",
+    "bingo/esl-food"
+  ],
+  "relatedHeading": "More food and farm printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at the lunch table or in class",
+      "body": [
+        "Produce words are easy for most children to read because they see them on labels and in the cart. This makes a nice confidence-builder puzzle.",
+        "1. Give every child a puzzle and a crayon.\n2. Find all the fruits and circle them in red.\n3. Find all the vegetables and circle them in green.\n4. Count how many of each you found and compare.",
+        "Younger children can be given just the fruit half of the list, then return for the vegetables on another day."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Tasty variations",
+      "body": [
+        "* **Taste test.** Buy four items from the list, slice them, and let children rate each from one to five after finding the words.\n* **Color rainbow.** Group the words by color on a paper rainbow with one band per color.\n* **Grow it.** Ask which items grow underground, on a vine, on a tree or on a bush, and sort them that way."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for picky eaters and busy parents",
+      "body": [
+        "Puzzles are a pressure-free way to talk about vegetables. Do not push anyone to eat anything, just let the words become familiar.",
+        "If you shop together, let a child bring the circled list to the store and find a new item to try.",
+        "A real produce basket on the table makes the words feel solid. Let children hold a pepper or a pear while they search for its name."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the kitchen",
+      "body": [
+        "Put a copy on the fridge with a magnet and let children circle a word each time they eat that food during the week. A sheet slipped in a plastic page protector wipes clean after sticky fingers.",
+        "Pastel orange or green paper looks bright, and black ink still reads clearly on it."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is a tomato a fruit or a vegetable in this list?",
+      "a": "Botanically it is a fruit, but cooks treat it as a vegetable, and so does this list. It makes a fun question to discuss."
+    },
+    {
+      "q": "Can I use this for a nutrition lesson?",
+      "a": "Yes. Pair it with a plate diagram from a reliable source such as MyPlate at [myplate.gov](https://www.myplate.gov/) to talk about balanced meals."
+    },
+    {
+      "q": "Are there seasonal items I can swap in?",
+      "a": "Edit the list freely. Many families replace a few words with whatever is at the local farmers market."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "shortTitle": "Meeting Buzzword Bingo",
+  "title": "Meeting Buzzword Bingo Cards, Free Printable Office Game",
+  "metaDescription": "Free printable meeting buzzword bingo with 36 office phrases. Make unique cards for team calls, all-hands or training days, and have fun with the jargon.",
+  "h1": "Meeting Buzzword Bingo Cards (Free Printable Generator)",
+  "intro": "Make free buzzword bingo cards with 36 familiar office phrases, from circle back to low-hanging fruit. Mark a square whenever someone says one, and call bingo quietly.",
+  "toolTitle": "Meeting Buzzword Bingo",
+  "items": [
+    "Circle back",
+    "Touch base",
+    "Low-hanging fruit",
+    "Move the needle",
+    "Synergy",
+    "Bandwidth",
+    "Deep dive",
+    "Take it offline",
+    "Leverage",
+    "Stakeholders",
+    "Pivot",
+    "Game changer",
+    "Scalable",
+    "Drill down",
+    "Alignment",
+    "Action items",
+    "Deliverables",
+    "Value add",
+    "Reach out",
+    "Ping me",
+    "Going forward",
+    "At the end of the day",
+    "Best practice",
+    "Think outside the box",
+    "On the same page",
+    "Streamline",
+    "Ecosystem",
+    "Quick win",
+    "Paradigm shift",
+    "Core competency",
+    "Heads up",
+    "Run it up the flagpole",
+    "Granular",
+    "Lift and shift",
+    "Table this",
+    "Ideate"
+  ],
+  "itemsNote": "These are common phrases from meetings and webinars. The list is meant to tease gently, not to mock any one person, so swap in the expressions that really turn up in your own workplace.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Free coffee",
+    "cards": 10,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/icebreaker-find-someone-who",
+    "bingo/retirement-party",
+    "bingo/graduation-party",
+    "bingo/movie-night",
+    "bingo/family-reunion",
+    "bingo/birthday-party"
+  ],
+  "relatedHeading": "More party and group printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play buzzword bingo without derailing the meeting",
+      "body": [
+        "Buzzword bingo is a quiet game. Everyone gets a card, listens for the jargon and marks a square when they hear it. The first person with a line, usually sneaking in a small cheer or a raised hand at the end, wins. It turns a long webinar into something people actually listen to.",
+        "1. Hand out cards before the meeting starts, or send them as a PDF for a call. Each is unique, so two players rarely finish together.\n2. Agree on the rules: a phrase counts only if someone else says it aloud, and it must be the exact wording.\n3. Mark squares quietly during the session with a pen.\n4. When you complete a line, wait for a natural pause and say \"bingo\" or just raise your hand.\n5. A neutral person verifies the card by asking when each phrase was spoken."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for keeping it friendly",
+      "body": [
+        "Never play at the expense of a particular speaker. This works best when everyone is in on the joke, including the presenter. Warn the presenter in advance, or better still, invite them to play.",
+        "Ask for permission before using it with clients, external visitors or senior leaders. A game that is funny inside a team can look disrespectful elsewhere.",
+        "Use the list that matches your industry. A software team and a hospital team have very different phrases, and the game is funnier when the squares sound familiar. Edit the list above to build your own.",
+        "A small prize, such as the best seat for the next meeting or the first pick of the snacks, is more than enough."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations for teams and training days",
+      "body": [
+        "* **Speaker edition.** Give each presenter a card too, with the rule that they win if they complete a line using their own words. It tends to make talks crisper.\n* **Remote edition.** Share a PDF and have each person mark squares on screen or on paper. Use the chat to call bingo.\n* **Plain language challenge.** Flip the game. Players score a point whenever someone replaces a buzzword with a plain phrase, which promotes clearer talking."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the office",
+      "body": [
+        "Standard office paper is fine. Print on a color printer if you want a sheet people like to keep, or use the black and white option to save toner. Cut the sheets in half and keep a small stack by the door.",
+        "For all-hands meetings with many people, print ten or twenty at a time and hand them out as people arrive. A single sheet per person also keeps them from sharing and ruining the surprise."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it okay to play this in a real meeting?",
+      "a": "With a good-natured team, yes. Make sure the person leading the meeting knows about it, and keep the mood playful."
+    },
+    {
+      "q": "Can I use it on a video call?",
+      "a": "Yes. Send each person a different PDF, and use the chat to call bingo. Marking squares on a printout keeps the screen free."
+    },
+    {
+      "q": "How can I add my own phrases?",
+      "a": "Edit the list in the box above. Put one phrase per line, with at least 24 entries for a standard 5x5 card."
+    },
+    {
+      "q": "Does it work for training sessions?",
+      "a": "Training days are well suited to it, since facilitators tend to use a lot of jargon. Share the cards at the start to keep participants engaged."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shortTitle": "Dinosaur Word Search",
+  "title": "Dinosaur Word Search, Free Printable Fossil Puzzle",
+  "metaDescription": "Print a free dinosaur word search with 21 words from Triceratops to fossils. A good pick for young dino fans before a museum trip or a fossil lesson.",
+  "h1": "Dinosaur Word Search (Free Printable with Answer Key)",
+  "intro": "Print a free dinosaur word search with 21 words, from Triceratops and Stegosaurus to fossil and footprint. It suits young dino fans at home, in class or at a museum visit.",
+  "toolTitle": "Dinosaur Word Search",
+  "items": [
+    "Tyrannosaurus",
+    "Triceratops",
+    "Stegosaurus",
+    "Velociraptor",
+    "Diplodocus",
+    "Ankylosaurus",
+    "Pterodactyl",
+    "Allosaurus",
+    "Spinosaurus",
+    "Fossil",
+    "Herbivore",
+    "Carnivore",
+    "Extinct",
+    "Skeleton",
+    "Footprint",
+    "Claws",
+    "Horns",
+    "Dig site",
+    "Paleontology",
+    "Amber",
+    "Egg nest"
+  ],
+  "itemsNote": "Long names like Tyrannosaurus and Ankylosaurus are in here on purpose, because dinosaur fans love collecting them. Drop a few if the group is just starting out. Pterodactyl is a bonus word: pterosaurs flew alongside the dinosaurs but were not dinosaurs themselves, which makes a good fact to share.",
+  "defaultOptions": {
+    "size": 16,
+    "difficulty": "easy",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/dinosaurs",
+    "word-search/insects",
+    "word-search/ocean-animals",
+    "word-search/plants-and-flowers",
+    "scavenger-hunt/backyard",
+    "word-scramble/animals"
+  ],
+  "relatedHeading": "More dinosaur and nature printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use the dinosaur puzzle",
+      "body": [
+        "Dinosaur names look scary on paper, which is half the fun. Let children sound out the long ones before they start hunting.",
+        "1. Read the word list aloud together and clap out the syllables of the longest names.\n2. Ask each child to pick a favorite dinosaur and find it first.\n3. Move on to the science words, such as fossil, extinct and herbivore.\n4. Finish with the key and talk about which names were hardest to spot."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Ways to turn it into a dino day",
+      "body": [
+        "* **Dig site.** Hide the printed puzzles in a sandbox or a tray of rice and let children dig them out with a paintbrush before solving.\n* **Meat or plants.** After finding every word, sort the animals into plant eaters and meat eaters on the back of the page.\n* **Make a new dinosaur.** Pick two names, mash their syllables together, and draw the invented creature."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips from the classroom and the living room",
+      "body": [
+        "Children who already know every species can be asked to put the list in order from their favorite to least favorite and explain why. Children who are new to the topic usually enjoy matching a word to a toy figure on the table.",
+        "If a name is too tricky, write it on a sticky note and let the child keep it next to the puzzle as a reference."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing the fossil sheets",
+      "body": [
+        "Sandy or tan paper makes the page feel like a field guide. A plain white sheet slipped into a clear sleeve works well for dry-erase markers, so a single copy can serve several rounds.",
+        "Choose the ink saver option when you print a stack for a museum trip, and let children color the border afterward."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is this dinosaur word search for?",
+      "a": "The default easy mode suits ages 6 to 9 who can read the names with help. Older children can switch to hard mode, which adds backward words."
+    },
+    {
+      "q": "Are the dinosaur names spelled the usual way?",
+      "a": "Yes, they use the common English spellings. Spaces are removed inside the grid, so Dig site appears as DIGSITE."
+    },
+    {
+      "q": "Can I add dinosaurs my child loves that are not listed?",
+      "a": "Type them into the list above the puzzle and press Generate. The grid grows if it needs more room."
+    }
+  ]
+}

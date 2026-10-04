@@ -1,0 +1,106 @@
+{
+  "shortTitle": "Spring Word Search",
+  "title": "Spring Word Search, Free Printable Seasonal Puzzle Sheets",
+  "metaDescription": "Print a free spring word search with 22 words from tulips to rainstorms. A gentle seasonal puzzle for morning work, spring break or an April class party.",
+  "h1": "Spring Word Search (Free Printable Seasonal Puzzle)",
+  "intro": "Print a free spring word search with 22 words about blooming flowers, baby animals and April showers. It fits a seasonal science unit, an outdoor classroom day or a rainy afternoon at home.",
+  "toolTitle": "Spring Word Search",
+  "items": [
+    "Blossom",
+    "Tulip",
+    "Seedling",
+    "Rainbow",
+    "Puddle",
+    "Umbrella",
+    "Butterfly",
+    "Robin",
+    "Nest",
+    "Garden",
+    "Breeze",
+    "Sprout",
+    "Bud",
+    "Lamb",
+    "Picnic",
+    "Kite",
+    "Mud",
+    "Bumblebee",
+    "Daisy",
+    "Thaw",
+    "Rain boots",
+    "Fresh air"
+  ],
+  "itemsNote": "The 22 words above are ready to go. Pick the ones that match what you can see outside your own window this week.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 15,
+    "difficulty": "medium",
+    "case": "upper"
+  },
+  "season": [
+    3,
+    4,
+    5
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-scramble/easter",
+    "bingo/easter",
+    "scavenger-hunt/spring-easter",
+    "word-search/plants-and-flowers",
+    "word-search/weather",
+    "word-search/summer"
+  ],
+  "relatedHeading": "More spring printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search for a spring unit",
+      "body": [
+        "Spring words connect easily to science, from seeds and weather to animal life. This puzzle is a quiet bridge between the indoor lessons of winter and the outdoor lessons to come.",
+        "1. Before solving, ask children to name signs of spring they have already noticed, then check how many appear in the list.\n2. Have them solve the puzzle and put a star by each word that matches something they saw this week.\n3. Take the sheet outside and add words they spot that are not on the list.\n4. Back inside, write three sentences using the new words.",
+        "> You can tie the puzzle to citizen science. Programs like [Nature's Notebook](https://www.usanpn.org/nn) invite families and classes to record when plants bud and leaf out in their area."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ideas to extend the puzzle",
+      "body": [
+        "* **Weather diary.** Children record the weather for a week using words from the puzzle such as breeze, puddle and rainbow.\n* **Seed to sprout.** Plant beans in clear cups and label each stage with vocabulary words from the puzzle.\n* **Spring scavenger hunt.** Turn the words into an outdoor checklist and see who finds the most."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "Early spring can mean mud and cold, and later spring can mean windows open and wandering minds. Short puzzles are good for both.",
+        "Ask children to add one word of their own to the list, and make a puzzle for the whole class from their suggestions."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for the season",
+      "body": [
+        "For outdoor classrooms, print on regular paper and tuck it in a clipboard with a clip. Pencil works better than marker if the day is damp.",
+        "The medium 15 by 15 grid suits second grade and up. Use the smaller size for younger children."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What grade level is this spring word search?",
+      "a": "It works for grades 1 to 4. Use easy mode for the youngest and medium or hard for older children."
+    },
+    {
+      "q": "Can I use it for a science lesson?",
+      "a": "Yes. Many of the words connect to plants, weather and animals, and the editable list lets you focus on one topic."
+    },
+    {
+      "q": "Does it come with an answer key?",
+      "a": "Yes. Tick the answer key option and it prints after the puzzle pages."
+    }
+  ]
+}

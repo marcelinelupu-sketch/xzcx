@@ -1,0 +1,103 @@
+{
+  "shortTitle": "Transportation Word Search",
+  "title": "Transportation Word Search, Free Printable Vehicle Puzzle",
+  "metaDescription": "Print a free transportation word search with 22 vehicle words, from airplane and submarine to scooter and ferry. Letter or A4, with an answer key to download.",
+  "h1": "Transportation Word Search (Free Printable Puzzle)",
+  "intro": "Print a free transportation word search with 22 words about things that carry us by land, sea and sky. It is a good pick for vehicle lovers on a long wait or a quiet afternoon.",
+  "toolTitle": "Transportation Word Search",
+  "items": [
+    "Airplane",
+    "Helicopter",
+    "Submarine",
+    "Sailboat",
+    "Ferry",
+    "Train",
+    "Subway",
+    "Tractor",
+    "Bicycle",
+    "Scooter",
+    "Motorcycle",
+    "Ambulance",
+    "Taxi",
+    "Truck",
+    "Rocket",
+    "Skateboard",
+    "Canoe",
+    "Trolley",
+    "Bulldozer",
+    "Van",
+    "Tugboat",
+    "Hot air balloon"
+  ],
+  "itemsNote": "The words cover land, water and air, so you can sort them into three groups after the puzzle is done.",
+  "defaultOptions": {
+    "size": 15,
+    "difficulty": "easy",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [],
+  "hubs": [
+    "road-trip-and-outdoor-games"
+  ],
+  "related": [
+    "bingo/road-trip",
+    "word-search/community-helpers",
+    "word-search/camping",
+    "scavenger-hunt/road-trip",
+    "word-search/solar-system",
+    "word-search/ocean-animals"
+  ],
+  "relatedHeading": "More travel and vehicle printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use the vehicle puzzle",
+      "body": [
+        "Vehicles are a topic that nearly every child has an opinion about. Use that to get them reading new words.",
+        "1. Look at the list and call out any vehicle you have ridden in.\n2. Find those vehicles first.\n3. Look for the ones that move on water, and then the ones that fly.\n4. Use the key for any that are still hiding.",
+        "Children who finish early can add a vehicle that is missing from the list and swap puzzles with a friend."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to make it a journey",
+      "body": [
+        "* **Land, sea or sky.** Fold a paper into three columns and sort every word into the right one.\n* **Fastest to slowest.** Rank five vehicles from the list by speed, then look up the real answer.\n* **Design a vehicle.** Combine two words, such as a rocket scooter, and draw the invention with labeled parts."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for travel days",
+      "body": [
+        "A pencil attached to a clipboard by a string keeps things tidy in a car seat or on a train. Pencils with erasers are kinder than pens, since a shaky road can cause slips.",
+        "Do not forget the quieter words. Tugboat and trolley often spark a child's curiosity about vehicles they have never seen.",
+        "Quiz each other on how many wheels each vehicle has, which is a surprisingly good way to keep the car quiet."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the trip",
+      "body": [
+        "Fold a sheet into thirds and tuck it in a backpack pocket. Print an extra with a different seed so siblings do not copy each other.",
+        "On the road, a darker grid in B/W mode is easier to read than a colored one, especially in dim light at dusk."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does the puzzle include bicycles and scooters for toddlers?",
+      "a": "Yes, both are in the list. Older toddlers who can read a few words often enjoy those first."
+    },
+    {
+      "q": "How long is the longest word?",
+      "a": "Hot air balloon is 13 letters once the spaces are removed, so use a grid of 14 or larger."
+    },
+    {
+      "q": "Is this good for a road trip?",
+      "a": "Yes, it is easy to print in advance and carry. For a spotting game with no pencil needed, try the road trip bingo."
+    }
+  ]
+}

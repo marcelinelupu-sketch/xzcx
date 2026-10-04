@@ -1,0 +1,75 @@
+{
+  "shortTitle": "Bingo Caller",
+  "title": "Online Bingo Caller and Free Bingo Number Generator",
+  "metaDescription": "Free online bingo caller for 75-ball, 90-ball or your own word list. Big display, called board, auto-call, voice and projector mode for classrooms and parties.",
+  "h1": "Online Bingo Caller (Free Bingo Number Generator)",
+  "intro": "Press **Call next** or the space bar and the caller draws a random number or word, shows it in big type and marks it on the board. It runs 75-ball, 90-ball and custom word games for free, with no sign-up.",
+  "shell": "custom",
+  "items": [],
+  "defaultOptions": {"mode": "75"},
+  "featured": [
+    "bingo/75-ball-bingo-cards", "bingo/90-ball-bingo-tickets", "bingo/number-bingo-1-30-for-kids", "bingo/christmas",
+    "bingo/halloween", "bingo/esl-animals", "bingo/sight-words-first-grade", "bingo/multiplication-facts",
+    "bingo/baby-shower", "bingo/family-reunion", "bingo/movie-night", "bingo/new-years-eve"
+  ],
+  "featuredHeading": "Print cards to match your game",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to call a bingo game with this tool",
+      "body": [
+        "1. **Choose the game.** Open Game settings and pick 75-ball, 90-ball or Custom words. A new game starts right away if nothing has been called yet.\n2. **Hand out cards.** Print matching cards with the [bingo card generator](/bingo-card-generator/). Number cards work with the number games, and word cards work with the same word list loaded here.\n3. **Call.** Press **Call next** or tap the space bar. The current call fills the green panel, the board lights up the called item, and the five most recent calls sit underneath for anyone who missed one.\n4. **Check a winner.** When a player shouts bingo, ask them to read their marked squares aloud and compare each one with the highlighted board.\n5. **Play again.** Press **New game** for a fresh shuffle. The tool asks first if a game is in progress, so a stray tap will not wipe your board.",
+        "Every game is a fresh random order, and each number or word comes up exactly once. Nothing repeats and nothing is skipped."
+      ]
+    },
+    {
+      "role": "modes",
+      "heading": "75-ball, 90-ball and custom word games",
+      "body": [
+        "* **75-ball** is the classic American game. The display shows the column letter with the number, such as B 7 or O 64, and the board is laid out in five rows for B, I, N, G and O, so it is easy to scan when someone checks a line.\n* **90-ball** is the game played across the UK and Ireland, usually on tickets of three rows. The board shows 1 to 90 in rows of ten. Tick **Traditional UK calls** to add the old bingo hall nicknames under each number.\n* **Custom words** calls anything you type, one item per line. You can also load any of our themed lists from the menu, such as Christmas, ESL animals or sight words, and then edit them. For math facts written as answer, then a bar, then the problem, the caller reads out the problem, so players have to work out the answer on their cards."
+      ]
+    },
+    {
+      "role": "classroom",
+      "heading": "Using the caller in a classroom or on a big screen",
+      "body": [
+        "Connect a laptop or Chromebook to your projector or interactive board and press **Projector mode**. The settings disappear, the current call grows to fill most of the screen, and the board stays visible below it, so students at the back can follow along. Press Escape or the button again to return to the normal view.",
+        "For calm classroom games, turn on **Auto-call** and choose a pace. Eight seconds suits most adults, while twelve or twenty seconds gives young readers or language learners time to find a word. Auto-call stops by itself when every item has been called, and pressing Undo or the button again pauses it.",
+        "> Vocabulary tip: for ESL and early reading games, call the word, pause, then ask the class to say it back before anyone marks a card. It turns a simple game into speaking practice."
+      ]
+    },
+    {
+      "role": "voice",
+      "heading": "Voice calling and traditional UK calls",
+      "body": [
+        "Tick **Read each call aloud** to have your browser speak every call using its built-in voices. The voice menu lists the American and British English voices your device offers. The choice depends on your browser and operating system, so a phone and a laptop may sound quite different. Nothing is sent to a server, because the speech is produced on your own device.",
+        "The UK calls are a family-friendly selection from bingo hall tradition, such as Kelly's eye for number one, legs eleven, two little ducks for 22 and top of the shop for 90. Regular players often join in with the rhymes. They work best for adult parties and community events; for young children, plain numbers are easier to follow."
+      ]
+    },
+    {
+      "role": "fair",
+      "heading": "Tips for a smooth, fair game",
+      "body": [
+        "* **Agree on the pattern first.** Say whether you are playing for a single line, four corners or a full card before the first call. Our [bingo patterns guide](/guides/bingo-patterns/) has pictures of popular patterns you can show on screen.\n* **Keep the same device.** Your game is saved in this browser, so a refresh or a closed tab will not lose the called numbers. Opening the page on another device starts a separate game.\n* **Use Undo honestly.** If you call by accident, Undo takes back only the most recent call and returns that item to the pool.\n* **Read the rules aloud.** New players appreciate a quick explanation, and our [how to play bingo](/guides/how-to-play-bingo-rules/) guide covers the basics for both 75-ball and 90-ball games."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is the online bingo caller random?",
+      "a": "Yes. When a game starts, the caller shuffles every number or word into a random order, starting from a random seed supplied by your browser. Each item is called once, and nothing is called twice."
+    },
+    {
+      "q": "Will I lose my game if I refresh the page?",
+      "a": "No. The caller saves the game in your browser's local storage after every call, so a refresh, a closed tab or a sleeping laptop brings back the same board. The game stays on your device and is never uploaded."
+    },
+    {
+      "q": "Can I use the bingo caller with my own words?",
+      "a": "Yes. Choose Custom words in Game settings and type or paste one word or phrase per line, or load one of our themed lists and edit it. Print matching cards from the same list with the bingo card generator."
+    },
+    {
+      "q": "Why can't I hear the voice?",
+      "a": "Voice calling uses the speech feature built into your browser. Check that your device volume is up and that Read each call aloud is ticked. Some browsers only offer voices after the page has finished loading, so try choosing a voice from the menu."
+    }
+  ]
+}

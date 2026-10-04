@@ -1,0 +1,31 @@
+<div class="cl" id="cl">
+  <div class="cl-stage">
+    <div class="cl-now" aria-live="assertive" aria-atomic="true"><span class="cl-big" id="cl-big">Ready</span><span class="cl-say" id="cl-say">Press Call next or the space bar to start.</span></div>
+    <div class="cl-btns">
+      <button type="button" class="btn btn-primary cl-next" id="cl-next" disabled>Call next</button>
+      <button type="button" class="btn" id="cl-undo" disabled>Undo</button>
+      <button type="button" class="btn" id="cl-auto" aria-pressed="false" disabled>Auto-call</button>
+      <button type="button" class="btn" id="cl-full" disabled>Projector mode</button>
+      <button type="button" class="btn btn-quiet" id="cl-new" disabled>New game</button>
+    </div>
+    <p class="cl-count" id="cl-count" aria-live="polite"></p>
+    <div class="cl-last"><b>Last 5 calls</b><ol id="cl-last"></ol></div>
+  </div>
+  <div class="cl-board" id="cl-board" role="list" aria-label="Called board"></div>
+  <details class="opts cl-set" id="cl-set" open><summary>Game settings</summary><div class="opts-body">
+    <div class="row">
+      <div class="field"><label for="cl-mode">Game</label><select id="cl-mode"><option value="75">75-ball (B I N G O)</option><option value="90">90-ball (UK)</option><option value="words">Custom words</option></select></div>
+      <div class="field"><label for="cl-secs">Auto-call every</label><select id="cl-secs"><option value="3">3 seconds</option><option value="5">5 seconds</option><option value="8" selected>8 seconds</option><option value="12">12 seconds</option><option value="20">20 seconds</option></select></div>
+    </div>
+    <div class="cl-words">
+      <div class="field"><label for="cl-theme">Load a themed list</label><select id="cl-theme"><option value="">Choose a theme...</option></select></div>
+      <div class="field"><label for="cl-list">Words to call <span class="count" id="cl-n">0 words</span></label><textarea id="cl-list" rows="7" spellcheck="true" placeholder="One word or phrase per line"></textarea></div>
+    </div>
+    <label class="check cl-uk"><input type="checkbox" id="cl-uk"> Traditional UK calls (Kelly's eye, number one)</label>
+    <label class="check"><input type="checkbox" id="cl-voice"> Read each call aloud</label>
+    <div class="field"><label for="cl-vname">Voice</label><select id="cl-vname"><option value="">Default voice</option></select></div>
+    <p class="field-msg" id="cl-msg" aria-live="polite">Changes to the game or the word list start a new game.</p>
+    <button type="button" class="btn" id="cl-apply" disabled>Start a new game with these settings</button>
+  </div></details>
+  <noscript><p>The bingo caller needs JavaScript to run.</p></noscript>
+</div>

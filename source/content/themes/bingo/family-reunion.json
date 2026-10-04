@@ -1,0 +1,129 @@
+{
+  "shortTitle": "Family Reunion Bingo",
+  "title": "Family Reunion Bingo Cards, Free Printable Icebreaker",
+  "metaDescription": "Free family reunion bingo cards with 45 squares for cousins, recipes, stories and traditions. Print up to 30 unique cards for any age group, Letter or A4.",
+  "h1": "Family Reunion Bingo Cards (Free Printable Generator)",
+  "intro": "Print up to 30 unique family reunion bingo cards for free. The 45 squares mix familiar reunion moments with ways to talk to relatives you only see once in a while.",
+  "toolTitle": "Family Reunion Bingo",
+  "items": [
+    "Matching t-shirts",
+    "Family photo",
+    "Four generations",
+    "Cousins meeting for the first time",
+    "Grandpa's story",
+    "Grandma's recipe",
+    "Potato salad",
+    "Pie table",
+    "Cooler on wheels",
+    "Lawn chairs",
+    "Card game",
+    "Horseshoes",
+    "Cornhole",
+    "Water balloons",
+    "Sack race",
+    "Tug of war",
+    "Relay race",
+    "Karaoke",
+    "Slideshow",
+    "Family tree poster",
+    "Name tag",
+    "Baby in arms",
+    "Toddler running",
+    "Teenager on phone",
+    "Uncle at the grill",
+    "Aunt with the camera",
+    "Someone asks who you are",
+    "Someone mentions your childhood",
+    "Old photo album",
+    "Family joke",
+    "Silly nickname",
+    "Group hug",
+    "Long drive story",
+    "Mixed up names",
+    "Second helpings",
+    "Dessert before dinner",
+    "Kids' table",
+    "Birthday this month",
+    "New in-law",
+    "Dog at the party",
+    "Bug spray",
+    "Sunburn",
+    "Afternoon nap",
+    "Song sung together",
+    "Goodbye at the car"
+  ],
+  "itemsNote": "Include squares for the quirks of your own family, such as the dish everybody asks for or the game that always ends in an argument. Names of people can make the cards even more personal.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "FAMILY",
+    "cards": 20,
+    "perPage": 2
+  },
+  "season": [
+    6,
+    7,
+    8
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/birthday-party",
+    "bingo/graduation-party",
+    "bingo/retirement-party",
+    "bingo/icebreaker-find-someone-who",
+    "scavenger-hunt/park",
+    "bingo/road-trip"
+  ],
+  "relatedHeading": "More gathering printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at a reunion",
+      "body": [
+        "A reunion can have forty people who all know different parts of the family. Bingo gives cousins who have never met a reason to talk and gives older relatives a chance to share stories with younger ones.",
+        "1. Hand every guest a card when they check in at the welcome table.\n2. Explain that some squares are for watching, such as a four-generation photo, and others are for conversation, such as finding someone who remembers the old farm.\n3. Guests mark squares during the day and ask relatives to initial any square they found in conversation.\n4. Gather everyone in the afternoon for a bingo round. The first card with a row wins a prize, but all cards go into a draw for the big prize."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Ideas to try",
+      "body": [
+        "* **Generation teams.** Mix ages on teams so that each team has a great-grandparent, a parent and a child. They fill one card together.\n* **Sign here bingo.** Each square is an initial from a relative who matches a description, such as someone born in another state or someone who has a twin.\n* **Photo hunt.** Guests take pictures of each completed square and add them to a shared family album."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for organizers",
+      "body": [
+        "Put a laminated sample card on a table with a pen so people understand the game without explanation. Reunions are noisy, so signs work better than announcements.",
+        "Offer prizes with a family flavor, like a jar of homemade jam, a cookbook from the family kitchen or a small plant for the garden.",
+        "Print a few cards in large type for older relatives who might struggle with small text, and keep a stack of pens on every table."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for a big crowd",
+      "body": [
+        "A reunion often goes outdoors, so use heavier paper that will not blow away. Tape the corners or use a clipboard for each table.",
+        "Print one card per page if the crowd includes grandparents who prefer bigger text. If you print a lot of sets, use black and white ink saver mode to keep costs low."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many cards do I need for a large reunion?",
+      "a": "One per person, though couples or families can share a card. For a group of fifty or more, print two sets and mix them on the welcome table."
+    },
+    {
+      "q": "Can I use family names in the squares?",
+      "a": "Yes. Replace generic items with names of relatives, like Uncle Dan's burgers or Aunt Rosa's lemon cake. This makes each card feel handmade."
+    },
+    {
+      "q": "Will older relatives enjoy this game?",
+      "a": "Many do, because the squares prompt stories. Give them a helper or a seat near the activity so they can take part without walking around."
+    }
+  ]
+}

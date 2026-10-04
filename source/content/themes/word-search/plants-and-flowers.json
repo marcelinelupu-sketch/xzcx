@@ -1,0 +1,106 @@
+{
+  "shortTitle": "Plants and Flowers Word Search",
+  "title": "Plants and Flowers Word Search, Free Garden Puzzle",
+  "metaDescription": "Print a free plants and flowers word search with 22 garden words, from sunflower and tulip to roots and pollen. Letter or A4, answer key included.",
+  "h1": "Plants and Flowers Word Search (Free Printable)",
+  "intro": "Print a free plants and flowers word search with 22 words about blooms, plant parts and what plants need to grow. It fits a spring garden lesson or a rainy day at home.",
+  "toolTitle": "Plants and Flowers Word Search",
+  "items": [
+    "Sunflower",
+    "Tulip",
+    "Daisy",
+    "Rose",
+    "Daffodil",
+    "Lavender",
+    "Marigold",
+    "Petal",
+    "Stem",
+    "Roots",
+    "Leaf",
+    "Seed",
+    "Sprout",
+    "Bloom",
+    "Pollen",
+    "Soil",
+    "Sunlight",
+    "Water",
+    "Blossom",
+    "Bulb",
+    "Fern",
+    "Garden"
+  ],
+  "itemsNote": "The list mixes flower names with plant parts and growing needs so one puzzle covers vocabulary from a whole garden unit.",
+  "defaultOptions": {
+    "size": 13,
+    "difficulty": "easy",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/spring",
+    "word-search/insects",
+    "word-search/fruits-and-vegetables",
+    "bingo/nature-walk",
+    "scavenger-hunt/nature-walk",
+    "bingo/earth-day"
+  ],
+  "relatedHeading": "More garden and nature printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Planting the puzzle in a garden lesson",
+      "body": [
+        "Seeds, sun and soil are usually the first words children learn about plants, so this puzzle starts with ideas they already know.",
+        "1. Hand out the puzzle before the lesson and let children circle every word they can already explain.\n2. After the lesson, return to the words they could not explain and find them in the grid.\n3. Match each plant part to a real flower on the table.\n4. Compare answers with the key."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Growing the activity further",
+      "body": [
+        "* **Bouquet draw.** Choose five flower names from the list and draw a bouquet with every stem labeled.\n* **Seed to bloom.** Order seed, sprout, leaf and bloom to show how a plant develops over several weeks.\n* **Window sill log.** Plant a bean in a cup and use the word list to write a short daily note about what changed."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for the teacher with a green thumb or none",
+      "body": [
+        "You do not need to know every flower to run this. Bring in two or three real ones from a grocery store bouquet and let children match the words by looking.",
+        "Mixed-age groups can pair up, with the older child reading a clue and the younger one hunting for the matching name."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for flower lovers",
+      "body": [
+        "Pale pink or lilac paper adds a spring look without hurting readability. Leave a margin around the list so children have room to draw tiny petals beside favorite words.",
+        "Printing in grayscale keeps the grid crisp, and children can add the color afterward with crayons."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are the flowers in this puzzle safe to touch?",
+      "a": "The puzzle is only words on paper. If you pair it with real plants, check that they are safe for children first, since a few garden plants are irritating or toxic."
+    },
+    {
+      "q": "Can I swap in flowers that grow in my region?",
+      "a": "Yes, edit the list above the puzzle and press Generate to build a new grid with your own local blooms."
+    },
+    {
+      "q": "What grade is this word search best for?",
+      "a": "Most children in grades 1 to 4 will manage it. Younger ones can use the shortest words, like rose, stem and seed."
+    }
+  ]
+}

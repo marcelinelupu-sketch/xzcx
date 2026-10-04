@@ -1,0 +1,103 @@
+{
+  "shortTitle": "Healthy Food Word Search",
+  "title": "Healthy Food Word Search, Free Printable for the Classroom",
+  "metaDescription": "A free healthy food word search with 20 words on balanced eating, from protein and fiber to yogurt and whole grains. Print on Letter or A4 with an answer key.",
+  "h1": "Healthy Food Word Search (Free Printable)",
+  "intro": "Print a free healthy food word search with 20 words about balanced meals, nutrients and everyday good choices. It works well for a classroom nutrition week or a family cooking day.",
+  "toolTitle": "Healthy Food Word Search",
+  "items": [
+    "Protein",
+    "Fiber",
+    "Vitamins",
+    "Calcium",
+    "Yogurt",
+    "Oatmeal",
+    "Brown rice",
+    "Beans",
+    "Salmon",
+    "Eggs",
+    "Nuts",
+    "Whole grain",
+    "Hydrate",
+    "Breakfast",
+    "Snack",
+    "Portion",
+    "Balanced",
+    "Nutrients",
+    "Lentils",
+    "Smoothie"
+  ],
+  "itemsNote": "This list covers nutrients, meal ideas and habit words, and leaves produce to the separate fruits and vegetables puzzle.",
+  "defaultOptions": {
+    "size": 14,
+    "difficulty": "easy",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [
+    3
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/fruits-and-vegetables",
+    "word-search/kitchen",
+    "word-search/human-body",
+    "word-search/sports",
+    "bingo/esl-food",
+    "scavenger-hunt/classroom"
+  ],
+  "relatedHeading": "More food and health printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Running a nutrition puzzle session",
+      "body": [
+        "Talking about food habits can feel preachy. A word search keeps the conversation light and lets children lead.",
+        "1. Before solving, ask the group to guess which three words they think they will find fastest.\n2. Solve the puzzle in pairs.\n3. Pick one word from the grid and have each pair explain it in one sentence.\n4. Use the key to check and celebrate.",
+        "Keep a dictionary or a few picture cards nearby for words such as lentils, portion or hydrate that some children will not have met."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Extra activities with the same words",
+      "body": [
+        "* **Plan a plate.** Draw a plate and place five of the foods on it that would make a balanced dinner.\n* **Breakfast build.** Choose only the words that could appear at breakfast and design a menu.\n* **Label detective.** Bring a few food packages and look for protein, fiber and calcium on the label."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for a positive tone",
+      "body": [
+        "Avoid calling foods good or bad. Describing foods by what they give the body, such as strength or energy, keeps the lesson neutral and kind.",
+        "Allergies are a real concern in many classrooms, so check which foods on the list, such as nuts and eggs, can be handled or discussed safely in your room.",
+        "Invite families to contribute a favorite healthy recipe for your class to read together, which connects the puzzle to what children eat at home."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for a health week",
+      "body": [
+        "Print one sheet per student and staple it with a blank weekly food diary page. For a bulletin board, enlarge the answer key on a poster and let students add pictures.",
+        "Choose B/W mode if the school budget is tight, since the grid reads fine in plain black."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does this puzzle give nutrition advice?",
+      "a": "No, it is a vocabulary activity. For dietary guidance, follow your pediatrician or a reliable source such as the USDA."
+    },
+    {
+      "q": "What if a child has a food allergy?",
+      "a": "The words are only letters on paper, but be careful with any tasting activity that you pair with it, and check with families first."
+    },
+    {
+      "q": "How is this different from the fruits and vegetables puzzle?",
+      "a": "This one focuses on nutrients, meals and habits, while the other lists produce only."
+    }
+  ]
+}

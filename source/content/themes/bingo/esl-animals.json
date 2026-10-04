@@ -1,0 +1,128 @@
+{
+  "shortTitle": "ESL Animals Bingo",
+  "title": "ESL Animals Bingo Cards, Free Printable Vocabulary Game",
+  "metaDescription": "Free printable ESL animals bingo with 34 pet, farm, jungle and ocean words. Make unique cards for beginner English classes and tutoring in seconds.",
+  "h1": "ESL Animals Bingo Cards (Free Printable Generator)",
+  "intro": "Print free animals bingo cards for English learners, with 34 familiar creatures from pets to ocean life. Every card is different, so neighbors cannot copy.",
+  "toolTitle": "Animals Bingo",
+  "items": [
+    "cat",
+    "dog",
+    "bird",
+    "fish",
+    "rabbit",
+    "horse",
+    "cow",
+    "pig",
+    "sheep",
+    "goat",
+    "duck",
+    "chicken",
+    "mouse",
+    "frog",
+    "turtle",
+    "snake",
+    "monkey",
+    "elephant",
+    "giraffe",
+    "lion",
+    "tiger",
+    "bear",
+    "zebra",
+    "kangaroo",
+    "penguin",
+    "dolphin",
+    "whale",
+    "shark",
+    "butterfly",
+    "spider",
+    "owl",
+    "crocodile",
+    "hippo",
+    "squirrel"
+  ],
+  "itemsNote": "The words move from short pet names to longer jungle and ocean words, so a class can start with the easy squares and grow into kangaroo and butterfly. Delete the tricky ones for younger groups, or add animals from your own course book.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Free",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "esl-games",
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/esl-food",
+    "bingo/esl-colors-and-shapes",
+    "bingo/esl-classroom-objects",
+    "bingo/farm-animals",
+    "bingo/zoo",
+    "word-scramble/animals"
+  ],
+  "relatedHeading": "More ESL and animal printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to run animals bingo in an English class",
+      "body": [
+        "Animal names are some of the first nouns learners meet, which makes this a friendly game for a first month of lessons. The trick is to give each word a little more than its spelling. When learners hear the word, see it on the card and picture the animal, the word sticks far better than it does from a list.",
+        "Most teachers find that a round with a 5x5 card lasts about twelve minutes, long enough for several lines and short enough to repeat.",
+        "1. Warm up for two minutes by pointing at animal pictures or toy animals and having the class repeat each name.\n2. Hand out cards and markers. Dried beans, torn paper or small buttons all do the job.\n3. Call one animal at a time. Say the word slowly, then give a clue only if the room is stuck: \"It has a very long neck.\"\n4. Learners find the word and cover it. Ask them to whisper the name as they place the marker.\n5. When someone has a full row, they stand and read every covered word aloud while you check against your list.\n6. Praise good pronunciation as much as speed, and play again with the cards swapped between neighbors."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Level guidance, from first lesson to confident readers",
+      "body": [
+        "For true beginners who are still learning the alphabet, pair the card with picture flashcards held up as you call. The learner matches the sound to the picture, then finds the written word. This is also the right choice for learners whose home language uses a different script.",
+        "For learners who can read simple words, call the animal by description alone. \"It lives in water and has a fin on its back\" asks them to work out shark. Keep the clues to a single short sentence so listening stays the main skill.",
+        "For more advanced learners, ask for a full sentence before each cover: \"The penguin lives in a cold place.\" That turns a recognition game into a speaking practice that still feels like play.",
+        "Watch for the sounds that cause trouble. Speakers of some languages merge the vowels in sheep and ship, or struggle with the th sound at the start of nothing in a longer sentence. Notice which words get mispronounced while you circulate, and drill those afterward."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to change the game",
+      "body": [
+        "* **Sounds and actions.** Instead of saying the word, make the animal noise or act it out silently. Learners cover the matching word and then say the English name.\n* **Habitat teams.** Divide the class into farm, jungle and ocean teams. A team only covers a square when you call an animal from its habitat, which builds categories along with vocabulary.\n* **Student callers.** Let a confident learner draw words from a bag and call them. Speaking to the whole room is real practice, and the teacher gets to listen instead of talk."
+      ]
+    },
+    {
+      "role": "extra",
+      "heading": "After the game",
+      "body": [
+        "Keep the winning card. Ask the player to choose three words from it and write a sentence for each. Young learners can draw the animal and label it, while older ones can add where it lives and what it eats. This quick follow-up turns thirty minutes of fun into a written record you can check."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing the cards for a language classroom",
+      "body": [
+        "Cardstock holds up when learners handle the cards every week. If you only have copy paper, slide each card into a clear sleeve and use dry-erase markers, then wipe and reuse. For a large group, print two cards per page and cut them in half.",
+        "Pick the larger one-card layout if your learners are very young or reading at the edge of their ability. The black and white setting keeps school printing costs low, and a pale yellow sheet is a gentle alternative that is easy on tired eyes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is animals bingo suitable for?",
+      "a": "It works from about age five up to adults. Young learners use the picture-matching routine, while older learners handle the same words through descriptions and full sentences."
+    },
+    {
+      "q": "Should I include picture cards as well?",
+      "a": "Pictures help absolute beginners a lot. Hold up a flashcard as you call, or tape pictures on the board. You can print the caller sheet from the generator to keep your own order of words."
+    },
+    {
+      "q": "Can I swap in regional animals?",
+      "a": "Yes. Edit the list in the box above, and the cards rebuild at once. Many teachers add local wildlife so the vocabulary matches what learners actually see outside."
+    },
+    {
+      "q": "How many words should the list have for a first lesson?",
+      "a": "Keep at least 24 words so every 5x5 card is different. For a very short unit, switch the grid to 3x3 or 4x4 and trim the list to match."
+    }
+  ]
+}

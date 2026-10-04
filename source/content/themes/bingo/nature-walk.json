@@ -1,0 +1,127 @@
+{
+  "shortTitle": "Nature Walk Bingo",
+  "title": "Free Printable Nature Walk Bingo Cards for Trails and Parks",
+  "metaDescription": "Free printable nature walk bingo cards with 40 things to notice outdoors, from acorns to woodpeckers. Perfect for outdoor classes, parks and family hikes.",
+  "h1": "Nature Walk Bingo Cards (Free Printable Generator)",
+  "intro": "Print free nature walk bingo cards that turn any trail or park into a slow-looking game. Forty squares ask children to notice leaves, tracks, birds and the small stuff along the path.",
+  "toolTitle": "Nature Walk Bingo",
+  "items": [
+    "Acorn",
+    "Pine cone",
+    "Oak leaf",
+    "Maple leaf",
+    "Fern",
+    "Moss",
+    "Mushroom",
+    "Lichen",
+    "Fallen log",
+    "Tree stump",
+    "Bird nest",
+    "Feather",
+    "Woodpecker hole",
+    "Spider web",
+    "Ant hill",
+    "Ladybug",
+    "Butterfly",
+    "Bumblebee",
+    "Caterpillar",
+    "Snail",
+    "Worm",
+    "Squirrel",
+    "Chipmunk",
+    "Rabbit",
+    "Deer tracks",
+    "Frog",
+    "Turtle",
+    "Crow",
+    "Robin",
+    "Hawk",
+    "Wildflower",
+    "Dandelion",
+    "Clover",
+    "Puddle",
+    "Creek",
+    "Smooth stone",
+    "Mossy rock",
+    "Bark pattern",
+    "Seed pod",
+    "Cloud shaped like something"
+  ],
+  "itemsNote": "The squares are small enough to find in a city park yet varied enough for deep woods. Pick the ones that fit your season and delete any that do not grow or live where you walk.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Take a Breath",
+    "cards": 12,
+    "perPage": 2
+  },
+  "season": [
+    3,
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "hubs": [
+    "road-trip-and-outdoor-games"
+  ],
+  "related": [
+    "scavenger-hunt/nature-walk",
+    "bingo/bugs-and-insects",
+    "bingo/camping",
+    "bingo/frog-and-pond",
+    "scavenger-hunt/park",
+    "bingo/earth-day"
+  ],
+  "relatedHeading": "More outdoor and nature printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play on a walk",
+      "body": [
+        "A walk with a bingo card changes how children move. Instead of rushing to the end of the trail they stop, crouch and look for the next square. Hand out cards at the trailhead and walk at the pace of the slowest searcher.",
+        "1. Each walker gets a card, a pencil and a clipboard or stiff folder.\n2. Cover a square only when you have seen the item with your own eyes. Photos on the way home do not count.\n3. Look and leave. Nothing is picked, dug up or carried out of the woods.\n4. Call out a find so others can come over and share it.\n5. Stop at a picnic spot to compare cards and decide who got a full line."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to vary the walk",
+      "body": [
+        "* **Sit spot round.** Stop in a quiet corner for ten minutes and cover only squares you can spot without moving.\n* **Sound bingo.** Make a version with calls and rustles, such as birdsong, wind in leaves and running water, and play with eyes closed.\n* **Sketch card.** Draw each find in its square instead of covering it, which gives a nature journal page when the walk ends."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for walk leaders",
+      "body": [
+        "Choose the list to match the season. Fall cards lean on acorns, leaves and mushrooms, while spring cards lean on nests, blossoms and puddles. Edit before printing.",
+        "Bring a small magnifying glass and a field guide for the older kids. Naming what they find turns the game into a quiet science lesson.",
+        "Talk about safety up front: stay in sight, avoid touching unknown plants, and keep hands off wild animals and mushrooms."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for muddy weather",
+      "body": [
+        "A card in a zip-top bag survives drizzle. Print on lighter cardstock so it folds into a pocket without tearing.",
+        "For a school group, print four per page, cut the sheet and slip them onto a lanyard. Use ink saver so the small print stays crisp outdoors."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use nature walk bingo in a city park?",
+      "a": "Yes. Most squares are common in parks, like squirrels, clover and robins, so a short loop around a pond or a tree-lined block works well."
+    },
+    {
+      "q": "Is it okay to pick up the items on the card?",
+      "a": "Better not to. Looking and photographing keep the woods intact, though fallen acorns and leaves are fine to examine and put back."
+    },
+    {
+      "q": "What ages are best?",
+      "a": "Preschoolers can join with a grown-up reading the squares. Kids from six to ten manage alone, and older ones enjoy the sketch version."
+    }
+  ]
+}

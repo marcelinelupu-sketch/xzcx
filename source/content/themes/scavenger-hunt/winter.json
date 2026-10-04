@@ -1,0 +1,119 @@
+{
+ "shortTitle": "Winter Scavenger Hunt",
+ "title": "Winter Scavenger Hunt, Free Printable for Snowy Days",
+ "metaDescription": "A free printable winter scavenger hunt with 28 frosty finds, from icicles to animal tracks in snow. Wrap up warm and go out for a short, cozy hunt.",
+ "h1": "Winter Scavenger Hunt (Free Printable List)",
+ "intro": "Print a free winter scavenger hunt with 28 frosty sights, from icicles to footprints in the snow. It works as a short outing in the cold or a window game on a bitter day.",
+ "toolTitle": "Winter Scavenger Hunt",
+ "items": [
+  "An icicle | 2",
+  "Frost on a window or a leaf | 2",
+  "A snowman or something shaped like one",
+  "Footprints in the snow",
+  "Animal tracks | 3",
+  "A bird at a feeder | 2",
+  "A bare tree",
+  "An evergreen tree",
+  "A hat with a pompom",
+  "A pair of mittens",
+  "Your breath making a cloud",
+  "A frozen puddle | 2",
+  "A pile of snow bigger than you",
+  "A snowflake on your sleeve | 3",
+  "Smoke from a chimney",
+  "A sled or a snow shovel",
+  "A cardinal or another bright bird | 3",
+  "A red berry on a bush. Look only",
+  "A sparkle in the snow",
+  "A scarf in a color you like",
+  "Salt on a path",
+  "A string of lights",
+  "A neighbor's fire glowing in a window",
+  "A cloud that looks like snow",
+  "Steam from a hot drink",
+  "A patch of ice. Look, do not slide",
+  "A squirrel's nest in the branches | 3",
+  "A star on a clear, cold night | 2"
+ ],
+ "itemsNote": "All 28 items are loaded above. If you live somewhere without snow, strike those out and enjoy the frost, the low sun and the bare branches.",
+ "defaultOptions": {
+  "layout": "checklist",
+  "names": true,
+  "timeLimit": false,
+  "copies": 4,
+  "shuffle": true,
+  "ageNote": "Ages 4 to 10"
+ },
+ "season": [
+  12,
+  1,
+  2
+ ],
+ "hubs": [
+  "road-trip-and-outdoor-games"
+ ],
+ "related": [
+  "bingo/winter",
+  "word-search/winter",
+  "scavenger-hunt/christmas-lights",
+  "scavenger-hunt/rainy-day",
+  "scavenger-hunt/nature-walk",
+  "word-scramble/christmas"
+ ],
+ "relatedHeading": "More winter printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to hunt in the cold",
+   "body": [
+    "A winter hunt is a short, brisk game. The idea is to get everyone outside for twenty minutes, have them notice the quiet beauty of the season and then return to warm drinks.",
+    "1. Dress everyone first: boots, hats, gloves and a coat. Check each child before the list comes out.\n2. Hand out sheets and pencils, which should be kept in pockets so they do not freeze.\n3. Walk or look around the yard, the nearest park or the street, with an adult.\n4. Tick off items as you spot them, and take photos of the best finds if you have a phone with you.\n5. Go inside after twenty minutes and warm up with something hot while you share finds."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Winter variations",
+   "body": [
+    "* **Window watch.** On days too cold for a walk, sit by a window and tick what you can see from there. Frost, birds and breath clouds are often within reach.\n* **Tracks detective.** Focus on animal tracks. Photograph each set and look up whose they might be at home.\n* **Indoor winter hunt.** Hide cotton balls around the house as pretend snowballs and ask children to find ten."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for cold days",
+   "body": [
+    "Keep it short. Cold hands and noses wear out enthusiasm quickly, so do the outdoor items first and finish inside.",
+    "An insulated bottle of cocoa waiting at the door turns the end of the hunt into a treat.",
+    "If the ground is icy, change the route. Safe footing matters more than finishing the list."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Staying safe in the cold",
+   "body": [
+    "Check the weather and wind chill before heading out and limit time outside in very cold conditions. Dress in layers and keep fingers, ears and toes covered. Stay away from frozen ponds, lakes and streams, since the ice may not hold.",
+    "Watch for slippery steps and driveways, and keep children where an adult can see them. Do not eat snow from the ground, and bring everyone in if anyone complains of numb fingers."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for winter",
+   "body": [
+    "Use cardstock, or tuck the sheet into a zip bag, because snow and frost soak paper quickly. Black ink in checklist layout is easy to read with gloves on. A pencil still writes in the cold, unlike many pens, and a clipboard saves fumbling."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What if there is no snow where we live?",
+   "a": "Cross out the snow items. Frost, bare trees, breath clouds and low sunlight appear in most winter climates, and the list still works."
+  },
+  {
+   "q": "How long should a winter hunt last?",
+   "a": "Twenty minutes outdoors is plenty for young children. You can save the remaining items for a second round the next day."
+  },
+  {
+   "q": "Can the hunt be played inside?",
+   "a": "Yes. Sit by a window for the items you can see through the glass, and finish the others on a short step outside."
+  }
+ ]
+}

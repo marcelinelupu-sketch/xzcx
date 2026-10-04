@@ -1,0 +1,119 @@
+{
+  "shortTitle": "Last Day of School Bingo",
+  "title": "Free Printable Last Day of School Bingo for Class Parties",
+  "metaDescription": "Print free last day of school bingo cards with 36 squares like yearbook, locker cleanout and summer plans. Ideal for class parties and field day.",
+  "h1": "Last Day of School Bingo Cards (Free Printable Generator)",
+  "intro": "Print free last day of school bingo cards to fill the final week with fun. The 36 squares are all about yearbooks, goodbyes and summer plans, and they make end-of-year parties easy to run.",
+  "toolTitle": "Last Day of School Bingo",
+  "items": [
+    "Yearbook",
+    "Autograph",
+    "Cleaning out the desk",
+    "Locker cleanout",
+    "Report card",
+    "Class photo",
+    "Goodbye hug",
+    "Teacher thank you",
+    "Summer reading list",
+    "Beach bag",
+    "Pool pass",
+    "Camp trip",
+    "Road trip plan",
+    "Sleeping in",
+    "Late bedtime",
+    "No homework",
+    "Backpack on the floor",
+    "Library book returned",
+    "Lost and found",
+    "Field day",
+    "Water balloon toss",
+    "Tug of war",
+    "Sack race",
+    "Ice pop",
+    "Class party",
+    "Pizza lunch",
+    "Memory book",
+    "Slideshow",
+    "Certificate",
+    "Last bell",
+    "Bus ride home",
+    "Cheering",
+    "Name on the board",
+    "Classroom pet going home",
+    "Empty bulletin board",
+    "Wave goodbye"
+  ],
+  "itemsNote": "The squares mix goodbyes with summer plans so children feel both the ending and the next adventure. Add class jokes, favorite lessons or the name of your teacher helper to make it yours.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Summer Time",
+    "cards": 28,
+    "perPage": 2
+  },
+  "season": [
+    5,
+    6
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/back-to-school",
+    "bingo/summer",
+    "bingo/graduation-party",
+    "word-search/summer",
+    "scavenger-hunt/classroom",
+    "word-scramble/summer"
+  ],
+  "relatedHeading": "More end of year printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play on the last day",
+      "body": [
+        "The last day is short on structure and long on emotions. Bingo gives children something to do with their hands while you pack boxes, collect books and hand out report cards.",
+        "1. Give out cards after the final cleanup, when desks are empty.\n2. Call squares at a relaxed pace, and let students tell the group when something on their card has happened this year.\n3. Players cover squares with sticker dots from the supply drawer.\n4. A completed row earns a pick from the bag of leftover pencils and erasers.\n5. Finish with a blackout round, where the whole class works on one giant card on the board."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to end the year",
+      "body": [
+        "* **Memory bingo.** Let students fill the center squares with their favorite moments from the year. Swap cards and see who recognizes the memories.\n* **Field day edition.** Make a card of events, such as relay races and water games, and have each team earn a stamp as they take part.\n* **Wish bingo.** Students fill squares with summer plans and goals. They read them aloud, and classmates cover any they share."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and room parents",
+      "body": [
+        "Keep it light. Some students are sad to say goodbye and some are thrilled to leave, so give both groups something to smile about.",
+        "Have a few spare cards ready for the substitute or aide who joins the room that day. They will appreciate a plan that needs no preparation.",
+        "If the cleanup runs long, play a shorter 3x3 version and set a timer for the end of the game."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for a busy final week",
+      "body": [
+        "Print the cards a few days early, because copiers are often busy at the end of the year. Plain paper is fine, and ink saver keeps the cost down.",
+        "Slip a few finished cards into the memory book or send them home as a keepsake of the party."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can it replace a party?",
+      "a": "It can work as the main activity for a short party. Pair it with a snack and music, and you have a quick celebration."
+    },
+    {
+      "q": "Is it right for every grade?",
+      "a": "The squares are simple enough for early elementary and can be edited for older grades. Middle schoolers enjoy a funnier list."
+    },
+    {
+      "q": "What if my school ends at a different time?",
+      "a": "The title is a guide only. The cards work for any last day, including semester breaks."
+    }
+  ]
+}

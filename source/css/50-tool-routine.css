@@ -1,0 +1,17 @@
+/* 50-tool-routine: the step editor and picture library, shared by the routine and reward chart tools (rt- prefix). Owner: chart tools. */
+.rt-steps{list-style:none;margin:0;padding:0}
+.rt-row{display:grid;grid-template-columns:2.2rem 1fr repeat(3,2.2rem);gap:.25rem;align-items:center;margin:0 0 .3rem}
+.rt-row.t{grid-template-columns:2.2rem 1fr 4.6rem repeat(3,2.2rem)}
+.rt-row input[type=text]{min-height:40px;padding:.35em .5em}
+@media (max-width:479px){.rt-row,.rt-row.t{display:flex;flex-wrap:wrap}.rt-ic{flex:0 0 2.2rem}.rt-row input[type=text]{flex:1 1 calc(100% - 2.6rem);min-width:0}.rt-row input[placeholder=Time]{flex:1 1 5rem}.rt-b{flex:1 1 2.2rem}}
+.rt-ic svg,.rt-pic svg{display:block;width:100%;height:auto;color:var(--dusk)}
+.rt-b{min-height:40px;border:2px solid var(--line);border-radius:10px;background:#fff;font:700 1rem/1 var(--font);color:var(--ink);cursor:pointer}
+.rt-b:hover{border-color:var(--pond)}
+.rt-b:disabled{opacity:.35;cursor:default}
+.rt-lib{border:2px solid var(--line);border-radius:12px;margin:0 0 .9rem}
+.rt-lib>summary{cursor:pointer;font-weight:650;padding:.6rem .8rem}
+.rt-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(4.1rem,1fr));gap:.3rem;padding:0 .5rem .6rem}
+.rt-pic{display:block;text-align:center;border:2px solid var(--line);border-radius:10px;padding:.3rem .2rem;cursor:pointer;font-size:.7rem;line-height:1.15}
+.rt-pic span{display:block;width:2.1rem;margin:0 auto .15rem}
+.rt-pic:has(:checked){border-color:var(--pond);background:var(--lily-l)}
+.rt-pic:focus-within{outline:3px solid var(--dusk);outline-offset:1px}

@@ -1,0 +1,106 @@
+{
+  "shortTitle": "Kitchen Word Search",
+  "title": "Kitchen Word Search, Free Printable Cooking Puzzle",
+  "metaDescription": "A free kitchen word search with 22 words for tools and cooking terms, from whisk and spatula to simmer and oven. Print on Letter or A4 with an answer key.",
+  "h1": "Kitchen Word Search (Free Printable Cooking Puzzle)",
+  "intro": "Print a free kitchen word search with 22 words for tools, appliances and cooking verbs. It suits a family cooking afternoon, a home economics class or an adult baking club.",
+  "toolTitle": "Kitchen Word Search",
+  "items": [
+    "Whisk",
+    "Spatula",
+    "Ladle",
+    "Colander",
+    "Rolling pin",
+    "Oven",
+    "Stove",
+    "Blender",
+    "Toaster",
+    "Skillet",
+    "Saucepan",
+    "Measuring cup",
+    "Timer",
+    "Apron",
+    "Peeler",
+    "Grater",
+    "Simmer",
+    "Bake",
+    "Chop",
+    "Stir",
+    "Knead",
+    "Mixing bowl"
+  ],
+  "itemsNote": "Tools, appliances and cooking verbs are all mixed in. Cut the longer entries for children, or keep them all for a grown-up crowd.",
+  "defaultOptions": {
+    "size": 15,
+    "difficulty": "medium",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [
+    11,
+    12
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "word-search/healthy-food",
+    "word-search/fruits-and-vegetables",
+    "bingo/esl-food",
+    "word-search/thanksgiving",
+    "bingo/bridal-shower",
+    "word-search/bridal-shower"
+  ],
+  "relatedHeading": "More food and cooking printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Getting the most from the kitchen puzzle",
+      "body": [
+        "The puzzle is best played while something is baking or cooling, when hands are free and the room smells good.",
+        "1. Set out three real tools from the list on the counter.\n2. Find those three first and say aloud what each one does.\n3. Hunt for the cooking verbs next, and act each one out before moving on.\n4. Finish the rest and check the key.",
+        "If the group is cooking something together, circle each word as soon as its tool comes out of the drawer."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Cooking-related variations",
+      "body": [
+        "* **Tool of the day.** Each person chooses one word on the page and shares a recipe where it is used.\n* **Silent charades.** Pick a verb such as whisk or knead and act it out for the group to guess.\n* **Menu writer.** Use at least six words from the grid to write a short menu for an imaginary dinner."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for cooks of every age",
+      "body": [
+        "If children are present near hot appliances, treat the puzzle as a break away from the stove, not a decoration beside it.",
+        "Adults can make a quieter challenge by switching to hard mode and a 17 by 17 grid, which hides words in every direction.",
+        "Keep a pen handy for grown-ups who like to doodle a tiny whisk next to the word they just found."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the recipe binder",
+      "body": [
+        "Slip a finished puzzle into a recipe binder sleeve as a keepsake from a family cooking session. If it is going on the fridge, print on slightly heavier paper so a magnet does not tear it.",
+        "A copy that lives in the kitchen should stay away from splatters, so a clear sheet protector is worth using."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can children do this while helping with cooking?",
+      "a": "Yes, as a break between tasks. Keep the puzzle well away from heat, knives and spills."
+    },
+    {
+      "q": "Is there a version for bridal showers or hostess gifts?",
+      "a": "The kitchen list works as a shower activity, and there is also a dedicated bridal shower word search with wedding words."
+    },
+    {
+      "q": "Why does the list include verbs?",
+      "a": "Cooking words like simmer and knead are part of every recipe, and they make the puzzle richer than a list of tools alone."
+    }
+  ]
+}

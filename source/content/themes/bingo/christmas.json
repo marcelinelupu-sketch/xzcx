@@ -1,0 +1,142 @@
+{
+  "shortTitle": "Christmas Bingo",
+  "title": "Free Printable Christmas Bingo Cards for Class and Family",
+  "metaDescription": "Free printable Christmas bingo cards with 48 squares from stockings to sleigh bells. Print up to 30 unique cards for class parties or Christmas Eve.",
+  "h1": "Christmas Bingo Cards for Class Parties and Christmas Eve",
+  "intro": "Print free Christmas bingo cards for a class party, a church gathering, an office swap or a quiet Christmas Eve at home. The 48 squares cover decorations, food, music and the small rituals that make December feel like itself.",
+  "toolTitle": "Christmas Bingo",
+  "items": [
+    "Christmas tree",
+    "Star on top",
+    "String of lights",
+    "Ornament",
+    "Tinsel",
+    "Garland",
+    "Wreath",
+    "Candle in the window",
+    "Nativity scene",
+    "Angel",
+    "Stocking",
+    "Fireplace",
+    "Chimney",
+    "Santa hat",
+    "Sleigh",
+    "Sleigh bells",
+    "Reindeer",
+    "Snowman",
+    "Snowflake",
+    "Candy cane",
+    "Gingerbread house",
+    "Gingerbread cookie",
+    "Sugar cookie",
+    "Hot cocoa",
+    "Eggnog",
+    "Fruitcake",
+    "Roast dinner",
+    "Peppermint bark",
+    "Wrapped present",
+    "Ribbon and bow",
+    "Wrapping paper",
+    "Gift tag",
+    "Christmas card",
+    "Mistletoe",
+    "Holly",
+    "Poinsettia",
+    "Pine cone",
+    "Caroling",
+    "Jingle bells",
+    "Christmas movie",
+    "Advent calendar",
+    "Advent wreath",
+    "Matching pajamas",
+    "Ugly sweater",
+    "Cookies for Santa",
+    "Midnight service",
+    "Letter to Santa",
+    "Thank you note"
+  ],
+  "itemsNote": "Families keep very different traditions, so cut anything that does not fit your home. Add your own: a special dish, a family carol, the name of the dog who always unwraps the first gift.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Merry Christmas",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [
+    11,
+    12
+  ],
+  "hubs": [
+    "christmas-printables",
+    "party-games"
+  ],
+  "related": [
+    "word-search/christmas",
+    "word-scramble/christmas",
+    "scavenger-hunt/christmas-lights",
+    "bingo/winter",
+    "bingo/new-years-eve",
+    "bingo/hanukkah"
+  ],
+  "relatedHeading": "More Christmas printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play Christmas bingo",
+      "body": [
+        "December is full of waiting. Children wait for the last day of school, for relatives to arrive and for the morning itself, and bingo is a good way to turn that waiting into something shared. It also fits in the gaps of a busy party, when the cookies are still in the oven and the tree is only half decorated.",
+        "1. Hand each player a card, along with a handful of markers. Peppermints in wrappers, jingle bells, red and green buttons and mini marshmallows all work, and so do plain crayons.\n2. Call items from the list in random order. A bowl of folded slips, one for each square, makes it feel like a drawing.\n3. Players cover a matching square each time, and may only cover one item per call.\n4. The first player with a row, column or diagonal calls \"Merry Christmas!\" and holds up the card.\n5. Check the covered squares against the calls. A winner picks a candy cane or a small gift from the prize basket, and then everyone clears the cards for the next round.",
+        "A game for twenty children can run about ten minutes per round, so most parties fit three or four rounds between the snack and the gift exchange."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations for different gatherings",
+      "body": [
+        "### Church and community events\nMix in squares about the story of the season, like the nativity scene, an angel and a midnight service. Use a quiet reader as the caller and keep the tone gentle. Adults and children can pair up on a single card.",
+        "### Classroom parties\nStudents can write the squares themselves. Assign each child one item to draw, then assemble the drawings into a picture card for younger classmates. The teacher reads the words and children match the pictures.",
+        "### Office and family swaps\nSwap the list for squares that only your group would recognize: the uncle who falls asleep after dinner, the song everyone requests, the dish that never gets eaten. Cover them as they happen during the party, with no caller at all.",
+        "### Christmas Eve at home\nGive each child a card at dinner and let them mark off squares as they spot them over the evening, from a car with a tree on the roof to the first glimpse of snow. Children get quiet and watchful, which can help with the sleepless excitement."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips from the party table",
+      "body": [
+        "Keep rounds short. The mood in December is fizzy, and children lose patience quickly if each game drags past a quarter hour. A 4x4 card finishes sooner than a 5x5, and a 3x3 card suits toddlers.",
+        "Think through the prizes ahead. Small, inexpensive items such as stickers, pencils and wrapped chocolates fit in a stocking, and nothing needs to cost much. To keep it fair, give a prize for each round and let every child win once before anyone wins twice.",
+        "Because many households celebrate differently, check the guest list. If a few families do not keep Christmas, offer a winter-themed card with snowflakes and cocoa instead. The Winter bingo page uses squares that suit everyone.",
+        "Play music in the background, but turn it down during the calls. A quiet instrumental carol keeps the room cheerful without drowning out the caller."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing the cards",
+      "body": [
+        "Cardstock gives the best feel for a game that will be handled with sticky fingers. Print two cards per page for a roomy square, or four per page if you are printing for a large class and want to save paper.",
+        "Red and green paper is festive but dark, so prefer a pale cream, a light green or plain white and switch on ink saver. If you plan to reuse the set next year, laminate the cards and use dry-erase markers or small counters.",
+        "Print the caller sheet on the same day. It lists the squares in a random order, so you can read down it rather than draw slips, and it keeps a record of what has already been called if someone claims a win."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many Christmas bingo cards can I print at once?",
+      "a": "You can print up to 30 different cards in one go. Each card shuffles the squares in a different order, so no two cards match. If you need more, press Generate again for a fresh shuffle and print a second set."
+    },
+    {
+      "q": "Can I use this for a religious service?",
+      "a": "Yes. Edit the list to include the squares that fit your tradition, such as a nativity scene, an advent wreath or a carol your church sings, and remove any that do not suit your event."
+    },
+    {
+      "q": "What age group suits Christmas bingo?",
+      "a": "Children from about four can play a 3x3 card with picture help. School-age children manage 4x4 or 5x5 easily, and adults enjoy a harder list. The same cards also work well for mixed-age family gatherings."
+    },
+    {
+      "q": "Can I add my own family traditions to the list?",
+      "a": "Yes. Edit the box above the cards, one item per line, and press generate. The cards update right away, and the share link restores your custom list."
+    }
+  ]
+}

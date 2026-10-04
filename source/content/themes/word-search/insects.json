@@ -1,0 +1,108 @@
+{
+  "shortTitle": "Insect Word Search",
+  "title": "Insect Word Search, Free Printable Bug Puzzle with Key",
+  "metaDescription": "A free insect word search with 20 bug words, from ladybug and dragonfly to antennae and pollinate. Print on Letter or A4 and add an answer key in one click.",
+  "h1": "Insect Word Search (Free Printable Bug Puzzle)",
+  "intro": "Print a free insect word search with 20 words covering common bugs and the body parts that make an insect an insect. It is a handy companion to a backyard bug hunt.",
+  "toolTitle": "Insect Word Search",
+  "items": [
+    "Ladybug",
+    "Dragonfly",
+    "Butterfly",
+    "Beetle",
+    "Grasshopper",
+    "Cricket",
+    "Firefly",
+    "Honeybee",
+    "Mosquito",
+    "Caterpillar",
+    "Cocoon",
+    "Antennae",
+    "Thorax",
+    "Abdomen",
+    "Wings",
+    "Larva",
+    "Pollinate",
+    "Compound eye",
+    "Mantis",
+    "Cicada"
+  ],
+  "itemsNote": "Anatomy words such as thorax and antennae sit next to the familiar bug names so the puzzle can double as a quick science review.",
+  "defaultOptions": {
+    "size": 14,
+    "difficulty": "easy",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/bugs-and-insects",
+    "word-search/plants-and-flowers",
+    "word-search/dinosaurs",
+    "word-search/frog-life-cycle",
+    "scavenger-hunt/backyard",
+    "scavenger-hunt/park"
+  ],
+  "relatedHeading": "More bug and garden printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Using the insect puzzle with a real bug hunt",
+      "body": [
+        "The best time to hand this out is right after children have been outside looking under logs and leaves. The words give names to what they just saw.",
+        "1. Give each child a clipboard and a copy of the puzzle.\n2. Find the bugs you spotted outside before the others.\n3. Look for the three body parts every insect has: head, thorax and abdomen.\n4. Check the answer key together and cross off the bugs you actually saw today.",
+        "Children who prefer drawing to writing can sketch each insect they find beside its name, which also helps with spelling."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations for curious bug fans",
+      "body": [
+        "### Metamorphosis chain\nPick larva, cocoon and butterfly from the grid and arrange them in life cycle order on a strip of paper.\n\n### Legs count\nAsk children to name which words on the list are not true insects, and why spiders are missing from it.\n\n### Pollinator spotlight\nCircle the words about flowers and pollination in one color and the body parts in another."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for bug-wary grown-ups",
+      "body": [
+        "Not every child loves crawling things. Let a nervous learner start with the pretty words such as butterfly, ladybug and firefly before approaching mosquito or cricket.",
+        "A magnifying glass beside the puzzle turns a quiet seat-work period into a mini field lab.",
+        "Keep a field guide or a few library books nearby. Children often want to look up a bug the moment they circle its name, and that curiosity is the best outcome the puzzle can have."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for summer afternoons",
+      "body": [
+        "Green or yellow paper looks cheerful, though plain white keeps the letters easiest to read. If you are printing for a picnic table or porch, a thin piece of cardboard under the sheet stops the page from flapping in the breeze.",
+        "Use the ink saver option for big batches, since the grid itself needs very little ink."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is a spider included in the insect list?",
+      "a": "No. Spiders are arachnids, so they are left out on purpose, which makes a nice question for children to notice."
+    },
+    {
+      "q": "Does this puzzle work for a school science unit?",
+      "a": "Yes. The anatomy words match what is usually covered when children first learn insect body parts, and you can swap in the vocabulary from your own unit."
+    },
+    {
+      "q": "How do I make the puzzle easier for first graders?",
+      "a": "Delete the longer words such as caterpillar and compound eye, keep the grid at 12, and choose easy mode."
+    }
+  ]
+}

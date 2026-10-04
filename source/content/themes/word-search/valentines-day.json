@@ -1,0 +1,108 @@
+{
+  "shortTitle": "Valentine's Day Word Search",
+  "title": "Valentine's Day Word Search, Free Printable Love Puzzle",
+  "metaDescription": "Print a free Valentine's Day word search with 20 sweet words from hearts to chocolates. Letter or A4, answer key included, and a new puzzle for each classmate.",
+  "h1": "Valentine's Day Word Search (Free Printable Puzzle)",
+  "intro": "Print a free Valentine's Day word search with 20 sweet words about friendship, kindness and candy. It suits classroom parties, quiet evenings at home and cards that need a little extra something.",
+  "toolTitle": "Valentine's Day Word Search",
+  "items": [
+    "Valentine",
+    "Heart",
+    "Cupid",
+    "Roses",
+    "Chocolate",
+    "Love",
+    "Friendship",
+    "Kindness",
+    "Sweetheart",
+    "Card",
+    "Candy hearts",
+    "Cuddle",
+    "Bouquet",
+    "Ribbon",
+    "Hugs",
+    "Be mine",
+    "Poem",
+    "Sweet",
+    "Treats",
+    "Envelope"
+  ],
+  "itemsNote": "The 20 words above are loaded in the generator. For school parties, the list stays friendly and focused on kindness, so every child can join in.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 14,
+    "difficulty": "easy",
+    "case": "upper"
+  },
+  "season": [
+    1,
+    2
+  ],
+  "hubs": [
+    "classroom-games",
+    "party-games"
+  ],
+  "related": [
+    "word-scramble/valentines-day",
+    "bingo/valentines-day",
+    "word-search/st-patricks-day",
+    "word-search/spring",
+    "bingo/mothers-day",
+    "word-search/christmas"
+  ],
+  "relatedHeading": "More Valentine's Day printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search at a school party",
+      "body": [
+        "Classroom Valentine parties are crowded, sticky and loud. A word search gives children something to do between handing out cards and eating cupcakes, and the room settles down while they work.",
+        "1. Print a puzzle for each child and add a red or pink crayon to their desks.\n2. Challenge them to find the kindness words first: friendship, kindness, hugs and sweet.\n3. Ask each child to write one kind thing they could say to a classmate, using one of the words they found.\n4. Tape the completed puzzles on a bulletin board under the title 'Words We Love'.",
+        "At home, the puzzle fits into a family dinner or into a lunchbox as a surprise. Add a hand-written note on the back and it becomes a little gift."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three sweet variations",
+      "body": [
+        "* **Secret message.** Make a custom list from words that spell out a sentence, like 'you are my best friend', and have the puzzle solver read the words in order.\n* **Valentine postal service.** Each child gets a puzzle with the name of a classmate hidden in the grid, and delivers it with a kind note.\n* **Date night edition.** Grown-ups can build a list with shared memories, nicknames and favorite places, then race to see who finishes first."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "Keep the focus on kindness for children who are shy about romance. The default list does that already, with only a few words from the heart-and-flowers side.",
+        "If your school has candy restrictions, drop the chocolate and candy hearts and replace them with words like poem or kindness."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for card season",
+      "body": [
+        "A pink paper sheet looks lovely but can wash out the grid. Print on white paper, and let children add color with markers instead.",
+        "If you plan to slip a puzzle into a card, set the page to small output and print two to a sheet, then cut them. A 12 by 12 grid suits a card envelope."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What grade is this Valentine's word search for?",
+      "a": "It works well from first grade through fourth. Use the easy setting for younger children and add diagonal words for older ones."
+    },
+    {
+      "q": "Can I include classmates' names?",
+      "a": "Yes. Edit the list, add first names, and press Generate. Check the spelling first, since names are easy to get wrong."
+    },
+    {
+      "q": "Is it okay for a school with no candy rules?",
+      "a": "Yes. The default list has only a couple of sweet treats, and you can delete them with one click."
+    },
+    {
+      "q": "Can adults use this for a date night?",
+      "a": "Absolutely. Switch the difficulty to hard, make the grid bigger and swap in personal words."
+    }
+  ]
+}

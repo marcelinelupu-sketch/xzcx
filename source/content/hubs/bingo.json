@@ -1,0 +1,48 @@
+{
+ "shortTitle": "Bingo",
+ "title": "Free Printable Bingo Cards for Every Occasion and Class",
+ "metaDescription": "Browse free printable bingo cards for showers, holidays, classrooms, ESL and road trips, plus 75-ball and 90-ball bingo. Pick a theme, edit it and print.",
+ "h1": "Free Printable Bingo Cards by Theme",
+ "ogTitle": "Free Printable Bingo Cards",
+ "intro": "Pick a theme below and you land on a ready-made bingo page with a curated word list, a card generator and a caller checklist. Change any word, choose how many cards you need, then print or save a PDF.",
+ "linksHeading": "All bingo themes",
+ "sections": [
+  {
+   "heading": "How the bingo pages work",
+   "body": [
+    "Every theme page opens with the generator already filled in. The words are written for that occasion, so the baby shower page talks about bodysuits and rattles, the road trip page about water towers and rest stops, and the ESL pages about the vocabulary beginners meet first.",
+    "Each card is shuffled, so no two players share the same layout. The cards are unique for as many players as you choose, up to 30 in one batch. If you have a bigger crowd, generate a second batch.",
+    "The caller checklist lists the words in a different order from the cards, so you can tick them off as you read. If you would rather call on screen, the [online bingo caller](/bingo-caller/) shows each word in large type."
+   ]
+  },
+  {
+   "heading": "Choosing the right kind of bingo",
+   "body": [
+    "**Word bingo** is where most themes sit: 24 or more words fill a five by five card with a free space. It suits parties, classrooms and trips because the words can be anything.",
+    "**Number bingo** has separate pages for [75-ball cards](/bingo/75-ball-bingo-cards/), [90-ball tickets](/bingo/90-ball-bingo-tickets/) and [numbers 1 to 30 for young children](/bingo/number-bingo-1-30-for-kids/). Choose the style that matches your hall or classroom.",
+    "New to the game? Start with the guide to [how to play bingo](/guides/how-to-play-bingo-rules/), and browse the [bingo patterns](/guides/bingo-patterns/) for ways to win beyond a straight line. You can also build your own from scratch with the [bingo card generator](/bingo-card-generator/)."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many bingo cards can I print at once?",
+   "a": "Up to 30 unique cards per batch. Use a new seed or press Generate again for another set."
+  },
+  {
+   "q": "Can I make a bingo card with my own words?",
+   "a": "Yes. Choose any theme, or open the card generator, and replace the list with your own words, one per line."
+  }
+ ],
+ "extraLinks": [
+  {
+   "heading": "Bingo guides",
+   "paths": [
+    "guides/how-to-play-bingo-rules",
+    "guides/bingo-patterns",
+    "guides/75-ball-vs-90-ball-bingo",
+    "guides/classroom-bingo-ideas-for-teachers"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "shortTitle": "School Age Bedtime Chart",
+ "title": "School Age Bedtime Chart, Free Printable Weekly Checklist",
+ "metaDescription": "Free printable bedtime routine chart for kids 6 to 10: weekly tick grid with homework check, screens off, shower and reading. Add times and a name to print.",
+ "h1": "School Age Bedtime Routine Chart (Free Printable)",
+ "intro": "A school age child can run their own evening if they can see the plan. This weekly tick chart lists eight steps from packing the backpack to lights out, with a time slot beside each one.",
+ "toolTitle": "School Night Routine",
+ "items": [
+  "Pack my backpack | backpack",
+  "Homework check | homework",
+  "Screens off | screen-off",
+  "Shower | bath",
+  "Pajamas on | pajamas",
+  "Brush teeth | brush-teeth",
+  "Read in bed | reading",
+  "Lights out | lights-off"
+ ],
+ "itemsNote": "This list puts the next day's preparation first, so nothing gets forgotten at the last minute. Reading in bed comes last because it gives the brain something calm to follow into sleep.",
+ "defaultOptions": {
+  "layout": "weekly",
+  "palette": "mint",
+  "name": "",
+  "times": true,
+  "mascot": false
+ },
+ "season": [],
+ "hubs": [],
+ "related": [
+  "bedtime-routine-chart/preschool",
+  "bedtime-routine-chart/morning-and-bedtime-routine",
+  "reward-chart-maker/chore-chart-for-kids",
+  "reward-chart-maker/reading-log-reward-chart",
+  "bingo/back-to-school",
+  "word-search/back-to-school"
+ ],
+ "relatedHeading": "More for school nights",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "Setting up a school night routine with your child",
+   "body": [
+    "Children between about six and ten are ready to own a routine, and they push back less when they helped write it. Treat the chart as an agreement, not an instruction.",
+    "1. Decide the lights out time first. Work backward from the morning wake up, leaving room for the steps themselves.\n2. Turn on the time option and fill in a time beside each step, or leave them blank and let your child suggest them.\n3. Ask your child to rearrange the middle steps if they have a better order. Shower before screens off, for example, is sometimes easier.\n4. Print the weekly grid and tape it to the desk or the inside of the bedroom door.\n5. Your child ticks each box each night. Review the week together on Sunday for two minutes."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Ways to adapt it for an older child",
+   "body": [
+    "* **Fewer reminders.** Cut the list to the four steps your child actually forgets, and drop the ones that already happen automatically.\n* **Sports nights.** Print a second version for the evenings after practice, with the shower and a snack in and homework shortened.\n* **A weekend edition.** Move lights out later, remove the backpack, and keep teeth and reading. Having both versions on the wall keeps weekends from becoming a free for all."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for parents of school age children",
+   "body": [
+    "Take the nagging out by pointing at the chart instead. 'What does your chart say next?' keeps you from being the villain.",
+    "Agree on a screen time rule in advance and write it into the chart as a step. A fixed 'screens off' line is easier to defend than a nightly negotiation.",
+    "If a step keeps being skipped, ask why before adding consequences. A hard shower time or unfinished homework is often the real problem, and the chart makes it easy to spot.",
+    "> Children this age still need adequate sleep, usually more than they think. Our [toddler bedtime routine guide](/guides/toddler-bedtime-routine/) lists the recommended sleep ranges by age."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing a desk-friendly chart",
+   "body": [
+    "The weekly grid prints on one page of Letter or A4 and fits on a clipboard, a cork board or the back of a door. School age children often like the black and white version, which looks less babyish and can be decorated with their own drawings. Print a few weeks at once, so the chart simply replaces itself on Sunday evening without anyone having to open the computer."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What time should a school age child go to bed?",
+   "a": "It depends on when they have to wake up. The American Academy of Sleep Medicine suggests 9 to 12 hours of sleep for children aged 6 to 12, so count back from the morning. Talk to your pediatrician if you are unsure."
+  },
+  {
+   "q": "How do I get a ten year old to use a bedtime chart?",
+   "a": "Let them design it. Choose the colors and the order together and drop any step that feels babyish. Older children follow rules they helped make."
+  },
+  {
+   "q": "Do I need a reward for the school night chart?",
+   "a": "Most children do fine without one. A short weekly check in, or a simple goal such as choosing Saturday breakfast after five ticked nights, is plenty."
+  }
+ ]
+}

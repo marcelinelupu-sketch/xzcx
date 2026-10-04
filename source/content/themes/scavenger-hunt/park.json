@@ -1,0 +1,125 @@
+{
+ "shortTitle": "Park Scavenger Hunt",
+ "title": "Park Scavenger Hunt, Free Printable Checklist for Kids",
+ "metaDescription": "A free park scavenger hunt with 30 playground, path and pond finds. Print it for a family outing, a class trip or a birthday meetup and keep score if you like.",
+ "h1": "Park Scavenger Hunt (Free Printable Checklist)",
+ "intro": "Print a free park scavenger hunt with 30 things to spot on the paths, the playground and around the pond. It works for family outings, school trips and playdates.",
+ "toolTitle": "Park Scavenger Hunt",
+ "items": [
+  "A dog on a leash",
+  "A bench with a plaque | 2",
+  "A duck or goose",
+  "Someone riding a bike",
+  "A tree with a trunk too wide to hug alone | 2",
+  "A picnic table",
+  "A slide",
+  "A squirrel | 2",
+  "A flag",
+  "A drinking fountain",
+  "A bridge | 2",
+  "Something with wheels",
+  "Someone flying a kite | 3",
+  "A fallen leaf bigger than your hand",
+  "A tree with two trunks growing together | 3",
+  "A bird on the water",
+  "A sign with a rule on it",
+  "Something with two wheels and a bell",
+  "A jogging stroller",
+  "A statue or monument | 3",
+  "A bin for recycling",
+  "Someone sitting and reading",
+  "A swing",
+  "A picnic blanket",
+  "A flowering bush",
+  "A basketball hoop or goal",
+  "A lamp post",
+  "A tree stump | 2",
+  "Something pink",
+  "A shadow that is longer than you"
+ ],
+ "itemsNote": "All 30 items are loaded above, with points for the trickier spots. Edit the list to match your park, since not every park has a pond or a monument.",
+ "defaultOptions": {
+  "layout": "checklist",
+  "names": true,
+  "timeLimit": false,
+  "copies": 6,
+  "shuffle": true,
+  "ageNote": "Ages 5 to 10"
+ },
+ "season": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10
+ ],
+ "hubs": [
+  "road-trip-and-outdoor-games"
+ ],
+ "related": [
+  "scavenger-hunt/nature-walk",
+  "scavenger-hunt/backyard",
+  "scavenger-hunt/neighborhood-walk",
+  "scavenger-hunt/birthday-party",
+  "bingo/nature-walk",
+  "bingo/zoo"
+ ],
+ "relatedHeading": "More outdoor printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to play at the park",
+   "body": [
+    "A park hunt is a good fit for a gathering where children arrive at different times and need something to do straight away. Print a stack, keep it by your picnic blanket and hand a sheet to each newcomer.",
+    "1. Check the park map or walk a loop first so you know which finds are realistic.\n2. Decide whether children play alone, in pairs or in teams, and print enough copies of the list.\n3. Set a base spot, such as your blanket or a bench, and tell children to report back there with finds you can check.\n4. Ask for an honest tick only. Where something is hard to prove, such as a dog on a leash, a quick wave to a grown-up is enough.\n5. Agree on a time to regroup, and give a ten-minute warning before then."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Variations for a park day",
+   "body": [
+    "### Photo version\nSwitch the layout to photo hunt. Older children take a picture of each find, and you can scroll through the camera roll over snacks afterward.\n\n### Team relay\nTeams pick one item at a time and run to find it together before moving on. This keeps younger children close to older helpers.\n\n### Stranger-free edition\nCross out anything that involves other park visitors, such as the person reading or the kite flyer, if you would rather children not focus on strangers. Replace them with items on the ground or in the trees."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for organizers",
+   "body": [
+    "Pair every young child with a grown-up or an older buddy. Big parks make it surprisingly easy to lose sight of a six-year-old behind a hedge.",
+    "Keep a few spare pencils and a pen for the adults, because the list gets passed from hand to hand and pencils vanish into the grass.",
+    "A small prize like a sticker for each completed row works well and costs very little."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Safety in a public park",
+   "body": [
+    "Children should stay in sight of an adult at all times, and the group should agree on boundaries before the hunt begins. Point out where the road, the parking lot and the water are, and remind children not to approach strangers or off-leash dogs.",
+    "Look but do not feed the ducks or squirrels unless the park allows it, and leave plants and nests alone."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing tips for park outings",
+   "body": [
+    "The checklist layout is easy to read at arm's length on a bright day. Print one page per child on regular paper and bring a clipboard, or laminate a few sheets and use dry erase markers so you can reuse them at the next outing. Six copies are loaded in the generator by default, so change that number to match your guest list."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many copies should I print for a park meetup?",
+   "a": "Print one per child or one per team if you want to cut the number of pencils in play. Add a couple of spares, because sheets tend to get dropped, stepped on or chewed."
+  },
+  {
+   "q": "Can the list be used in any public park?",
+   "a": "Yes, but edit it to suit the park. Delete the pond or bridge items if there are none, and add landmarks only your park has, like a specific fountain or climbing tree."
+  },
+  {
+   "q": "Is a park scavenger hunt suitable for a class trip?",
+   "a": "It is a handy activity for supervised class outings. Use the team layout, assign one adult to each team and set a clear regroup time and place."
+  }
+ ]
+}

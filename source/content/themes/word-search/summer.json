@@ -1,0 +1,107 @@
+{
+  "shortTitle": "Summer Word Search",
+  "title": "Summer Word Search, Free Printable Puzzle for Kids",
+  "metaDescription": "Print a free summer word search with 22 words from sunscreen to fireflies. Easy to pack for camp, road trips and long afternoons on the porch with a pencil.",
+  "h1": "Summer Word Search (Free Printable Puzzle for Kids)",
+  "intro": "Print a free summer word search with 22 words about beaches, barbecues and long evenings. It is a good quiet-time activity for camp, road trips and rainy days in the middle of vacation.",
+  "toolTitle": "Summer Word Search",
+  "items": [
+    "Sunshine",
+    "Beach",
+    "Sandcastle",
+    "Sunscreen",
+    "Ice pop",
+    "Lemonade",
+    "Swimming",
+    "Vacation",
+    "Fireflies",
+    "Picnic",
+    "Camping",
+    "Watermelon",
+    "Flip flops",
+    "Sunglasses",
+    "Barbecue",
+    "Hammock",
+    "Seashell",
+    "Ice cream",
+    "Pool",
+    "Fireworks",
+    "Sprinkler",
+    "Surfboard"
+  ],
+  "itemsNote": "The 22 words above are already in the generator. Trim the list to match your trip, like beach, shell and sandcastle for a seaside vacation.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 15,
+    "difficulty": "medium",
+    "case": "upper"
+  },
+  "season": [
+    6,
+    7,
+    8
+  ],
+  "hubs": [
+    "classroom-games",
+    "road-trip-and-outdoor-games"
+  ],
+  "related": [
+    "word-scramble/summer",
+    "bingo/summer",
+    "scavenger-hunt/beach",
+    "word-search/ocean-animals",
+    "word-search/back-to-school",
+    "bingo/beach"
+  ],
+  "relatedHeading": "More summer printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search during summer break",
+      "body": [
+        "Summer learning does not have to feel like school. A word search is a light activity that keeps reading and spelling skills ticking over without a lecture.",
+        "1. Keep a few printed puzzles in a bag for car rides, waiting rooms and the shade of a picnic blanket.\n2. Let children choose their own pencil color for circling words.\n3. Invite them to find the words that match what they did this week, like swimming or fireworks.\n4. Ask them to write a sentence in a vacation journal using one of the words.",
+        "Camp counselors and library staff can run the puzzle as a first activity of the day. It gets everyone settled with a task while the group assembles."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to use it",
+      "body": [
+        "* **Sunny day challenge.** Time the puzzle with a kitchen timer and see if children can beat their own record on a second puzzle.\n* **Vacation memory list.** Replace the default list with words from your own trip and build a souvenir puzzle.\n* **Pen pals.** Make a puzzle with the sender's town and favorite summer activities, then mail it to a grandparent."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for camps and parents",
+      "body": [
+        "Sticky hands and sunscreen smudges are common. Print a few extra copies so there is always a fresh sheet.",
+        "For mixed age groups, print an easy and a hard version of the same list. Older campers like the challenge and younger ones feel included."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for summer",
+      "body": [
+        "Use a clipboard or a hardcover book for a writing surface outside. Fold the page in half to fit a back pocket.",
+        "Ink saver mode keeps the sheet light, which also helps if you are printing at a public library. Letter and A4 are both supported."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is this summer word search for?",
+      "a": "It suits children from about 6 to 11. Adjust the difficulty to match their reading level."
+    },
+    {
+      "q": "Can I use it in the car?",
+      "a": "Yes. Print on regular paper and use a clipboard. The 14 by 14 grid gives enough room for large letters."
+    },
+    {
+      "q": "Will it work for a summer camp group?",
+      "a": "Yes. Set the puzzle count to the number of campers and each one gets a different layout."
+    }
+  ]
+}

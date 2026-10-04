@@ -1,0 +1,18 @@
+/* 50-tool-scramble: word scramble sheets. Owner: scramble tool. */
+.sc-how{font-size:11pt;margin:0 0 .12in}
+.sc-list{display:grid;grid-template-columns:repeat(var(--cols),1fr);grid-template-rows:repeat(var(--rows),var(--rh));grid-auto-flow:column;column-gap:.3in;list-style:none;margin:0;padding:0}
+.sc-item{display:flex;align-items:flex-start;min-width:0}
+.sc-num{flex:none;width:.42in;font:700 calc(var(--t) * .5)/var(--t) var(--font);color:var(--a)}
+.sc-tiles,.sc-blanks{display:flex;gap:calc(var(--t) * .12)}
+.sc-tile{width:var(--t);height:var(--t);border-radius:calc(var(--t) * .18);background:var(--soft);border:1.5px solid var(--a2);display:grid;place-items:center;font:600 calc(var(--t) * .62)/1 var(--display);color:var(--k)}
+.sc-gap{width:calc(var(--t) * .5);flex:none}
+.sc-blanks{margin-top:calc(var(--t) * .55);height:calc(var(--t) * .6)}
+.sc-blank{width:var(--t);border-bottom:1.5px solid var(--k);font:600 calc(var(--t) * .62)/1 var(--display);color:#8A8A8A;text-align:center}
+.sc-bank{margin-top:auto;border:1.5px dashed var(--a2);border-radius:.14in;padding:.12in .18in;min-height:1.3in}
+.sc-bank b{font:600 13pt var(--display);color:var(--a)}
+.sc-bank ul{list-style:none;margin:.06in 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.04in .25in;font-size:11pt}
+.sc-key{list-style:none;margin:0;padding:0;columns:2;column-gap:.4in;font-size:12pt}
+.sc-key.small{font-size:10pt}
+.sc-key li{display:flex;gap:.1in;padding:.05in 0;border-bottom:1px solid #EEE;break-inside:avoid}
+.sc-key .sc-num{width:.34in;font-size:inherit;line-height:inherit}
+.sc-mixed{color:#6B6B6B;flex:1;letter-spacing:.04em}

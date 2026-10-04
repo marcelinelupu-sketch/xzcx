@@ -1,0 +1,62 @@
+{
+  "shortTitle": "Baby Shower Bingo",
+  "title": "Baby Shower Bingo Cards, Free Printable and Customizable",
+  "metaDescription": "Print up to 30 unique baby shower bingo cards free. 48 gift words to play while presents are opened, with a caller checklist, Letter or A4 and B/W mode.",
+  "h1": "Baby Shower Bingo Cards to Print While Gifts Are Opened",
+  "intro": "Print up to 30 unique baby shower bingo cards for free. Each card mixes words from a list of 48 classic baby gifts, so guests have something fun to do while the parents-to-be open presents.",
+  "toolTitle": "Baby Shower Bingo",
+  "items": [
+    "Bodysuit", "Bib", "Pacifier", "Baby monitor", "Diapers", "Wipes", "Swaddle blanket", "Burp cloth",
+    "Rattle", "Stroller", "Car seat", "Crib sheet", "Baby bottle", "Board book", "Teddy bear", "Tiny socks",
+    "Sleep sack", "Hooded towel", "Baby shampoo", "Teething ring", "Diaper bag", "Changing pad", "Baby carrier", "Bouncer",
+    "Play mat", "Night light", "Scratch mittens", "Sun hat", "Booties", "Romper", "Pajamas", "Gift card",
+    "Handmade quilt", "Bottle brush", "Nursing pillow", "Baby lotion", "Thermometer", "Nail clippers", "Bath toy", "Stuffed animal",
+    "Crib mobile", "Sippy cup", "High chair", "Baby swing", "Diaper cream", "Knit beanie", "Baby bathtub", "Photo album"
+  ],
+  "itemsNote": "All 48 gift words are already loaded in the generator above. Swap in items from the actual registry if you have it, since matching real gifts makes the game more exciting.",
+  "defaultOptions": {"mode": "word", "grid": 5, "free": true, "cards": 12, "perPage": 2},
+  "season": [],
+  "hubs": ["baby-shower-games", "party-games"],
+  "related": ["bingo/gender-reveal-party", "bingo/bridal-shower", "word-search/baby-shower", "word-scramble/baby-shower", "bingo/birthday-party", "bingo/family-reunion"],
+  "relatedHeading": "More baby shower printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play baby shower bingo",
+      "body": [
+        "Gift opening is often the quietest stretch of a shower for guests, and bingo turns it into a game everyone can follow from their seat.",
+        "1. Print one card per guest, plus a few spares for late arrivals and anyone who wants a second card.\n2. Hand out the cards with pens just before the parents-to-be start unwrapping.\n3. Each time a gift matches a square, such as a bodysuit, a swaddle blanket or a baby monitor, guests mark it off.\n4. The first guest to finish a row, column or diagonal says \"Bingo!\" and wins a small prize.\n5. Keep going for second and third place, then switch to blackout once the gift pile gets short.",
+        "Ask a helper to tick off each gift on the caller checklist as it is opened. When someone calls bingo, a quick look at that sheet settles any debate about whether a sleep sack counts as pajamas."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "4 fun variations",
+      "body": [
+        "* **Things people say bingo.** Replace some gift words with phrases guests are sure to hear, like \"So tiny!\", \"Aww\" or \"Look at the little feet\". Squares fill from the chatter, so the game still works when there are only a handful of gifts.\n* **Parents trivia bingo.** Write answers about the couple in the list, such as their hometown or the nursery color. The host reads a question, and guests mark the answer if it is on their card.\n* **Virtual shower bingo.** Copy the share link or email the PDF to remote guests before a video call shower. Everyone plays along from home while gifts are opened on camera.\n* **Blackout for the big prize.** Skip lines entirely and give one nice prize to the first guest who fills the whole card. This suits a large gift pile."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for the host",
+      "body": [
+        "Match the grid to the size of the gift pile. With fewer than 15 gifts, a 4x4 card finishes in a sensible time; with 25 or more, the full 5x5 card keeps the tension going longer.",
+        "Pick prizes guests will actually use: a candle, good chocolate, a small plant or a coffee shop gift card. Keep them wrapped on a side table so they add to the decorations.",
+        "Let the parents-to-be enjoy each gift before anyone shouts. A raised hand and a quiet \"bingo\" keeps the focus where it belongs, and you can check the card after the next present."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for a shower",
+      "body": [
+        "Two cards per page on Letter or A4 paper gives a comfortable square size for writing with a pen while balancing a plate. Light cardstock around 65 lb (about 175 gsm) feels sturdier on a lap than plain copy paper.",
+        "If you print on pastel paper to match the party colors, switch on ink saver mode so the grid prints in clean black and gray. Print one test page first to check that the paper size matches your printer, then run the full set."
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "How many bingo cards do I need for a baby shower?", "a": "Plan on one card per guest plus three or four spares. The generator makes up to 30 unique cards in one go, and you can run it again for a bigger crowd. With 48 words in the list, two matching cards are extremely unlikely."},
+    {"q": "How long does baby shower bingo take?", "a": "It usually lasts as long as the gift opening, often 20 to 40 minutes. For a shorter game, use a 4x4 grid or play for a single line. For a longer one, play blackout."},
+    {"q": "Can I add items from the couple's registry?", "a": "Yes. Delete any words you don't need and type the registry items into the list, one per line, before you press Generate. The cards update right away."}
+  ]
+}

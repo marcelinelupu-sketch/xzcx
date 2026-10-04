@@ -1,0 +1,120 @@
+{
+  "shortTitle": "Ocean Animals Bingo",
+  "title": "Free Printable Ocean Animals Bingo Cards for the Classroom",
+  "metaDescription": "Free printable ocean animals bingo with 40 sea creatures from clownfish to blue whales. Use it for marine units, aquarium visits, parties and quiet play.",
+  "h1": "Ocean Animals Bingo Cards (Free Printable Generator)",
+  "intro": "Print free ocean animals bingo cards with 40 sea creatures, from tiny seahorses to enormous whales. They suit a marine unit, an aquarium field trip or a splashy party.",
+  "toolTitle": "Ocean Animals Bingo",
+  "items": [
+    "Clownfish",
+    "Blue tang",
+    "Angelfish",
+    "Seahorse",
+    "Sea turtle",
+    "Manta ray",
+    "Stingray",
+    "Hammerhead shark",
+    "Great white shark",
+    "Whale shark",
+    "Blue whale",
+    "Humpback whale",
+    "Orca",
+    "Dolphin",
+    "Porpoise",
+    "Narwhal",
+    "Walrus",
+    "Sea lion",
+    "Seal",
+    "Sea otter",
+    "Manatee",
+    "Octopus",
+    "Squid",
+    "Cuttlefish",
+    "Nautilus",
+    "Jellyfish",
+    "Sea anemone",
+    "Coral",
+    "Sea star",
+    "Sea urchin",
+    "Sea cucumber",
+    "Hermit crab",
+    "Lobster",
+    "Shrimp",
+    "Pufferfish",
+    "Swordfish",
+    "Anglerfish",
+    "Eel",
+    "Penguin",
+    "Pelican"
+  ],
+  "itemsNote": "Mammals, fish, shellfish and soft-bodied animals all appear here, which makes the list useful for sorting lessons. A few squares are birds that live at the sea, so remove them if your unit is strictly underwater.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Splash",
+    "cards": 15,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/beach",
+    "bingo/zoo",
+    "word-search/ocean-animals",
+    "bingo/frog-and-pond",
+    "bingo/farm-animals",
+    "word-scramble/animals"
+  ],
+  "relatedHeading": "More ocean and animal printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play with a marine theme",
+      "body": [
+        "Ocean animals bingo works well as a review game after a few days of study. Because the animals are so varied, a teacher can end the game by sorting the squares into groups like fish, mammals and invertebrates.",
+        "1. Give each student a card and a handful of blue paper squares or counters, which look like water on the grid.\n2. The caller picks a name from a cup, reads it aloud and adds one fact, such as where it lives or what it eats.\n3. Players who have the animal cover the square.\n4. A full line wins, but the winner must name the animals in that line before collecting the prize.\n5. Clear the cards and play again with a new caller."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to dive deeper",
+      "body": [
+        "* **Clue calling.** Instead of reading the name, give a clue such as eight arms and three hearts, so players must figure out that it is an octopus.\n* **Depth round.** Group squares by zone, sunlit, twilight or deep sea, and play separate games for each zone.\n* **Aquarium scavenger.** At an aquarium, cover squares by actually seeing the animal behind the glass and note the tank on the back."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and hosts",
+      "body": [
+        "Pick a few squares as anchors for facts. Orcas are dolphins, not whales, and seahorse fathers carry the eggs. Children remember details attached to a game.",
+        "Have a world map nearby. Pointing out where each animal lives adds geography without lengthening the game.",
+        "If students struggle with spelling, project the word list on a screen so they can see each name while the caller reads it."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for splash-friendly play",
+      "body": [
+        "Print on pale blue paper for a watery feel and use ink saver mode to keep colored paper readable. If cards will be handled at a pool party, laminate them or slide them into plastic sleeves.",
+        "Teachers can print two per page and cut the sheet in half to save paper, then collect the cards at the end for reuse next year."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which ocean animals are on the list?",
+      "a": "There are forty, including fish, whales, sharks, shellfish and sea birds. You can edit the box above to add local species."
+    },
+    {
+      "q": "Is this good for kindergarten?",
+      "a": "Yes with a three by three grid and picture support. Older kids can use a five by five grid and write one fact per found animal."
+    },
+    {
+      "q": "Can I use it at an aquarium?",
+      "a": "Yes. Print before you go, trim the list to what the aquarium shows, and let children cover squares in front of the tanks."
+    }
+  ]
+}

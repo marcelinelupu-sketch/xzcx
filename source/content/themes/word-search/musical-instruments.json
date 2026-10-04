@@ -1,0 +1,101 @@
+{
+  "shortTitle": "Musical Instruments Word Search",
+  "title": "Musical Instruments Word Search, Free Printable Puzzle",
+  "metaDescription": "Print a free musical instruments word search with 22 words, from violin and trumpet to xylophone and tambourine. Letter or A4 with an answer key included.",
+  "h1": "Musical Instruments Word Search (Free Printable)",
+  "intro": "Print a free musical instruments word search with 22 words, from the violin to the xylophone. It suits a music class, a recital waiting room or a rainy afternoon with a toy keyboard.",
+  "toolTitle": "Musical Instruments Word Search",
+  "items": [
+    "Violin",
+    "Trumpet",
+    "Piano",
+    "Guitar",
+    "Flute",
+    "Clarinet",
+    "Saxophone",
+    "Trombone",
+    "Cello",
+    "Harp",
+    "Drums",
+    "Xylophone",
+    "Tambourine",
+    "Triangle",
+    "Maracas",
+    "Harmonica",
+    "Ukulele",
+    "Oboe",
+    "Bassoon",
+    "Banjo",
+    "Cymbals",
+    "Recorder"
+  ],
+  "itemsNote": "The instruments are grouped loosely by family in the list, so strings, brass, woodwinds and percussion are all represented.",
+  "defaultOptions": {
+    "size": 14,
+    "difficulty": "easy",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/sports",
+    "word-search/community-helpers",
+    "bingo/movie-night",
+    "word-search/birthday",
+    "word-scramble/animals",
+    "bingo/zoo"
+  ],
+  "relatedHeading": "More music and party printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Playing the instrument puzzle in music class",
+      "body": [
+        "Music teachers often have a few minutes while instruments are being handed out or put away. A puzzle fills that gap without a noisy fuss.",
+        "1. Play a short recording of an instrument and ask children to guess its name.\n2. Have them find the guessed instrument in the grid.\n3. Repeat with three or four more sounds, then let everyone finish the rest on their own.\n4. Sort the finished list by family: strings, brass, woodwind and percussion."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations with a musical twist",
+      "body": [
+        "* **Orchestra seating.** Ask children to place the found instruments on a sketch of an orchestra stage.\n* **Rhythm search.** Clap the syllables of each word, so xylophone gets three claps and drums gets one.\n* **Band of the week.** Each child picks the instrument they would most like to try and writes two sentences about why."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for the music room and living room",
+      "body": [
+        "A few unusual choices, like bassoon and oboe, give curious children a reason to look up what those instruments sound like.",
+        "At home, queue a video of someone playing the instrument you just found. Seeing it after reading its name makes the word stay in memory."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for recitals and lessons",
+      "body": [
+        "A sheet in the lesson folder gives a student something quiet to do between pieces at a recital. Printing on light yellow paper brings out a sheet music feel, and black ink keeps the grid easy to scan.",
+        "If you teach a large group, print the ink saver version and have students keep the sheet in their music notebooks."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does the word search include electronic instruments?",
+      "a": "No, this list sticks to traditional acoustic instruments. You can add a keyboard or synthesizer by typing it into the list."
+    },
+    {
+      "q": "What age suits this puzzle?",
+      "a": "Children aged 7 to 11 will enjoy it most, and younger ones can start with short names like harp, oboe and piano."
+    },
+    {
+      "q": "Can I use it for a general music lesson on instrument families?",
+      "a": "Yes. After solving, sort the words into families, and the finished page becomes a ready-made study sheet."
+    }
+  ]
+}

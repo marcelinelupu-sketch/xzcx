@@ -1,0 +1,122 @@
+{
+ "shortTitle": "Spring and Easter Scavenger Hunt",
+ "title": "Spring and Easter Scavenger Hunt, Free Printable Checklist",
+ "metaDescription": "A free printable spring and Easter scavenger hunt with 30 signs of the season, from tulips to a robin. Use it on an egg hunt morning or a first warm walk.",
+ "h1": "Spring and Easter Scavenger Hunt (Free Printable)",
+ "intro": "Print a free spring and Easter scavenger hunt with 30 signs of the season, from budding trees to bunnies. It suits an Easter morning in the yard and an ordinary walk in April.",
+ "toolTitle": "Spring and Easter Scavenger Hunt",
+ "items": [
+  "A tulip or daffodil",
+  "A robin",
+  "A butterfly | 2",
+  "A bud on a tree",
+  "A puddle after a spring shower",
+  "A nest with eggs. Look only, never touch | 3",
+  "A worm on the path",
+  "A bunny or a hare | 3",
+  "A plastic egg hidden in the grass | 2",
+  "A flower in a pot",
+  "A baby animal | 3",
+  "A lamb or a lamb decoration",
+  "A spring bulb pushing through the soil",
+  "A new green leaf",
+  "A flower you can name",
+  "A kite in the sky",
+  "A pastel color",
+  "A picnic blanket",
+  "A bee on a flower | 2",
+  "A basket",
+  "A pair of rain boots",
+  "A rainbow | 5",
+  "Frogspawn or a frog. Look only | 5",
+  "A chick or a chick decoration",
+  "A seed packet",
+  "A lawn mower sound",
+  "A bird singing in the morning",
+  "A bench in the sunshine",
+  "A cherry blossom or apple blossom | 2",
+  "A tree with no leaves yet"
+ ],
+ "itemsNote": "All 30 items are loaded above. Some depend on where you live, so strike out frogspawn if your ponds are still frozen and add whatever blooms first near you.",
+ "defaultOptions": {
+  "layout": "checklist",
+  "names": true,
+  "timeLimit": false,
+  "copies": 6,
+  "shuffle": true,
+  "ageNote": "Ages 3 to 10"
+ },
+ "season": [
+  3,
+  4,
+  5
+ ],
+ "hubs": [
+  "road-trip-and-outdoor-games",
+  "party-games"
+ ],
+ "related": [
+  "bingo/easter",
+  "word-search/easter",
+  "word-scramble/easter",
+  "word-search/spring",
+  "scavenger-hunt/nature-walk",
+  "scavenger-hunt/backyard"
+ ],
+ "relatedHeading": "More spring and Easter printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to hunt for spring",
+   "body": [
+    "Spring is a good season for noticing, because the world changes by the week. This list works for a family walk, a garden morning or the minutes before the egg hunt begins.",
+    "1. Print a sheet per child and, on Easter morning, hand them out before the baskets.\n2. Step outside together and walk the garden or the nearest green space slowly.\n3. Tick off items as you see them. For the plastic egg item, hide one or two beforehand.\n4. Count your signs of spring together at the end of the walk.\n5. Pick a favorite and draw it on the back of the sheet."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Seasonal variations",
+   "body": [
+    "* **Egg hunt warm-up.** Use the list as the starter before an egg hunt. Children look for the signs of spring first, then the eggs.\n* **Weekly spring watch.** Print the same list each week for four weeks and see how many more items children can tick as the season goes on.\n* **Class garden version.** Take a class to the school grounds and let them record their finds in a shared chart."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for a springtime hunt",
+   "body": [
+    "Spring weather changes quickly, so bring jackets and a plan B. A damp morning is the perfect time to find worms and puddles.",
+    "Hide plastic eggs in a way that suits the youngest children, with some in easy sight at ground level.",
+    "Let children draw a picture of one of their finds in the margin. It becomes a small keepsake."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Spring safety",
+   "body": [
+    "Stay with children outdoors and keep them in sight. Look at nests, frogspawn and wildlife but do not touch, move or disturb them. Wash hands after handling soil, eggs and plastic eggs that have been in the garden.",
+    "Watch out for pollen if anyone has allergies, and keep an eye on garden pesticides, ponds and slippery grass after rain."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for a spring morning",
+   "body": [
+    "Cardstock holds up better on damp grass. For an egg hunt, print on pastel paper such as pink or pale green. Checklist layout is clear and comfortable at arm's length, and black ink keeps the cost down. Tuck each sheet into the bottom of the Easter basket."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I use this list if my family does not celebrate Easter?",
+   "a": "Yes. About half the items are general signs of spring, and the Easter items, such as plastic eggs and baskets, can be skipped."
+  },
+  {
+   "q": "What if it is still cold where I live?",
+   "a": "Swap in whatever you can spot, like melting snow or the first green shoots, and keep the list for a few weeks later."
+  },
+  {
+   "q": "How many plastic eggs should I hide?",
+   "a": "One to three per child is plenty for this hunt, since the main game is spotting spring. Hide extras for the youngest children."
+  }
+ ]
+}

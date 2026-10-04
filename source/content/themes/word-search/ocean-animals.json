@@ -1,0 +1,102 @@
+{
+  "shortTitle": "Ocean Animals Word Search",
+  "title": "Ocean Animals Word Search, Free Printable Sea Life Puzzle",
+  "metaDescription": "Print a free ocean animals word search with 22 sea creatures from clownfish to blue whales. Great before an aquarium visit or during an ocean science unit.",
+  "h1": "Ocean Animals Word Search (Free Printable Sea Life Puzzle)",
+  "intro": "Print a free ocean animals word search with 22 sea creatures, from tiny seahorses to enormous whales. It supports a unit on the ocean, a trip to an aquarium or a quiet afternoon at the beach.",
+  "toolTitle": "Ocean Animals Word Search",
+  "items": [
+    "Dolphin",
+    "Octopus",
+    "Seahorse",
+    "Jellyfish",
+    "Starfish",
+    "Clownfish",
+    "Stingray",
+    "Sea turtle",
+    "Blue whale",
+    "Shark",
+    "Crab",
+    "Lobster",
+    "Walrus",
+    "Manatee",
+    "Squid",
+    "Narwhal",
+    "Sea otter",
+    "Eel",
+    "Pufferfish",
+    "Orca",
+    "Anemone",
+    "Coral"
+  ],
+  "itemsNote": "The 22 words above are loaded. Pick a smaller set to match the animals you will see on an aquarium visit.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 15,
+    "difficulty": "medium",
+    "case": "upper"
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/ocean-animals",
+    "word-search/pond-animals",
+    "word-search/rainforest-animals",
+    "word-search/summer",
+    "bingo/beach",
+    "word-search/farm"
+  ],
+  "relatedHeading": "More animal printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search with an ocean unit",
+      "body": [
+        "Ocean animals fascinate children, and the unusual names stick when they are found in a grid. This puzzle works as a hook at the start of a unit or a review at the end.",
+        "1. Ask the class to name an ocean animal before handing out the sheets, and see which ones appear in the list.\n2. Solve the puzzle and put a star by every animal that has a shell, fins or tentacles.\n3. Pick one animal and look up where it lives: near the shore, in the open ocean or in the deep.\n4. Finish with a drawing of an ocean scene with every animal in the right zone.",
+        "> Some animals in this list, such as the manatee, are mammals or turtles that breathe air. [NOAA Fisheries](https://www.fisheries.noaa.gov/species-directory) has species profiles you can use for facts."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ocean variations",
+      "body": [
+        "* **Sort by body type.** After solving, children sort the animals into fish, mammals, shellfish and soft-bodied animals.\n* **Mystery creature.** One child describes an animal without naming it, and the others guess and find it in the grid.\n* **Deep sea mural.** Each child draws one animal, labels it with a word from the list, and the class assembles a wall mural."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "Spelling anemone and narwhal can trip up even older children. Say each word aloud when it is found, so the sound and spelling connect.",
+        "Check pictures online or in a book for any animal the children do not know. A quick look at a seahorse or a pufferfish brings the word to life."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for sea life",
+      "body": [
+        "Print in black and white and let children color a border of waves around the sheet. Pale blue paper is nice, but keep it light.",
+        "The 15 by 15 grid gives plenty of room for sea turtle, blue whale and clownfish. For small hands on a car trip, drop to 12 by 12 and pick 12 words."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is the ocean animals word search for?",
+      "a": "It suits ages 6 to 10. Younger children can use the easy setting and a shorter list."
+    },
+    {
+      "q": "Are all the animals fish?",
+      "a": "No. The list includes mammals like dolphins and manatees, mollusks like octopus and squid, and animals like crabs and starfish. This can start a good discussion about how to group animals."
+    },
+    {
+      "q": "Can I use it for a beach vacation?",
+      "a": "Yes. Print a small copy and tuck it in a beach bag, then tick off any animal you see."
+    }
+  ]
+}

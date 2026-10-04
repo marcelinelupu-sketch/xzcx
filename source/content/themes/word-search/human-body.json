@@ -1,0 +1,103 @@
+{
+  "shortTitle": "Human Body Word Search",
+  "title": "Human Body Word Search, Free Printable Anatomy Puzzle",
+  "metaDescription": "A free human body word search with 22 words, from skeleton and muscles to heart and lungs. Print on Letter or A4 with an answer key for your health lesson.",
+  "h1": "Human Body Word Search (Free Printable Puzzle)",
+  "intro": "Print a free human body word search with 22 words about bones, organs and the systems that keep us going. It suits a health or science unit for early elementary students.",
+  "toolTitle": "Human Body Word Search",
+  "items": [
+    "Skeleton",
+    "Muscle",
+    "Heart",
+    "Lungs",
+    "Brain",
+    "Stomach",
+    "Kidney",
+    "Skull",
+    "Ribs",
+    "Spine",
+    "Joint",
+    "Blood",
+    "Veins",
+    "Nerves",
+    "Skin",
+    "Intestine",
+    "Pulse",
+    "Digestion",
+    "Oxygen",
+    "Bones",
+    "Liver",
+    "Senses"
+  ],
+  "itemsNote": "Everything here is a plain, school-level body word. Swap in your own unit vocabulary if you teach a particular system.",
+  "defaultOptions": {
+    "size": 13,
+    "difficulty": "easy",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/healthy-food",
+    "word-search/sports",
+    "word-search/fruits-and-vegetables",
+    "word-search/community-helpers",
+    "bingo/esl-action-verbs",
+    "word-search/dinosaurs"
+  ],
+  "relatedHeading": "More health and science printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Using the body puzzle in a health lesson",
+      "body": [
+        "Body vocabulary can feel abstract until children point to the part on themselves. This puzzle works best when movement is part of it.",
+        "1. Read each word and have children touch or point to that part, or the area it sits in.\n2. Hunt for the words in the grid, starting with outside parts such as skin and hair.\n3. Move on to the inside organs.\n4. Tell a partner one thing each organ does.",
+        "Older students can write a one-line job description for each organ as they find it, such as what the kidneys do or why the spine matters."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Ideas for deeper learning",
+      "body": [
+        "* **System sort.** Divide the words into groups such as bones, breathing, blood and digestion, using colored pencils.\n* **Heartbeat check.** After finding pulse and heart, children count a pulse for fifteen seconds at rest and again after jumping jacks.\n* **Body outline.** Trace a classmate on butcher paper and label the organs in roughly the right places."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teaching anatomy words",
+      "body": [
+        "Keep the tone matter of fact and friendly. Children ask direct questions about bodies, and a calm, accurate answer is better than a giggle.",
+        "Words like intestine and digestion are tough to spell, so write them large on the board before the puzzle begins.",
+        "Some children may want to talk about a time they visited a doctor or had a cast. Let them volunteer their own experiences if they wish, because real stories make the vocabulary stick."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the science table",
+      "body": [
+        "A laminated copy at a learning station can be reused all week with dry-erase markers. For a take-home page, print two puzzles per child and ask them to challenge someone at home.",
+        "The black-and-white mode suits school copiers, and the answer key page can go straight into your teacher binder."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is the vocabulary appropriate for young children?",
+      "a": "Yes. It sticks to standard classroom terms such as heart, lungs and skeleton, with nothing beyond a typical early elementary health unit."
+    },
+    {
+      "q": "Does this match a particular curriculum?",
+      "a": "It is general rather than tied to one curriculum, so it fits many health and science units. Edit the list to match your own lesson."
+    },
+    {
+      "q": "Can older students use it for review?",
+      "a": "Yes. Switch to hard mode and replace a few words with terms like cartilage or tendon from your own course."
+    }
+  ]
+}

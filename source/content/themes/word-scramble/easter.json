@@ -1,0 +1,103 @@
+{
+ "shortTitle": "Easter Word Scramble",
+ "title": "Easter Word Scramble, Free Printable with Answer Key",
+ "metaDescription": "Print a free Easter word scramble with 20 spring and Easter words, from basket to jelly beans. Add a word bank for younger children and an answer key.",
+ "h1": "Easter Word Scramble (Free Printable with Answer Key)",
+ "intro": "Print a free Easter word scramble with 20 spring words, from bunny to jelly beans. It works for an egg hunt morning, a Sunday school table or a class before the holiday.",
+ "toolTitle": "Easter Word Scramble",
+ "items": [
+  "Bunny",
+  "Basket",
+  "Jelly beans",
+  "Chocolate",
+  "Spring",
+  "Tulip",
+  "Daffodil",
+  "Chick",
+  "Lamb",
+  "Egg hunt",
+  "Decorate",
+  "Pastel",
+  "Parade",
+  "Bonnet",
+  "Sunrise",
+  "Garden",
+  "Blossom",
+  "Carrots",
+  "Marshmallow",
+  "Brunch"
+ ],
+ "itemsNote": "All 20 words are ready above. For a church group, add a few words from the morning's story.",
+ "defaultOptions": {
+  "puzzles": 1,
+  "case": "upper",
+  "hint": false,
+  "bank": true,
+  "key": true,
+  "shuffle": true
+ },
+ "season": [
+  3,
+  4
+ ],
+ "hubs": [
+  "party-games",
+  "classroom-games"
+ ],
+ "related": [
+  "bingo/easter",
+  "word-search/easter",
+  "scavenger-hunt/spring-easter",
+  "word-search/spring",
+  "word-scramble/valentines-day",
+  "word-scramble/summer"
+ ],
+ "relatedHeading": "More Easter printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to use an Easter word scramble",
+   "body": [
+    "A scramble sheet is something children can do while others finish the pancakes, wait for the egg hunt to start or sit through a long family lunch. It asks for quiet concentration and a bit of spelling, two things that appear rarely on Easter morning.",
+    "1. Print a sheet per child and add a pencil, ideally a bunny pencil if you have one.\n2. Set out the sheets at the breakfast table or in the basket.\n3. Younger children can work with the word bank and read the letters aloud.\n4. Older children can try without the bank, and race a sibling for fun.\n5. Check the answers together before the egg hunt begins."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Easter variations",
+   "body": [
+    "* **Egg reveal.** Write each answer on a slip of paper and tuck it inside a plastic egg. Solvers crack the egg to check.\n* **Sunday school team game.** Teams of three solve one sheet together and tell the room one thing that each word means to them.\n* **Pastel race.** Print the puzzle in two colors. The pink team and the green team race across the room to finish first."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for a spring morning",
+   "body": [
+    "Use the first letter hint for children who are just learning to read, since scrambled words feel less daunting when the first letter is fixed.",
+    "Solving beside a window with a bit of sunshine makes the whole thing feel more like spring.",
+    "Have a stack of scrap paper for children who want to write out the letters before testing combinations."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for the Easter table",
+   "body": [
+    "Pale yellow, mint or pink paper makes the sheet look seasonal. Ink saver mode keeps tile letters readable on a pastel background. The answer key sits on its own page, and a staple or a paperclip keeps the pages together in a basket."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What age is the Easter word scramble for?",
+   "a": "With the word bank, children around 6 and 7 can usually manage. Without it, it is a good puzzle for ages 9 and older."
+  },
+  {
+   "q": "Is the list religious?",
+   "a": "The list keeps to common spring and egg hunt words. If you run a church group, you can add words from your own lesson."
+  },
+  {
+   "q": "Can I print different versions for each child?",
+   "a": "Yes. Set the puzzle count up to 10, and each version has a new arrangement of letters and its own answer key."
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+/* 00-base: design tokens, reset, typography. Owner: foundation. */
+@font-face{font-family:"Fredoka";font-style:normal;font-weight:600;font-display:swap;src:url(/assets/fonts/fredoka-600.woff2) format("woff2")}
+:root{
+  --pond:#287D50;--pond-d:#21683F;--lily:#8CCB6E;--lily-l:#EAF5E1;--cream:#FFF9EC;--ink:#1F2A24;--muted:#53605A;
+  --dusk:#3B3A6B;--sun:#F6C445;--coral:#F07A5A;--line:#E9E0CB;--field-line:#8C8470;--card:#fff;--forest:#1E4A34;
+  --r:14px;--sh:0 1px 2px rgba(31,42,36,.06),0 8px 24px rgba(31,42,36,.08);--sh-lift:0 2px 4px rgba(31,42,36,.08),0 14px 32px rgba(31,42,36,.12);
+  --font:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --display:"Fredoka",ui-rounded,"Arial Rounded MT Bold","Trebuchet MS",var(--font);
+  color-scheme:light
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--cream);color:var(--ink);font:400 1.0625rem/1.65 var(--font);overflow-x:hidden}
+img,svg{max-width:100%;height:auto}
+h1,h2,h3,h4{font-family:var(--display);font-weight:600;line-height:1.2;letter-spacing:.005em;margin:1.6em 0 .5em;color:var(--ink)}
+h1{font-size:clamp(1.85rem,4.6vw,2.7rem);margin:.2em 0 .35em}
+h2{font-size:clamp(1.45rem,3.2vw,1.85rem)}
+h3{font-size:1.2rem}
+p,ul,ol{margin:0 0 1em}
+a{color:var(--pond-d);text-decoration-thickness:1.5px;text-underline-offset:.18em}
+a:hover{color:var(--ink)}
+:focus-visible{outline:3px solid var(--dusk);outline-offset:2px;border-radius:4px}
+strong{font-weight:650}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:.6em 1em;z-index:99;border-radius:0 0 10px 0}
+.skip:focus{left:0}
+[hidden]{display:none!important}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

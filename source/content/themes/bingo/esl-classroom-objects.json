@@ -1,0 +1,125 @@
+{
+  "shortTitle": "ESL Classroom Objects Bingo",
+  "title": "Classroom Objects Bingo for ESL, Free Printable Cards",
+  "metaDescription": "Free printable classroom objects bingo for English learners. Thirty-six school words from pencil and ruler to globe and stapler, with unique cards to print.",
+  "h1": "ESL Classroom Objects Bingo Cards (Free Printable Generator)",
+  "intro": "Print free classroom objects bingo for English learners, with 36 school words from pencil and ruler to globe and stapler. Each card has its own order.",
+  "toolTitle": "Classroom Objects Bingo",
+  "items": [
+    "pencil",
+    "pen",
+    "eraser",
+    "ruler",
+    "notebook",
+    "book",
+    "backpack",
+    "desk",
+    "chair",
+    "table",
+    "board",
+    "marker",
+    "chalk",
+    "scissors",
+    "glue",
+    "crayon",
+    "paper",
+    "folder",
+    "calculator",
+    "clock",
+    "computer",
+    "map",
+    "globe",
+    "door",
+    "window",
+    "wall",
+    "floor",
+    "light",
+    "trash can",
+    "pencil case",
+    "stapler",
+    "tape",
+    "paintbrush",
+    "flag",
+    "shelf",
+    "poster"
+  ],
+  "itemsNote": "Everything on this list can be found in a typical classroom, so learners can point at the real object as soon as they hear the word. The small desk items come first, and the furniture and wall objects are mixed in toward the end.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Free",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [
+    8,
+    9
+  ],
+  "hubs": [
+    "esl-games",
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/esl-colors-and-shapes",
+    "bingo/esl-action-verbs",
+    "bingo/back-to-school",
+    "word-search/back-to-school",
+    "scavenger-hunt/classroom",
+    "bingo/sight-words-kindergarten"
+  ],
+  "relatedHeading": "More classroom and ESL printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Classroom objects bingo with the room as your prop box",
+      "body": [
+        "Few vocabulary topics come with free visual aids like this one. Your own room already holds nearly every word on the card, which means you can turn a game of bingo into a pointing, touching and fetching exercise without buying anything. That physical link is why this list is a staple of the first weeks of a new term.",
+        "1. Walk around the room before the game and tap objects as you say their names. Invite the class to say each one back.\n2. Give out cards and markers. Slips of scrap paper work well as counters.\n3. Call an object. For a first round, point at it. For a later round, keep your hands down.\n4. Learners cover the word and then point to the real object in the room, which proves they connected the word and the thing.\n5. A completed row ends the round. The winner reads their words and then gives one instruction to the class, such as \"Please touch the globe.\"\n6. Rotate the caller so more voices are heard."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Level guidance for teachers",
+      "body": [
+        "Beginners benefit from hearing the sentence frame \"This is a ruler.\" repeated while you point. Let them copy it as they cover each square, and you give three skills at once: listening, reading and speaking.",
+        "Elementary learners can move on to prepositions. After they cover desk, ask where the book is. \"It is on the desk\" or \"It is in the backpack\" is a quick extension that uses objects they have just practiced.",
+        "Learners of any age tend to mix up pen and pencil, desk and table, board and book. Say the pairs back to back and ask the class to listen for the difference in the first sound, or the vowel in the middle.",
+        "If you teach in a room without many objects, such as a library or an online setting, ask learners to hold up the item from their own bag or desk. A webcam turns a home table into a prop box."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations using the room and the learners",
+      "body": [
+        "* **Teacher says.** Combine the calls with simple commands. Say \"Pick up the marker\" and learners cover marker only after they have done the action. The game becomes a listening drill.\n* **Spelling race.** The first learner to cover a word must spell it aloud to earn the square. Use it with literate learners, and give a short word like pen before a long one like calculator.\n* **Mystery bag.** Put real items in a cloth bag. A learner feels one, says the English name and everyone covers it if they can. Trying to name something without seeing it adds a surprising amount of suspense."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing notes for school use",
+      "body": [
+        "Because the list is school themed, you can also print extra copies on the back of scrap paper and keep them for substitute teachers. Print one card per page for beginners and two per page for larger classes.",
+        "If your students keep a notebook, shrink a card to a quarter page and glue it in as a word bank. The black and white mode with ink saver turned on produces a clean, light card that photocopies well."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this the same list as the back to school bingo page?",
+      "a": "No. The back to school page is about the event and the feelings around it, while this one focuses on vocabulary for objects and furniture used by English learners."
+    },
+    {
+      "q": "Can I use it for online lessons?",
+      "a": "Yes. Share your screen with the caller sheet and send the card as a PDF or an image. Learners can mark a printed copy or use a drawing tool on their own screen."
+    },
+    {
+      "q": "What if my classroom has different objects?",
+      "a": "Edit the list. Replace anything missing, such as chalk or a globe, with items your learners actually see, and add a few from their other subjects."
+    },
+    {
+      "q": "How do I stop learners from copying neighbors?",
+      "a": "Each generated card has a different order and a different mix of words, so there is little to copy. Mixing the cards among tables before you start helps further."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "shortTitle": "Weather Word Search",
+  "title": "Weather Word Search, Free Printable Puzzle with Answer Key",
+  "metaDescription": "Print a free weather word search with 20 words from thunderstorms to rainbows. It fits a weather science unit and makes good practice for new vocabulary.",
+  "h1": "Weather Word Search (Free Printable with Answer Key)",
+  "intro": "Print a free weather word search with 20 words about clouds, storms and seasons. It fits a science unit on weather for early elementary grades.",
+  "toolTitle": "Weather Word Search",
+  "items": [
+    "Sunny",
+    "Cloudy",
+    "Rainy",
+    "Windy",
+    "Snowy",
+    "Thunder",
+    "Lightning",
+    "Hurricane",
+    "Tornado",
+    "Rainbow",
+    "Fog",
+    "Hail",
+    "Forecast",
+    "Temperature",
+    "Thermometer",
+    "Humid",
+    "Breeze",
+    "Drizzle",
+    "Blizzard",
+    "Climate"
+  ],
+  "itemsNote": "The 20 words above are already loaded. Remove the severe weather words if your group is very young or has been through a storm recently.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 14,
+    "difficulty": "easy",
+    "case": "upper"
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/weather",
+    "word-search/solar-system",
+    "word-search/winter",
+    "word-search/spring",
+    "word-search/summer",
+    "word-search/plants-and-flowers"
+  ],
+  "relatedHeading": "More weather and science printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search in a weather unit",
+      "body": [
+        "Weather words show up in daily conversation and on the news, so students often already know many of them. The puzzle turns that background knowledge into spelling practice and gives the class a shared vocabulary for a weather unit.",
+        "1. Ask students to look out the window and name today's weather before starting.\n2. Solve the puzzle and highlight the word that describes today's sky.\n3. Sort the words into calm weather and severe weather on the board.\n4. Close with a prediction: what do you think tomorrow will be like, and what clues did you use?",
+        "> The National Weather Service has [safety information](https://www.weather.gov/safety/) that pairs well with the severe weather words."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three weather variations",
+      "body": [
+        "* **Weather station.** Keep a daily chart for a week, using words from the puzzle for each day.\n* **Forecaster.** Students present a one minute forecast for their classmates, using at least five words from the list.\n* **Cloud journal.** Draw the sky each afternoon and label it with a word from the puzzle."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "Be sensitive to students who have lived through severe storms. Words like tornado and hurricane can bring up strong feelings, so keep the tone calm and factual.",
+        "Spelling thermometer is hard for most children. Write it on the board before solving so they can use it as a model."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for weather lessons",
+      "body": [
+        "Plain white paper works best, and ink saver mode keeps a class set affordable. Laminated puzzles can live in a weather center all season, and children can wipe them clean after each use with a dry-erase marker.",
+        "A 14 by 14 grid fits the longest words, thermometer and temperature, with room to spare."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is the weather word search for?",
+      "a": "It suits ages 6 to 10. Use easy mode for early readers and add diagonal words for older ones."
+    },
+    {
+      "q": "Does it cover climate?",
+      "a": "Climate is included as a single word. For older students, add words like precipitation or atmosphere."
+    },
+    {
+      "q": "Can I print many versions?",
+      "a": "Yes, set the number of puzzles to as many as 10, each with its own layout."
+    }
+  ]
+}

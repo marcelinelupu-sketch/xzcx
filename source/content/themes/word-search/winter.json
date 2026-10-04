@@ -1,0 +1,106 @@
+{
+  "shortTitle": "Winter Word Search",
+  "title": "Winter Word Search, Free Printable Puzzle for Cold Days",
+  "metaDescription": "Print a free winter word search with 22 cold-weather words from snowflakes to mittens. Keep a stack ready for snow days, indoor recess and quiet afternoons.",
+  "h1": "Winter Word Search (Free Printable for Cold Days)",
+  "intro": "Print a free winter word search with 22 words about snow, ice and staying warm. It is made for indoor recess, snow days and quiet evenings by the window.",
+  "toolTitle": "Winter Word Search",
+  "items": [
+    "Snowflake",
+    "Blizzard",
+    "Icicle",
+    "Mittens",
+    "Scarf",
+    "Sled",
+    "Snowman",
+    "Frost",
+    "Hibernate",
+    "Igloo",
+    "Skating",
+    "Fireplace",
+    "Hot chocolate",
+    "Boots",
+    "Penguin",
+    "Snowball",
+    "Frozen",
+    "Chilly",
+    "Parka",
+    "Cozy",
+    "Avalanche",
+    "Blanket"
+  ],
+  "itemsNote": "The 22 words above are loaded. Choose the shorter ones for younger children, like sled, boots and frost.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 15,
+    "difficulty": "medium",
+    "case": "upper"
+  },
+  "season": [
+    12,
+    1,
+    2
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/winter",
+    "scavenger-hunt/winter",
+    "word-search/christmas",
+    "word-search/weather",
+    "word-search/fall",
+    "word-search/spring"
+  ],
+  "relatedHeading": "More winter printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search on a snow day",
+      "body": [
+        "Snow days and indoor recesses are made for quiet games, and this puzzle is a good one to keep in a folder for exactly that moment. It asks for patience and sharp eyes, which is a welcome change after a morning of sledding or a stretch of cabin fever.",
+        "1. Hand out the sheets and set a timer for ten minutes, or leave it open if the snow is still falling.\n2. Challenge children to find the clothing words first: mittens, scarf, parka and boots.\n3. Move on to the weather words, such as blizzard, frost and icicle, and finally the animals and activities.\n4. Anyone who finishes can sketch a winter scene on the back and label it with three words from the list.",
+        "In a classroom, the puzzle pairs well with short lessons on hibernation and on how water turns to ice. Ask which animals on the list sleep through winter and which stay active, and see how many students can guess."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three cozy variations",
+      "body": [
+        "* **Weather report.** Use ten words from the puzzle to write a short forecast for tomorrow, as if reading the news.\n* **Dress the snowman.** After finishing, children draw a snowman and label each item of clothing from the list.\n* **Hibernation hunt.** Look up which animals in your region sleep through winter and add them to a fresh list for a second puzzle."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "Wet mittens and soggy boots are the usual state of things after outdoor play. A calm puzzle helps a class settle after coming in from the cold.",
+        "Families in warm climates can still use the list. Treat it as a geography lesson about how people live elsewhere, and ask children to imagine what they would pack."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for winter",
+      "body": [
+        "Leave the grid in black and let children circle words with blue crayons for a wintry look. Pale blue paper works too, as long as the letters stay dark.",
+        "Fold the page in half to make a small booklet for a long car ride to a ski trip or a grandparent visit. A smaller 12 by 12 grid folds neatly."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is the winter word search for?",
+      "a": "It suits ages 6 to 10. Use easy mode and fewer words for younger children, and diagonal words for older ones."
+    },
+    {
+      "q": "Does it include Christmas words?",
+      "a": "No, the default list is about winter in general, so it works for any family or classroom. There is a separate Christmas word search for holiday-specific words."
+    },
+    {
+      "q": "Can I make several puzzles at once?",
+      "a": "Yes. Set the puzzle count up to 10 and each one gets its own letter layout from the same list."
+    }
+  ]
+}

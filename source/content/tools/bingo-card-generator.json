@@ -1,0 +1,96 @@
+{
+  "shortTitle": "Bingo Card Generator",
+  "title": "Free Bingo Card Generator for Printable Bingo Cards",
+  "metaDescription": "Make up to 30 unique printable bingo cards free. Word bingo, 75-ball, 90-ball UK tickets and 1 to 30 numbers, with a caller sheet, Letter or A4 and PDF.",
+  "h1": "Bingo Card Generator (Free Printable Bingo Cards)",
+  "intro": "Type or paste your words, press Generate, and print up to 30 unique bingo cards with a matching caller sheet. It is free, needs no sign-up, and also makes 75-ball cards, 90-ball UK tickets and simple 1 to 30 number cards.",
+  "toolTitle": "Fun Bingo",
+  "items": [
+    "Rainbow", "Pizza", "Sunflower", "Rocket", "Pancakes", "Kite", "Teddy bear", "Guitar",
+    "Snowflake", "Bicycle", "Ice cream", "Castle", "Dragon", "Treasure map", "Balloon", "Penguin",
+    "Lighthouse", "Cupcake", "Robot", "Paper plane", "Volcano", "Butterfly", "Pirate ship", "Campfire",
+    "Popcorn", "Hot air balloon", "Owl", "Sandcastle", "Umbrella", "Fireworks", "Frog", "Moon",
+    "Train", "Starfish", "Cactus", "Pumpkin"
+  ],
+  "defaultOptions": {"mode": "word", "grid": 5, "free": true, "freeText": "FREE", "cards": 10, "perPage": 2, "caller": true},
+  "featured": [
+    "bingo/baby-shower", "bingo/bridal-shower", "bingo/christmas", "bingo/halloween",
+    "bingo/road-trip", "bingo/esl-animals", "bingo/sight-words-kindergarten", "bingo/addition-facts-to-20",
+    "bingo/icebreaker-find-someone-who", "bingo/75-ball-bingo-cards", "bingo/90-ball-bingo-tickets", "bingo/number-bingo-1-30-for-kids"
+  ],
+  "featuredHeading": "Ready-made bingo themes",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to make bingo cards in four steps",
+      "body": [
+        "1. **Add your words.** Put one word or short phrase on each line. The sample list is only a starting point, so delete it and paste your own, or open one of the ready-made themes above.\n2. **Pick the card style.** Choose a 3 x 3, 4 x 4 or 5 x 5 grid, decide whether you want a free center square, and set how many cards you need (1 to 30) and how many fit on each page (1, 2 or 4).\n3. **Press Generate.** Every card is built from its own shuffle, and the generator checks that no two cards come out identical. Press Generate again any time you want a completely new set.\n4. **Print or download.** Print straight from the browser or save a PDF. Each page carries a small credit line, and the caller sheet comes last so you can pull it off the stack before handing out cards.",
+        "Edits update the preview as you type, so you can watch long words shrink to fit their squares."
+      ]
+    },
+    {
+      "role": "modes",
+      "heading": "Word bingo, 75-ball, 90-ball and 1 to 30",
+      "body": [
+        "The **Bingo type** menu switches between four kinds of cards.",
+        "* **Word bingo** is the default. Squares show your words, which suits showers, holidays, classroom vocabulary and party games. Math facts work too: put the answer first, then a bar, then the problem, such as **12 | 7 + 5**, and the cards show the answers while the caller sheet lists the problems.\n* **75-ball** makes the classic American B I N G O card. The B column holds numbers 1 to 15, I holds 16 to 30, N holds 31 to 45, G holds 46 to 60 and O holds 61 to 75, with an optional free center.\n* **90-ball UK tickets** print in strips of six. Each ticket has three rows and nine columns, every row has five numbers, and the six tickets in a strip use every number from 1 to 90 exactly once, just like the strips sold in bingo halls.\n* **Numbers 1 to 30** gives younger players a smaller range that is easy to read and quick to call.",
+        "If you are not sure which number game to run, our guide to [75-ball vs 90-ball bingo](/guides/75-ball-vs-90-ball-bingo/) explains the differences in plain words."
+      ]
+    },
+    {
+      "role": "planning",
+      "heading": "How many words should your list have?",
+      "body": [
+        "A 5 x 5 card with a free center needs 24 different words, a 4 x 4 card needs 16 and a 3 x 3 card with a free center needs 8. That is the minimum, and the generator will tell you if your list is shorter. You can tick **Allow repeats** to fill the gap, but some words will then appear twice on a card.",
+        "More words make a better game. When the list is only just long enough, every card holds the same words in a different order, so many players reach bingo on the same call. A list about one and a half to two times the size of a card spreads the wins out nicely. For a 5 x 5 card that means roughly 36 to 50 words.",
+        "> Short of ideas? Mix in a few easy words that everyone will recognize with a few unusual ones. The unusual words create the suspense."
+      ]
+    },
+    {
+      "role": "caller",
+      "heading": "Using the caller sheet",
+      "body": [
+        "Leave **Caller sheet** ticked and the last page holds two things. The cut-out checklist shows every word or number in a grid with dashed lines, so you can tick items off as you call them or cut them into slips and draw them from a bowl. Below it, **Call in this order** gives a shuffled list, which is handy when you would rather read down a page than pull slips.",
+        "Keep the checklist next to you while you play. When someone shouts bingo, read their marked squares back and compare them with the items you have ticked. For number games you can also run the whole game on a screen with our free [online bingo caller](/bingo-caller/), which shows a big display and a board of called numbers."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips",
+      "body": [
+        "* **Paper size.** Choose US Letter or A4 in the options. The cards are laid out for the paper you pick, so they will not be cut off or scaled oddly.\n* **Cards per page.** Two per page is a comfortable size for adults with pens. Four per page saves paper and works well for classroom games with counters. One per page gives big squares for young children or players with low vision.\n* **Ink saver.** Tick ink saver to swap the green accents for gray, which looks crisp on any home printer.\n* **Card stock.** Thicker paper survives daubers and little hands. Slip cards into sheet protectors and use dry erase markers if you want to play again tomorrow.",
+        "For a deeper look at margins and scaling, read our [Letter vs A4 printing tips](/guides/printing-tips-letter-vs-a4/)."
+      ]
+    },
+    {
+      "role": "sharing",
+      "heading": "Save, share and reuse your cards",
+      "body": [
+        "**Copy share link** creates a web address that rebuilds your exact cards, including the words, options and shuffle. Anyone who opens it can print the same set, which helps when two teachers run the same game in different rooms. Your browser also remembers your last list on this page, so a quick return visit picks up where you left off.",
+        "Want to run a different game? The [bingo patterns guide](/guides/bingo-patterns/) shows lines, corners, X shapes and blackout games, and our [classroom bingo ideas](/guides/classroom-bingo-ideas-for-teachers/) cover vocabulary review, math facts and quiet indoor recess games."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are the bingo cards really all different?",
+      "a": "Yes. Each card comes from its own seeded shuffle, and the generator compares every card with the others before showing them. If two ever match, it reshuffles that card. With a very short list it may not be possible to make every card different, and the tool tells you when that happens."
+    },
+    {
+      "q": "How many bingo cards can I make for free?",
+      "a": "Up to 30 cards per generation, which covers most parties and classrooms. If you need more, generate a second batch with a fresh shuffle. The free center, caller sheet, PDF download and share link are all included at no cost."
+    },
+    {
+      "q": "Can I make 90-ball bingo tickets for a UK game?",
+      "a": "Yes. Choose 90-ball UK tickets and the tool prints strips of six tickets. Each ticket has 15 numbers across three rows of five, the columns follow the usual ranges from 1 to 9 up to 80 to 90, and each strip uses every number from 1 to 90 exactly once."
+    },
+    {
+      "q": "Can I put pictures on the cards?",
+      "a": "Not at the moment. The generator makes text and number cards, which print cleanly on any printer. For pre-readers, short words with a free frog square in the middle, or the 1 to 30 number cards, work well."
+    },
+    {
+      "q": "Does the bingo card maker work on a phone or Chromebook?",
+      "a": "Yes. It runs in any modern browser with no download or account. On a phone the options sit above the preview, and the Print and Download PDF buttons sit right under the options."
+    }
+  ]
+}

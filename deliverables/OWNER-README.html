@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Frog's Dream Owner Checklist</title>
+<style>
+:root{
+  --bg:#FFF9EC; --card:#ffffff; --ink:#1F2A24; --muted:#55615a; --line:#e3dcc7;
+  --pond:#2F8F5B; --pond-soft:#e5f3ea; --sun:#F6C445; --sun-soft:#fdf3d2; --coral:#b8492c; --coral-soft:#fbe6df;
+  --code:#f3efe2;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#16201b; --card:#1f2a24; --ink:#eef3ef; --muted:#b4c1b9; --line:#33433a;
+    --pond:#7fd3a0; --pond-soft:#24392d; --sun:#F6C445; --sun-soft:#3a331c; --coral:#f2a08a; --coral-soft:#3d2620;
+    --code:#2a3730;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#16201b; --card:#1f2a24; --ink:#eef3ef; --muted:#b4c1b9; --line:#33433a;
+  --pond:#7fd3a0; --pond-soft:#24392d; --sun:#F6C445; --sun-soft:#3a331c; --coral:#f2a08a; --coral-soft:#3d2620;
+  --code:#2a3730;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+header{padding:8px 0 16px}
+h1{font-size:1.9rem;line-height:1.2;margin:.2em 0}
+h2{font-size:1.35rem;margin:0 0 .4em;line-height:1.3}
+h3{font-size:1.05rem;margin:1.2em 0 .3em}
+p{margin:.5em 0}
+a{color:var(--pond);overflow-wrap:anywhere}
+.lead{color:var(--muted);font-size:1.05rem}
+nav.toc{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:18px 0}
+nav.toc ol{margin:.3em 0;padding-left:1.4em;columns:2;column-gap:28px}
+@media (max-width:620px){nav.toc ol{columns:1}}
+section.step{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:18px 0;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.meta{display:inline-block;font-size:.85rem;color:var(--muted);background:var(--pond-soft);border-radius:999px;padding:2px 10px;margin-bottom:6px}
+ol.clicks,ul.plain{padding-left:1.3em;margin:.4em 0}
+ol.clicks li,ul.plain li{margin:.3em 0}
+ul.checks{list-style:none;padding:0;margin:.5em 0}
+ul.checks li{display:flex;gap:10px;align-items:flex-start;padding:6px 0;border-top:1px dashed var(--line)}
+ul.checks li:first-child{border-top:0}
+ul.checks input{width:20px;height:20px;margin-top:4px;flex:0 0 auto;accent-color:var(--pond)}
+ul.checks label{cursor:pointer}
+code,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.88em;background:var(--code);border-radius:6px;padding:1px 5px;overflow-wrap:anywhere}
+pre{background:var(--code);border-radius:10px;padding:12px 14px;overflow-x:auto;font-size:.88em;line-height:1.45;margin:.6em 0}
+pre code{background:none;padding:0}
+.path{font-weight:600}
+.note{background:var(--sun-soft);border-left:4px solid var(--sun);border-radius:8px;padding:10px 14px;margin:.8em 0}
+.warn{background:var(--coral-soft);border-left:4px solid var(--coral);border-radius:8px;padding:10px 14px;margin:.8em 0}
+.ok{background:var(--pond-soft);border-left:4px solid var(--pond);border-radius:8px;padding:10px 14px;margin:.8em 0}
+table{border-collapse:collapse;width:100%;margin:.6em 0;font-size:.95rem}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+th{background:var(--pond-soft)}
+.tablewrap{overflow-x:auto}
+.copyrow{display:flex;gap:8px;align-items:stretch;flex-wrap:wrap;margin:.5em 0}
+.copyrow code{flex:1 1 260px;display:block;padding:8px 10px}
+button.copy{font:inherit;font-size:.9rem;background:var(--pond);color:#fff;border:0;border-radius:8px;padding:6px 14px;cursor:pointer}
+:root[data-theme="dark"] button.copy{color:#10251a}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) button.copy{color:#10251a}}
+button.copy:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.progress{font-weight:600;color:var(--pond)}
+footer{color:var(--muted);font-size:.9rem;margin-top:30px}
+@media print{body{background:#fff;color:#000}section.step{break-inside:avoid;box-shadow:none}button.copy{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+<p class="meta">For Wojtek, owner of frogsdream.com</p>
+<h1>Frog's Dream: your setup checklist</h1>
+<p class="lead">This page explains everything you need to do to put the site online and start earning. You do not need to know programming. Follow the steps in order. Tick each box when it is done. The ticks are saved only in this browser.</p>
+<p class="progress" id="progress" aria-live="polite"></p>
+</header>
+
+<div class="note"><strong>What is in the deliverables folder</strong>
+<ul class="plain">
+<li><code>frogsdream-public_html.zip</code>: the whole website. You upload this to Hostinger.</li>
+<li><code>megapack/Frogs-Dream-Mega-Pack.zip</code>: the paid PDF pack (about 25 MB). You upload this to Lemon Squeezy (or Gumroad). <strong>Never put it on the website.</strong></li>
+<li><code>OWNER-README.html</code>: this page.</li>
+</ul>
+<p>Hostinger, Google and Lemon Squeezy sometimes rename menu items. If a button name below does not match exactly, look for the closest name in the same place.</p>
+</div>
+
+<nav class="toc" aria-label="Steps">
+<strong>Steps</strong>
+<ol>
+<li><a href="#s1">Upload the website</a></li>
+<li><a href="#s2">Create your email address</a></li>
+<li><a href="#s3">Put your name in the privacy page</a></li>
+<li><a href="#s4">Google Search Console</a></li>
+<li><a href="#s5">Bing Webmaster Tools and IndexNow</a></li>
+<li><a href="#s6">Sell the Mega Pack (Lemon Squeezy or Gumroad)</a></li>
+<li><a href="#s7">Apply to Google AdSense</a></li>
+<li><a href="#s8">After AdSense approves you</a></li>
+<li><a href="#s9">Optional: one-time promotion</a></li>
+<li><a href="#s10">Every month: 5 minute check</a></li>
+<li><a href="#s11">Taxes in Poland</a></li>
+<li><a href="#s12">Later: Journey by Mediavine</a></li>
+<li><a href="#how-edit">How to edit a file in Hostinger</a></li>
+<li><a href="#expect">Honest expectations</a></li>
+</ol>
+</nav>
+
+<!-- ============ HOW TO EDIT ============ -->
+<section class="step" id="how-edit">
+<h2>Before you start: how to edit a file in Hostinger</h2>
+<p>Several steps ask you to change one small line in a file. You always do it the same way:</p>
+<ol class="clicks">
+<li>Log in at <a href="https://hpanel.hostinger.com" target="_blank" rel="noopener">hpanel.hostinger.com</a>.</li>
+<li>Click <span class="path">Websites</span> in the left menu, then <span class="path">Dashboard</span> (or <span class="path">Manage</span>) next to frogsdream.com.</li>
+<li>In the left menu, open <span class="path">Files → File Manager</span>. A new tab opens.</li>
+<li>Double-click the <span class="path">public_html</span> folder, then the folders down to the file (for example <code>assets</code>, then <code>js</code>, then <code>config.js</code>).</li>
+<li>Double-click the file (or right-click it and choose <span class="path">Edit</span>). A text editor opens.</li>
+<li>Change only the text between the quote marks <code>"..."</code>. Do not delete the quote marks, commas or other symbols.</li>
+<li>Click <span class="path">Save</span> (the disk icon, top right). Then open the website and press Ctrl+F5 to see the change.</li>
+</ol>
+<p>The only settings file is <code>public_html/assets/js/config.js</code>. It looks like this:</p>
+<pre><code>window.FD_CONFIG = {
+  ADSENSE_CLIENT: "",          // AdSense ID, step 7
+  AD_SLOT_IN_ARTICLE: "",      // optional, leave empty
+  PACK_URL: "",                // Mega Pack checkout link, step 6
+  PACK_PRICE: "$7",
+  TIP_URL: "",                 // optional Ko-fi link
+  CONTACT_EMAIL: "hello@frogsdream.com"
+};</code></pre>
+<p>An empty value <code>""</code> switches that feature off. For example, while <code>PACK_URL</code> is empty, the site shows "Coming soon" instead of a Buy button, and while <code>ADSENSE_CLIENT</code> is empty, no ads load.</p>
+<div class="note">Tip: before you edit a file, right-click it and choose <span class="path">Download</span>. Then you have a backup copy if something goes wrong.</div>
+</section>
+
+<!-- ============ STEP 1 ============ -->
+<section class="step" id="s1">
+<span class="meta">Step 1 · about 10 minutes</span>
+<h2>Upload the website</h2>
+<h3>a) Check that SSL (https) is on</h3>
+<ol class="clicks">
+<li>hPanel → <span class="path">Websites</span> → <span class="path">Dashboard</span> next to frogsdream.com.</li>
+<li>Left menu: <span class="path">Security → SSL</span>.</li>
+<li>The status for frogsdream.com should say <strong>Active</strong>. If it does not, click <span class="path">Install SSL</span> (or <span class="path">Setup</span>) and choose the free Lifetime SSL. It can take up to 1 hour to become active.</li>
+</ol>
+<h3>b) Upload and extract the zip</h3>
+<ol class="clicks">
+<li>Open <span class="path">Files → File Manager</span> and double-click <span class="path">public_html</span>.</li>
+<li>If you see <code>default.php</code> or <code>index.php</code> (a Hostinger placeholder), right-click it and choose <span class="path">Delete</span>.</li>
+<li>Click the <span class="path">Upload</span> icon (an arrow pointing up) and choose <code>frogsdream-public_html.zip</code>.</li>
+<li>When the upload finishes, right-click the zip file and choose <span class="path">Extract</span>. When it asks for a folder, leave it as the current folder (public_html) and confirm. If it asks about existing files, choose to overwrite.</li>
+<li>Right-click the zip file again and <span class="path">Delete</span> it. It is not needed on the server.</li>
+</ol>
+<p>The zip contains the files directly (no extra folder inside), so after extracting you should see <code>index.html</code>, <code>assets</code>, <code>bingo</code> and so on directly inside public_html. One file, <code>.htaccess</code>, starts with a dot and may be hidden. It is there; it makes the site use https and clean addresses.</p>
+<h3>c) Check the site</h3>
+<ul class="checks">
+<li><input type="checkbox" id="c1a"><label for="c1a">SSL shows Active.</label></li>
+<li><input type="checkbox" id="c1b"><label for="c1b">Zip uploaded, extracted into public_html, and the zip deleted.</label></li>
+<li><input type="checkbox" id="c1c"><label for="c1c"><a href="https://frogsdream.com" target="_blank" rel="noopener">https://frogsdream.com</a> opens and shows the frog home page.</label></li>
+<li><input type="checkbox" id="c1d"><label for="c1d"><a href="https://frogsdream.com/bingo/baby-shower/" target="_blank" rel="noopener">https://frogsdream.com/bingo/baby-shower/</a> opens, and the Generate button makes bingo cards.</label></li>
+<li><input type="checkbox" id="c1e"><label for="c1e"><code>http://www.frogsdream.com</code> automatically changes to <code>https://frogsdream.com/</code>.</label></li>
+</ul>
+</section>
+
+<!-- ============ STEP 2 ============ -->
+<section class="step" id="s2">
+<span class="meta">Step 2 · about 5 minutes</span>
+<h2>Create your email address hello@frogsdream.com</h2>
+<p>The site shows this address on the Contact and Privacy pages, so it must work. Choose one of these:</p>
+<h3>Option A: a real mailbox (free with most Hostinger plans)</h3>
+<ol class="clicks">
+<li>hPanel → <span class="path">Emails</span> in the left menu → <span class="path">Manage</span> next to frogsdream.com.</li>
+<li>Click <span class="path">Email Accounts</span> → <span class="path">Create email account</span>.</li>
+<li>Name: <code>hello</code>. Choose a strong password. Click <span class="path">Create</span>.</li>
+<li>Read mail at <a href="https://mail.hostinger.com" target="_blank" rel="noopener">mail.hostinger.com</a>, or add it to your phone.</li>
+</ol>
+<h3>Option B: forward to your Gmail</h3>
+<ol class="clicks">
+<li>hPanel → <span class="path">Emails</span> → <span class="path">Manage</span> next to frogsdream.com → <span class="path">Forwarders</span> (sometimes under <span class="path">Advanced</span>).</li>
+<li><span class="path">Create forwarder</span>: from <code>hello@frogsdream.com</code> to your Gmail address. Save.</li>
+</ol>
+<ul class="checks">
+<li><input type="checkbox" id="c2a"><label for="c2a">Send a test email to hello@frogsdream.com from another account and check that it arrives.</label></li>
+</ul>
+</section>
+
+<!-- ============ STEP 3 ============ -->
+<section class="step" id="s3">
+<span class="meta">Step 3 · about 2 minutes</span>
+<h2>Put your name in the privacy page</h2>
+<p>EU privacy law (GDPR) says the site must name the person who runs it. Only your name and the country are needed. No photo, no address.</p>
+<ol class="clicks">
+<li>File Manager → <span class="path">public_html → privacy → index.html</span>, double-click to edit.</li>
+<li>Press Ctrl+F and search for <code>[OWNER FULL NAME]</code>. There is one spot, right after a note that says <code>OWNER: replace</code>.</li>
+<li>Replace <code>[OWNER FULL NAME]</code> (including the square brackets) with your full name, for example <code>Wojciech Kowalski</code>. Keep the words <code>, Poland</code> after it.</li>
+<li>Save. Open <a href="https://frogsdream.com/privacy/" target="_blank" rel="noopener">frogsdream.com/privacy/</a> and check that your name shows.</li>
+</ol>
+<ul class="checks">
+<li><input type="checkbox" id="c3a"><label for="c3a">My name is on the privacy page.</label></li>
+</ul>
+<div class="note">If you upload a new version of the website zip later, it will bring back <code>[OWNER FULL NAME]</code> and empty settings. Do steps 3, 6 and 7 again after any re-upload (or keep copies of your edited <code>config.js</code>, <code>ads.txt</code> and <code>privacy/index.html</code> and upload them again).</div>
+</section>
+
+<!-- ============ STEP 4 ============ -->
+<section class="step" id="s4">
+<span class="meta">Step 4 · about 15 minutes, then a few minutes on 2 or 3 more days</span>
+<h2>Google Search Console</h2>
+<p>This tells Google the site exists and shows you which searches bring visitors.</p>
+<h3>a) Add and verify the site</h3>
+<ol class="clicks">
+<li>Go to <a href="https://search.google.com/search-console" target="_blank" rel="noopener">search.google.com/search-console</a> and sign in with your Google account.</li>
+<li>Click the property menu (top left) → <span class="path">Add property</span>. Choose the left box, <span class="path">Domain</span>. Type <code>frogsdream.com</code> (no https, no www). Click <span class="path">Continue</span>.</li>
+<li>Google shows a TXT record that starts with <code>google-site-verification=</code>. Click <span class="path">Copy</span>. Leave this tab open.</li>
+<li>In a new tab: hPanel → <span class="path">Domains</span> → frogsdream.com → <span class="path">DNS / Nameservers</span> (or <span class="path">DNS Zone Editor</span>).</li>
+<li>Under <span class="path">Manage DNS records</span>: Type <code>TXT</code>, Name <code>@</code>, TXT value: paste the Google text, TTL leave as it is. Click <span class="path">Add Record</span>.</li>
+<li>Go back to the Google tab and click <span class="path">Verify</span>. If it fails, wait 15 to 60 minutes and click Verify again. DNS changes need time.</li>
+</ol>
+<h3>b) Submit the sitemap</h3>
+<ol class="clicks">
+<li>Left menu: <span class="path">Indexing → Sitemaps</span>.</li>
+<li>In <span class="path">Add a new sitemap</span>, type <code>sitemap.xml</code> (Google adds the start of the address for you) and click <span class="path">Submit</span>.</li>
+<li>After some hours the status should say <strong>Success</strong> with about 163 discovered pages.</li>
+</ol>
+<h3>c) Ask Google to index the most important pages</h3>
+<p>Google allows only a small number of these requests per day, so do about 6 per day over 3 days.</p>
+<ol class="clicks">
+<li>Paste one address into the search bar at the top (<span class="path">Inspect any URL</span>) and press Enter.</li>
+<li>Wait for the result, then click <span class="path">Request indexing</span>. Wait about 1 minute until it confirms.</li>
+<li>Repeat for the next address. Tick each one below.</li>
+</ol>
+<ul class="checks">
+<li><input type="checkbox" id="u01"><label for="u01">Day 1: <code>https://frogsdream.com/</code></label></li>
+<li><input type="checkbox" id="u02"><label for="u02">Day 1: <code>https://frogsdream.com/bingo-card-generator/</code></label></li>
+<li><input type="checkbox" id="u03"><label for="u03">Day 1: <code>https://frogsdream.com/word-search-maker/</code></label></li>
+<li><input type="checkbox" id="u04"><label for="u04">Day 1: <code>https://frogsdream.com/scavenger-hunt-generator/</code></label></li>
+<li><input type="checkbox" id="u05"><label for="u05">Day 1: <code>https://frogsdream.com/word-scramble-maker/</code></label></li>
+<li><input type="checkbox" id="u06"><label for="u06">Day 1: <code>https://frogsdream.com/bingo-caller/</code></label></li>
+<li><input type="checkbox" id="u07"><label for="u07">Day 2: <code>https://frogsdream.com/bedtime-routine-chart/</code></label></li>
+<li><input type="checkbox" id="u08"><label for="u08">Day 2: <code>https://frogsdream.com/reward-chart-maker/</code></label></li>
+<li><input type="checkbox" id="u09"><label for="u09">Day 2: <code>https://frogsdream.com/christmas-printables/</code></label></li>
+<li><input type="checkbox" id="u10"><label for="u10">Day 2: <code>https://frogsdream.com/halloween-printables/</code></label></li>
+<li><input type="checkbox" id="u11"><label for="u11">Day 2: <code>https://frogsdream.com/baby-shower-games/</code></label></li>
+<li><input type="checkbox" id="u12"><label for="u12">Day 2: <code>https://frogsdream.com/bridal-shower-games/</code></label></li>
+<li><input type="checkbox" id="u13"><label for="u13">Day 3: <code>https://frogsdream.com/classroom-games/</code></label></li>
+<li><input type="checkbox" id="u14"><label for="u14">Day 3: <code>https://frogsdream.com/esl-games/</code></label></li>
+<li><input type="checkbox" id="u15"><label for="u15">Day 3: <code>https://frogsdream.com/party-games/</code></label></li>
+<li><input type="checkbox" id="u16"><label for="u16">Day 3: <code>https://frogsdream.com/road-trip-and-outdoor-games/</code></label></li>
+</ul>
+<p>You do not need to request the other pages. Google finds them through the sitemap and the links between pages.</p>
+<ul class="checks">
+<li><input type="checkbox" id="c4a"><label for="c4a">Domain property verified.</label></li>
+<li><input type="checkbox" id="c4b"><label for="c4b">sitemap.xml submitted.</label></li>
+</ul>
+</section>
+
+<!-- ============ STEP 5 ============ -->
+<section class="step" id="s5">
+<span class="meta">Step 5 · about 5 minutes</span>
+<h2>Bing Webmaster Tools and IndexNow</h2>
+<p>Bing also feeds DuckDuckGo, Yahoo and ChatGPT search. Bing often sends the first visitors to a new site.</p>
+<ol class="clicks">
+<li>Go to <a href="https://www.bing.com/webmasters" target="_blank" rel="noopener">bing.com/webmasters</a> and click <span class="path">Sign in</span> → <span class="path">Google</span>. Use the same Google account as Search Console.</li>
+<li>On the welcome screen choose <span class="path">Import your sites from GSC</span> → <span class="path">Import</span>. Allow access, tick frogsdream.com and click <span class="path">Import</span>. Bing also imports your sitemap.</li>
+<li>Then open the two links below once each in your browser (click, or copy and paste into the address bar). This is IndexNow: it tells Bing and other search engines about the site right away.</li>
+</ol>
+<p><strong>Ping the home page:</strong></p>
+<div class="copyrow"><code id="ping1">https://api.indexnow.org/indexnow?url=https://frogsdream.com/&amp;key=01da6018294bd04f11ce90762863047f</code><button class="copy" type="button" data-copy="ping1">Copy</button></div>
+<p><strong>Ping the sitemap:</strong></p>
+<div class="copyrow"><code id="ping2">https://api.indexnow.org/indexnow?url=https://frogsdream.com/sitemap.xml&amp;key=01da6018294bd04f11ce90762863047f</code><button class="copy" type="button" data-copy="ping2">Copy</button></div>
+<p>A blank page or a short "OK" message means it worked. Your secret IndexNow key is <code>01da6018294bd04f11ce90762863047f</code>. The website already contains the matching key file at <a href="https://frogsdream.com/01da6018294bd04f11ce90762863047f.txt" target="_blank" rel="noopener">frogsdream.com/01da6018294bd04f11ce90762863047f.txt</a>; do not delete it.</p>
+<p>You can use the same ping link later for any single new or changed page: replace <code>https://frogsdream.com/</code> after <code>url=</code> with the page address.</p>
+<ul class="checks">
+<li><input type="checkbox" id="c5a"><label for="c5a">Site imported into Bing Webmaster Tools.</label></li>
+<li><input type="checkbox" id="c5b"><label for="c5b">Both IndexNow links opened once.</label></li>
+</ul>
+</section>
+
+<!-- ============ STEP 6 ============ -->
+<section class="step" id="s6">
+<span class="meta">Step 6 · about 20 to 30 minutes, plus their review time</span>
+<h2>Sell the Mega Pack</h2>
+<p>The Mega Pack is a $7 download of ready-made PDFs. Lemon Squeezy is the shop: it takes the payment, handles VAT and sends the file to the buyer. You never handle card details.</p>
+<h3>Option A: Lemon Squeezy (first choice)</h3>
+<ol class="clicks">
+<li>Go to <a href="https://www.lemonsqueezy.com" target="_blank" rel="noopener">lemonsqueezy.com</a> → <span class="path">Get started</span>. Create an account and a store. Store name: <code>Frog's Dream</code>.</li>
+<li>Click <span class="path">Settings → Payouts</span>. Add your bank account (mBank IBAN) or PayPal.</li>
+<li>Complete identity verification and store activation when the dashboard asks for it (usually a banner at the top: <span class="path">Activate your store</span>). Describe the store honestly, for example: "Printable bingo cards, word searches and party games as PDF downloads, sold from frogsdream.com." Lemon Squeezy reviews this, which can take a few days.</li>
+<li>Left menu: <span class="path">Store → Products</span> → <span class="path">+ New Product</span>.</li>
+<li>Name: <code>Frog's Dream Mega Pack</code>. Pricing: <span class="path">Single payment</span>, <code>7</code> USD. Description: you can copy the "What's inside" list from <a href="https://frogsdream.com/premium/" target="_blank" rel="noopener">frogsdream.com/premium/</a>.</li>
+<li>Under <span class="path">Files</span>, upload <code>deliverables/megapack/Frogs-Dream-Mega-Pack.zip</code> (about 25 MB). Do <strong>not</strong> upload it to Hostinger.</li>
+<li>Click <span class="path">Publish</span>.</li>
+<li>In the product list, click the <span class="path">Share</span> button (or the three dots → <span class="path">Share</span>) and copy the checkout link. It looks like <code>https://frogsdream.lemonsqueezy.com/buy/....</code></li>
+<li>Buy it once yourself with a test or real card (you can refund yourself) to check that the email with the download arrives.</li>
+</ol>
+<h3>Option B: Gumroad (if Lemon Squeezy refuses you)</h3>
+<ol class="clicks">
+<li>Go to <a href="https://gumroad.com" target="_blank" rel="noopener">gumroad.com</a> → <span class="path">Start selling</span> and create an account.</li>
+<li><span class="path">Settings → Payments</span>: add your bank account or PayPal and fill in the tax form Gumroad asks for.</li>
+<li><span class="path">Products → New product</span> → type <span class="path">Digital product</span>. Name <code>Frog's Dream Mega Pack</code>, price <code>7</code> USD. Click <span class="path">Next: Customize</span>.</li>
+<li>In <span class="path">Content</span>, upload <code>Frogs-Dream-Mega-Pack.zip</code>. Click <span class="path">Publish</span>.</li>
+<li>Copy the product link, for example <code>https://yourname.gumroad.com/l/megapack</code>.</li>
+</ol>
+<h3>Then switch on the Buy button on the website</h3>
+<ol class="clicks">
+<li>Edit <code>public_html/assets/js/config.js</code> (see <a href="#how-edit">how to edit a file</a>).</li>
+<li>Paste the link between the quote marks: <code>PACK_URL: "https://frogsdream.lemonsqueezy.com/buy/....",</code> and save.</li>
+<li>Edit <code>public_html/premium/index.html</code>. Press Ctrl+F and search for <code>schema.org/PreOrder</code>. Change <code>PreOrder</code> to <code>InStock</code>, so it reads <code>https://schema.org/InStock</code>. Save. (This tells Google the product is now on sale.)</li>
+<li>Open <a href="https://frogsdream.com/premium/" target="_blank" rel="noopener">frogsdream.com/premium/</a> and press Ctrl+F5. The button should now say "Get the Mega Pack for $7" and open the checkout.</li>
+</ol>
+<div class="note">If you ever change the price, change it in three places: Lemon Squeezy, <code>PACK_PRICE</code> in config.js, and the price in <code>premium/index.html</code> (search for <code>$7</code> and <code>7.00</code>).</div>
+<ul class="checks">
+<li><input type="checkbox" id="c6a"><label for="c6a">Shop account verified and payout added.</label></li>
+<li><input type="checkbox" id="c6b"><label for="c6b">Product created with the zip, published, test purchase works.</label></li>
+<li><input type="checkbox" id="c6c"><label for="c6c">PACK_URL set in config.js and PreOrder changed to InStock.</label></li>
+</ul>
+</section>
+
+<!-- ============ STEP 7 ============ -->
+<section class="step" id="s7">
+<span class="meta">Step 7 · about 4 to 8 weeks after launch · about 15 minutes</span>
+<h2>Apply to Google AdSense</h2>
+<div class="warn"><strong>Wait first.</strong> Apply only when Search Console shows <strong>20 or more indexed pages</strong> (Search Console → <span class="path">Indexing → Pages</span> → the green "Indexed" number). If you apply too early, Google often rejects new sites for "low value content".</div>
+<ol class="clicks">
+<li>Go to <a href="https://adsense.google.com" target="_blank" rel="noopener">adsense.google.com</a> → <span class="path">Get started</span>. Sign in with your Google account.</li>
+<li>Website: <code>frogsdream.com</code>. Country: Poland. Accept the terms.</li>
+<li>Fill in your payment address (your real name and home address; this is private and not shown on the site).</li>
+<li>Find your publisher ID: AdSense → <span class="path">Account → Settings → Account information</span>. It looks like <code>pub-1234567890123456</code>.</li>
+<li>Edit <code>public_html/assets/js/config.js</code>. Put your ID with <code>ca-</code> in front: <code>ADSENSE_CLIENT: "ca-pub-1234567890123456",</code> and save. This adds the AdSense code to every page (except pages that must have no ads).</li>
+<li>In AdSense, open <span class="path">Sites</span> → frogsdream.com. For the verification method choose <span class="path">ads.txt snippet</span>. AdSense shows one line of text. Copy it.</li>
+<li>Edit <code>public_html/ads.txt</code>. Delete everything in it (the line that starts with <code>#</code>) and paste the line from AdSense. It looks like this (with your own number):
+<pre><code>google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0</code></pre>
+Note: in ads.txt the ID starts with <code>pub-</code>, without <code>ca-</code>. Save.</li>
+<li>Open <a href="https://frogsdream.com/ads.txt" target="_blank" rel="noopener">frogsdream.com/ads.txt</a> and check that it shows your line.</li>
+<li>Back in AdSense, tick that you added the snippet and click <span class="path">Verify</span>, then <span class="path">Request review</span>.</li>
+</ol>
+<p>The review takes from a few days up to 2 to 12 weeks. You get an email.</p>
+<p><strong>If you are rejected for "low value content":</strong> do not worry, this is common. Wait 2 to 4 weeks and request a review again (Sites → frogsdream.com → Request review). You can also ask Claude to expand the pages that have the fewest words.</p>
+<ul class="checks">
+<li><input type="checkbox" id="c7a"><label for="c7a">20 or more pages indexed before applying.</label></li>
+<li><input type="checkbox" id="c7b"><label for="c7b">ADSENSE_CLIENT set to ca-pub-... in config.js.</label></li>
+<li><input type="checkbox" id="c7c"><label for="c7c">ads.txt contains the exact line from AdSense.</label></li>
+<li><input type="checkbox" id="c7d"><label for="c7d">Review requested.</label></li>
+</ul>
+</section>
+
+<!-- ============ STEP 8 ============ -->
+<section class="step" id="s8">
+<span class="meta">Step 8 · after approval · about 30 minutes, spread over some weeks</span>
+<h2>After AdSense approves you</h2>
+
+<h3>a) Turn on Auto ads, with safe settings</h3>
+<ol class="clicks">
+<li>AdSense → <span class="path">Ads → By site</span>. Click the pencil (edit) icon next to frogsdream.com.</li>
+<li>Switch <span class="path">Auto ads</span> on.</li>
+<li>Under <span class="path">Overlay formats</span> (or <span class="path">Ad formats</span>), turn <strong>off</strong>: <span class="path">Anchor ads</span>, <span class="path">Vignette ads</span> and <span class="path">Side rail ads</span>. These formats can sit on top of the Generate and Print buttons and cause accidental clicks. Accidental clicks can get an AdSense account limited.</li>
+<li>Under <span class="path">Page exclusions</span> → <span class="path">Manage</span> → <span class="path">Add exclusion</span>, add <code>frogsdream.com/bingo-caller/</code> (people use it on a big screen during games; ads there are not wanted). Choose to exclude the exact page.</li>
+<li>Click <span class="path">Apply to site</span>. Ads can take up to an hour to appear.</li>
+</ol>
+<p>The website itself already keeps ads away from the tools, and shows no ads on the bingo caller, the embed pages, the Mega Pack page, privacy, terms, contact and the 404 page, and never in print.</p>
+
+<h3>b) Block unsuitable ad categories</h3>
+<p>Teachers and parents use this site, so block adult-ish topics.</p>
+<ol class="clicks">
+<li>AdSense → <span class="path">Brand safety → Content → Blocking controls → All sites</span>.</li>
+<li>Open <span class="path">Sensitive categories</span>. Block: <strong>Dating</strong>, <strong>Get Rich Quick</strong>, <strong>Weight Loss</strong>, and <strong>Sexual &amp; Reproductive Health</strong>.</li>
+<li>Open <span class="path">Restricted categories</span> (on the same page, if shown) and block <strong>Gambling and betting</strong>. (If Gambling is listed under Sensitive categories instead, block it there.)</li>
+</ol>
+<div class="warn">Do <strong>not</strong> mark the site as "child-directed" anywhere in AdSense. The site is written for adults (teachers, parents, party hosts). Marking it child-directed would switch it to low-paying ads.</div>
+
+<h3>c) Create the European consent message (required)</h3>
+<p>Visitors from the EU, UK and Switzerland must be asked for consent. Without this message, many ads will not show in Europe. The site does not need any other cookie banner.</p>
+<ol class="clicks">
+<li>AdSense → <span class="path">Privacy &amp; messaging</span> → <span class="path">European regulations</span> → <span class="path">Create message</span>.</li>
+<li>Choose site frogsdream.com and language English.</li>
+<li>User choices: choose the 3 buttons <strong>Consent</strong>, <strong>Do not consent</strong> and <strong>Manage options</strong>.</li>
+<li>Privacy policy URL: <code>https://frogsdream.com/privacy/</code>.</li>
+<li>Click <span class="path">Publish</span>.</li>
+</ol>
+<p>The "Privacy choices" link in the site footer automatically reopens this message so visitors can change their choice. Test it: open the site in a private window with a European connection, the message should appear.</p>
+
+<h3>d) Tax form W-8BEN</h3>
+<ol class="clicks">
+<li>AdSense → <span class="path">Payments → Payments info → Manage settings</span>.</li>
+<li>Next to <span class="path">United States tax info</span>, click <span class="path">Manage tax info → Add tax info</span>.</li>
+<li>Choose <span class="path">Individual</span> and the form <span class="path">W-8BEN</span>. Tax residence country: <strong>Poland</strong>. Give your Polish tax number (PESEL or NIP) when asked.</li>
+<li>Claim the tax treaty benefits for Poland when the form offers it. The form shows the US withholding rate that applies; read it and keep a screenshot for your records.</li>
+<li>Sign with your name and submit.</li>
+</ol>
+
+<h3>e) Payout to your bank in PLN</h3>
+<ol class="clicks">
+<li>AdSense → <span class="path">Payments → Payments info → Add payment method</span>.</li>
+<li>Choose <span class="path">Bank transfer (wire)</span>. Name as on your bank account, bank SWIFT/BIC (find it in your mBank app; for mBank it is usually <code>BREXPLPWMBK</code>), and your IBAN starting with <code>PL</code>. Use your PLN account.</li>
+<li>Save. Within a few days Google sends a small test deposit. Check the amount in your mBank history and type it into AdSense (<span class="path">Payments → Verify</span>).</li>
+</ol>
+
+<h3>f) PIN letter</h3>
+<p>When you earn your first $10, Google posts a letter with a PIN to your home address. This can take 2 to 4 weeks. Enter it under <span class="path">Account → Verification → Address verification</span> (AdSense shows a banner). Payouts start after this, once your balance reaches the payout minimum.</p>
+
+<ul class="checks">
+<li><input type="checkbox" id="c8a"><label for="c8a">Auto ads on; Anchor, Vignette and Side rail off.</label></li>
+<li><input type="checkbox" id="c8b"><label for="c8b">/bingo-caller/ excluded.</label></li>
+<li><input type="checkbox" id="c8c"><label for="c8c">Gambling, Dating, Get Rich Quick, Weight Loss and Sexual &amp; Reproductive Health blocked.</label></li>
+<li><input type="checkbox" id="c8d"><label for="c8d">Site NOT marked child-directed.</label></li>
+<li><input type="checkbox" id="c8e"><label for="c8e">European consent message published (Consent, Do not consent, Manage options).</label></li>
+<li><input type="checkbox" id="c8f"><label for="c8f">W-8BEN submitted with Poland as tax residence.</label></li>
+<li><input type="checkbox" id="c8g"><label for="c8g">mBank PLN account added and test deposit confirmed.</label></li>
+<li><input type="checkbox" id="c8h"><label for="c8h">PIN from the letter entered.</label></li>
+</ul>
+</section>
+
+<!-- ============ STEP 9 ============ -->
+<section class="step" id="s9">
+<span class="meta">Step 9 · optional, one time · about 30 to 45 minutes</span>
+<h2>Optional: one-time promotion</h2>
+<p>This is for a few backlinks, not for big traffic. Never pay for a directory listing.</p>
+<ul class="checks">
+<li><input type="checkbox" id="c9a"><label for="c9a"><a href="https://alternativeto.net" target="_blank" rel="noopener">AlternativeTo</a>: sign in → <span class="path">Add new app</span> (or <span class="path">Suggest application</span>). Name "Frog's Dream", type "Web", license "Free", short description. Then list it as an alternative to myfreebingocards and Bingo Baker.</label></li>
+<li><input type="checkbox" id="c9b"><label for="c9b"><a href="https://www.saashub.com" target="_blank" rel="noopener">SaaSHub</a>: sign in → <span class="path">Submit product</span>. Category: education or productivity. Mark it as free.</label></li>
+<li><input type="checkbox" id="c9c"><label for="c9c"><a href="https://www.producthunt.com" target="_blank" rel="noopener">Product Hunt</a>: sign in → <span class="path">Submit</span> → <span class="path">Launch a product</span>. Describe it as a free tool. Expect one day of visitors at most.</label></li>
+<li><input type="checkbox" id="c9d"><label for="c9d">One or two "free tools for teachers" lists that accept free submissions.</label></li>
+<li><input type="checkbox" id="c9e"><label for="c9e">Reddit, only where the rules allow self-promotion or have a weekly resource thread: r/ESL_Teachers, r/teachingresources, the r/Teachers weekly thread, r/babyshower. Read each subreddit's rules first (in the sidebar). Write <strong>one</strong> honest post each, say that you made it, and do not post again. Never use extra accounts.</label></li>
+<li><input type="checkbox" id="c9f"><label for="c9f">Pinterest is not needed. If you ever want a 30 minute one-off: create a free business account and pin the seasonal hub pages once.</label></li>
+</ul>
+</section>
+
+<!-- ============ STEP 10 ============ -->
+<section class="step" id="s10">
+<span class="meta">Step 10 · every month · about 5 minutes</span>
+<h2>Every month: a 5 minute check</h2>
+<ul class="checks">
+<li><input type="checkbox" id="c10a"><label for="c10a"><strong>Search Console:</strong> open the <span class="path">Overview</span>. Look for red errors or emails about problems. Look at <span class="path">Indexing → Pages</span>: the "Indexed" number should slowly grow.</label></li>
+<li><input type="checkbox" id="c10b"><label for="c10b"><strong>AdSense:</strong> look at earnings and the bell icon / <span class="path">Policy center</span> for any policy notices. If there is a notice, ask Claude for help with the exact text.</label></li>
+<li><input type="checkbox" id="c10c"><label for="c10c"><strong>Lemon Squeezy (or Gumroad):</strong> check sales and any customer emails. Answer refund requests kindly; the site promises refunds within 14 days.</label></li>
+<li><input type="checkbox" id="c10d"><label for="c10d"><strong>Email:</strong> check hello@frogsdream.com.</label></li>
+</ul>
+<p><strong>At months 3, 6 and 12:</strong> in Search Console, open <span class="path">Performance</span> (Queries tab and Pages tab) and <span class="path">Indexing → Pages</span>. Click <span class="path">Export</span> (top right) and paste the results into a new Claude chat. Ask Claude to improve the titles of pages that get views but few clicks, and to add new themes where people are searching. If many pages stay "Crawled, currently not indexed", the fix is to merge or hide the weakest pages, not to add more.</p>
+</section>
+
+<!-- ============ STEP 11 ============ -->
+<section class="step" id="s11">
+<span class="meta">Step 11 · taxes</span>
+<h2>Taxes in Poland</h2>
+<ul class="plain">
+<li>Money from AdSense and from Lemon Squeezy or Gumroad is taxable income in Poland, also when you use <em>działalność nierejestrowana</em> (unregistered activity).</li>
+<li>The limit for unregistered activity is <strong>10,813.50 PLN revenue per quarter</strong> in 2026 (this is the 2026 figure; it changes each year with the minimum wage). If you go above it, you must register a business within 7 days.</li>
+<li>Keep a simple income record: date, source (AdSense, Lemon Squeezy), amount, currency and amount in PLN. A spreadsheet is enough. Save the monthly AdSense payment receipts and Lemon Squeezy payout reports.</li>
+<li>Ask an accountant (księgowy) or your tax office (urząd skarbowy) once how to report this income on your yearly PIT, including foreign currency conversion.</li>
+</ul>
+<p class="note">This is general information, not tax advice. Please confirm with an accountant.</p>
+</section>
+
+<!-- ============ STEP 12 ============ -->
+<section class="step" id="s12">
+<span class="meta">Step 12 · later, maybe in year 2</span>
+<h2>Later: Journey by Mediavine</h2>
+<p>When Search Console shows about <strong>1,000 or more visits per month</strong> from the US, UK, Canada and Australia together, and the site is at least 4 months old, you can apply to <a href="https://www.journeybymediavine.com" target="_blank" rel="noopener">Journey by Mediavine</a>. It usually pays more per visitor than AdSense. If they accept you, ask Claude to add their script to the site.</p>
+</section>
+
+<!-- ============ EXPECTATIONS ============ -->
+<section class="step" id="expect">
+<h2>Honest expectations</h2>
+<div class="warn"><strong>This is not a quick money machine.</strong> It is a small, honest website that can grow slowly. Please read this so you are not disappointed.</div>
+
+<h3>Timeline</h3>
+<div class="tablewrap">
+<table>
+<thead><tr><th>When</th><th>What to expect</th></tr></thead>
+<tbody>
+<tr><td>Months 1 to 3 (Oct 2026 to Jan 2027)</td><td>Almost no visitors from Google. New websites wait in a "sandbox" for 3 to 6 months, sometimes 6 to 12. Bing may send a few visitors. Christmas 2026 is probably too early.</td></tr>
+<tr><td>Around month 2</td><td>Apply to AdSense when 20 or more pages are indexed.</td></tr>
+<tr><td>Feb to Apr 2027</td><td>First realistic Google season: Valentine's Day, St. Patrick's Day, Easter.</td></tr>
+<tr><td>Aug to Sep 2027</td><td>Back-to-school pages.</td></tr>
+<tr><td>Oct to Dec 2027</td><td>The main payoff: Halloween and Christmas, when the pages are about 12 months old. This is the best chance of a few hundred dollars a month, if the site has grown well.</td></tr>
+<tr><td>2028 and later</td><td>Seasonal pages come back every year with no extra work. Growth continues only if Google keeps trusting the site.</td></tr>
+</tbody>
+</table>
+</div>
+
+<h3>Money: realistic ranges</h3>
+<ul class="plain">
+<li><strong>Typical result at month 12:</strong> about <strong>$20 to $100 per month</strong> in total.</li>
+<li><strong>Real chance of very little:</strong> about a 30 to 40% chance it earns under $10 per month in the first year. Most new niche sites (about 73%) stay under 1,000 visits per month in year one.</li>
+<li><strong>Good case:</strong> several hundred dollars per month, most likely in the second Halloween and Christmas season (Oct to Dec 2027) and after.</li>
+<li><strong>Ads:</strong> about $3 to $6 per 1,000 page views from the US, UK, Canada and Australia. Less from other countries. At low traffic this is small money.</li>
+<li><strong>Mega Pack:</strong> we guess about 1 to 3 buyers per 1,000 visitors. This is a guess, not measured. It could be lower.</li>
+</ul>
+
+<h3>Risks you should know</h3>
+<ul class="plain">
+<li><strong>AdSense approval is not guaranteed.</strong> Rejections for "low value content" are common for new sites. Just wait and reapply.</li>
+<li><strong>Some pages may not be indexed.</strong> Google may index only part of the roughly 160 pages at first. That is normal for a new site.</li>
+<li><strong>Accidental clicks.</strong> Never click your own ads, and never ask friends to click them. This is the fastest way to lose an AdSense account.</li>
+<li><strong>Lemon Squeezy</strong> was bought by Stripe. It still works in 2026, but if it ever closes, move to Gumroad (step 6 option B) and change PACK_URL. That takes about 15 minutes.</li>
+<li><strong>Competition.</strong> Big printable sites already exist. This site wins only on many small specific searches, good quality (Letter and A4, UK 90-ball tickets, answer keys, ink saver) and seasonal pages.</li>
+<li><strong>The research behind these numbers is limited.</strong> Many traffic tools were blocked during research, so the numbers come from public summaries, not exact data. Your own Search Console data after 3 to 6 months is the real guide.</li>
+<li><strong>Honesty.</strong> The site says openly that it was made with AI assistance. There are no fake reviews or ratings. Please keep it that way; it protects you from Google and AdSense penalties.</li>
+</ul>
+
+<h3>Your time</h3>
+<p>About 1.5 to 2 hours of one-time setup (steps 1 to 8, spread over some weeks), then about 5 minutes per month. Nothing on the site goes out of date by itself: there are no dates, prices of other companies or news on it.</p>
+</section>
+
+<section class="step">
+<h2>Small things to remember</h2>
+<ul class="plain">
+<li>Your files to keep safe: the edited <code>config.js</code>, <code>ads.txt</code> and <code>privacy/index.html</code>. If you upload a new website zip, put these three back (or redo steps 3, 6 and 7).</li>
+<li>Optional tip link: if you create a Ko-fi or Buy Me a Coffee page, paste its link into <code>TIP_URL</code> in config.js. A small "Buy the frog a coffee" link then appears in the footer.</li>
+<li>If something on the site looks broken after an edit, the cause is usually a missing quote mark or comma in config.js. Upload your backup copy, or compare with the example at the top of this page.</li>
+<li>Do not add other trackers, analytics or cookie tools. The privacy page says the site uses none apart from Google's ads and consent tools.</li>
+</ul>
+</section>
+
+<footer>Frog's Dream owner checklist. Your ticks are saved only in this browser on this computer.</footer>
+</div>
+
+<script>
+(function(){
+  var KEY = "fd-owner-readme-ticks";
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('ul.checks input[type=checkbox]'));
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { saved = {}; }
+  var out = document.getElementById("progress");
+  function update(){
+    var done = boxes.filter(function(b){ return b.checked; }).length;
+    out.textContent = done + " of " + boxes.length + " items ticked";
+  }
+  boxes.forEach(function(b){
+    if (saved[b.id]) b.checked = true;
+    b.addEventListener("change", function(){
+      saved[b.id] = b.checked;
+      try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {}
+      update();
+    });
+  });
+  update();
+  document.querySelectorAll("button.copy").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var text = document.getElementById(btn.getAttribute("data-copy")).textContent;
+      function done(){ btn.textContent = "Copied"; setTimeout(function(){ btn.textContent = "Copy"; }, 1500); }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done, function(){ window.prompt("Copy this link:", text); });
+      } else { window.prompt("Copy this link:", text); }
+    });
+  });
+})();
+</script>
+</body>
+</html>

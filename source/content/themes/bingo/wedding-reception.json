@@ -1,0 +1,142 @@
+{
+  "shortTitle": "Wedding Reception Bingo",
+  "title": "Free Printable Wedding Reception Bingo Cards for Guests",
+  "metaDescription": "Free wedding reception bingo cards with 50 squares from the first dance to the bouquet toss. Print up to 30 unique cards for table games, Letter or A4.",
+  "h1": "Wedding Reception Bingo Cards (Free Printable Generator)",
+  "intro": "Print up to 30 unique wedding reception bingo cards for free. The 50 squares follow the evening from the grand entrance to the last song, so guests can play along between courses and dances.",
+  "toolTitle": "Wedding Reception Bingo",
+  "items": [
+    "Grand entrance",
+    "First dance",
+    "Father-daughter dance",
+    "Mother-son dance",
+    "Best man speech",
+    "Maid of honor speech",
+    "Toast with glasses",
+    "Happy tears",
+    "Cake cutting",
+    "Cake smash",
+    "Bouquet toss",
+    "Garter toss",
+    "Slow dance",
+    "Conga line",
+    "Dance floor full",
+    "Bride changes shoes",
+    "Groom loosens tie",
+    "Little guest dancing",
+    "Grandparents dancing",
+    "Photo booth",
+    "Guest book signed",
+    "Centerpiece",
+    "Candle light",
+    "String lights",
+    "Open bar line",
+    "Signature cocktail",
+    "Appetizer tray",
+    "Dinner buffet",
+    "Vegetarian plate",
+    "Dessert table",
+    "Late night snack",
+    "Sparkler send-off",
+    "Bubble send-off",
+    "DJ requests song",
+    "Live band solo",
+    "Spilled drink",
+    "Dropped fork",
+    "Uncle's dance moves",
+    "Embarrassing story",
+    "Inside joke",
+    "Stolen kiss",
+    "Clinking glasses",
+    "Table number",
+    "Place card",
+    "Wedding favor",
+    "Group selfie",
+    "Group photo",
+    "Long hug",
+    "Slideshow",
+    "Last song"
+  ],
+  "itemsNote": "The list runs in the order a typical reception unfolds, but squares are shuffled on every card. Take out anything that will not happen at your wedding and add your own traditions.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "HAPPY COUPLE",
+    "cards": 20,
+    "perPage": 2
+  },
+  "season": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/bridal-shower",
+    "word-search/bridal-shower",
+    "word-scramble/bridal-shower",
+    "bingo/birthday-party",
+    "bingo/family-reunion",
+    "bingo/retirement-party"
+  ],
+  "relatedHeading": "More wedding and party printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use bingo at a reception",
+      "body": [
+        "A wedding reception has plenty of waiting: between the ceremony and the entrance, between the courses, during speeches and while the photographer borrows the couple. A bingo card at each place setting gives guests, especially the ones seated with strangers, an easy shared task that needs no explanation.",
+        "1. Set one card and one pen or pencil at every place before the guests arrive. Put a few extra on the kids' table.\n2. Ask the emcee or DJ to explain the rules in one sentence during the welcome announcement.\n3. Guests mark squares as moments happen, with no calling needed, because the whole room sees the same events.\n4. Whoever completes a line first raises a hand, and a table helper walks over to confirm it.\n5. Hand the winners a small treat, then pick up a second round of blackout for the late evening.",
+        "Because everyone watches the same events, there is no need for a caller. If you want a formal check, ask the planner or a bridesmaid to keep a list of what has already happened."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Ways to adapt it",
+      "body": [
+        "* **Mixing tables.** Give every guest at a table a different card from the same set. The first person to finish a line wins for the table, which gets seatmates chatting.\n* **Couple's favorites.** Replace some squares with details only the couple knows, such as their first apartment or the song at the proposal. The couple reads the answers during dinner and everyone checks their cards.\n* **Kids' table edition.** Make a 3x3 card for younger guests with simple squares like cake, dancing, balloons and flowers. Use the 3x3 grid option and give a sticker as a prize.\n* **Photo challenge.** Guests post a photo for each completed square to a shared album. The couple scrolls through the winning cards the next morning."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for couples and planners",
+      "body": [
+        "Do not make the game the only thing on the program. A single line of text on the menu or the welcome sign saying \"Bingo at every seat\" is enough, and it keeps the schedule clear for toasts and dances.",
+        "Pick a prize that matches the venue. A bottle of local honey, a jar of artisan jam or a pair of tickets to a local show suits most weddings and costs far less than a big gift.",
+        "Remove squares that could embarrass anyone. If a relative is known for strong opinions, skip the spilled drink or the embarrassing story square and keep the card friendly."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the tables",
+      "body": [
+        "Cards printed at two per page and cut to half sheets fit neatly beside a plate. Use heavier paper, about 80 lb, so they stand up to a damp table and a lot of handling.",
+        "Match the paper color to your wedding palette, then use ink saver mode so the grid stays light. If you plan to stand the cards in small frames at each table, print one per page at A4 or Letter and trim to fit."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "When during the reception should guests start playing?",
+      "a": "Put the cards out as soon as guests sit down for cocktail hour or dinner. The squares fill gradually, so there is no moment when the whole room has to stop and play."
+    },
+    {
+      "q": "How many cards do I need for a wedding of 100 guests?",
+      "a": "Print one per person, or one per couple if you prefer. The generator handles 30 at a time, so run it four times and keep the sets separate by table."
+    },
+    {
+      "q": "Is bingo appropriate for a formal wedding?",
+      "a": "Yes, when the cards are well printed and the prizes are modest. Treat it like a placecard activity rather than a party game, and let guests choose whether to join."
+    },
+    {
+      "q": "Can I include wedding traditions from my culture?",
+      "a": "Absolutely. Replace any square with your own customs, such as a tea ceremony, a dollar dance or a candle lighting. The list is fully editable above the cards."
+    }
+  ]
+}

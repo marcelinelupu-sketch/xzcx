@@ -1,0 +1,119 @@
+{
+ "shortTitle": "Christmas Lights Scavenger Hunt",
+ "title": "Christmas Lights Scavenger Hunt, Free Printable Car or Walk",
+ "metaDescription": "A free printable Christmas lights scavenger hunt with 28 things to spot on a drive or walk, from inflatable snowmen to a house with all white lights.",
+ "h1": "Christmas Lights Scavenger Hunt (Free Printable)",
+ "intro": "Print a free Christmas lights scavenger hunt with 28 displays and decorations to spot on an evening drive or neighborhood walk. It gives every passenger a job and a reason to look up.",
+ "toolTitle": "Christmas Lights Scavenger Hunt",
+ "items": [
+  "A house covered in white lights",
+  "A house with only colored lights",
+  "An inflatable snowman or Santa | 2",
+  "A reindeer made of lights",
+  "A star on a rooftop",
+  "A nativity scene | 2",
+  "Icicle lights hanging from a roof edge",
+  "A wreath with a red bow",
+  "A candy cane stake lining a path",
+  "A tree in a front window",
+  "A light display that blinks in time",
+  "A giant ornament in a yard | 2",
+  "Lights wrapped around a tree trunk",
+  "A sleigh on a roof | 3",
+  "A menorah in a window",
+  "A snowflake projected on a wall | 2",
+  "A house with a message in lights | 2",
+  "A string of lights in a color you rarely see",
+  "A penguin or polar bear decoration",
+  "A tree lot or a lit tree in a public square | 2",
+  "A mailbox with a ribbon",
+  "A door with a wreath and a name sign",
+  "An elf decoration | 2",
+  "A drive-through display with music | 3",
+  "A tiny house with miniature lights",
+  "Lights shaped like a present",
+  "An angel decoration",
+  "A house that has very few decorations but one perfect one | 3"
+ ],
+ "itemsNote": "All 28 items are listed above. Add the best display on your own street or in your town, which every child will know about.",
+ "defaultOptions": {
+  "layout": "checklist",
+  "names": false,
+  "timeLimit": false,
+  "copies": 4,
+  "shuffle": true,
+  "ageNote": "Ages 4 to 12"
+ },
+ "season": [
+  11,
+  12
+ ],
+ "hubs": [
+  "christmas-printables",
+  "road-trip-and-outdoor-games"
+ ],
+ "related": [
+  "bingo/christmas",
+  "word-search/christmas",
+  "word-scramble/christmas",
+  "scavenger-hunt/winter",
+  "scavenger-hunt/neighborhood-walk",
+  "scavenger-hunt/road-trip"
+ ],
+ "relatedHeading": "More Christmas printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to hunt for Christmas lights",
+   "body": [
+    "A drive or walk to see the lights is a December tradition in many families. This list gives the little ones something to do other than ask 'are we nearly there?' and gives the grown-ups a better reason to go slow.",
+    "1. Choose a route: a loop around your own neighborhood, a well-known lights street or a drive-through show.\n2. Print a sheet for each seat in the car, or one per sibling pair, and pack pencils, a flashlight and blankets.\n3. Dim the car's interior lights and use a small flashlight or a phone flashlight for ticking.\n4. Call out sightings together: every spotted item gets a cheer.\n5. Finish at home with the hot chocolate you promised, and compare the most memorable display."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Festive variations",
+   "body": [
+    "* **Top three.** Each person picks their three favorite displays from the evening. Compare lists over cocoa.\n* **Color count.** Keep a tally of how many houses use all white lights and how many use mixed colors, and see which wins.\n* **Photo night.** Take the photo layout and let older children capture the best display, then print or send it to a grandparent."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for a smooth evening",
+   "body": [
+    "Go on a clear night after dark but before bedtime. Children get grumpy if the drive runs late, and the lights look better at dusk anyway.",
+    "Use the shuffle option so each seat starts at a different item.",
+    "Bring a small backup activity, such as the Christmas word scramble, for a long queue at a popular display."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Safety on winter evenings",
+   "body": [
+    "On foot, wear bright or reflective clothing and carry a flashlight, stay on the sidewalk, and cross at corners with a grown-up. Do not walk on lawns or touch displays or cords, and keep children close in crowds.",
+    "In the car, keep everyone buckled up and let the driver concentrate. Park legally before getting out, and dress for the cold."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for dark rooms",
+   "body": [
+    "Print in a bigger size by choosing checklist layout so items are easy to read by flashlight. Black ink on plain white paper gives the best contrast in the dark. Print on regular paper and tuck each sheet on a clipboard with a small flashlight clipped on the top."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Does it work for a walk as well as a drive?",
+   "a": "Yes. The list works for either, and you can make a short walk of it by finishing 10 items on a single block."
+  },
+  {
+   "q": "What if my neighborhood has few decorations?",
+   "a": "Cross out what does not apply, or take a drive to a neighborhood known for its displays. Some towns also run a lights trail in a park or garden."
+  },
+  {
+   "q": "Is it suitable for other winter holidays?",
+   "a": "The list includes a menorah item and many general lights. Edit the list freely to match the decorations in your community."
+  }
+ ]
+}

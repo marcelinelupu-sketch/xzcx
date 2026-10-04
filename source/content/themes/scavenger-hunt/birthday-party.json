@@ -1,0 +1,110 @@
+{
+ "shortTitle": "Birthday Party Scavenger Hunt",
+ "title": "Birthday Party Scavenger Hunt, Free Printable Game Sheet",
+ "metaDescription": "A free printable birthday party scavenger hunt with 24 silly, easy challenges, with a team layout and optional points. Print one per guest and play.",
+ "h1": "Birthday Party Scavenger Hunt (Free Printable)",
+ "intro": "Print a free birthday party scavenger hunt with 24 silly challenges and finds for a house or garden party. It fills the awkward gap before cake and keeps guests busy.",
+ "toolTitle": "Birthday Party Scavenger Hunt",
+ "items": [
+  "Find a balloon",
+  "Find a plate and a napkin",
+  "Find someone wearing red",
+  "Find the birthday child's name written somewhere | 2",
+  "Find a present with a bow",
+  "Find a party hat",
+  "Find a candle | 2",
+  "Find a slice of pizza or a snack",
+  "Find someone with the same birth month as you | 3",
+  "Find a pet or a picture of one",
+  "Find a streamer",
+  "Find something that is orange",
+  "Find a game that is not a video game",
+  "Find a sticker | 2",
+  "Find a cup with a name on it",
+  "Find an adult who will tell you a joke | 3",
+  "Find a card",
+  "Find something that makes a pop",
+  "Find someone who can touch their nose with their tongue | 3",
+  "Find a photo of the birthday child as a baby | 3",
+  "Find three kinds of fruit",
+  "Find the birthday child's favorite color",
+  "Find someone wearing glitter | 2",
+  "Find a crumb of cake. After the cake, of course | 3"
+ ],
+ "itemsNote": "All 24 items are loaded above. Swap in rooms and jokes that suit your party, and drop anything a particular guest might find awkward.",
+ "defaultOptions": {
+  "layout": "team",
+  "names": true,
+  "timeLimit": true,
+  "copies": 12,
+  "shuffle": true,
+  "ageNote": "Ages 5 to 10"
+ },
+ "season": [],
+ "hubs": [
+  "party-games"
+ ],
+ "related": [
+  "bingo/birthday-party",
+  "scavenger-hunt/indoor-for-kids",
+  "scavenger-hunt/backyard",
+  "scavenger-hunt/teen-photo",
+  "word-search/birthday",
+  "bingo/movie-night"
+ ],
+ "relatedHeading": "More party printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to use the hunt at a birthday party",
+   "body": [
+    "The hunt solves the common party problem of guests arriving over twenty minutes with nothing to do. Hand a sheet to each guest at the door, and by the time the last arrives the room is buzzing.",
+    "1. Print a sheet for each guest and a few extras, and put out a cup of pencils or crayons.\n2. Mark the rooms or garden areas where the hunt takes place, and shut doors to the rest.\n3. Hand each arriving guest a sheet and a quick explanation.\n4. Call time after fifteen minutes, and gather everyone to share. A little prize for each finisher, such as a sticker, keeps it kind.\n5. Leave the cake item for last, since the final line works as a cue that the singing is about to begin."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Party variations",
+   "body": [
+    "* **Team layout.** Split the guests into colors and give each team one sheet and a captain, so shy guests join in naturally.\n* **Gift tag edition.** Replace some items with hidden notes around the house carrying the birthday child's favorite things.\n* **Silent disco.** Add a music track and turn it into a freeze game. When the music stops, everyone freezes until it starts again."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for hosts",
+   "body": [
+    "Mix easy and silly items so every age can succeed. Younger siblings tag along with the older group and tick items together.",
+    "Put the points to work: guests with the most points choose the first piece of cake, a harmless little privilege.",
+    "The shuffle setting means guests start with different items, which prevents a stampede toward the first balloon."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Keeping the party safe",
+   "body": [
+    "Hold the hunt only in the rooms or yard areas you have chosen, and keep an adult close to stairs, gates, pools and the kitchen. Check for allergies before any food item is used as a find, and keep hot drinks and candles out of reach until the singing starts."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for the party",
+   "body": [
+    "Print 12 sheets or the guest count, plus a spare. Use bright paper, such as yellow or pink, so the sheets match the mood. Ink saver mode keeps the colored background readable. Staple a small sticker sheet or a raffle ticket to each page for a prize at the end."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many scavenger hunt sheets do I need for a party?",
+   "a": "One per guest, plus two or three extras. In team layout, print one sheet per team and give each team member a pencil."
+  },
+  {
+   "q": "What ages is the birthday hunt for?",
+   "a": "It suits children from about 5 to 10. For toddlers, use a shorter list and a grown-up helper, and for older guests choose more silly or social challenges."
+  },
+  {
+   "q": "Can the hunt be played outdoors?",
+   "a": "Yes. Set boundaries in the garden, and add items such as a leaf or a bug if you like. Keep an adult near the gate and the pool."
+  }
+ ]
+}

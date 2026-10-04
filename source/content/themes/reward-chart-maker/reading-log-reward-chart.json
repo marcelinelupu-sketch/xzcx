@@ -1,0 +1,83 @@
+{
+ "shortTitle": "Reading Log Reward Chart",
+ "title": "Reading Log Reward Chart, Free Printable 30 Day Tracker",
+ "metaDescription": "Free printable reading reward chart with a 30 day sticker grid. Track daily reading, reading aloud and talking about the book, then earn a goal.",
+ "h1": "Reading Log Reward Chart (Free Printable 30 Day Tracker)",
+ "intro": "Turn a month of daily reading into a row of stickers. This 30 day reading chart tracks minutes read, reading aloud and a quick chat about the book, with a goal your child picks.",
+ "toolTitle": "My Reading Chart",
+ "items": [
+  "Read for 15 minutes | reading",
+  "Read a picture book aloud | book",
+  "Tell someone about my book | story",
+  "Try a new kind of book | search"
+ ],
+ "itemsNote": "The first row is the one that matters. The other rows are bonuses you can switch on for children who like a challenge, or delete if one row is enough.",
+ "defaultOptions": {
+  "days": 30,
+  "mark": "sticker",
+  "palette": "lavender",
+  "goal": "Choosing a new book",
+  "name": ""
+ },
+ "season": [],
+ "hubs": [
+  "classroom-games"
+ ],
+ "related": [
+  "reward-chart-maker/weekly-sticker-chart",
+  "reward-chart-maker/chore-chart-for-kids",
+  "bedtime-routine-chart/school-age",
+  "bingo/sight-words-first-grade",
+  "word-search/sight-words",
+  "word-scramble/back-to-school"
+ ],
+ "relatedHeading": "More reading and classroom printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "Running a month long reading challenge",
+   "body": [
+    "A month is long enough to build a habit and short enough to finish. Let your child choose the start date and the goal, and the chart will do the rest.",
+    "1. Print the 30 day grid with your child's name and write the goal in the space at the bottom.\n2. Choose a time of day for reading that happens anyway, such as just before the light goes out.\n3. After each reading session, your child puts a sticker in the day's circle for each row they did.\n4. Skip a day without guilt. The grid has room for missed days, so a few gaps do not break the chart.\n5. At the end of the month, count the stickers and give the prize. A library trip makes a perfect reward."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Variations for different readers",
+   "body": [
+    "* **Early readers.** Replace minutes with pages, or with 'Read one book', so the goal feels reachable. Use only the picture book row.\n* **Class challenge.** Print one copy per student. Set the class goal as a total number of stickers, with a book party when the room reaches it.\n* **Genre bingo hybrid.** Use the 'try a new kind of book' row and write the genre in each circle, such as mystery, animal facts or poetry."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for keeping the reading habit alive",
+   "body": [
+    "Choose the reward from books, not from outside reading. A new book or a library visit says that reading is its own treat.",
+    "Count listening as reading. A child who hears a story read aloud is still building vocabulary and attention, and a sticker for it keeps them in the habit.",
+    "Read alongside your child. The chart will not work as well if they are the only person in the house with a book in hand.",
+    "> If reading is hard for your child, drop the minutes and reward the effort instead. A sticker for sitting down with a book counts."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing a month long chart",
+   "body": [
+    "A 30 day grid is the busiest of our charts, so print on Letter or A4 at full size rather than shrinking it. Use stickers small enough for the circles, or choose the tick option for a tidier page. Tape the chart inside a reading nook or on the back of a bedroom door, and use a bookmark clip to keep a pen close by. For a class, print in black and white and let students color in their own borders."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many minutes should my child read a day?",
+   "a": "Many teachers suggest around 15 to 20 minutes for elementary students, but your child's teacher can advise. For younger children, even five minutes of looking at a picture book is a good start."
+  },
+  {
+   "q": "Can I use this chart for a school reading log?",
+   "a": "Yes. Many teachers accept a simple chart as a record. Check with the teacher whether they need titles or page numbers, and if so write them beside the chart."
+  },
+  {
+   "q": "Should reading be rewarded at all?",
+   "a": "Opinions differ. Rewards that are about books, like a trip to choose a new one, tend to fit better than unrelated prizes."
+  }
+ ]
+}

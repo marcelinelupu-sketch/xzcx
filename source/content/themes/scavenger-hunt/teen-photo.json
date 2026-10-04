@@ -1,0 +1,118 @@
+{
+ "shortTitle": "Teen Photo Scavenger Hunt",
+ "title": "Photo Scavenger Hunt for Teens, Free Printable List",
+ "metaDescription": "A free printable photo scavenger hunt for teens with 30 creative shots, from a leading line to a reflection. Team up, snap on a phone and pick the best picture.",
+ "h1": "Photo Scavenger Hunt for Teens (Free Printable)",
+ "intro": "Print a free photo scavenger hunt for teens with 30 creative shots to capture on a phone. It turns a town center, school trip or youth group meetup into a game of eyes and angles.",
+ "toolTitle": "Teen Photo Scavenger Hunt",
+ "items": [
+  "A leading line that draws the eye | 2",
+  "A reflection in a window or puddle | 2",
+  "A shadow that looks like something else | 3",
+  "A close-up of a texture",
+  "Something symmetrical",
+  "A group selfie with everyone laughing | 2",
+  "Something old next to something new | 3",
+  "A frame within a frame | 3",
+  "A shot from a very low angle",
+  "A shot from above | 2",
+  "Your team as a human letter | 3",
+  "A color you rarely see in nature",
+  "A tiny detail most people walk past",
+  "Motion blur on purpose | 3",
+  "Something that tells a story without people",
+  "A silhouette against the sky | 3",
+  "Repeating patterns",
+  "A funny sign | 2",
+  "Your team jumping at the same moment | 3",
+  "A mirror image",
+  "Street art, with permission to photograph | 2",
+  "A portrait using natural light",
+  "Something that looks bigger than it is | 3",
+  "An object posed like a pet",
+  "A forced-perspective shot | 3",
+  "A door worth opening",
+  "Something that makes you smile",
+  "Something with the number 8",
+  "A food shot that looks tasty",
+  "A photo that someone else would not think of | 5"
+ ],
+ "itemsNote": "All 30 prompts are ready above. They reward creativity, so skip the rules about what counts and let the team defend its picture at judging.",
+ "defaultOptions": {
+  "layout": "team",
+  "names": true,
+  "timeLimit": true,
+  "copies": 6,
+  "shuffle": true,
+  "ageNote": "Ages 12 to 18"
+ },
+ "season": [],
+ "hubs": [
+  "party-games",
+  "road-trip-and-outdoor-games"
+ ],
+ "related": [
+  "scavenger-hunt/park",
+  "scavenger-hunt/neighborhood-walk",
+  "scavenger-hunt/birthday-party",
+  "scavenger-hunt/classroom",
+  "bingo/icebreaker-find-someone-who",
+  "bingo/graduation-party"
+ ],
+ "relatedHeading": "More party and group printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to run a teen photo hunt",
+   "body": [
+    "Teens are not impressed by a list of objects to tick. A photo hunt gives them a task with creative room, a phone in hand and a little competition, which is the right recipe for a youth group, a birthday outing or a class field day.",
+    "1. Divide the group into teams of three or four, each with at least one working phone and a charged battery.\n2. Hand out a sheet per team and set a time limit and a boundary, such as the main street and the park.\n3. Teams roam together and photograph what they find. Every photo should include at least one team member where the prompt allows it.\n4. Return at the deadline. Late teams lose points.\n5. Gather around a screen to vote: show each prompt's best photo, and let the group choose a winner."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Photo hunt variations",
+   "body": [
+    "* **One-take rule.** Each prompt gets a single photo with no retakes. This speeds things up and makes the results funnier.\n* **Story mode.** Choose ten prompts and stitch the pictures together into a short story or a slideshow with captions.\n* **Silent team.** Players may not speak to each other while shooting. They must signal ideas with gestures, and the chaos is half the fun."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for the organizer",
+   "body": [
+    "Set clear privacy rules at the start. Photograph places, objects and your own team. Ask permission before you photograph anyone else, and delete shots that include strangers' faces.",
+    "Have a phone charging station or a few power banks on hand if the hunt runs long. Nobody wants to lose the game to a dead battery.",
+    "Give a prize in categories such as funniest, most artistic and best teamwork, so more than one team goes home happy."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Safety and good manners",
+   "body": [
+    "Teams should stay together, stay in the agreed area and keep an adult contact number. Watch traffic when framing a shot, never climb on walls, fences or railings for an angle and respect private property and signs.",
+    "Avoid photographing people without their consent, and do not post group pictures online without checking that everyone is comfortable."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing the photo list",
+   "body": [
+    "Print one sheet per team in team layout. It has space beside each prompt to note a photo number or a time stamp. Regular paper is fine, since most of the action happens on the phone. Print an extra judging sheet for the person tallying points."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What age is the teen photo scavenger hunt for?",
+   "a": "It is aimed at ages 12 to 18. Younger children can try it with a lighter list and an adult along, while adults often enjoy it on a team trip."
+  },
+  {
+   "q": "How do we judge the winner?",
+   "a": "Each team earns points from the number after a bar. At the end, review the pictures together and give bonus points for the most creative one."
+  },
+  {
+   "q": "Can we use it at school?",
+   "a": "Yes, if your school allows phones. A camera or tablet works just as well, and the same list can be used on a school grounds walk."
+  }
+ ]
+}

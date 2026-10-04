@@ -1,0 +1,120 @@
+{
+ "shortTitle": "Halloween Scavenger Hunt",
+ "title": "Halloween Scavenger Hunt, Free Printable Spooky List",
+ "metaDescription": "A free printable Halloween scavenger hunt with 30 spooky sights for trick-or-treat night, a party or the classroom. Friendly frights only, with points.",
+ "h1": "Halloween Scavenger Hunt (Free Printable Spooky List)",
+ "intro": "Print a free Halloween scavenger hunt with 30 spooky but friendly sights, from jack-o'-lanterns to cobwebs. Use it on trick-or-treat night, at a party or in class.",
+ "toolTitle": "Halloween Scavenger Hunt",
+ "items": [
+  "A jack-o'-lantern with a triangle nose",
+  "A ghost decoration | 2",
+  "A black cat",
+  "A cobweb in a window",
+  "A witch's hat",
+  "A skeleton on a porch | 2",
+  "A bat made of paper or plastic",
+  "A pumpkin bigger than a basketball | 2",
+  "A spider on a web, real or fake",
+  "A house with orange lights",
+  "A costume with a cape",
+  "A scarecrow",
+  "A tombstone decoration | 2",
+  "A candy corn",
+  "A pumpkin with a face that is smiling",
+  "A zombie hand coming out of the ground | 3",
+  "A cauldron",
+  "Someone in a costume you have never seen before | 3",
+  "A broom",
+  "A bowl of treats on a porch",
+  "A haunted house sign | 2",
+  "A cat costume or a dog in costume | 3",
+  "A mummy made of wrapping",
+  "A flickering light",
+  "A glow stick",
+  "A friend who is dressed as an animal",
+  "A fall wreath with leaves",
+  "A crow on a fence | 2",
+  "A pumpkin patch | 3",
+  "A full moon | 3"
+ ],
+ "itemsNote": "All 30 items are ready above. Scare level is low by design, so edit freely for younger children or for a more mysterious party.",
+ "defaultOptions": {
+  "layout": "checklist",
+  "names": true,
+  "timeLimit": false,
+  "copies": 8,
+  "shuffle": true,
+  "ageNote": "Ages 4 to 11"
+ },
+ "season": [
+  10
+ ],
+ "hubs": [
+  "halloween-printables",
+  "party-games"
+ ],
+ "related": [
+  "bingo/halloween",
+  "word-search/halloween",
+  "word-scramble/halloween",
+  "scavenger-hunt/fall",
+  "scavenger-hunt/neighborhood-walk",
+  "bingo/fall"
+ ],
+ "relatedHeading": "More Halloween printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to play on Halloween",
+   "body": [
+    "Halloween is the one night of the year when children are out in the dark and delighted about it. A scavenger hunt helps them notice the decorations, and for the shyest ones gives a reason to keep walking between houses.",
+    "1. Choose where to play: trick-or-treat night with a grown-up, a school party room, or the front yard with decorations you set up.\n2. Give each child a sheet, a pencil and a flashlight for ticking, and keep a spare for those who lose theirs.\n3. Walk the route with an adult and tick items as you go. Costumes count, but only if the wearer is happy to be pointed out.\n4. Wait for the treats to be collected before the sorting begins, then count up who found the most.\n5. Share the funniest find at the end of the night."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Spooky variations",
+   "body": [
+    "* **Party room hunt.** Hide paper bats, plastic spiders and paper ghosts in a room, and give each child a list of what to spot. No walking required.\n* **Trick-or-treat tally.** Add a bar and points for each decoration you see on the route, then compare totals as treats get sorted.\n* **Friendly monster mash.** Add a line to each item where children write what the creature might say. Read them out as the evening winds down."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for a spooky night",
+   "body": [
+    "Keep the mood playful. A few children will be nervous of the dark, so avoid pushing them toward the scariest decoration.",
+    "Add glow bracelets so adults can keep a head count in the dark.",
+    "Remove any item you think may upset a particular child, such as skeletons, and replace it with something friendly like a pumpkin."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Safety on Halloween night",
+   "body": [
+    "Children should go with an adult or in a group with an adult nearby, carry a flashlight and wear reflective strips or light colors. Cross streets at corners, stay on the sidewalk and keep to well-lit streets.",
+    "Only visit houses with a light on, never go inside a stranger's home, and check treats with an adult before eating, especially if there are allergies. Choose costumes that do not block vision or trip a child."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for the evening",
+   "body": [
+    "Print on orange or black paper if you have it, but white is easier to read by flashlight. Use cardstock for a trick-or-treat bag insert, or tape the sheet to the back of a clipboard. Ink saver mode keeps the dark frog stamp light, and a pencil is easier to tick with than a pen when the paper gets damp."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is the Halloween list scary for young children?",
+   "a": "It is meant to be playful: ghosts, pumpkins, cats and bats. You can remove any item that might upset a specific child."
+  },
+  {
+   "q": "Can I use it at a school Halloween party?",
+   "a": "Yes. Print a class set, hide paper decorations around the room and let children search in teams. It works well when costumes make a regular lesson hard."
+  },
+  {
+   "q": "How do I include points?",
+   "a": "Points appear after a bar in the list. Rare finds such as a zombie hand carry more points. Delete the numbers if you want a no-scoring game."
+  }
+ ]
+}

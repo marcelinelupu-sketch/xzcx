@@ -1,0 +1,111 @@
+{
+  "shortTitle": "Halloween Word Search",
+  "title": "Halloween Word Search, Free Spooky Printable Puzzles",
+  "metaDescription": "Print a free Halloween word search with 22 spooky words from pumpkins to cauldrons. Friendly enough for young kids, with an answer key for class parties.",
+  "h1": "Halloween Word Search (Free Spooky Printable Puzzle)",
+  "intro": "Print a free Halloween word search packed with 22 spooky words, from jack-o-lanterns to witches' brew. It is quick to make, easy to customize and friendly enough for a classroom party or a trick-or-treat night in.",
+  "toolTitle": "Halloween Word Search",
+  "items": [
+    "Pumpkin",
+    "Witch",
+    "Ghost",
+    "Skeleton",
+    "Cauldron",
+    "Broomstick",
+    "Black cat",
+    "Spider web",
+    "Bat",
+    "Costume",
+    "Candy",
+    "Haunted house",
+    "Vampire",
+    "Mummy",
+    "Scarecrow",
+    "Full moon",
+    "Trick or treat",
+    "Graveyard",
+    "Goblin",
+    "Zombie",
+    "Owl",
+    "Cobweb"
+  ],
+  "itemsNote": "All 22 words are ready in the generator above. If your event is for preschoolers, trim the list to the friendly ones like pumpkin, bat, candy and owl.",
+  "defaultOptions": {
+    "size": 15,
+    "difficulty": "medium",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [
+    9,
+    10
+  ],
+  "hubs": [
+    "halloween-printables",
+    "party-games"
+  ],
+  "related": [
+    "word-scramble/halloween",
+    "bingo/halloween",
+    "scavenger-hunt/halloween",
+    "word-search/fall",
+    "bingo/fall",
+    "word-search/thanksgiving"
+  ],
+  "relatedHeading": "More Halloween printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to run a Halloween word search at a party",
+      "body": [
+        "Halloween parties tend to run on sugar and noise, so a puzzle can be the one thing that makes a room go happily quiet. Set it up as a station rather than a whole-group activity and children will drift in and out as they please.",
+        "1. Print a stack of puzzles and set them on a table with orange and black crayons, a few markers and a jar of pencils.\n2. Tell guests the goal is to find every spooky word before the candy bowl runs out of their favorite kind.\n3. Let them work solo or in pairs. Circle in a color that matches their costume if you want a funny touch.\n4. Hand a small prize like a sticker or a glow bracelet to everyone who finishes, not only the fastest.",
+        "In a classroom, the puzzle also fits neatly into the afternoon before a school parade. Send it home as an activity with a note, so costume-weary children have something calm to do after dinner.",
+        "> A friendly note for younger or sensitive children: skip words like zombie or graveyard and keep the list to pumpkins, bats and candy. The editable list above makes it simple."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three spooky variations",
+      "body": [
+        "* **Haunted house hunt.** Hide the finished puzzle's answer key somewhere in the house. Whoever finishes first has to find it using clues you leave in the shape of rhymes.\n* **Story builder.** After the puzzle, children choose five words from the list and write a short, silly Halloween story using all of them.\n* **Costume swap.** Give each guest a puzzle containing the name of another guest's costume. They must find it and then guess who it belongs to."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for hosts and teachers",
+      "body": [
+        "Keep the grid readable for tired eyes. A bright room with real lamps helps, and so do slightly larger letters, which come from the smaller grid sizes in the tool.",
+        "Offer a mix of easy and hard. Older siblings who tag along with trick-or-treaters often enjoy a puzzle with backwards words, while the smallest guests are happiest with forward-only words."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for party sheets",
+      "body": [
+        "Orange or black paper makes a bold invitation, but the puzzle itself needs plain white or pale paper so the letters stay legible. If you want to use dark paper, print the list page only.",
+        "Ink saver mode keeps grids light and helps when you are printing a party stack. Take a look at the print preview first, and if a long word like haunted house runs close to the edge, bump the grid size up by a notch."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a good Halloween word search for kindergarten?",
+      "a": "Choose the easy setting, a 10 by 10 grid, and trim the list to the shortest words like bat, owl, ghost and candy. Have a grown-up read the words aloud while children point to the letters."
+    },
+    {
+      "q": "How many words should a Halloween puzzle have?",
+      "a": "For a party, 12 to 20 words keeps the puzzle satisfying without feeling like homework. For older kids and adults, push toward 25 and switch the difficulty to hard."
+    },
+    {
+      "q": "Are the Halloween words scary for young children?",
+      "a": "The default list includes a few creepy words like skeleton and zombie. You can delete anything that feels too much and keep the list pumpkin, candy and costume friendly."
+    },
+    {
+      "q": "Can I print this puzzle without the answer key?",
+      "a": "Yes. Just untick the answer key option before you print. You can always generate it again from the same share link when you need the solution."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "shortTitle": "US States Word Search",
+  "title": "US States Word Search, Free Printable Geography Puzzle",
+  "metaDescription": "Print a free US states word search with 25 state names, from Alaska and Texas to Massachusetts. Letter or A4 with an answer key, ideal for geography lessons.",
+  "h1": "US States Word Search (Free Printable Geography Puzzle)",
+  "intro": "Print a free US states word search with 25 state names, from Alaska and Hawaii to Massachusetts and Pennsylvania. It is a friendly warm-up for a geography lesson or a long drive across the country.",
+  "toolTitle": "US States Word Search",
+  "items": [
+    "Alaska",
+    "Hawaii",
+    "Texas",
+    "California",
+    "Florida",
+    "Colorado",
+    "Arizona",
+    "Nevada",
+    "Oregon",
+    "Michigan",
+    "Minnesota",
+    "Louisiana",
+    "Kentucky",
+    "Montana",
+    "Wyoming",
+    "Georgia",
+    "Ohio",
+    "Iowa",
+    "Maine",
+    "Vermont",
+    "Utah",
+    "Tennessee",
+    "Mississippi",
+    "Pennsylvania",
+    "Massachusetts"
+  ],
+  "itemsNote": "This list is a sample of 25 of the 50 states, chosen from every region. Edit it to quiz a different set or to focus on the states you are studying.",
+  "defaultOptions": {
+    "size": 16,
+    "difficulty": "medium",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [
+    8,
+    9
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/countries-of-europe",
+    "word-search/transportation",
+    "bingo/road-trip",
+    "scavenger-hunt/road-trip",
+    "word-search/sight-words",
+    "word-search/back-to-school"
+  ],
+  "relatedHeading": "More geography and travel printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Using the states puzzle in a geography lesson",
+      "body": [
+        "Most students learn state names better when they connect each one to a place on a map. The puzzle is a good first pass before that work begins.",
+        "1. Put a blank or labeled map on the wall where everyone can see it.\n2. Ask children to find the states closest to where you live, then the farthest ones.\n3. Every time a state is circled, point to its place on the map.\n4. Finish by reading the list in order from east to west."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations for map lovers",
+      "body": [
+        "* **Region sort.** Sort the 25 states into Northeast, South, Midwest and West and color each group.\n* **Capital pairs.** For every state found, add its capital city as a challenge for older students.\n* **Road trip route.** Choose five states from the grid, draw a route that connects them, and estimate the number of days to drive it."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teaching state names",
+      "body": [
+        "Several state names are famously tricky to spell, such as Mississippi, Massachusetts and Pennsylvania. Write them on the board in syllables before students begin.",
+        "If you have students who have moved from other states or countries, invite them to share what they know about the places they lived. That adds real stories to the list."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for social studies",
+      "body": [
+        "Print on the back of an old map worksheet to save paper. The default grid is 16 by 16, so the 13-letter state fits comfortably, but a 15 by 15 also works for Massachusetts.",
+        "Black-and-white mode is perfect for a classroom set, and the key page can go in your sub folder."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Does the puzzle include all 50 states?",
+      "a": "No, it holds 25 states from across the country so the grid stays readable. Make a second puzzle with the other 25 by editing the list."
+    },
+    {
+      "q": "Is the puzzle suitable for third graders?",
+      "a": "Yes, with medium difficulty. Choose easy mode if students are just learning to find words in a grid."
+    },
+    {
+      "q": "How do I add the other states?",
+      "a": "Type the state names into the list box, up to about 25 for a 20 by 20 grid, and press Generate."
+    }
+  ]
+}

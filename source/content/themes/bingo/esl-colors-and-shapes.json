@@ -1,0 +1,117 @@
+{
+  "shortTitle": "ESL Colors and Shapes Bingo",
+  "title": "Free Printable Colors and Shapes Bingo for ESL Classes",
+  "metaDescription": "Free printable colors and shapes bingo for ESL and EFL classes. Thirty words from red and blue to hexagon and cylinder, with unique cards for every learner.",
+  "h1": "ESL Colors and Shapes Bingo Cards (Free Printable Generator)",
+  "intro": "Generate free colors and shapes bingo cards for English learners, with 30 words from red and blue to hexagon and cylinder. Every learner gets a different card.",
+  "toolTitle": "Colors and Shapes Bingo",
+  "items": [
+    "red",
+    "blue",
+    "yellow",
+    "green",
+    "orange",
+    "purple",
+    "pink",
+    "brown",
+    "black",
+    "white",
+    "gray",
+    "gold",
+    "silver",
+    "circle",
+    "square",
+    "triangle",
+    "rectangle",
+    "oval",
+    "star",
+    "heart",
+    "diamond",
+    "crescent",
+    "cross",
+    "pentagon",
+    "hexagon",
+    "octagon",
+    "cube",
+    "sphere",
+    "cone",
+    "cylinder"
+  ],
+  "itemsNote": "The first thirteen words are colors that appear in nearly every beginner course. The rest are flat shapes, then the solid shapes at the end, which suit older learners or a geometry link. Trim the list to colors only for a first lesson.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Free",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "esl-games",
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/esl-animals",
+    "bingo/esl-classroom-objects",
+    "bingo/esl-feelings",
+    "bingo/cvc-words",
+    "bingo/sight-words-kindergarten",
+    "word-scramble/back-to-school"
+  ],
+  "relatedHeading": "More early English and classroom printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Using colors and shapes bingo in the first weeks of English",
+      "body": [
+        "Colors and shapes make a gentle starting point because learners can check an answer with their eyes. Nobody has to translate. They just look at the red crayon on your desk and hear the English word attached to it. That is why this topic often appears in the first unit of a course.",
+        "Prepare by gathering things that are easy to see across a room: colored paper, blocks, a few crayons, a paper plate for a circle. Then follow this routine.",
+        "1. Hold up each object, say its color or shape and let the class echo you.\n2. Give out the cards and markers. Colored counters that match the words add an extra layer, but plain ones work too.\n3. Call a word in a clear voice and hold up the matching object. Later rounds can skip the object.\n4. Learners cover the square, then point to something in the room with the same color or shape.\n5. A full row wins. The winner reads the line and chooses the next caller."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Matching the game to the learner's level",
+      "body": [
+        "Very young or pre-literate learners should play with the colors only. Before copying, color a small swatch in each square by hand. They match sound to color first, and the written word comes along gradually.",
+        "At beginner level with some reading, add the shapes and ask short questions as they cover a square. \"What shape is the clock?\" invites a one-word answer, and the card is an anchor if they forget.",
+        "At elementary level, move to two-word descriptions. Call \"a green triangle\" and have learners look for the pairing in the room. They practice adjective order without anyone saying the word grammar.",
+        "A small point on pronunciation: learners often confuse the endings of words like orange and triangle, and some languages add a vowel after a final consonant. Listen for that and rehearse the clusters slowly."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Playful ways to vary a round",
+      "body": [
+        "* **Mixed caller.** Alternate calling a color and a shape, and require players to cover only on the type you announce first. It teaches the categories.\n* **Classroom hunt.** After each call, learners must touch something in the room that fits. Gold, silver and cylinder can all be fun to find.\n* **Draw to win.** Instead of a marker, learners sketch a tiny version of the shape or scribble the color in the square. It works well for kinesthetic groups, though you need pencils and a bit more time."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing advice, especially for color",
+      "body": [
+        "This is the one theme where a color printer can help, but you do not need one. In black and white, ask learners to color each square with a crayon as it is called. That makes every card a record of the round and gives early finishers something to do.",
+        "Print one card per page for very young learners, since the squares are bigger and easier to color. Laminate if the sets will be reused, because crayon marks wipe away only on a coated surface."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this game suitable for adults?",
+      "a": "Adults who are at the very start of English will find the colors easy and welcome the quick win. The solid shapes at the end of the list give more challenge for teenagers and adults with some English."
+    },
+    {
+      "q": "Do the cards show colors or only words?",
+      "a": "The cards print the words as text. You can have learners color each square as it is called, or print on colored paper strips, to link the word and the shade."
+    },
+    {
+      "q": "How can I test pronunciation without slowing the game?",
+      "a": "Ask the winner to read the covered line while the class listens, then have partners check each other. Keep a note of repeated errors and reteach them afterward."
+    },
+    {
+      "q": "Which words are hardest for learners?",
+      "a": "Many find hexagon, octagon and cylinder difficult to say and spell. Keep those for the end of a unit, once the basic colors and flat shapes feel comfortable."
+    }
+  ]
+}

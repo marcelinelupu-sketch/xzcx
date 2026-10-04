@@ -1,0 +1,140 @@
+{
+  "shortTitle": "Road Trip Bingo",
+  "title": "Free Printable Road Trip Bingo Cards for Long Car Rides",
+  "metaDescription": "Free printable road trip bingo cards with 48 things to spot from the car window, from water towers to rest stops. Print one per passenger and enjoy the miles.",
+  "h1": "Road Trip Bingo Cards to Print for the Car",
+  "intro": "Print free road trip bingo cards with 48 sights that really turn up along highways and back roads. Hand one to every passenger before you leave the driveway and the miles go by faster.",
+  "toolTitle": "Road Trip Bingo",
+  "items": [
+    "Water tower",
+    "Red barn",
+    "Cows in a field",
+    "Horses",
+    "Tractor",
+    "Semi truck",
+    "Motorcycle",
+    "Pickup truck",
+    "School bus",
+    "Ambulance",
+    "Police car",
+    "Fire truck",
+    "Construction cones",
+    "Orange road sign",
+    "Detour sign",
+    "Rest stop",
+    "Gas station",
+    "Drive-through",
+    "Billboard",
+    "Bridge",
+    "Tunnel",
+    "Overpass",
+    "Exit ramp",
+    "Mile marker",
+    "Speed limit sign",
+    "Out-of-state license plate",
+    "Camper trailer",
+    "Boat on a trailer",
+    "Hot air balloon",
+    "Airplane overhead",
+    "Train crossing",
+    "Windmill",
+    "Wind turbine",
+    "Silo",
+    "Hay bales",
+    "Scarecrow",
+    "Church steeple",
+    "Flag",
+    "River",
+    "Lake",
+    "Mountain",
+    "Rainbow",
+    "Campground sign",
+    "Welcome sign",
+    "Roadside fruit stand",
+    "Dead end sign",
+    "Yellow line",
+    "Car with a bike rack"
+  ],
+  "itemsNote": "These 48 squares lean toward what a family sees on interstates and two-lane country roads. Swap in your own landmarks, such as a famous roadside statue or a state border, before you hit the road.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Free Mile",
+    "cards": 6,
+    "perPage": 2
+  },
+  "season": [
+    6,
+    7,
+    8
+  ],
+  "hubs": [
+    "road-trip-and-outdoor-games"
+  ],
+  "related": [
+    "bingo/camping",
+    "bingo/beach",
+    "bingo/nature-walk",
+    "scavenger-hunt/road-trip",
+    "bingo/summer",
+    "word-search/camping"
+  ],
+  "relatedHeading": "More road trip and travel printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play road trip bingo in the car",
+      "body": [
+        "The whole point of car bingo is that nobody has to call anything. Each passenger looks out a different window and covers a square the moment they spot it, so the game runs quietly in the background of the drive. That makes it a welcome change from a back seat full of complaints.",
+        "1. Give every rider a card, a clipboard or hardcover book to lean on, and something to mark with. Dry-erase markers on a card in a page protector work well, because they never tear.\n2. Agree on the rules before the engine starts. Does a sign on the other side of the highway count? Can two riders cover the same sighting?\n3. Riders cover squares as they see them. A cow barely visible in a faraway pasture counts only if a second person agrees.\n4. The first rider with a full row, column or diagonal calls out bingo. The driver acts as referee but keeps eyes on the road.\n5. Play on after the first winner so everyone gets to finish. Many families go for a blackout card on a long day."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to change the game on a long drive",
+      "body": [
+        "* **Alphabet round.** Print a card whose squares are letters, then find each one on signs and plates in order. It pairs well with the list above when you need a second game.\n* **Team of two.** Pair a younger child with an older one. The reader handles the words while the little one handles the spotting.\n* **Border crossing bonus.** Every time you cross a state line, riders can cover any one square of their choice as a free gift, which keeps long empty stretches from feeling hopeless."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips from the front seat",
+      "body": [
+        "Print a fresh set for each leg of the trip rather than one deck for the whole week. A farm-heavy list works on day one, but a city route needs different squares, so edit the list the night before.",
+        "Cards with a smaller grid suit younger riders. A 3x3 board gets done in twenty minutes, while a 5x5 may last an entire afternoon. Mix sizes if your passengers differ in age.",
+        "Keep a small prize bag in the glove box. Stickers, gum or choosing the next music track make winning more fun than the squares do."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the car",
+      "body": [
+        "Two cards per page gives each rider big squares that are easy to read in a moving car. For lap-sized boards, choose four per page and cut the sheet into quarters. Cardstock holds up better when it bounces around in a rental car, and a pencil stuck through a binder clip stays put over potholes.",
+        "If you will be printing at a hotel business center, download the PDF in advance so you do not depend on a signal. The ink saver option keeps the grid light, which also reads well in dim evening light."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Keeping peace on a long ride",
+      "body": [
+        "Be generous with what counts. A rule that rejects half the sightings leads to arguments faster than boredom does. If two riders disagree, the driver can offer a coin toss and everyone moves on.",
+        "Take advantage of the stops. When you pull into a rest area, let everyone check for squares that need standing outside, like a flag or a picnic shelter, then collect the cards again at the end of the break."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many bingo cards should I print for a road trip?",
+      "a": "One per passenger is enough for a single leg. Print an extra two or three in case a card gets lost or someone wants a fresh game halfway through the day."
+    },
+    {
+      "q": "Does road trip bingo work for toddlers?",
+      "a": "A three by three grid with big, familiar sights such as trucks, cows and bridges works well for toddlers if an adult sits beside them and points things out."
+    },
+    {
+      "q": "Can I use it on a train or bus?",
+      "a": "Yes. Remove squares that only apply to highways, such as exit ramps or gas stations, and add station signs, rivers and farm animals instead."
+    }
+  ]
+}

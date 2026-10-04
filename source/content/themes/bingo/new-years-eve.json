@@ -1,0 +1,119 @@
+{
+  "shortTitle": "New Year's Eve Bingo",
+  "title": "Free Printable New Year's Eve Bingo for a Countdown Party",
+  "metaDescription": "Print free New Year's Eve bingo cards with 36 squares, from sparkling cider and noisemakers to the countdown. Good for family nights and house parties.",
+  "h1": "New Year's Eve Bingo Cards (Free Printable Generator)",
+  "intro": "Print free New Year's Eve bingo cards that keep guests busy while the clock crawls toward midnight. The 36 squares mix countdown traditions, snacks and the small moments every party has.",
+  "toolTitle": "New Year's Eve Bingo",
+  "items": [
+    "Countdown clock",
+    "Confetti popper",
+    "Noisemaker",
+    "Party horn",
+    "Sparkling cider",
+    "Champagne toast",
+    "Midnight kiss",
+    "Auld Lang Syne",
+    "Ball drop on TV",
+    "Fireworks",
+    "Glitter hat",
+    "Paper crown",
+    "New Year's novelty glasses",
+    "Photo booth props",
+    "Sparklers",
+    "Streamers",
+    "Balloons",
+    "Appetizer platter",
+    "Cheese and crackers",
+    "Chocolate fountain",
+    "Pizza at 11 pm",
+    "Midnight snack",
+    "Someone yawning",
+    "Someone asleep on the couch",
+    "Group selfie",
+    "Dance floor",
+    "Playlist request",
+    "Board game on the table",
+    "Resolution said out loud",
+    "Resolution broken already",
+    "Lucky grapes",
+    "Black-eyed peas",
+    "Pajama party",
+    "Hugs at midnight",
+    "Cleaning up confetti",
+    "Phone call to a faraway relative"
+  ],
+  "itemsNote": "Swap in the traditions your own household keeps. If your family eats lucky foods or goes outside to bang pots at midnight, write those squares in so the card feels like your party.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Happy New Year",
+    "cards": 20,
+    "perPage": 2
+  },
+  "season": [
+    12,
+    1
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/christmas",
+    "bingo/winter",
+    "bingo/birthday-party",
+    "word-scramble/christmas",
+    "bingo/movie-night",
+    "bingo/family-reunion"
+  ],
+  "relatedHeading": "More party printables for the holidays",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play on New Year's Eve",
+      "body": [
+        "The long stretch between dinner and midnight is where this game earns its place. Hand out cards when the first guests have settled in, then let the game run in the background all evening instead of calling every item in one sitting.",
+        "1. Give each guest a card and a pen, a marker or a handful of paper confetti scraps for covering squares.\n2. Announce the rules once: cover a square whenever you see or hear that thing happen.\n3. Keep a bell or a spoon on a glass nearby so the winner of a row can ring in.\n4. Reset cards at the top of each hour, or keep one long game going until the countdown starts.\n5. Save a special prize, like a kazoo or the last slice of dessert, for whoever blacks out the most squares by midnight."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to ring in the year",
+      "body": [
+        "* **Countdown blackout.** Everyone plays one card the entire night and the goal is to fill the whole sheet before the final ten seconds. It rewards guests who stay up and notice the little things.\n* **Family night early edition.** If small children cannot last until midnight, hold a noon countdown with balloons, cider and a pretend ball drop made from a disco ball or foil-wrapped orange. Use a 3x3 grid and a shorter list.\n* **Resolution round.** Replace half the squares with silly resolution ideas, such as drink more water or finally read that pile of books. Guests cover a square each time someone says one aloud."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for the host",
+      "body": [
+        "Seat the cards where people already gather, such as the kitchen island or the coffee table, and tuck extra pens in a mug. Games that need no explanation survive a noisy room.",
+        "Mix easy squares like the noisemaker with ones that only happen late, like someone fading on the sofa, so the card stays alive for hours. A free space labeled Happy New Year gives every guest a head start.",
+        "If your crowd is a mix of ages, prepare two lists. A mellow version for kids can stay with balloons and snacks, while the grown-up version adds the toast and the dance floor."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for a party night",
+      "body": [
+        "Glittery or metallic paper looks festive but fights with pens, so choose a matte silver or navy sheet and use the ink saver option to keep the grid clean. Two cards per page leaves room for a large, readable square.",
+        "Print an extra batch on the day, since people always show up with surprise guests. Folded cards also make a handy place card at a dinner table."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What time should I hand out the cards?",
+      "a": "Whenever guests start settling in is fine. For a late party, an hour or two after the first arrivals works well, so the game fills the slow patch before the countdown."
+    },
+    {
+      "q": "Can this work for a small family night?",
+      "a": "Yes. Use a 3x3 or 4x4 grid, trim the list to the traditions you actually keep, and play a short round before bedtime or at an early countdown."
+    },
+    {
+      "q": "Are the squares alcohol free?",
+      "a": "Most are. Sparkling cider, snacks and games are the main items. You can delete the toast square or change it to a mocktail to suit your guests."
+    }
+  ]
+}

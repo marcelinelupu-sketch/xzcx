@@ -1,0 +1,119 @@
+{
+  "shortTitle": "Hanukkah Bingo",
+  "title": "Free Printable Hanukkah Bingo Cards for Eight Nights",
+  "metaDescription": "Free printable Hanukkah bingo cards with 36 squares like menorah, dreidel and latkes. Print for family nights, Hebrew school or a community celebration.",
+  "h1": "Hanukkah Bingo Cards (Free Printable Generator)",
+  "intro": "Print free Hanukkah bingo cards for a night at home, a Hebrew school class or a community party. The 36 squares follow the lights, foods, songs and games of the eight nights.",
+  "toolTitle": "Hanukkah Bingo",
+  "items": [
+    "Menorah",
+    "Shamash candle",
+    "Eight candles",
+    "Match for lighting",
+    "Blessing",
+    "Dreidel",
+    "Candles in a row",
+    "Nun, gimel, hey, shin",
+    "Gelt",
+    "Hanukkah card",
+    "Latkes",
+    "Applesauce",
+    "Sour cream",
+    "Sufganiyot",
+    "Jelly doughnut",
+    "Olive oil",
+    "Oil lamp",
+    "Festival of Lights",
+    "Maccabees",
+    "Rededicating the Temple",
+    "Star of David",
+    "Blue and white",
+    "Hanukkah song",
+    "Singing together",
+    "Gift of the night",
+    "Wrapped book",
+    "Family dinner",
+    "Frying pan",
+    "Grandparents",
+    "Grated potato",
+    "Candle glow in the window",
+    "Paper chain",
+    "Lighting the first candle",
+    "Hebrew letter",
+    "Game of dreidel",
+    "Thank you note"
+  ],
+  "itemsNote": "Hanukkah is observed in many ways, so keep what fits your household and drop the rest. Add a family recipe, a favorite song or the name of the person who always lights the first candle.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Chag Sameach",
+    "cards": 20,
+    "perPage": 2
+  },
+  "season": [
+    11,
+    12
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/christmas",
+    "bingo/winter",
+    "bingo/new-years-eve",
+    "bingo/family-reunion",
+    "bingo/birthday-party",
+    "scavenger-hunt/winter"
+  ],
+  "relatedHeading": "More winter holiday printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play on Hanukkah",
+      "body": [
+        "The holiday lasts eight nights, and the candles are lit at dusk, so there are natural pauses in the evening when everyone is gathered and waiting. A bingo card slips neatly into those pauses, before dinner or while the latkes are frying.",
+        "1. Hand out cards and small markers such as gelt in gold wrappers, dried beans or paper candle flames.\n2. Call squares from the list, or have each person spin a dreidel to decide who calls next.\n3. Players cover matching squares, and the first to complete a row says \"Chag sameach!\" to the group.\n4. Winners choose a piece of gelt from the pot or a seat nearest to the menorah for the evening.\n5. Use a fresh card for each night, since the list can be shuffled again."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Ideas for different nights",
+      "body": [
+        "* **One card per night.** Print eight cards and give a new one every evening. Each night's winner picks the song or lights the shamash.\n* **Community party.** At a synagogue or a school event, put cards at each table so families can play together while latkes are served and the candles are lit.\n* **Learning round.** In a Hebrew school class, have children read a square aloud and say one thing about it, such as how a dreidel is spun or what the shamash is for."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for hosts and teachers",
+      "body": [
+        "Plan around the candle lighting. On Friday the Hanukkah candles are lit before Shabbat begins, so families who keep Shabbat may want to play on another night of the eight.",
+        "Keep the game around the meal, not in competition with the candles. Many people like to pause everything for the blessings and the lighting, and play afterward.",
+        "Include a mix of ages. Little children enjoy spotting the dreidel and the gelt, while older guests might enjoy squares about the story and songs."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the holiday",
+      "body": [
+        "Light blue, silver or plain white paper suits the season, and ink saver gives a cool, quiet look. Two cards per page leaves room for a coin or a bean on each square.",
+        "If you want a keepsake, print a card for each guest and let them decorate the border with markers before play."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Hanukkah bingo for children only?",
+      "a": "No. Adults enjoy the songs, foods and story squares, and a mixed-age table can share cards between generations."
+    },
+    {
+      "q": "When is Hanukkah?",
+      "a": "It begins on the 25th of Kislev in the Hebrew calendar, so the dates shift each year, usually between late November and late December. Check a Jewish calendar for the current dates."
+    },
+    {
+      "q": "Can I add Hebrew words to the list?",
+      "a": "Yes. Edit the list in the box and add Hebrew words in English letters (transliteration), such as sufganiyot or shamash, then generate again."
+    }
+  ]
+}

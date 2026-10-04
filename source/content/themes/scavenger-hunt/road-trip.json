@@ -1,0 +1,122 @@
+{
+ "shortTitle": "Road Trip Scavenger Hunt",
+ "title": "Road Trip Scavenger Hunt, Free Printable Car Game List",
+ "metaDescription": "A free printable road trip scavenger hunt with 30 things to spot from the car window, from tractors to rest stops. Great for kids on long drives.",
+ "h1": "Road Trip Scavenger Hunt (Free Printable Car Game)",
+ "intro": "Print a free road trip scavenger hunt with 30 things to spot from the back seat. It turns a long drive into a game and gives everyone something to talk about.",
+ "toolTitle": "Road Trip Scavenger Hunt",
+ "items": [
+  "A tractor or farm machine",
+  "A cow in a field",
+  "A bridge over the road | 2",
+  "A license plate from another state | 2",
+  "A truck with more than six wheels",
+  "A rest stop sign",
+  "A water tower | 2",
+  "A bus",
+  "A motorcycle",
+  "A horse | 2",
+  "A windmill or wind turbine | 2",
+  "A red barn",
+  "A billboard with a face on it",
+  "A gas station",
+  "A tunnel | 3",
+  "A train crossing or a train | 3",
+  "A fast-food sign you know",
+  "A road sign with a number below 30",
+  "A camper or trailer",
+  "A yellow car",
+  "A sign with an animal on it",
+  "A mountain or a big hill | 2",
+  "A river or a lake",
+  "A police car or ambulance",
+  "A hot air balloon or a plane in the sky | 3",
+  "A church steeple",
+  "An exit sign for a town starting with S",
+  "A food truck",
+  "A flock of birds",
+  "A rainbow | 5"
+ ],
+ "itemsNote": "All 30 items are ready above. Tailor the list to your route, since a coastal drive and a desert crossing have different sights.",
+ "defaultOptions": {
+  "layout": "two-column",
+  "names": false,
+  "timeLimit": false,
+  "copies": 3,
+  "shuffle": true,
+  "ageNote": "Ages 5 to 12"
+ },
+ "season": [
+  6,
+  7,
+  8,
+  12
+ ],
+ "hubs": [
+  "road-trip-and-outdoor-games"
+ ],
+ "related": [
+  "bingo/road-trip",
+  "scavenger-hunt/rainy-day",
+  "scavenger-hunt/camping",
+  "scavenger-hunt/beach",
+  "word-search/transportation",
+  "word-search/us-states"
+ ],
+ "relatedHeading": "More road trip printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to play on a long drive",
+   "body": [
+    "The golden rule of a car game is that the driver should never be in charge of it. Choose a navigator in the front passenger seat, or let the oldest child referee, and keep the driver's eyes on the road.",
+    "1. Give each child a printed sheet, a pencil and a hard surface to lean on, such as a book or lap tray.\n2. Say the finish line out loud, such as the first ten items or the next gas stop.\n3. Everyone ticks only what they see themselves, but a shared sighting counts if two people spot it at once.\n4. Items on the left side belong to the left window and items on the right to the right, which settles most arguments.\n5. When someone finishes, they read out their list and everybody can add to the memory book."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Switching up the game",
+   "body": [
+    "* **Team seats.** Left side against right side, with a combined tally. Siblings who usually argue become allies.\n* **Photo only.** Passengers with a tablet or phone take a picture instead of ticking, as long as the camera shutter is quiet.\n* **Mile markers.** Set a mile or minute limit for each round and score points for what you find in that time. Short bursts keep younger children interested for longer."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for parents",
+   "body": [
+    "Print a few extra copies and keep them in the seat pocket. Kids tend to lose, crush or draw all over the first one by hour two.",
+    "Make the first five items easy, because a quick win early on buys you an hour of calm.",
+    "Stop the game when it stops being fun. A snack, a stretch at a rest stop or a podcast can restart interest later on."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Safety on the road and at stops",
+   "body": [
+    "Everyone stays buckled in while the car moves, and children should never lean out of windows or unbuckle to get a better view. At rest stops, hold hands in parking lots and have children stay with an adult.",
+    "Keep the hunt to passengers only, and avoid anything that draws the driver's attention away from the road."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for the car",
+   "body": [
+    "Two-column layout fits on a single page that folds neatly in half. Print on regular paper for short trips or cardstock for a trip with a lot of crushing. Pencils are better than pens on bumpy roads, and a clipboard with a clip keeps things steady. The frog stamp on each page is a small extra find."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Is it safe for the driver to play?",
+   "a": "The driver should focus on the road. Leave the ticking to passengers and let the driver offer a hint only if they spot something at a stop."
+  },
+  {
+   "q": "What if we do not see something on the list?",
+   "a": "Treat it like a bonus. Not every route has a tunnel or a windmill, so the list is built so that most items are common and a few are rare."
+  },
+  {
+   "q": "How many pages should I print?",
+   "a": "Print one per child, plus a couple of spares. If the trip is long, print a second sheet with a shuffled order so the game feels fresh the next day."
+  }
+ ]
+}

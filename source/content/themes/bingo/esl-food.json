@@ -1,0 +1,122 @@
+{
+  "shortTitle": "ESL Food Bingo",
+  "title": "Free Printable Food Bingo Cards for English Learners",
+  "metaDescription": "Free printable food bingo for English learners. Thirty-six everyday food and drink words, ready for unique cards at beginner and elementary levels.",
+  "h1": "ESL Food Bingo Cards (Free Printable Generator)",
+  "intro": "Make free food bingo cards for English learners using 36 everyday words, from rice and bread to pancakes and yogurt. Each card is unique and ready to print.",
+  "toolTitle": "Food Bingo",
+  "items": [
+    "rice",
+    "bread",
+    "egg",
+    "milk",
+    "cheese",
+    "apple",
+    "banana",
+    "orange",
+    "grapes",
+    "strawberry",
+    "tomato",
+    "potato",
+    "carrot",
+    "onion",
+    "lettuce",
+    "corn",
+    "beans",
+    "chicken",
+    "beef",
+    "fish",
+    "noodles",
+    "soup",
+    "pizza",
+    "sandwich",
+    "salad",
+    "cake",
+    "cookie",
+    "ice cream",
+    "juice",
+    "water",
+    "tea",
+    "butter",
+    "sugar",
+    "salt",
+    "yogurt",
+    "pancake"
+  ],
+  "itemsNote": "The list mixes fruit, vegetables, proteins, staples, treats and drinks, which matches how most beginner course books divide the topic. Remove anything that does not suit your learners' culture or your school's food policy, and add the dishes they eat at home.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Yum",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "esl-games",
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/esl-animals",
+    "bingo/esl-action-verbs",
+    "bingo/esl-classroom-objects",
+    "word-search/healthy-food",
+    "word-search/fruits-and-vegetables",
+    "bingo/thanksgiving"
+  ],
+  "relatedHeading": "More food and ESL printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Playing food bingo during a shopping or restaurant unit",
+      "body": [
+        "Food vocabulary usually arrives alongside a speaking goal: ordering at a cafe, shopping at a market or talking about likes and dislikes. This game works best as the warm-up or the review that sits between those activities, since learners meet the nouns in a relaxed way before they must use them in real sentences.",
+        "1. Set the scene. Bring in a few real items or pictures, a banana, a carton of milk, a bag of rice, and let learners name what they can.\n2. Give out cards and markers. Pieces of dry pasta make cheerful and cheap counters.\n3. Call a word. For learners who need help, add a tiny context: \"I put butter on my bread.\"\n4. Learners cover the word and repeat it back to a partner.\n5. The first line triggers a check. The caller reads the covered words, and the class says each one together.\n6. Finish with a two-minute chat: \"What did you eat for breakfast today?\" using words from the winning card."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Level guidance for beginners and beyond",
+      "body": [
+        "At the very first stage, keep the list to concrete things you can show. Fruit, bread, egg and milk are easy to pair with a picture or an object. Hold off on abstract ones such as sugar or salt until learners know the container words.",
+        "Elementary learners can handle countable and uncountable nouns in context. Call phrases like \"a slice of pizza\" or \"some rice\" and invite learners to notice that rice has no plural. The card stays the same, yet the listening task becomes more grammatical.",
+        "If your class has learners from many food traditions, invite them to teach a word. One learner might offer the English name for a dish their family cooks, and you can add it to the card for the next round. Learners tend to remember words they contributed.",
+        "Be mindful of allergies and religious dietary rules when you bring in real food. Pictures and plastic play food are safer for the first lesson."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations that practice more than naming",
+      "body": [
+        "* **Healthy or treat.** After each call, learners hold up a green or red paper to say whether the food is an everyday choice or an occasional treat, then cover the word. It leads naturally to a discussion.\n* **Menu bingo.** Each learner invents a short menu using five words from their card. When their menu is read aloud, the class covers the words they hear.\n* **Taste testing.** With a small group, call a word and let a learner say \"I like it\" or \"I do not like it\" before covering. This builds the sentence pattern many courses teach next."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing food cards that survive the lunch table",
+      "body": [
+        "Cards that might get sticky fingers deserve lamination, or a plastic sleeve at the least. Use the two per page layout for tables of four and one per page when learners are sharing a card across a row of desks.",
+        "If your school prints in black and white, the ink saver option removes any shaded fills, and the words stay perfectly readable. A colored paper stock in soft green gives the food theme without costing extra toner."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use food bingo with adult learners?",
+      "a": "Yes. Adults often enjoy it as a warm-up before a restaurant role play, especially when the list includes local dishes. Increase the challenge by calling descriptions instead of words."
+    },
+    {
+      "q": "What if some learners are vegetarian or avoid certain foods?",
+      "a": "The words are only vocabulary, not a menu. Still, you can delete any item from the list above, and the cards rebuild without it."
+    },
+    {
+      "q": "How do I teach uncountable nouns with this game?",
+      "a": "Mix calls such as \"a slice of bread\" and \"a glass of juice\" with plain nouns. Afterward, ask which words can take a number. It shows the pattern in action without a lecture."
+    },
+    {
+      "q": "How long does a round take?",
+      "a": "About ten to fifteen minutes with a 5x5 grid, depending on how much talking you add between calls. A 3x3 grid shortens it to around five."
+    }
+  ]
+}

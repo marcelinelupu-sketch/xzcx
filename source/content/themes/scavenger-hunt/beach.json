@@ -1,0 +1,123 @@
+{
+ "shortTitle": "Beach Scavenger Hunt",
+ "title": "Beach Scavenger Hunt, Free Printable Seashore Checklist",
+ "metaDescription": "A free printable beach scavenger hunt with 30 shells, shore birds and sandcastle finds for a day at the seaside. Look, tick and leave everything where it lies.",
+ "h1": "Beach Scavenger Hunt (Free Printable Checklist)",
+ "intro": "Print a free beach scavenger hunt with 30 things to spot along the sand and the tide line. It is made for spotting and photographing, not for filling buckets.",
+ "toolTitle": "Beach Scavenger Hunt",
+ "items": [
+  "A seashell with spirals",
+  "A seashell shaped like a fan | 2",
+  "A seagull",
+  "A sandcastle with a moat",
+  "A crab or crab claw | 3",
+  "Seaweed on the sand",
+  "A smooth pebble",
+  "A footprint bigger than yours",
+  "A wave that reaches the shore",
+  "A sailboat",
+  "A beach umbrella with stripes",
+  "A sand dollar or shell piece | 3",
+  "Something blue",
+  "Driftwood | 2",
+  "A bird with long legs | 2",
+  "Someone flying a kite",
+  "A pail and shovel",
+  "A lifeguard chair or flag | 2",
+  "A jellyfish washed up on the sand. Look, don't touch | 3",
+  "A shell with a hole in it | 3",
+  "A shadow of a bird or a cloud",
+  "A tide pool | 2",
+  "A boat far away on the horizon",
+  "A sandpiper running with the waves | 3",
+  "A dog playing in the water",
+  "A sunhat",
+  "A sign that explains the beach rules",
+  "A towel with a pattern",
+  "A hole dug in the sand",
+  "A line where the wet sand meets the dry"
+ ],
+ "itemsNote": "All 30 items are ready above. Cut the ones your shoreline cannot offer, such as sand dollars on a lake beach, and add local sights like a pier or a lighthouse.",
+ "defaultOptions": {
+  "layout": "photo",
+  "names": true,
+  "timeLimit": false,
+  "copies": 4,
+  "shuffle": true,
+  "ageNote": "Ages 4 to 12"
+ },
+ "season": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "hubs": [
+  "road-trip-and-outdoor-games"
+ ],
+ "related": [
+  "scavenger-hunt/camping",
+  "scavenger-hunt/road-trip",
+  "scavenger-hunt/nature-walk",
+  "bingo/beach",
+  "bingo/ocean-animals",
+  "word-search/ocean-animals"
+ ],
+ "relatedHeading": "More beach and outdoor printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to play at the beach",
+   "body": [
+    "A beach hunt gives children something to do between swims and stops the 'I'm bored' that tends to arrive about forty minutes after the sunscreen. Start it once you have set up your spot, so children have a base to return to.",
+    "1. Look at the list on arrival and tell children which items depend on the tide, like tide pools and shells.\n2. Give each child or team a sheet. A clip-on bag or small tote keeps it from blowing away.\n3. Let children roam within sight of your umbrella. Mark the edge of the search area with a towel or a bucket at each end.\n4. Rather than collecting finds, ask children to tell you or take a photo, then put things back.\n5. Meet back at the towels for a snack and compare lists before the next swim."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Three ways to vary the beach hunt",
+   "body": [
+    "* **Photo hunt.** Choose the photo layout, and have older children shoot each find on a waterproof camera or a phone in a zip bag. Afterward, make a slideshow for the car ride home.\n* **Sandcastle edition.** Add items they must build, like a tower with a flag or a bridge across a moat. It turns the list into a building contest.\n* **Tide chart.** Run the hunt twice, once at high tide and once at low, and compare what shows up. It is a nice way to talk about how the sea moves."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for beach days",
+   "body": [
+    "Print the list in a larger size by choosing the single-column checklist if you are bringing small children, since sun glare makes small type difficult to read.",
+    "Give a prize for the most interesting find rather than the most finds. It rewards patient looking and keeps the contest friendly between siblings of different ages.",
+    "Take a short shell-and-sand break whenever the hunt stalls. Children often rediscover the list on their own."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Beach safety",
+   "body": [
+    "Keep children within arm's reach of an adult near the water, and swim only where there is a lifeguard if possible. Check the flags and heed local warnings about currents, tides and weather.",
+    "Do not touch jellyfish, even stranded ones, and leave any dead animal, broken glass or unfamiliar object for an adult to deal with. Use sunscreen, hats and plenty of water, and respect dunes and nesting birds. Many beaches ask visitors not to take shells, so check local rules."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for sand and sun",
+   "body": [
+    "Sand, sunscreen and water are hard on paper. Print on cardstock, or slip each sheet into a zip-top bag and tick with a marker through the plastic. Pick the black-and-white mode, since the high contrast helps in bright light. A4 or Letter works fine, and a beach bag fits a folded sheet comfortably."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can we collect shells on the beach hunt?",
+   "a": "The list is made for spotting and photographing. Rules vary by beach and country, and leaving shells in place protects the small creatures that use them as homes."
+  },
+  {
+   "q": "What if our beach has no tide pools?",
+   "a": "Delete the items that do not fit and add ones that do. A lakeshore might offer driftwood and dragonfly spotting, while a busy town beach may suit sandcastles and boats."
+  },
+  {
+   "q": "Is this good for toddlers?",
+   "a": "Toddlers can join with an adult reading the list and pointing. A short list of six or eight easy items like a shell, a gull and something blue is plenty."
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+{
+  "shortTitle": "Birthday Word Search",
+  "title": "Birthday Word Search, Free Printable Party Activity",
+  "metaDescription": "Print a free birthday word search with 22 party words, from balloons and confetti to pinata and candles. Letter or A4 with an answer key for birthday parties.",
+  "h1": "Birthday Word Search (Free Printable Party Activity)",
+  "intro": "Print a free birthday word search with 22 party words, from balloons and cake to confetti and surprise. It is a quiet activity for kids waiting on pizza or for the cake to come out.",
+  "toolTitle": "Birthday Word Search",
+  "items": [
+    "Balloons",
+    "Cake",
+    "Candles",
+    "Confetti",
+    "Presents",
+    "Pinata",
+    "Party hat",
+    "Streamers",
+    "Ice cream",
+    "Surprise",
+    "Celebrate",
+    "Wish",
+    "Games",
+    "Music",
+    "Friends",
+    "Invitation",
+    "Cupcake",
+    "Gifts",
+    "Sparkler",
+    "Lemonade",
+    "Singing"
+  ],
+  "itemsNote": "A birthday party list with a little of everything: treats, decorations and the moments kids look forward to most.",
+  "defaultOptions": {
+    "size": 13,
+    "difficulty": "easy",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/birthday-party",
+    "scavenger-hunt/birthday-party",
+    "word-search/baby-shower",
+    "word-search/camping",
+    "word-search/sports",
+    "bingo/graduation-party"
+  ],
+  "relatedHeading": "More birthday party printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Using the puzzle at the party",
+      "body": [
+        "Every party has a gap, usually between the guests arriving and the food being ready. A word search fills it calmly.",
+        "1. Put a puzzle and a crayon at each seat as guests arrive.\n2. Tell them the birthday child's favorite word is hidden somewhere and they should find it.\n3. When the pizza is ready, collect the sheets and announce the winners.\n4. Let every finisher choose a sticker or a party favor.",
+        "A parent helper can read the word list aloud for younger guests who are not yet confident readers."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Make it extra festive",
+      "body": [
+        "* **Name addition.** Add the guest of honor's name and age as extra hidden words.\n* **Party planner.** After solving, children pick five words and plan their own dream party.\n* **Thank you notes.** Use the puzzle as a keepsake and let each guest write a short message to the birthday child on the back."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for stress-free hosting",
+      "body": [
+        "Set a puzzle at the end of the table near the late arrivals so they can join in without catching up on a game they missed.",
+        "If a child is shy, an activity sheet gives them something to focus on while they warm up to the group.",
+        "Keep extra crayons nearby, because a favorite color always goes missing in the middle of a game."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for party favors",
+      "body": [
+        "Print a copy to tuck into each goody bag, using the new seed button so every sheet is different. Colored paper in the birthday child's favorite shade looks cheerful.",
+        "Choose Letter or A4 to suit your printer, and leave the answer key at home so it is not tempting to peek."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many words should a party word search have?",
+      "a": "Fifteen to twenty words are enough for young guests. More than that and the puzzle takes longer than the cake."
+    },
+    {
+      "q": "Can I put the birthday child's name in?",
+      "a": "Yes, type it into the list. It is a delightful surprise for the child when they find it in the grid."
+    },
+    {
+      "q": "What if guests are of different ages?",
+      "a": "Print two sizes, an easy 12 by 12 for younger children and a medium 15 by 15 for older ones."
+    }
+  ]
+}

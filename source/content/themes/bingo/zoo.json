@@ -1,0 +1,120 @@
+{
+  "shortTitle": "Zoo Bingo",
+  "title": "Free Printable Zoo Bingo Cards for Your Next Zoo Visit",
+  "metaDescription": "Free zoo bingo cards with 40 animals and zoo sights, from lions and giraffes to snack stands and maps. Print before a zoo trip or a school field day.",
+  "h1": "Zoo Bingo Cards (Free Printable Generator)",
+  "intro": "Print free zoo bingo cards with 40 animals and sights to find during a visit. Kids race to cover giraffes, penguins and the gift shop while adults finally get to sit down.",
+  "toolTitle": "Zoo Bingo",
+  "items": [
+    "Lion",
+    "Tiger",
+    "Elephant",
+    "Giraffe",
+    "Zebra",
+    "Hippo",
+    "Rhino",
+    "Gorilla",
+    "Chimpanzee",
+    "Orangutan",
+    "Lemur",
+    "Monkey",
+    "Bear",
+    "Wolf",
+    "Red panda",
+    "Kangaroo",
+    "Camel",
+    "Flamingo",
+    "Peacock",
+    "Penguin",
+    "Parrot",
+    "Owl",
+    "Eagle",
+    "Snake",
+    "Lizard",
+    "Crocodile",
+    "Turtle",
+    "Tortoise",
+    "Otter",
+    "Seal",
+    "Meerkat",
+    "Sloth",
+    "Anteater",
+    "Zookeeper",
+    "Animal feeding",
+    "Zoo map",
+    "Stroller",
+    "Snack stand",
+    "Petting area",
+    "Animal sleeping"
+  ],
+  "itemsNote": "Forty animals and zoo scenes keep cards fillable even if half the exhibits are closed. Edit the list to match the species your zoo has, since most parks are missing a few of these.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Roar",
+    "cards": 12,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "road-trip-and-outdoor-games"
+  ],
+  "related": [
+    "bingo/farm-animals",
+    "bingo/ocean-animals",
+    "bingo/dinosaurs",
+    "bingo/bugs-and-insects",
+    "word-scramble/animals",
+    "bingo/nature-walk"
+  ],
+  "relatedHeading": "More animal printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play during a zoo visit",
+      "body": [
+        "Check the zoo map before you leave home and trim your card to match the species on display. Then keep the game casual, with cards in a backpack and pencils in a pocket.",
+        "1. Hand each child a card at the entrance gate.\n2. Cover a square when you see the animal, not when you see its sign. Some enclosures hide their residents well.\n3. Squares that name activities, such as a feeding or a sleeping animal, are bonus finds that depend on timing.\n4. Children shout their finds to the family and a grown-up confirms.\n5. At a rest bench, count up rows and decide on a prize."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three variations for animal days",
+      "body": [
+        "* **Habitat order.** Walk the zoo section by section and complete squares in the order you meet them. This keeps the game from drifting out of sync with the route.\n* **Sound guess.** At the bird house, ask which animals are making noise and cover squares by ear.\n* **Team field trip.** On a school visit, give each group of four one card and have them agree before covering any square."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for adults on the path",
+      "body": [
+        "Many animals nap in the afternoon. Plan the busiest part of the card for morning, when keepers feed and creatures move around.",
+        "Let children cover squares in any order. Resist the urge to point out something they have not yet noticed, because spotting a sloth for yourself feels better.",
+        "Ask one question per find: what does it eat, where does it live. It adds learning without turning the day into a lesson."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the zoo trip",
+      "body": [
+        "Print a small card, two per page, and fold it in half to fit a pocket. Cardstock outlasts a day in a stroller basket.",
+        "If your zoo allows photography of the map, add the exhibit names to the list. Ink saver is a good idea because the card will probably get sticky from snacks."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use this for a school field trip?",
+      "a": "Yes. Print one card per student or group, and add the species your zoo actually has. Teachers can use finished rows as a quick check of attention."
+    },
+    {
+      "q": "What if the zoo doesn't have an animal on the card?",
+      "a": "Edit the list on this page before you print, replacing missing animals with ones on the zoo's website or map."
+    },
+    {
+      "q": "Do I need to print color pictures?",
+      "a": "No. The cards use words only, and children who cannot read yet can pair up with someone who can."
+    }
+  ]
+}

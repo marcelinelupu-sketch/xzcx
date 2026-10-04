@@ -1,0 +1,116 @@
+{
+  "shortTitle": "Solar System Bingo",
+  "title": "Free Printable Solar System Bingo Cards for Space Lessons",
+  "metaDescription": "Free printable solar system bingo with 36 squares covering planets, moons, stars and space missions. Great for science lessons, STEM clubs and space parties.",
+  "h1": "Solar System Bingo Cards (Free Printable Generator)",
+  "intro": "Print free solar system bingo cards with planets, moons and space words for a science lesson or a space party. The list has 36 terms in plain language for ages six and up.",
+  "toolTitle": "Solar System Bingo",
+  "items": [
+    "Sun",
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Pluto",
+    "Moon",
+    "Phobos",
+    "Europa",
+    "Titan",
+    "Ganymede",
+    "Asteroid belt",
+    "Comet",
+    "Meteor",
+    "Meteorite",
+    "Crater",
+    "Orbit",
+    "Rotation",
+    "Gravity",
+    "Galaxy",
+    "Milky Way",
+    "Star",
+    "Constellation",
+    "Telescope",
+    "Astronaut",
+    "Rocket",
+    "Space station",
+    "Satellite",
+    "Rover",
+    "Solar flare",
+    "Eclipse",
+    "Dwarf planet"
+  ],
+  "itemsNote": "Planets in order from the sun come first, then moons, then space words. Pluto sits on the list as a dwarf planet, which sparks good conversation about how scientists group worlds.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Blast Off",
+    "cards": 15,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/solar-system",
+    "bingo/weather",
+    "bingo/dinosaurs",
+    "bingo/earth-day",
+    "bingo/movie-night",
+    "word-search/weather"
+  ],
+  "relatedHeading": "More space and science printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play solar system bingo",
+      "body": [
+        "Space bingo works as a unit review or as a full-class activity on a rainy day. Before you start, hang a poster of the planets within view so children can check their cards against it.",
+        "1. Hand out cards and markers. Round stickers or counters look like little planets.\n2. The caller draws a term and reads a clue rather than the word, such as the biggest planet.\n3. Players who can name the answer cover the square.\n4. Anyone who reaches a line says the names of all squares in it.\n5. Play a second round with different clues for students who need practice."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three variations out of this world",
+      "body": [
+        "* **Planet order race.** Instead of squares, give each team the eight planets to arrange in order from the sun, then bingo from there.\n* **Mission round.** Use only the spacecraft and people squares, such as rover, satellite and astronaut, with questions about what each does.\n* **Night sky outing.** On a clear evening, cover squares for things you can actually see, like the moon, a star, a satellite or a constellation."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for science teachers",
+      "body": [
+        "Offer two levels of clues. Younger students can hear simple descriptions, while older students get measurement or distance facts.",
+        "Check facts against NASA's solar system pages at [science.nasa.gov/solar-system](https://science.nasa.gov/solar-system/) when you write your clues.",
+        "Keep a quiet corner for kids who find the vocabulary hard. Pair them with a reading buddy."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the space theme",
+      "body": [
+        "Dark blue paper does not print well, so choose light paper and decorate with star stickers. Ink saver keeps big words legible on the card.",
+        "Print a list of the answers for helpers. Cutting the page in two lets you give each team a card and keep the other half as a caller sheet."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Pluto still on the list?",
+      "a": "Yes, as a dwarf planet. Scientists now call it that, so the card is a chance to talk about why."
+    },
+    {
+      "q": "What grade level is this for?",
+      "a": "It suits grades one through five. Younger children can use planet names only, and older ones can handle the vocabulary squares."
+    },
+    {
+      "q": "Can I use it for a space party?",
+      "a": "Yes. Add a rocket craft and moon snacks, then play for half an hour with prizes from the party bag."
+    }
+  ]
+}

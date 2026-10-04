@@ -1,0 +1,122 @@
+{
+ "shortTitle": "Indoor Scavenger Hunt for Kids",
+ "title": "Indoor Scavenger Hunt for Kids, Free Printable List",
+ "metaDescription": "A free printable indoor scavenger hunt for kids with 30 things to find around the house, from a spoon to a book with a red cover. No clues to hide, just print.",
+ "h1": "Indoor Scavenger Hunt for Kids (Free Printable)",
+ "intro": "Print a free indoor scavenger hunt with 30 everyday things to find around the house. There are no clues to write and nothing to hide beforehand.",
+ "toolTitle": "Indoor Scavenger Hunt for Kids",
+ "items": [
+  "Something soft",
+  "A book with a red cover",
+  "A spoon",
+  "A sock without a partner",
+  "Something that makes noise when shaken | 2",
+  "A picture of a person on a wall",
+  "A coin",
+  "Something shiny",
+  "A toy with wheels",
+  "A pillow",
+  "A key | 2",
+  "Something that starts with the letter M",
+  "A candle or a lamp",
+  "A bookmark | 2",
+  "A plant | 2",
+  "Something with buttons",
+  "A cup",
+  "A piece of paper with writing on it",
+  "A hat",
+  "Something you can see through",
+  "Something that smells nice | 2",
+  "A clock",
+  "A zipper",
+  "A game with dice | 2",
+  "Something blue",
+  "Something round",
+  "A tool for drawing",
+  "Something heavier than a book | 3",
+  "A spare blanket",
+  "A thing that begins with the letter Z. Good luck | 5"
+ ],
+ "itemsNote": "All 30 items are loaded above. The last one is a stretch on purpose, so keep it or swap it for something your home actually has.",
+ "defaultOptions": {
+  "layout": "two-column",
+  "names": true,
+  "timeLimit": true,
+  "copies": 4,
+  "shuffle": true,
+  "ageNote": "Ages 4 to 9"
+ },
+ "season": [
+  1,
+  2,
+  3,
+  11,
+  12
+ ],
+ "hubs": [
+  "party-games"
+ ],
+ "related": [
+  "scavenger-hunt/rainy-day",
+  "scavenger-hunt/toddler",
+  "scavenger-hunt/birthday-party",
+  "bingo/birthday-party",
+  "bingo/movie-night",
+  "word-search/kitchen"
+ ],
+ "relatedHeading": "More indoor and party printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to run an indoor hunt at home",
+   "body": [
+    "An indoor hunt is a no-prep game: the clues are your own belongings. The only job for the grown-up is deciding which rooms are open and which are off limits.",
+    "1. Decide the play area, such as the living room, the hallway and the kids' rooms, and close doors to the rest.\n2. Give each child a sheet and a pencil, or give a team one sheet and a basket to pile finds into.\n3. Explain that finds are brought to a central spot, like the sofa, for checking. Items that cannot be carried are pointed out.\n4. Set a timer if you want a race, or leave it open for a slow afternoon.\n5. Put everything back where it came from at the end, as part of the game."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Three twists",
+   "body": [
+    "* **Basket collection.** Rather than ticking, each child fetches the item and puts it in a laundry basket. Kids love the moment of emptying it out at the end.\n* **Silent version.** No talking at all. Children tick items only by finding them and show their sheet to a grown-up with a thumbs up. It is a good winding-down game before bed.\n* **Reverse hunt.** One person hides five things from the list, and the others have to guess which were hidden."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for smooth play",
+   "body": [
+    "Set the timer if arguments over who found the sock first are likely. A fixed ten minutes keeps the game moving.",
+    "Children with younger siblings can mark items older readers may need to read aloud for them. Trim the list for them, or let a pair work together.",
+    "Hide off-limits items such as medicines, cleaning products and anything breakable before the game begins."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Keeping it safe indoors",
+   "body": [
+    "Close doors to rooms you do not want searched, and put away medicines, cleaning products, sharp tools and anything fragile before the game starts. Remind children to walk, not run, and keep an adult nearby for anything on a high shelf or in a cupboard."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for indoor play",
+   "body": [
+    "Indoors, you can print in plain black and white on ordinary paper. Two-column layout fits all 30 items on one Letter or A4 page. For a party, print on colored paper to tell teams apart. The sheets can be reused: slip one into a plastic pocket and use a dry erase marker."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What age is an indoor scavenger hunt for?",
+   "a": "Children from about 4 to 9 can play. Read the list aloud for early readers and consider a shorter list of ten items for toddlers."
+  },
+  {
+   "q": "How do we keep the house from getting messy?",
+   "a": "Use the basket version and finish with a tidy-up round. You could also ask for items to be pointed at instead of carried."
+  },
+  {
+   "q": "Can we use it on a family movie night or a sleepover?",
+   "a": "Yes. A timed round before the film starts or at the start of a sleepover gets energy out and is easy to run in any living room."
+  }
+ ]
+}

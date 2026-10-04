@@ -1,0 +1,127 @@
+{
+  "shortTitle": "Gender Reveal Bingo",
+  "title": "Gender Reveal Bingo Cards, Free Printable Party Game",
+  "metaDescription": "Print free gender reveal bingo cards with 45 squares for guesses, snacks, outfits and party moments. Up to 30 unique cards, Letter or A4, caller list included.",
+  "h1": "Gender Reveal Party Bingo Cards (Free Printable Generator)",
+  "intro": "Print up to 30 unique gender reveal bingo cards for free. The 45 squares cover the build-up, the reveal itself and the reactions afterward, so guests have something to watch for before the big moment.",
+  "toolTitle": "Gender Reveal Bingo",
+  "items": [
+    "Pink balloon",
+    "Blue balloon",
+    "Confetti cannon",
+    "Cake cut open",
+    "Smoke powder",
+    "Piñata swing",
+    "Happy tears",
+    "Group gasp",
+    "Parents hug",
+    "Grandma cries",
+    "Grandpa cheers",
+    "Phone filming",
+    "Countdown from ten",
+    "Team pink sign",
+    "Team blue sign",
+    "Guess jar",
+    "Name suggestion",
+    "Baby bump photo",
+    "Ultrasound picture",
+    "Cupcakes",
+    "Fruit tray",
+    "Sparkling cider",
+    "Bow tie",
+    "Tutu",
+    "Little sneakers",
+    "Baby boots",
+    "Stuffed bear",
+    "Banner",
+    "Photo booth props",
+    "Instant camera",
+    "Dad jokes",
+    "Old wives' tale",
+    "Craving talk",
+    "Heartbeat story",
+    "Sibling shouts",
+    "Family group photo",
+    "Party hat",
+    "Streamers",
+    "Cheering crowd",
+    "Balloon pop",
+    "Hands over eyes",
+    "Surprise gasp",
+    "Yellow decorations",
+    "Gift for the baby",
+    "Thank you speech"
+  ],
+  "itemsNote": "Everything on this list happens at most reveals, from the first guess jar to the group photo. Change a square to match your own plan, such as your chosen reveal method or the family's favorite snack.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "IT'S A...",
+    "cards": 12,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "baby-shower-games",
+    "party-games"
+  ],
+  "related": [
+    "bingo/baby-shower",
+    "word-scramble/baby-shower",
+    "word-search/baby-shower",
+    "bingo/birthday-party",
+    "bingo/family-reunion",
+    "bingo/bridal-shower"
+  ],
+  "relatedHeading": "More baby and family party printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at a gender reveal",
+      "body": [
+        "A reveal has a different rhythm from a shower. Guests arrive, mingle, make their guesses and then everything lands in a few seconds. Bingo fills the long stretch before that moment and gives the crowd a reason to stay watching.",
+        "1. Hand a card and pencil to each guest at the door, along with their vote for pink or blue.\n2. Explain that squares can be marked as things happen all afternoon, not only at the reveal.\n3. Guests cross off squares as they spot them: a phone filming, a grandparent tearing up, a cake being cut.\n4. Call a short intermission for a first bingo before the countdown begins, so the reveal itself stays the main event.\n5. After the reveal, play on for a second round, because the reactions section of the card fills up fast.",
+        "Appoint one trusted friend as the checker. They hold the caller list and confirm a win quietly, so nobody gives away a surprise by shouting in the middle of the build-up."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to change the game",
+      "body": [
+        "* **Hidden answer bingo.** Print cards with a few blank squares, then fill them in after the reveal with whichever color won. Guests who guessed right get a bonus mark.\n* **Predictions card.** Swap half the squares for guesses about the baby, such as birth month, weight range or hair color. Check them off after the birth and share the winners in a group message.\n* **Mixed team play.** Split guests into two teams by their pink or blue vote. Each team plays its own cards, and the room cheers louder for whichever side marks bingo first."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for the hosts",
+      "body": [
+        "Keep the game running in the background, not in the spotlight. Cards on a side table with a cup of pencils work better than a formal announcement, because guests pick them up whenever the mingling slows down.",
+        "If the reveal involves smoke, confetti or balloons outdoors, play bingo before that moment, since people will be busy with cameras afterward. Schedule the second round for cake time.",
+        "Small prizes suit an afternoon like this. Think a candle, a bag of candy or a pack of seed paper, wrapped and ready on the same table as the guess jar."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for a reveal party",
+      "body": [
+        "Two cards per page keeps the squares big enough to read in sunlight if your party is in a yard. Matte paper reflects less glare than glossy photo stock.",
+        "If you want the cards in your theme colors, print on plain white and let the border and frog stamp carry the style. Neutral black and white is also a good choice if you are keeping the pink or blue a surprise until the end."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Should the cards show pink or blue?",
+      "a": "Neither, if you want to keep the surprise. The cards print in the site's neutral green and gray, so nothing about them hints at the answer. Black and white mode is available too."
+    },
+    {
+      "q": "Can I play bingo during the reveal itself?",
+      "a": "It is better to finish the first round before the countdown, then play a second round afterward. Guests are looking at the reveal, not at their cards, while it happens."
+    },
+    {
+      "q": "How many cards should I print for a small gathering?",
+      "a": "One per guest, plus a few spare for latecomers. For a group of ten or fewer, 4x4 cards finish sooner, which works well if the reveal is only an hour or so away."
+    }
+  ]
+}

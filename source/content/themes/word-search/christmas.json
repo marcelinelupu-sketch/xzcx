@@ -1,0 +1,111 @@
+{
+  "shortTitle": "Christmas Word Search",
+  "title": "Christmas Word Search, Free Printable Holiday Puzzles",
+  "metaDescription": "Make a free Christmas word search with 22 holiday words from stockings to snowmen. Set them out at the kids' table or send one home before winter break.",
+  "h1": "Christmas Word Search (Free Printable Holiday Puzzles)",
+  "intro": "Print a free Christmas word search with 22 festive words, ready to go for class parties, family gatherings and quiet moments before the big day. Choose an easy grid for little ones or a trickier one for adults.",
+  "toolTitle": "Christmas Word Search",
+  "items": [
+    "Santa",
+    "Reindeer",
+    "Sleigh",
+    "Stocking",
+    "Ornament",
+    "Wreath",
+    "Candy cane",
+    "Snowman",
+    "Mistletoe",
+    "Gingerbread",
+    "Holly",
+    "Presents",
+    "Tinsel",
+    "Carols",
+    "Chimney",
+    "Fireplace",
+    "Snowflake",
+    "Elf",
+    "Garland",
+    "Star",
+    "Eggnog",
+    "Cookies"
+  ],
+  "itemsNote": "All 22 words are loaded in the generator above. If you need a quick set for younger children, delete the longest ones, like gingerbread and mistletoe, and keep the short favorites.",
+  "defaultOptions": {
+    "size": 15,
+    "difficulty": "medium",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [
+    11,
+    12
+  ],
+  "hubs": [
+    "christmas-printables",
+    "classroom-games"
+  ],
+  "related": [
+    "word-scramble/christmas",
+    "bingo/christmas",
+    "scavenger-hunt/christmas-lights",
+    "word-search/winter",
+    "bingo/winter",
+    "word-search/back-to-school"
+  ],
+  "relatedHeading": "More Christmas printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use a Christmas word search at a party or in class",
+      "body": [
+        "A holiday word search earns its place in the last week before winter break, when attention is thin and energy is high. It gives children something absorbing to do at their desks, and it gives hosts a calm corner at a family gathering.",
+        "1. Print enough copies for everyone and set out pencils or a few red and green crayons.\n2. Let each person hunt for the words on their own for five minutes. Circle with color so the finished sheet looks festive.\n3. Ask who found the longest word first. Gingerbread and mistletoe are usually the last to turn up.\n4. Celebrate with a small prize, a cookie, or a turn to pick the next carol.",
+        "As a classroom activity, you can attach a bit of extra learning. Ask children to pick three words and use each in a sentence about their own December traditions. This makes a quiet filler into a short writing exercise.",
+        "> Every household celebrates differently, and some families do not celebrate Christmas at all. If your group is mixed, frame the sheet as a winter holiday puzzle and let children skip words that do not fit their traditions."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Four Christmas twists worth trying",
+      "body": [
+        "* **Family relay.** Split a gathering into two teams. Each team gets a copy and passes it to the next person after every word found. The first team to finish wins the right to pick the movie.\n* **Letter hunt in the leftovers.** Once the puzzle is done, have children read the unused letters aloud in order. Hosts can seed a short message in a custom list, like a gift tag clue.\n* **Advent countdown.** Make a short list of five words, print five puzzles, and hand one over each evening in the week before the holiday.\n* **Card insert.** Print a small puzzle with a relative's name and a few family inside jokes, then tuck it into a card as a little gift."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for hosts and teachers",
+      "body": [
+        "Make a custom list for your own family. Add the names of pets, the town you live in, or a favorite dish from your holiday table, and the puzzle becomes a keepsake rather than a time filler.",
+        "If you are handling a mixed age group, print two difficulty levels and let children choose. Younger children feel proud finishing the easy version, and older siblings enjoy the harder one without feeling talked down to."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for the holidays",
+      "body": [
+        "Printer ink is precious in December. Switch on ink saver mode to lighten the grid lines, and print on plain paper for classroom use. For a gift puzzle, use a slightly heavier cream or light green paper and let the pencil do the color work.",
+        "If you plan a large gathering, make a set of 6 to 10 different puzzles from the same list so neighbors at the table cannot copy from each other."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many Christmas word search puzzles should I print for a class party?",
+      "a": "One per child plus two spares usually works. If children sit close together, set the generator to make different puzzles so they are not tempted to peek at a neighbor's grid."
+    },
+    {
+      "q": "Is there a Christmas word search for toddlers?",
+      "a": "True toddlers are too young to scan a grid, but preschoolers who know their letters can try an easy 10 by 10 grid with five or six short words such as star, elf and holly. A grown-up helper makes it more fun."
+    },
+    {
+      "q": "Can I add my own family words to this puzzle?",
+      "a": "Yes. The word list above is fully editable. Add family names, your street, or the dish everyone fights over, and press Generate to build a new puzzle in seconds."
+    },
+    {
+      "q": "Does this Christmas puzzle include religious words?",
+      "a": "The default list leans toward general holiday imagery like stockings, tinsel and snowflakes. You can change any word, so add or remove whatever suits your own family or classroom."
+    }
+  ]
+}

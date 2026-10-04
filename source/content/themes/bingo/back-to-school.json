@@ -1,0 +1,119 @@
+{
+  "shortTitle": "Back to School Bingo",
+  "title": "Free Printable Back to School Bingo for the First Week",
+  "metaDescription": "Free back to school bingo cards with 36 squares such as new backpack, sharpened pencil and cafeteria lunch. Print for week one or open house.",
+  "h1": "Back to School Bingo Cards (Free Printable Generator)",
+  "intro": "Print free back to school bingo cards that help the first week feel friendlier. The 36 squares cover supplies, routines and small first-day moments, and they work as a class icebreaker.",
+  "toolTitle": "Back to School Bingo",
+  "items": [
+    "New backpack",
+    "Sharpened pencil",
+    "Fresh eraser",
+    "Box of crayons",
+    "Glue stick",
+    "Scissors",
+    "Notebook",
+    "Binder",
+    "Ruler",
+    "Lunch box",
+    "Water bottle",
+    "School bus",
+    "Bell ringing",
+    "Hallway",
+    "Locker",
+    "Name tag",
+    "Seating chart",
+    "Class pet",
+    "Calendar time",
+    "Library corner",
+    "Cafeteria tray",
+    "Recess ball",
+    "Playground slide",
+    "Gym shoes",
+    "Art smock",
+    "Show and tell",
+    "Line leader",
+    "Hand raised",
+    "New friend",
+    "Old friend",
+    "Teacher smile",
+    "Classroom rules",
+    "Cubby",
+    "Homework folder",
+    "Read-aloud story",
+    "Hug goodbye"
+  ],
+  "itemsNote": "The squares are things that happen to nearly every child in the first days of school. Add your own classroom details, such as the name of the class pet or the color of your door, to build excitement.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Ready",
+    "cards": 28,
+    "perPage": 2
+  },
+  "season": [
+    8,
+    9
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/last-day-of-school",
+    "bingo/icebreaker-find-someone-who",
+    "word-search/back-to-school",
+    "word-scramble/back-to-school",
+    "scavenger-hunt/classroom",
+    "bingo/fall"
+  ],
+  "relatedHeading": "More back to school printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play during the first week",
+      "body": [
+        "On day one, children are looking around the room and waiting to see who is nice. A bingo card gives them a reason to look, talk and settle. It works best during a quiet block, such as after morning meeting or before dismissal.",
+        "1. Hand out cards face down and let everyone turn them over together.\n2. Read each square out loud, then ask students to find one in the room or tell a neighbor about it.\n3. Students cover each match with a counter or a crayon dot.\n4. The first student with a full row stands up and names three squares they covered.\n5. Collect the cards and display them on a bulletin board titled First Week Facts."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three classroom variations",
+      "body": [
+        "* **Find a friend.** Each student finds a classmate who matches a square, such as someone who rode the bus, and gets a signature in the box. It turns the game into a gentle mixer.\n* **Tour bingo.** Walk the building in small groups, and have students cover squares like the library corner or the gym as they pass them.\n* **Parent night edition.** At open house, parents play with the card and learn about the day, such as where the lunch line starts and what the bell sounds like."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers",
+      "body": [
+        "Choose words that every child can read, or read each word aloud for kindergarteners. Nobody should feel behind on day one.",
+        "Mark a few squares as teacher squares, like a smile or a story. These give you a quick and friendly way to join the game without leading it.",
+        "Anxious students often feel better when there is a task. Offer the card to a child who clings at the door and let them mark the squares as they find them."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the classroom",
+      "body": [
+        "Print on regular copy paper, one card per child, and use two per page to cut costs. Choose ink saver for a clean look. Sheets can be stapled inside a folder to save for later.",
+        "If you reuse cards across several sections, put them in sheet protectors and use dry-erase markers. A quick wipe resets each one."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this good for the very first day?",
+      "a": "Yes. It keeps students busy while you handle paperwork and routines, and nothing on the card requires prior knowledge."
+    },
+    {
+      "q": "Can I use it as an icebreaker with older students?",
+      "a": "Absolutely. Trim the list to items suited for their grade and ask students to find classmates who match."
+    },
+    {
+      "q": "How many cards can I print at once?",
+      "a": "Up to 30 unique cards, enough for a typical class. Use the seed link to reprint the same set later."
+    }
+  ]
+}

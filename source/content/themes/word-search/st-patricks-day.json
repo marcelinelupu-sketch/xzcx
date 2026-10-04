@@ -1,0 +1,103 @@
+{
+  "shortTitle": "St. Patrick's Day Word Search",
+  "title": "St. Patrick's Day Word Search, Free Printable Puzzle Sheet",
+  "metaDescription": "Print a free St. Patrick's Day word search with 20 lucky words from shamrocks to rainbows. Leave one at each desk on March 17 for a cheerful early finisher.",
+  "h1": "St. Patrick's Day Word Search (Free Printable)",
+  "intro": "Print a free St. Patrick's Day word search with 20 lucky words, from shamrocks to pots of gold. It is a quick, cheerful activity for a March classroom or a family dinner in green.",
+  "toolTitle": "St. Patrick's Day Word Search",
+  "items": [
+    "Shamrock",
+    "Leprechaun",
+    "Rainbow",
+    "Pot of gold",
+    "Clover",
+    "Lucky",
+    "Green",
+    "Ireland",
+    "Gold coins",
+    "Parade",
+    "Harp",
+    "Celtic",
+    "Irish",
+    "Four leaf",
+    "Luck",
+    "Rain",
+    "March",
+    "Treasure",
+    "Hat",
+    "Dance"
+  ],
+  "itemsNote": "All 20 words are loaded above. Teachers who want a geography tie-in can add Dublin or Emerald Isle to the list.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 14,
+    "difficulty": "easy",
+    "case": "upper"
+  },
+  "season": [
+    3
+  ],
+  "hubs": [
+    "classroom-games",
+    "party-games"
+  ],
+  "related": [
+    "word-scramble/easter",
+    "bingo/st-patricks-day",
+    "word-search/spring",
+    "word-search/easter",
+    "bingo/frog-and-pond",
+    "word-search/weather"
+  ],
+  "relatedHeading": "More St. Patrick's Day printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search on March 17th",
+      "body": [
+        "St. Patrick's Day sits in a sleepy stretch of the school year, and a themed puzzle gives a gentle lift. Use it as an arrival activity so children settle in with something green and bright.",
+        "1. Give each child a puzzle and a green crayon or pencil to circle words.\n2. Start with a quick guess: which three words do you think are easiest to find? Then see who was right.\n3. Ask children to find all the words about weather and nature first, such as rain, rainbow and clover.\n4. Finish with the fun words, like leprechaun and pot of gold, and let each child tell the group a short story about luck.",
+        "> St. Patrick's Day began as a religious feast day in Ireland and became a broader celebration of Irish culture. A short class chat about that history is a good way to build context before the puzzle."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three lucky variations",
+      "body": [
+        "* **Rainbow race.** Children circle each found word in a different rainbow color and see who finishes with the most colorful page.\n* **Treasure trail.** Hide the answer key at the end of a paper trail around the room, with a chocolate coin as the prize.\n* **Clover count.** Give each child a paper clover to fill with the words they find, one word per leaf."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "Green-clad parties and pinch jokes can get silly. A quiet puzzle is a nice balance, and mixed ages are fine because the easy and hard versions look alike on the page.",
+        "Add a short fact sheet to the back of the page, like where Ireland is on a map, to turn a puzzle into a mini lesson."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for March",
+      "body": [
+        "Green paper is festive, but pale green keeps the letters readable. If you only have white, a green marker for circling does the trick.",
+        "Print in black-and-white to save ink, since the grid is only letters. For a class set, 10 different layouts from one list prevents copying."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What ages enjoy this St. Patrick's Day puzzle?",
+      "a": "Most children from about 6 to 10 enjoy it. Use easy mode for the youngest and diagonal words for older children."
+    },
+    {
+      "q": "Is the word list tied to religion?",
+      "a": "The default list covers luck, nature and Irish culture. Edit it freely if you want a different focus."
+    },
+    {
+      "q": "Can I use it in a library program?",
+      "a": "Yes, you may print as many copies as you need for a free program."
+    }
+  ]
+}

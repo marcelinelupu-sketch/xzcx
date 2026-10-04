@@ -1,0 +1,186 @@
+{
+  "shortTitle": "Addition Facts Bingo",
+  "title": "Addition Facts to 20 Bingo, Free Printable Math Cards",
+  "metaDescription": "Free printable addition bingo for sums to 20. Cards show the answers, you call the problems, and every card is unique. Great for math centers and fluency.",
+  "h1": "Addition Facts to 20 Bingo Cards (Free Printable Generator)",
+  "intro": "Print free addition bingo cards where the squares show sums from 2 to 20 and the caller reads the problems. Each card is different, so every child has to compute.",
+  "toolTitle": "Addition Bingo",
+  "items": [
+    {
+      "square": "2",
+      "call": "1 + 1"
+    },
+    {
+      "square": "3",
+      "call": "1 + 2"
+    },
+    {
+      "square": "4",
+      "call": "2 + 2"
+    },
+    {
+      "square": "5",
+      "call": "3 + 2"
+    },
+    {
+      "square": "6",
+      "call": "4 + 2"
+    },
+    {
+      "square": "7",
+      "call": "3 + 4"
+    },
+    {
+      "square": "8",
+      "call": "5 + 3"
+    },
+    {
+      "square": "9",
+      "call": "6 + 3"
+    },
+    {
+      "square": "10",
+      "call": "7 + 3"
+    },
+    {
+      "square": "11",
+      "call": "5 + 6"
+    },
+    {
+      "square": "12",
+      "call": "7 + 5"
+    },
+    {
+      "square": "13",
+      "call": "8 + 5"
+    },
+    {
+      "square": "14",
+      "call": "9 + 5"
+    },
+    {
+      "square": "15",
+      "call": "9 + 6"
+    },
+    {
+      "square": "16",
+      "call": "9 + 7"
+    },
+    {
+      "square": "17",
+      "call": "8 + 9"
+    },
+    {
+      "square": "18",
+      "call": "9 + 9"
+    },
+    {
+      "square": "19",
+      "call": "10 + 9"
+    },
+    {
+      "square": "20",
+      "call": "10 + 10"
+    },
+    {
+      "square": "10",
+      "call": "6 + 4"
+    },
+    {
+      "square": "12",
+      "call": "8 + 4"
+    },
+    {
+      "square": "14",
+      "call": "7 + 7"
+    },
+    {
+      "square": "15",
+      "call": "8 + 7"
+    },
+    {
+      "square": "16",
+      "call": "10 + 6"
+    }
+  ],
+  "itemsNote": "The squares hold the answers, and the caller sheet holds the problems. Every sum from 2 to 20 appears, and the middle sums of 10, 12, 14, 15 and 16 appear twice with different problems, so a card can hold two of the same number and each one needs its own call. Edit the right-hand side of a line to use your own problem.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 4,
+    "free": false,
+    "cards": 24,
+    "perPage": 2,
+    "caller": true
+  },
+  "season": [
+    8,
+    9,
+    10
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/multiplication-facts",
+    "bingo/number-bingo-1-30-for-kids",
+    "bingo/75-ball-bingo-cards",
+    "bingo/sight-words-first-grade",
+    "bingo/back-to-school",
+    "bingo/cvc-words"
+  ],
+  "relatedHeading": "More math and classroom printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play addition bingo in a math center",
+      "body": [
+        "This version flips the usual bingo job. Children do not look for the word they hear. They hear a problem, work out the sum in their heads and then find the answer on their card. That small step turns a matching game into fact practice, and it hides the repetition inside a game they want to play.",
+        "A 4x4 card with sixteen squares suits most classes, because the sums from 2 to 20 only give nineteen different answers. Turn on the caller sheet so you have the problems in a random order.",
+        "1. Give each child a card and some counters.\n2. Read a problem aloud: \"seven plus three.\" Say it slowly and repeat it once.\n3. Children work out the sum, find it and cover it. Allow thinking time, because that is the whole point.\n4. At a full row, the child reads each covered square with its problem, such as \"ten, because seven plus three.\"\n5. Check against the caller sheet. A wrong cover means the line is not yet complete.\n6. Play again and let a child take over reading the problems."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Teaching tips for fact fluency",
+      "body": [
+        "Slow down for the first round. Counting on fingers or with cubes is a perfectly good strategy at this stage, and you can lift the pace later. If a child covers a wrong number, ask them to show you the problem with counters rather than telling them the answer.",
+        "Look for strategy talk. Some children see 9 + 6 and think ten plus five. Others use doubles, as in 9 + 9. Ask the winner to explain how they found one answer, and let others share different routes to the same number.",
+        "Keep an eye on the answers that appear most often in mistakes. Teen numbers such as 13 and 17 get mixed up because they sound alike in speech, so say them clearly.",
+        "Use pairs for children who find it tough. One reads the card, the other has the counters, and they swap after a round."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to change the challenge",
+      "body": [
+        "* **Missing addend.** Call \"seven plus what makes ten?\" Children cover 10, and the sentence practices the idea of a missing number.\n* **Make it a race.** Set a sand timer for each call. Children who finish a cover before the timer ends keep a point, and the winner is whoever has the most points.\n* **Create your own.** Children write their own addition problems to match answers on a blank card. Swap cards with a partner and play again with someone else's problems."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing math bingo cards",
+      "body": [
+        "Print on plain paper and slide the cards into plastic sleeves, then use dry-erase markers or a bit of reusable putty. The cards stay clean for the next class. Print the caller sheet on a different color so it is easy to find in a pile of cards.",
+        "For a take-home version, use the one card per page layout and add the caller sheet on the back or on a separate page, so a parent can read the problems."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Why does the list only go up to 20?",
+      "a": "Sums to 20 are a common benchmark for early elementary math, and fluency with them supports later work. You can edit the list for sums to 10 or to 100."
+    },
+    {
+      "q": "Do I need the caller sheet?",
+      "a": "It makes the game much easier. The sheet lists the problems in the order they were drawn, so you can check winning cards without redoing the math."
+    },
+    {
+      "q": "Can I print only subtraction?",
+      "a": "Yes. Replace the call side with subtraction problems that produce the same answers, such as twenty minus three for 17, and print as usual."
+    },
+    {
+      "q": "How many players can use one set of cards?",
+      "a": "Up to 30 unique cards can be printed at once. For a larger group, play in two rounds with the cards passed along."
+    }
+  ]
+}

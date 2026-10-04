@@ -1,0 +1,104 @@
+{
+  "shortTitle": "Easter Word Search",
+  "title": "Easter Word Search, Free Printable Spring Puzzle Sheets",
+  "metaDescription": "Make a free Easter word search with 20 words from baskets to bunnies. Tuck one into each Easter basket or hand them out while the eggs are being hidden.",
+  "h1": "Easter Word Search (Free Printable for Kids)",
+  "intro": "Print a free Easter word search with 20 spring words, including eggs, baskets and chicks. It is a gentle activity for the table before an egg hunt or for a classroom the week before the holiday.",
+  "toolTitle": "Easter Word Search",
+  "items": [
+    "Easter",
+    "Bunny",
+    "Basket",
+    "Eggs",
+    "Chick",
+    "Jelly beans",
+    "Tulip",
+    "Daffodil",
+    "Lamb",
+    "Hop",
+    "Spring",
+    "Carrot",
+    "Bonnet",
+    "Parade",
+    "Chocolate",
+    "Egg hunt",
+    "Candy",
+    "Meadow",
+    "Ribbon",
+    "Dye"
+  ],
+  "itemsNote": "These 20 words are ready in the generator above. If you want a puzzle that fits secular spring parties, the list already leans toward bunnies, eggs and flowers.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 14,
+    "difficulty": "easy",
+    "case": "upper"
+  },
+  "season": [
+    3,
+    4
+  ],
+  "hubs": [
+    "party-games",
+    "classroom-games"
+  ],
+  "related": [
+    "word-scramble/easter",
+    "bingo/easter",
+    "scavenger-hunt/spring-easter",
+    "word-search/spring",
+    "word-search/st-patricks-day",
+    "bingo/frog-and-pond"
+  ],
+  "relatedHeading": "More Easter and spring printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search around an egg hunt",
+      "body": [
+        "Waiting is the hardest part of an Easter gathering, and children are rarely patient while the grown-ups finish brunch. A puzzle on the table gives them a task and keeps small hands away from the egg basket.",
+        "1. Set the puzzles out with crayons in pastel colors as soon as children arrive.\n2. Challenge them to find the egg-related words first, such as eggs, basket, dye and hunt.\n3. Ask each finished child to say which flower or animal on the list they have seen in a garden this spring.\n4. When every sheet is done, announce the egg hunt, and let them carry the puzzle along as a checklist for good manners.",
+        "Classrooms can use the same puzzle as a spring-break send-off. Pair the page with a short reading about plants waking up after winter and you have a seasonal lesson in ten minutes."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three playful variations",
+      "body": [
+        "* **Egg hunt connection.** Hide small paper eggs, each with a word from the list. Children find an egg, then find the same word in the grid.\n* **Rhyme time.** After solving, children write a rhyme for each of five words from the list, such as hop and top, or chick and stick.\n* **Spring garden tag.** Use the flower words as the starting point for a drawing of a garden, with tulips and daffodils labeled in the proper spots."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for hosts and teachers",
+      "body": [
+        "Keep the word count modest. Egg hunts are exciting, and a 12 word version is a better fit than a long list when children are watching the door.",
+        "Choose your list on purpose. Families who celebrate Easter as a religious holiday may want to add their own words, and secular groups can leave the list as it stands."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for spring",
+      "body": [
+        "Soft pastel paper in yellow, pink or mint makes a cheerful puzzle, but keep it light so the letters stay sharp. Cardstock is a bit much for a one-use sheet.",
+        "If you plan to tuck the puzzle in an Easter basket, print a smaller grid, fold the page in quarters, and add a pencil stub. A 12 by 12 grid folds neatly and still fits the whole list."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is the Easter word search for?",
+      "a": "It is aimed at ages 5 to 9. On the easy setting words only run across and down, which suits early readers."
+    },
+    {
+      "q": "Can I make the puzzle for a whole class?",
+      "a": "Yes. Set the puzzle count to the number of children and each one gets a different layout of the same words, which keeps the class from copying."
+    },
+    {
+      "q": "Is there an answer key?",
+      "a": "Yes, tick the option before printing. The key prints after the puzzle so you can check work quickly or send it home with a parent."
+    }
+  ]
+}

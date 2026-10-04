@@ -1,0 +1,77 @@
+{
+  "shortTitle": "Number Bingo 1 to 30",
+  "title": "Number Bingo 1 to 30, Free Printable Cards for Kids",
+  "metaDescription": "Free number bingo cards using the numbers 1 to 30 for early counting practice. Print up to 30 unique cards for home or the classroom on Letter or A4 paper.",
+  "h1": "Number Bingo 1 to 30 (Free Printable Cards for Kids)",
+  "intro": "Print up to 30 unique number bingo cards for free, using only the numbers 1 to 30. They are a gentle way for teachers and parents to practice number recognition and counting.",
+  "toolTitle": "Number Bingo 1 to 30",
+  "items": [],
+  "defaultOptions": {
+    "mode": "30",
+    "grid": 4,
+    "cards": 12,
+    "perPage": 2,
+    "caller": true
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/75-ball-bingo-cards",
+    "bingo/90-ball-bingo-tickets",
+    "bingo/sight-words-kindergarten",
+    "bingo/addition-facts-to-20",
+    "bingo/cvc-words",
+    "bingo/last-day-of-school"
+  ],
+  "relatedHeading": "More classroom bingo printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play number bingo with children",
+      "body": [
+        "The numbers 1 to 30 are a good range for children who are learning to read numbers, since the pool is small enough that numbers repeat often. This version suits small groups, circle time and quiet afternoons at home.",
+        "1. Print a card for each child, plus a few spare ones.\n2. Give each child counters, such as buttons or small pieces of paper.\n3. Draw numbers from a bag, or use the [bingo caller](/bingo-caller/). Say each number slowly and hold up the written numeral.\n4. Children cover the number if it is on their card. Help them to find it if needed.\n5. When a card has a full row, the child says \"Bingo!\" and everyone checks the numbers together."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations for learning",
+      "body": [
+        "* **Say it two ways.** Call the number as a word, such as \"seventeen\", and as a clue, such as \"one more than sixteen\", to build understanding.\n* **Teen number focus.** Remove the lower numbers and call mostly 11 to 19, which many children find tricky.\n* **Partner play.** Pair a stronger reader with a younger child. They share a card and take turns finding the numbers."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "Keep rounds short. Five to ten minutes is plenty for a group of young children, and ending while they still want more makes the next game easier.",
+        "Use a smaller grid for beginners. A 3x3 card is quick to finish, and you can move to 4x4 when they are comfortable.",
+        "Praise the effort and not just the winner. Let every child who gets a line choose a sticker so the focus stays on practicing."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for little hands",
+      "body": [
+        "Choose a large size with one card per page, so little fingers have room to place counters. Laminating the cards allows them to be used with dry erase markers over and over.",
+        "Print on bright paper for a cheerful look, and use black and white mode for large classes to save ink."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is this for?",
+      "a": "It suits children who can begin to recognize numbers, often between about four and seven years old. An adult can help the youngest players."
+    },
+    {
+      "q": "Why only 1 to 30?",
+      "a": "A smaller range of numbers repeats more often, which gives children more chances to practice and a better chance of finishing a line."
+    },
+    {
+      "q": "Can I print the caller numbers?",
+      "a": "Yes. Switch on the caller sheet option, and you get a page with all the numbers to cut out and draw from a bag."
+    }
+  ]
+}

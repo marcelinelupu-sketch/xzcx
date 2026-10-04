@@ -1,0 +1,100 @@
+{
+  "shortTitle": "Rainforest Animals Word Search",
+  "title": "Rainforest Animals Word Search, Free Printable with Key",
+  "metaDescription": "Print a free rainforest animals word search with 20 jungle creatures from sloths to toucans. A handy extra for a habitats unit or a rainy indoor recess.",
+  "h1": "Rainforest Animals Word Search (Free Printable with Key)",
+  "intro": "Print a free rainforest animals word search with 20 creatures from the canopy to the forest floor. It supports a habitat unit and gives young animal lovers a puzzle worth finishing.",
+  "toolTitle": "Rainforest Animals Word Search",
+  "items": [
+    "Jaguar",
+    "Sloth",
+    "Toucan",
+    "Macaw",
+    "Tree frog",
+    "Anaconda",
+    "Orangutan",
+    "Gorilla",
+    "Chameleon",
+    "Tapir",
+    "Capybara",
+    "Ocelot",
+    "Lemur",
+    "Piranha",
+    "Parrot",
+    "Howler monkey",
+    "Leafcutter ant",
+    "Tiger",
+    "Okapi",
+    "Butterfly"
+  ],
+  "itemsNote": "The 20 words above are loaded. These animals come from different rainforests around the world, which makes a nice map activity.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 14,
+    "difficulty": "medium",
+    "case": "upper"
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/zoo",
+    "word-search/ocean-animals",
+    "word-search/insects",
+    "word-search/pond-animals",
+    "word-search/plants-and-flowers",
+    "word-search/farm"
+  ],
+  "relatedHeading": "More animal printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search in a habitat lesson",
+      "body": [
+        "Rainforests are home to a huge variety of animals, which makes this puzzle a good partner to a lesson on habitats and layers of the forest. Children enjoy the unusual names, and many are keen to share what they know.",
+        "1. Introduce the idea of rainforest layers: the emergent layer, canopy, understory and forest floor.\n2. Solve the puzzle and ask students to place each animal in the layer where they think it lives.\n3. Look up the answers together and see which ones surprised the class.\n4. Choose one animal for a short report or drawing.",
+        "> Not all of these animals share a continent. Jaguars and sloths live in the Americas, orangutans in Southeast Asia, and lemurs only in Madagascar, so a world map makes a great companion to the puzzle."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three rainforest variations",
+      "body": [
+        "* **Layer posters.** Groups make a poster of one rainforest layer and glue the right animal words onto it.\n* **Animal sounds.** Children act out how each animal moves or sounds, and the class guesses before finding it in the grid.\n* **Conservation circle.** Choose one animal and discuss why its habitat matters."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "Some names are long, like leafcutter ant and howler monkey. Remind children they are written together without spaces in the grid.",
+        "Tigers do not live in the Amazon, but they do share Asian forests. If you prefer tighter accuracy by region, edit the list."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for the jungle",
+      "body": [
+        "Print on green tinted paper only if it stays light. Pair the sheet with a printed map to color.",
+        "A 14 by 14 grid suits this list. Use ink saver mode for class sets."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is the rainforest word search for?",
+      "a": "It suits ages 7 to 11. Use easy mode for younger children."
+    },
+    {
+      "q": "Are all the animals from the same forest?",
+      "a": "No. They come from rainforests in South America, Africa, Asia and Madagascar. A map helps children see this."
+    },
+    {
+      "q": "Can I make a version for one continent?",
+      "a": "Yes. Edit the list to include only animals from one region and press Generate."
+    }
+  ]
+}

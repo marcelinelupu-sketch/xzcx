@@ -1,0 +1,236 @@
+{
+  "shortTitle": "Multiplication Facts Bingo",
+  "title": "Multiplication Facts Bingo Cards, Free Printable Game",
+  "metaDescription": "Free printable multiplication bingo with products up to 100. Cards show the answers and the caller sheet lists the facts. Ideal for third grade fluency.",
+  "h1": "Multiplication Facts Bingo Cards (Free Printable Generator)",
+  "intro": "Make free multiplication bingo cards with 36 products from 4 to 100 on the squares. You read the facts, and each player finds the answer.",
+  "toolTitle": "Multiplication Bingo",
+  "items": [
+    {
+      "square": "4",
+      "call": "2 × 2"
+    },
+    {
+      "square": "6",
+      "call": "2 × 3"
+    },
+    {
+      "square": "8",
+      "call": "2 × 4"
+    },
+    {
+      "square": "9",
+      "call": "3 × 3"
+    },
+    {
+      "square": "10",
+      "call": "2 × 5"
+    },
+    {
+      "square": "12",
+      "call": "3 × 4"
+    },
+    {
+      "square": "14",
+      "call": "2 × 7"
+    },
+    {
+      "square": "15",
+      "call": "3 × 5"
+    },
+    {
+      "square": "16",
+      "call": "4 × 4"
+    },
+    {
+      "square": "18",
+      "call": "2 × 9"
+    },
+    {
+      "square": "20",
+      "call": "4 × 5"
+    },
+    {
+      "square": "21",
+      "call": "3 × 7"
+    },
+    {
+      "square": "24",
+      "call": "4 × 6"
+    },
+    {
+      "square": "25",
+      "call": "5 × 5"
+    },
+    {
+      "square": "27",
+      "call": "3 × 9"
+    },
+    {
+      "square": "28",
+      "call": "4 × 7"
+    },
+    {
+      "square": "30",
+      "call": "5 × 6"
+    },
+    {
+      "square": "32",
+      "call": "4 × 8"
+    },
+    {
+      "square": "35",
+      "call": "5 × 7"
+    },
+    {
+      "square": "36",
+      "call": "6 × 6"
+    },
+    {
+      "square": "40",
+      "call": "5 × 8"
+    },
+    {
+      "square": "42",
+      "call": "6 × 7"
+    },
+    {
+      "square": "45",
+      "call": "5 × 9"
+    },
+    {
+      "square": "48",
+      "call": "6 × 8"
+    },
+    {
+      "square": "49",
+      "call": "7 × 7"
+    },
+    {
+      "square": "54",
+      "call": "6 × 9"
+    },
+    {
+      "square": "56",
+      "call": "7 × 8"
+    },
+    {
+      "square": "63",
+      "call": "7 × 9"
+    },
+    {
+      "square": "64",
+      "call": "8 × 8"
+    },
+    {
+      "square": "72",
+      "call": "8 × 9"
+    },
+    {
+      "square": "81",
+      "call": "9 × 9"
+    },
+    {
+      "square": "60",
+      "call": "6 × 10"
+    },
+    {
+      "square": "70",
+      "call": "7 × 10"
+    },
+    {
+      "square": "80",
+      "call": "8 × 10"
+    },
+    {
+      "square": "90",
+      "call": "9 × 10"
+    },
+    {
+      "square": "100",
+      "call": "10 × 10"
+    }
+  ],
+  "itemsNote": "Each product here is paired with one fact, chosen so that no two squares share an answer. The easiest facts of 1s and 0s are left out, and the harder middle tables of 6, 7, 8 and 9 appear often.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Free",
+    "cards": 24,
+    "perPage": 2,
+    "caller": true
+  },
+  "season": [
+    8,
+    9,
+    10,
+    1
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/addition-facts-to-20",
+    "bingo/number-bingo-1-30-for-kids",
+    "bingo/75-ball-bingo-cards",
+    "bingo/back-to-school",
+    "bingo/sight-words-first-grade",
+    "bingo/solar-system"
+  ],
+  "relatedHeading": "More math printables for the classroom",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play multiplication bingo in a lesson",
+      "body": [
+        "Multiplication facts are the kind of knowledge that needs repeating, and repeating without boredom is the hard part. Bingo fixes that by giving every child a reason to listen to every fact. A child who is not paying attention cannot find the answer, so the game quietly asks for focus.",
+        "Calling the problems takes a steady voice and a short pause. The caller sheet in the generator lists each fact in the order drawn, so you can tick them off as you go.",
+        "1. Print a card for each child, and have counters ready.\n2. Say a fact: \"six times seven.\" Do not say the answer.\n3. Children work it out, look for 42 and cover it.\n4. After a few calls, ask for a volunteer to explain how they found one answer.\n5. When someone reaches a full line, read back every covered number with its fact, \"forty-two, six times seven,\" and check against the caller sheet.\n6. Keep the cards for the next round, since the same board with new calls is fresh practice."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for the classroom teacher",
+      "body": [
+        "Start with only the tables your class has covered. Delete the facts that have not been taught yet, and the cards will redraw from what remains. Make sure you leave enough items for a full card: 24 for a 5x5 board, or 15 for a 4x4.",
+        "Be ready for the sneaky answers. Several products can be reached in more than one way, for example 24 is also 3 times 8, and 36 is also 4 times 9. Accept any correct fact for the answer, which is a quiet lesson in factors.",
+        "Notice how long children take on each fact. If most pause on 7 times 8, that is your next mini-lesson. A tally on your caller sheet turns the game into assessment.",
+        "Mix in word cues for stronger children, like \"the number of legs on six spiders is...\" That ties multiplication back to its meaning."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations for different needs",
+      "body": [
+        "* **Division reverse.** Call \"fifty-six divided by eight\" and let children cover 7 on a card made of small numbers. It shows how the two operations connect.\n* **Square numbers only.** Use just the squares, 4, 9, 16, 25, 36, 49, 64 and 81, on a 3x3 card. It is a short game that makes the pattern memorable.\n* **Family night.** Send a card and the problem list home. A parent calls the facts and a child plays, with the child taking a turn as caller afterward."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing math cards",
+      "body": [
+        "Numbers print best in a large, clear size, so use one or two cards per page rather than four. Laminate a class set if you plan to revisit the game each month, and wipe the cards after each round.",
+        "Print the caller sheet in black and white even if the cards are colored. It is for you only, and it keeps ink use down."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which grade is multiplication bingo for?",
+      "a": "It suits children who are learning or reviewing times tables, usually in third and fourth grade. It also helps older students who need to rebuild fluency."
+    },
+    {
+      "q": "How do I limit the game to specific tables?",
+      "a": "Edit the list in the box above and delete facts you do not want. For a 5x5 card you need at least 24 entries left."
+    },
+    {
+      "q": "Why are some facts missing?",
+      "a": "The very easy facts of zero and one are left out, and each answer appears once so that a square never matches two different calls."
+    },
+    {
+      "q": "Can I use the cards for division?",
+      "a": "Yes, by calling a division problem whose answer you want, but the squares would show quotients, not products. For division practice, build a separate list of small numbers."
+    }
+  ]
+}

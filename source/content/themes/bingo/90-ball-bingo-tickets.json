@@ -1,0 +1,77 @@
+{
+  "shortTitle": "90-Ball Bingo Tickets",
+  "title": "90-Ball Bingo Tickets, Free Printable UK Style Sheets",
+  "metaDescription": "Print free 90-ball bingo tickets in the UK style: 3 rows by 9 columns, 15 numbers per ticket, six tickets per strip. A4 paper support and a caller list.",
+  "h1": "90-Ball Bingo Tickets (Free Printable Generator)",
+  "intro": "Print 90-ball bingo tickets for free in the classic British layout. Each ticket has three rows and nine columns with 15 numbers, and a strip of six tickets uses every number from 1 to 90 exactly once.",
+  "toolTitle": "90-Ball Bingo",
+  "items": [],
+  "defaultOptions": {
+    "mode": "90",
+    "cards": 12,
+    "perPage": 2,
+    "caller": true
+  },
+  "season": [],
+  "hubs": [
+    "party-games",
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/75-ball-bingo-cards",
+    "bingo/number-bingo-1-30-for-kids",
+    "bingo/family-reunion",
+    "bingo/retirement-party",
+    "bingo/birthday-party",
+    "bingo/movie-night"
+  ],
+  "relatedHeading": "More bingo printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How 90-ball bingo works",
+      "body": [
+        "Each ticket has three rows of nine squares. Every row has five numbers and four blanks, so a ticket holds 15 numbers. Column one holds numbers from 1 to 9, column two from 10 to 19, and so on up to the last column, which holds 80 to 90.",
+        "1. Print a strip of six tickets for each player or table. A full strip contains every number from 1 to 90 once.\n2. Draw numbers from a bag or use the [bingo caller](/bingo-caller/) online.\n3. Players mark each number they find on their tickets.\n4. The game has three stages. The first player to cover any one line calls \"One line\", the next goal is \"Two lines\", and the final goal is a \"Full house\" with all 15 numbers.\n5. Check the claim against the numbers called before handing over a prize."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Ways to run the game",
+      "body": [
+        "* **Club night style.** Sell or hand out a strip per round, with a prize for each of the three stages.\n* **Single ticket parties.** Give one ticket per guest for a casual family evening, with a prize for a line and one for a full house.\n* **Teams.** Combine a table into a team, with one strip shared between four people and a call for the first full house."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for callers",
+      "body": [
+        "Traditional callers add rhymes such as \"two little ducks\" for 22, but plain numbers work fine. Read each number clearly, say it again, and pause a few seconds before the next.",
+        "Keep the called numbers on a board. A simple grid of 1 to 90 works, and the printed caller sheet can be used for this.",
+        "Give players time to settle with their tickets. Newcomers often need a moment to find a number across three rows."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing on A4",
+      "body": [
+        "These tickets are designed with British A4 paper in mind, and the paper size can be changed to Letter if you are in the United States. Check that your printer scales to 100 percent so the grid prints at full size.",
+        "Strips are more convenient if printed on paper and cut along the lines. Use black and white mode for large community nights, and cardstock if players use daubers."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is every strip complete?",
+      "a": "Yes. A strip contains six tickets, and together they hold the numbers 1 to 90 exactly once. That means a number you call appears on exactly one ticket of that strip."
+    },
+    {
+      "q": "Do the tickets have blank squares on purpose?",
+      "a": "Yes, each row has four blank squares and five numbers. This is the standard layout."
+    },
+    {
+      "q": "Can I use these for a school or charity night?",
+      "a": "Yes, they are free to print for any group. Add your own prizes, and keep the game as a fun activity."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "shortTitle": "Kindergarten Sight Words Bingo",
+  "title": "Free Printable Kindergarten Sight Words Bingo Cards",
+  "metaDescription": "Free printable kindergarten sight words bingo with 40 Dolch pre-primer words. Make unique 4x4 cards for centers, small groups and home practice.",
+  "h1": "Kindergarten Sight Words Bingo Cards (Free Printable Generator)",
+  "intro": "Print free kindergarten sight words bingo cards built from the 40 Dolch pre-primer words. Every card is different, so a whole class can play without peeking at a neighbor.",
+  "toolTitle": "Sight Words Bingo",
+  "items": [
+    "a",
+    "and",
+    "away",
+    "big",
+    "blue",
+    "can",
+    "come",
+    "down",
+    "find",
+    "for",
+    "funny",
+    "go",
+    "help",
+    "here",
+    "I",
+    "in",
+    "is",
+    "it",
+    "jump",
+    "little",
+    "look",
+    "make",
+    "me",
+    "my",
+    "not",
+    "one",
+    "play",
+    "red",
+    "run",
+    "said",
+    "see",
+    "the",
+    "three",
+    "to",
+    "two",
+    "up",
+    "we",
+    "where",
+    "yellow",
+    "you"
+  ],
+  "itemsNote": "These are the 40 Dolch pre-primer words, the words most often met in early picture books and the first ones children learn to read on sight. Cross out any words your class has not seen yet, and add words from your own phonics scope and sequence.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 4,
+    "free": true,
+    "freeText": "Star Word",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [
+    8,
+    9,
+    10
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/sight-words-first-grade",
+    "bingo/cvc-words",
+    "bingo/back-to-school",
+    "word-search/sight-words",
+    "bingo/last-day-of-school",
+    "bingo/esl-classroom-objects"
+  ],
+  "relatedHeading": "More early reading printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play sight words bingo in kindergarten",
+      "body": [
+        "Sight words are the small, common words that children are expected to recognize at a glance. Many cannot be sounded out neatly, such as the and said, so repeated practice matters. Bingo gives that practice a game shape, with every child looking closely at printed words while one voice calls them out.",
+        "Because each card is a 4x4 grid, a round finishes quickly and fits a small group at a reading table. You need a pile of cards, markers and a caller who can say the words clearly.",
+        "1. Hand each child a card and about twelve markers. Paper squares, dried beans, small erasers or bingo chips all work.\n2. Say the word, then use it in a short sentence so children hear its meaning. For instance: **look**. Look at the bird.\n3. Children scan their cards, find the word and cover it.\n4. Walk around and glance at each board. Quietly point to the correct word for a child who is lost without announcing it to the group.\n5. When a child covers a full row, column or diagonal, they say bingo and read each covered word back to you. The reading is the real check.\n6. Clear the cards and begin again. Rotate the caller each round so children hear the words in different voices."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Four ways to change it for little learners",
+      "body": [
+        "* **Pass-the-card review.** After a round, swap cards with a neighbor and have the partners read every word on the new card together, pointing with a finger.\n* **Rainbow rounds.** Play several short rounds on the same card, and give children a new crayon color for each round. Afterward they can see which words they heard in every round.\n* **Mystery word.** Whisper a word to one child, who acts as caller by giving a clue such as \"it starts with a t sound.\" Children must work out the word before covering it.\n* **Sentence square.** Call two words in a sentence, and children cover both. It teaches that these words show up together in text."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "Start with a smaller set. Twelve words are plenty for the first week, and you can add a few new words each time. Use the editable list above to type only what your class has met.",
+        "Give plenty of wait time. Some five-year-olds read slowly, and rushing them only builds anxiety. Count to five in your head before you give a clue.",
+        "Mix easy and new words on the same board. A card where half the words are familiar lets children win a few squares fast, which keeps them motivated.",
+        "Send a card home in a folder with a handful of cereal pieces as markers. Families can play for five minutes after dinner, and the child becomes the teacher.",
+        "Watch for look-alike pairs such as was and saw, or he and we. Slow the caller down when they appear."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for the classroom",
+      "body": [
+        "Use heavy paper or cardstock if the cards will go into a center bin, since they need to survive many small hands. Lamination makes them reusable for years, and dry-erase markers wipe off easily.",
+        "Choose one card per page so the words print large and are easy to read from arm's length. Children who still lose their place on a big grid can use the 3x3 size. Black and white mode is fine because the words are the focus, not the color.",
+        "Print an extra sheet of the calling list. Cut the words apart and keep them in a small bag with the cards so a volunteer can lead the game."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which sight word list is this based on?",
+      "a": "The words come from the Dolch pre-primer and primer lists, which were compiled from words common in children's books. You can edit the list above to match any other program, such as Fry or your school's own."
+    },
+    {
+      "q": "How many words should a kindergartner know by the end of the year?",
+      "a": "It varies by school and standard. Many programs aim for a few dozen high-frequency words by the end of the year, but your own school's expectations are the best guide."
+    },
+    {
+      "q": "Can I play with just one child at home?",
+      "a": "Yes. Print two or three cards and let the child play against you, or have them cover words on a card as you call them. A quick five-minute game works well."
+    },
+    {
+      "q": "Why use a 4x4 grid instead of 5x5?",
+      "a": "A 4x4 card has sixteen squares, so a round finishes quicker and young eyes have fewer words to scan. You can switch to 5x5 in the options if your class is ready."
+    }
+  ]
+}

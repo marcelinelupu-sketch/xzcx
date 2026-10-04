@@ -1,0 +1,118 @@
+{
+  "shortTitle": "Father's Day Bingo",
+  "title": "Free Printable Father's Day Bingo Cards for Cookouts",
+  "metaDescription": "Print free Father's Day bingo cards with 36 squares such as grill, dad joke and fishing hat. Fun for cookouts, class events and calls with granddad.",
+  "h1": "Father's Day Bingo Cards (Free Printable Generator)",
+  "intro": "Print free Father's Day bingo cards for a cookout, a class card-making session or a family video call. The 36 squares poke fun at dad habits in a loving way.",
+  "toolTitle": "Father's Day Bingo",
+  "items": [
+    "Dad joke",
+    "Grill",
+    "Spatula",
+    "Burger",
+    "Hot dog",
+    "Corn on the cob",
+    "Baseball cap",
+    "Fishing hat",
+    "Tackle box",
+    "Garden hose",
+    "Lawn mower",
+    "Tool belt",
+    "Toolbox",
+    "Screwdriver",
+    "Puzzle with a million pieces",
+    "Map instead of phone",
+    "Road trip snack",
+    "Cooler",
+    "Folding chair",
+    "Nap on the couch",
+    "Sports on TV",
+    "Catch in the yard",
+    "Bike ride",
+    "Camping trip",
+    "Marshmallow",
+    "Pancake breakfast",
+    "Silly dance",
+    "Piggyback ride",
+    "Handmade card",
+    "Tie",
+    "Socks as a gift",
+    "Coffee mug",
+    "Loud laugh",
+    "Story from the old days",
+    "Thumbs up",
+    "Photo of dad and me"
+  ],
+  "itemsNote": "Use this list as a starting point and swap in whatever your dad, granddad, stepdad or uncle actually does. If your family has a favorite saying, put it on a square.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Best Dad",
+    "cards": 20,
+    "perPage": 2
+  },
+  "season": [
+    6
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/mothers-day",
+    "bingo/birthday-party",
+    "bingo/summer",
+    "bingo/camping",
+    "scavenger-hunt/backyard",
+    "bingo/fourth-of-july"
+  ],
+  "relatedHeading": "More Father's Day printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play on Father's Day",
+      "body": [
+        "The best time for this game is while the grill heats up or the burgers rest. Guests at a cookout drift between the yard and the kitchen, so use a loose format where cards stay on a table and players visit when they like.",
+        "1. Put a stack of cards and a jar of pencils by the drinks cooler.\n2. Players cover a square whenever they notice that moment happen during the day.\n3. The first to complete a line rings a cowbell and tells the group which square finished it.\n4. Start fresh cards after lunch for a second round.\n5. Give the winner the first slice of pie or a seat in the good lawn chair."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three fresh ideas",
+      "body": [
+        "* **Joke jar.** When someone covers the dad joke square, they must tell one. A shared groan counts as a point.\n* **Story squares.** Fill the card with phrases that start his famous stories, like the time we got lost. Guests mark the ones they have heard before.\n* **Class activity.** Teachers can let children decorate their own card and send it home for a night of play with dad or another special adult."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for busy hosts",
+      "body": [
+        "Make sure the day is about the dad and not about the competition. Let him pick the prize or give him the final call to announce.",
+        "Include all family shapes. Many children celebrate with a stepdad, uncle, grandfather or mentor, and the squares work for any of them.",
+        "If the weather turns, keep a stack of cards in the garage, so the game moves inside without delay."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the yard",
+      "body": [
+        "Outdoor cards need a sturdy surface. Print on thick paper or cardstock and clip them to small boards so they do not flap in the breeze. Shade helps keep the ink from smudging in damp air.",
+        "Use ink saver for a clean look, and tape a card to the cooler lid as a decoration that doubles as a score sheet."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this just for dads?",
+      "a": "No. The squares are friendly to uncles, grandfathers, stepdads and mentors. Rewrite any squares to match the person you are celebrating."
+    },
+    {
+      "q": "How long does a round take?",
+      "a": "A 5x5 card can take fifteen minutes or more, which is why a loose all-day format works well at cookouts."
+    },
+    {
+      "q": "Can children make their own cards?",
+      "a": "Yes. Print blank cards by adding generic words, then let children illustrate the squares before playing."
+    }
+  ]
+}

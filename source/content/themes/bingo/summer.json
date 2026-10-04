@@ -1,0 +1,124 @@
+{
+  "shortTitle": "Summer Bingo",
+  "title": "Free Printable Summer Bingo Cards for Camp and Backyards",
+  "metaDescription": "Free printable summer bingo cards with 40 squares from ice cream and sprinklers to fireflies. Keep kids busy at home, at camp or on long, hot afternoons.",
+  "h1": "Summer Bingo Cards (Free Printable Generator)",
+  "intro": "Print free summer bingo cards for long afternoons, camp weeks and vacation days. The 40 squares are things children really do and see between June and August.",
+  "toolTitle": "Summer Bingo",
+  "items": [
+    "Ice cream cone",
+    "Ice pop",
+    "Lemonade stand",
+    "Sprinkler",
+    "Water balloon",
+    "Swimming pool",
+    "Sunscreen",
+    "Sunglasses",
+    "Flip-flops",
+    "Beach ball",
+    "Sandcastle",
+    "Seashell",
+    "Kite",
+    "Bike ride",
+    "Skateboard",
+    "Hammock",
+    "Picnic",
+    "Barbecue",
+    "Watermelon slice",
+    "Corn on the cob",
+    "Fireflies",
+    "Thunderstorm",
+    "Rainbow",
+    "Butterfly",
+    "Dragonfly",
+    "Garden tomato",
+    "Lemon",
+    "Ice cube",
+    "Fan",
+    "Shade tree",
+    "Lawn game",
+    "Tent",
+    "Campfire",
+    "Library summer reading",
+    "Farmers market",
+    "Sticky fingers",
+    "Tan lines",
+    "Sleepover",
+    "Ferris wheel",
+    "Mosquito bite"
+  ],
+  "itemsNote": "The list covers a typical childhood summer from pools to porch sitting. Edit it to match your region, because a lake town, a desert city and a mountain village each have different summer sights.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Summer Fun",
+    "cards": 20,
+    "perPage": 2
+  },
+  "season": [
+    6,
+    7,
+    8
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/beach",
+    "bingo/camping",
+    "bingo/fourth-of-july",
+    "bingo/road-trip",
+    "scavenger-hunt/backyard",
+    "word-search/summer"
+  ],
+  "relatedHeading": "More summer printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play through the summer",
+      "body": [
+        "Summer bingo is less a single game than a season-long habit. Instead of calling squares aloud, give each child one card in June and let them cover squares as the real thing happens, like the first ice pop or the first thunderstorm.",
+        "1. Print the card and stick it on the fridge or inside a notebook.\n2. Give each child a pen, or a color of their own, to mark squares.\n3. When a child has a moment from the list, they find the square and cover it, with a date written beside it if they like.\n4. A full row earns a small treat such as a trip to the pool.\n5. Keep the sheet for a final blackout reward in August."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three summer twists",
+      "body": [
+        "* **Camp counter bingo.** Hand every cabin a card and check off squares as activities happen. Cabins race to finish a row before the week ends.\n* **Rainy afternoon round.** Play the traditional way indoors, with a caller reading squares and children covering them with paper suns.\n* **Memory book version.** Ask children to draw a tiny picture in each square they complete. By September the card turns into a summer journal."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for keeping it going",
+      "body": [
+        "Boredom is the real enemy of summer. Offer the card as a menu of ideas children can choose from rather than a list of rules.",
+        "For readers who are still learning, add a drawing next to each word, or ask an older sibling to read squares. Mixing ages is half the fun.",
+        "Pick a prize that costs nothing, such as choosing dinner or staying up thirty minutes late. It keeps interest high without more things to buy."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for sunny days",
+      "body": [
+        "Print on bright paper like yellow or light blue for a cheerful look, and use ink saver so the grid stays light. Slip the card into a zip bag and clip it to a backpack for a camp day.",
+        "For an outdoor game, laminate or use a sheet protector so wet hands and sunscreen do not ruin the card."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use summer bingo for a camp?",
+      "a": "Yes. Print one card per camper or per group. The squares are common outdoor activities, and the list can be edited for your site."
+    },
+    {
+      "q": "What ages is this for?",
+      "a": "Most children from age five can use it, and a parent can help younger ones. A 3x3 grid works best for them."
+    },
+    {
+      "q": "Can I make it a long-term game?",
+      "a": "Yes. Keep a single card for the whole season and cover squares as they happen, rather than calling items aloud."
+    }
+  ]
+}

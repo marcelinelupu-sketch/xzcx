@@ -1,0 +1,114 @@
+{
+  "_comment": "Site catalog: the single source of truth for which pages exist, URL structure, tool metadata, hub groupings and the In season now list. Content files under content/ fill these slots. build.py skips any slot whose content file does not exist yet.",
+  "baseUrl": "https://frogsdream.com",
+  "siteName": "Frog's Dream",
+  "themeColor": "#2F8F5B",
+  "nav": [
+    {"label": "Bingo", "path": "/bingo/"},
+    {"label": "Word Search", "path": "/word-search/"},
+    {"label": "Scavenger Hunts", "path": "/scavenger-hunt/"},
+    {"label": "Charts", "path": "/bedtime-routine-chart/"},
+    {"label": "Bingo Caller", "path": "/bingo-caller/"},
+    {"label": "Guides", "path": "/guides/"}
+  ],
+  "tools": [
+    {"id": "bingo", "path": "/bingo-card-generator/", "name": "Bingo Card Generator", "short": "Bingo cards", "js": "bingo.js", "section": "bingo", "hub": "/bingo/", "category": "EducationalApplication", "embed": "/embed/bingo/", "pose": "celebrating", "noun": "words", "ogTitle": "Bingo Card Generator"},
+    {"id": "wordsearch", "path": "/word-search-maker/", "name": "Word Search Maker", "short": "Word searches", "js": "wordsearch.js", "section": "word-search", "hub": "/word-search/", "category": "EducationalApplication", "embed": "/embed/word-search/", "pose": "pencil", "noun": "words", "ogTitle": "Word Search Maker"},
+    {"id": "scavenger", "path": "/scavenger-hunt-generator/", "name": "Scavenger Hunt Generator", "short": "Scavenger hunts", "js": "scavenger.js", "section": "scavenger-hunt", "hub": "/scavenger-hunt/", "category": "EducationalApplication", "embed": "", "pose": "waving", "noun": "items", "ogTitle": "Scavenger Hunt Generator"},
+    {"id": "scramble", "path": "/word-scramble-maker/", "name": "Word Scramble Maker", "short": "Word scrambles", "js": "scramble.js", "section": "word-scramble", "hub": "/word-scramble/", "category": "EducationalApplication", "embed": "/embed/word-scramble/", "pose": "pencil", "noun": "words", "ogTitle": "Word Scramble Maker"},
+    {"id": "routine", "path": "/bedtime-routine-chart/", "name": "Bedtime Routine Chart", "short": "Bedtime charts", "js": "routine-chart.js", "section": "bedtime-routine-chart", "hub": "/bedtime-routine-chart/", "category": "EducationalApplication", "embed": "", "pose": "sleeping", "noun": "steps", "ogTitle": "Bedtime Routine Chart Maker"},
+    {"id": "reward", "path": "/reward-chart-maker/", "name": "Reward Chart Maker", "short": "Reward charts", "js": "reward-chart.js", "section": "reward-chart-maker", "hub": "/reward-chart-maker/", "category": "EducationalApplication", "embed": "", "pose": "celebrating", "noun": "tasks", "ogTitle": "Reward Chart Maker"},
+    {"id": "caller", "path": "/bingo-caller/", "name": "Bingo Caller", "short": "Bingo caller", "js": "caller.js", "section": "", "hub": "/bingo/", "category": "GameApplication", "embed": "", "pose": "waving", "noun": "words", "ogTitle": "Online Bingo Caller"}
+  ],
+  "sections": {
+    "bingo": {
+      "tool": "bingo", "path": "/bingo/", "name": "Bingo", "label": "bingo",
+      "groups": [
+        {"name": "Parties & Showers", "slugs": ["baby-shower", "gender-reveal-party", "bridal-shower", "wedding-reception", "birthday-party", "graduation-party", "retirement-party", "family-reunion", "movie-night", "icebreaker-find-someone-who", "meeting-buzzword-bingo"]},
+        {"name": "Holidays & Seasons", "slugs": ["new-years-eve", "valentines-day", "st-patricks-day", "easter", "earth-day", "mothers-day", "fathers-day", "fourth-of-july", "summer", "back-to-school", "last-day-of-school", "fall", "halloween", "thanksgiving", "christmas", "hanukkah", "winter"]},
+        {"name": "Classroom", "slugs": ["sight-words-kindergarten", "sight-words-first-grade", "cvc-words", "addition-facts-to-20", "multiplication-facts", "dinosaurs", "solar-system", "weather"]},
+        {"name": "ESL", "slugs": ["esl-animals", "esl-food", "esl-colors-and-shapes", "esl-classroom-objects", "esl-feelings", "esl-action-verbs"]},
+        {"name": "Outdoors & Travel", "slugs": ["road-trip", "camping", "beach", "nature-walk", "zoo", "frog-and-pond", "ocean-animals", "farm-animals", "bugs-and-insects"]},
+        {"name": "Number Bingo", "slugs": ["75-ball-bingo-cards", "90-ball-bingo-tickets", "number-bingo-1-30-for-kids"]}
+      ],
+      "highValue": ["baby-shower", "bridal-shower", "christmas", "halloween", "thanksgiving", "road-trip", "esl-*", "sight-words-*"],
+      "numberPages": ["75-ball-bingo-cards", "90-ball-bingo-tickets", "number-bingo-1-30-for-kids"]
+    },
+    "word-search": {
+      "tool": "wordsearch", "path": "/word-search/", "name": "Word Search", "label": "word search",
+      "groups": [
+        {"name": "Frogs & Ponds", "slugs": ["frog-life-cycle", "pond-animals"]},
+        {"name": "Holidays & Seasons", "slugs": ["christmas", "halloween", "thanksgiving", "easter", "valentines-day", "st-patricks-day", "spring", "summer", "fall", "winter", "back-to-school"]},
+        {"name": "Science & Nature", "slugs": ["solar-system", "weather", "ocean-animals", "rainforest-animals", "farm", "dinosaurs", "insects", "plants-and-flowers", "human-body"]},
+        {"name": "Everyday Topics", "slugs": ["fruits-and-vegetables", "healthy-food", "sports", "musical-instruments", "community-helpers", "transportation", "kitchen", "sight-words"]},
+        {"name": "Parties & Outdoors", "slugs": ["baby-shower", "bridal-shower", "birthday", "camping"]},
+        {"name": "Geography", "slugs": ["us-states", "countries-of-europe"]}
+      ]
+    },
+    "scavenger-hunt": {
+      "tool": "scavenger", "path": "/scavenger-hunt/", "name": "Scavenger Hunts", "label": "scavenger hunt",
+      "groups": [
+        {"name": "Outdoors", "slugs": ["backyard", "nature-walk", "park", "neighborhood-walk", "beach", "camping", "road-trip"]},
+        {"name": "Indoors & Parties", "slugs": ["indoor-for-kids", "rainy-day", "toddler", "teen-photo", "birthday-party", "classroom"]},
+        {"name": "Holidays & Seasons", "slugs": ["christmas-lights", "halloween", "spring-easter", "fall", "winter"]}
+      ]
+    },
+    "word-scramble": {
+      "tool": "scramble", "path": "/word-scramble/", "name": "Word Scrambles", "label": "word scramble",
+      "groups": [
+        {"name": "Holidays", "slugs": ["christmas", "halloween", "thanksgiving", "easter", "valentines-day"]},
+        {"name": "Showers", "slugs": ["baby-shower", "bridal-shower"]},
+        {"name": "Seasons, School and Animals", "slugs": ["summer", "back-to-school", "animals"]}
+      ]
+    },
+    "bedtime-routine-chart": {
+      "tool": "routine", "path": "/bedtime-routine-chart/", "name": "Bedtime Routine Charts", "label": "bedtime chart", "hubIsTool": true,
+      "groups": [
+        {"name": "Ready-made routines", "slugs": ["toddler-picture-chart", "preschool", "school-age", "morning-and-bedtime-routine"]}
+      ]
+    },
+    "reward-chart-maker": {
+      "tool": "reward", "path": "/reward-chart-maker/", "name": "Reward Charts", "label": "reward chart", "hubIsTool": true,
+      "groups": [
+        {"name": "Ready-made charts", "slugs": ["potty-training-chart", "chore-chart-for-kids", "reading-log-reward-chart", "behavior-chart", "weekly-sticker-chart"]}
+      ]
+    }
+  },
+  "crossHubs": [
+    {"slug": "christmas-printables", "name": "Christmas Printables", "pose": "celebrating"},
+    {"slug": "halloween-printables", "name": "Halloween Printables", "pose": "waving"},
+    {"slug": "baby-shower-games", "name": "Baby Shower Games", "pose": "celebrating"},
+    {"slug": "bridal-shower-games", "name": "Bridal Shower Games", "pose": "celebrating"},
+    {"slug": "classroom-games", "name": "Classroom Games", "pose": "pencil"},
+    {"slug": "esl-games", "name": "ESL Games", "pose": "pencil"},
+    {"slug": "party-games", "name": "Party Games", "pose": "celebrating"},
+    {"slug": "road-trip-and-outdoor-games", "name": "Road Trip and Outdoor Games", "pose": "waving"}
+  ],
+  "guides": ["bingo-patterns", "75-ball-vs-90-ball-bingo", "how-to-play-bingo-rules", "classroom-bingo-ideas-for-teachers", "esl-vocabulary-games-printable", "how-to-plan-a-scavenger-hunt", "toddler-bedtime-routine", "printing-tips-letter-vs-a4"],
+  "pages": ["about", "contact", "privacy", "terms", "disclosure", "premium", "embed"],
+  "seasons": [
+    {"name": "New Year's Eve", "date": "12-31", "tail": 1, "links": ["/bingo/new-years-eve/"]},
+    {"name": "Valentine's Day", "date": "02-14", "tail": 1, "links": ["/bingo/valentines-day/", "/word-search/valentines-day/", "/word-scramble/valentines-day/"]},
+    {"name": "St. Patrick's Day", "date": "03-17", "tail": 1, "links": ["/bingo/st-patricks-day/", "/word-search/st-patricks-day/"]},
+    {"name": "Spring", "label": "Mar to May", "date": "03-20", "tail": 70, "links": ["/word-search/spring/", "/scavenger-hunt/spring-easter/"]},
+    {"name": "Easter", "label": "March or April", "date": "04-05", "tail": 1, "links": ["/bingo/easter/", "/word-search/easter/", "/word-scramble/easter/", "/scavenger-hunt/spring-easter/"]},
+    {"name": "Earth Day", "date": "04-22", "tail": 1, "links": ["/bingo/earth-day/", "/word-search/plants-and-flowers/"]},
+    {"name": "Mother's Day", "label": "May", "date": "05-10", "tail": 1, "links": ["/bingo/mothers-day/"]},
+    {"name": "Last Day of School", "label": "May or June", "date": "06-05", "tail": 10, "links": ["/bingo/last-day-of-school/"]},
+    {"name": "Father's Day", "label": "June", "date": "06-18", "tail": 1, "links": ["/bingo/fathers-day/"]},
+    {"name": "Summer", "label": "Jun to Aug", "date": "06-21", "tail": 60, "links": ["/bingo/summer/", "/word-search/summer/", "/word-scramble/summer/", "/scavenger-hunt/beach/"]},
+    {"name": "Fourth of July", "date": "07-04", "tail": 1, "links": ["/bingo/fourth-of-july/"]},
+    {"name": "Back to School", "label": "Aug and Sep", "date": "08-20", "tail": 25, "links": ["/bingo/back-to-school/", "/word-search/back-to-school/", "/word-scramble/back-to-school/", "/scavenger-hunt/classroom/"]},
+    {"name": "Fall", "label": "Sep to Nov", "date": "09-22", "tail": 60, "links": ["/bingo/fall/", "/word-search/fall/", "/scavenger-hunt/fall/"]},
+    {"name": "Halloween", "date": "10-31", "tail": 1, "links": ["/halloween-printables/", "/bingo/halloween/", "/word-search/halloween/", "/word-scramble/halloween/", "/scavenger-hunt/halloween/"]},
+    {"name": "Thanksgiving", "label": "Late November", "date": "11-26", "tail": 1, "links": ["/bingo/thanksgiving/", "/word-search/thanksgiving/", "/word-scramble/thanksgiving/"]},
+    {"name": "Hanukkah", "label": "December", "date": "12-10", "tail": 8, "links": ["/bingo/hanukkah/"]},
+    {"name": "Winter", "label": "Dec to Feb", "date": "12-21", "tail": 75, "links": ["/bingo/winter/", "/word-search/winter/", "/scavenger-hunt/winter/"]},
+    {"name": "Christmas", "date": "12-25", "tail": 1, "links": ["/christmas-printables/", "/bingo/christmas/", "/word-search/christmas/", "/word-scramble/christmas/", "/scavenger-hunt/christmas-lights/"]}
+  ],
+  "footer": {
+    "hubs": ["/bingo/", "/word-search/", "/scavenger-hunt/", "/word-scramble/", "/christmas-printables/", "/halloween-printables/", "/baby-shower-games/", "/bridal-shower-games/", "/classroom-games/", "/esl-games/", "/party-games/", "/road-trip-and-outdoor-games/", "/guides/"],
+    "about": ["/about/", "/contact/", "/privacy/", "/terms/", "/disclosure/", "/embed/"]
+  },
+  "noAdsPaths": ["/embed/", "/premium/", "/privacy/", "/terms/", "/contact/", "/bingo-caller/"]
+}

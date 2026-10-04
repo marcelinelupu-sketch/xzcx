@@ -1,0 +1,84 @@
+{
+ "shortTitle": "Chore Chart for Kids",
+ "title": "Chore Chart for Kids, Free Printable Weekly Checklist",
+ "metaDescription": "A free printable chore chart for kids with a weekly tick grid: make the bed, feed the pet, dishes, laundry, plants and trash. Edit the chores and print.",
+ "h1": "Chore Chart for Kids (Free Printable Weekly Chart)",
+ "intro": "Pick the jobs your child can really do, tick them off Monday to Sunday, and finish the week with a goal. This printable chore chart starts with seven everyday chores for children from about five to eleven.",
+ "toolTitle": "My Chore Chart",
+ "items": [
+  "Make my bed | make-bed",
+  "Feed the pet | feed-pet",
+  "Put toys away | toys-away",
+  "Help with the dishes | dishes",
+  "Put laundry in the basket | laundry",
+  "Water the plants | plants",
+  "Take out the trash | trash"
+ ],
+ "itemsNote": "Seven chores is a menu, not a requirement. Most families keep three or four per child and rotate the rest. Delete the ones that do not apply and the rows will grow taller.",
+ "defaultOptions": {
+  "days": 7,
+  "mark": "tick",
+  "palette": "peach",
+  "goal": "Choosing the Friday movie",
+  "name": ""
+ },
+ "season": [],
+ "hubs": [],
+ "related": [
+  "reward-chart-maker/weekly-sticker-chart",
+  "reward-chart-maker/behavior-chart",
+  "bedtime-routine-chart/school-age",
+  "bedtime-routine-chart/morning-and-bedtime-routine",
+  "scavenger-hunt/backyard",
+  "bingo/earth-day"
+ ],
+ "relatedHeading": "More charts for home",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to set up a family chore chart",
+   "body": [
+    "A chore chart is a small contract: these are the jobs, this is the week, and this is what happens when it is done. Setting it up with your child takes about ten minutes.",
+    "1. List every household job that your child could do, and then choose three or four that suit their age. A five-year-old can set napkins on the table; a ten-year-old can put a load of laundry in the dryer.\n2. Edit the list on this page until each chore is something you could describe in a few words, such as 'Feed the pet'.\n3. Pick whether you want ticks or stickers, then print the chart and hang it in the kitchen.\n4. Tick each chore when it is done and checked. Decide ahead of time who does the checking.\n5. On Sunday, count the ticks together. Reaching the goal means the prize happens that same weekend."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Three ways to run the chart",
+   "body": [
+    "* **One chart per child.** Print a separate chart for each child, with the names on top, so each has their own jobs and goal.\n* **Rotating jobs.** Swap one chore between children every Monday, such as dishes and trash. It stops arguments about fairness.\n* **Team goal.** Print one chart for the family and set a shared goal, like a pizza night when everyone has five days."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for chores that actually get done",
+   "body": [
+    "Match the chore to the child, and show how first. A job that has never been demonstrated is a job that will be done badly or not at all.",
+    "Decide what 'done' means in plain words. 'Bed made' might mean the covers pulled up and the pillow at the top. Agreeing on it beforehand avoids the argument afterward.",
+    "Keep the reward for the whole week rather than the individual chore. A weekly goal stops chores feeling like payment and teaches that homes run on everyone helping.",
+    "> Be ready to adjust. If a chore keeps failing, it is probably too hard or too boring, and it can be traded for a better one."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing a chore chart for the kitchen",
+   "body": [
+    "The tick version prints cleanly in black and white, so it is a good choice if you plan to print several weeks at once. For a chart that stays put on the refrigerator, use a magnetic clip or magnets at the corners, and print on cardstock to stop it from curling. If you use the sticker option, give each child a different sticker sheet so you can tell at a glance whose circles are whose."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many chores should a child have?",
+   "a": "Three or four is a good start for most children. Add one more when the first set becomes routine."
+  },
+  {
+   "q": "Should a chore chart include allowance?",
+   "a": "That is a family decision. This chart works fine without money, with a goal such as a special activity. If you do link it to allowance, keep the rules written down and consistent."
+  },
+  {
+   "q": "What chores can a five-year-old do?",
+   "a": "Common examples are making their bed, feeding a pet with help, putting toys in a bin and carrying plastic plates to the table. Choose jobs that your child can finish safely."
+  }
+ ]
+}

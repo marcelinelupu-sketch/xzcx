@@ -1,0 +1,106 @@
+{
+  "shortTitle": "Fall Word Search",
+  "title": "Fall Word Search, Free Printable Autumn Puzzle with Key",
+  "metaDescription": "Print a free fall word search with 22 autumn words from acorns to scarecrows. Good for a harvest festival table, a leaf walk follow-up or fall morning work.",
+  "h1": "Fall Word Search (Free Printable Autumn Puzzle)",
+  "intro": "Print a free fall word search with 22 autumn words, from crunchy leaves to cozy sweaters. It suits a September classroom, an October porch afternoon or a cool-weather break at home.",
+  "toolTitle": "Fall Word Search",
+  "items": [
+    "Leaves",
+    "Acorn",
+    "Pumpkin",
+    "Harvest",
+    "Scarecrow",
+    "Apple cider",
+    "Hayride",
+    "Sweater",
+    "Cornfield",
+    "Squirrel",
+    "Bonfire",
+    "Football",
+    "Cinnamon",
+    "Orchard",
+    "Rake",
+    "Hot cocoa",
+    "Migrate",
+    "Foliage",
+    "Equinox",
+    "Chestnut",
+    "Pinecone",
+    "Cider"
+  ],
+  "itemsNote": "These 22 words are already in the generator. Local teachers can swap in the trees and crops you really see where you live.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 15,
+    "difficulty": "medium",
+    "case": "upper"
+  },
+  "season": [
+    9,
+    10,
+    11
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/fall",
+    "scavenger-hunt/fall",
+    "word-search/halloween",
+    "word-search/thanksgiving",
+    "word-search/farm",
+    "word-search/winter"
+  ],
+  "relatedHeading": "More fall printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search in the fall classroom",
+      "body": [
+        "Fall has plenty of science tucked in: why leaves change color, where squirrels hide food and how crops come in from the field. The puzzle makes a friendly entry point to any of those topics.",
+        "1. Introduce the puzzle with a quick walk to look for leaves, acorns or pinecones.\n2. Solve the puzzle and mark each word that matches something the class found outside.\n3. Group the words into plants, animals and activities on the board.\n4. Ask students to write two sentences about their favorite autumn thing, using words from the puzzle.",
+        "> Leaves change color as the days get shorter and trees stop making the green pigment chlorophyll, which reveals the yellows and oranges that were there all along. The [USDA Forest Service](https://www.fs.usda.gov/visit/fall-colors) has fall color information."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three autumn variations",
+      "body": [
+        "* **Leaf rubbing combo.** Collect leaves, make crayon rubbings and label each one with a word from the puzzle.\n* **Cozy corner.** Offer the puzzle with hot cocoa as a reward for finishing a reading block.\n* **Orchard trip.** Bring the list to an apple orchard and cross off words as you see them."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "Place the puzzle near a window with a view of the trees. Kids often look up and start naming colors, and that is a good thing.",
+        "If you teach in a warm climate where fall is subtle, adapt the list. Add words like citrus, cooler or sunset."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for autumn",
+      "body": [
+        "Print on tan or cream paper for a rustic feel, then use dark pencil for circling. The thin sheets also work nicely cut into bookmarks after completion.",
+        "A 15 by 15 grid fits the longest words, such as hot cocoa and apple cider, comfortably. Use ink saver mode for a class set."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What grade is the fall word search for?",
+      "a": "It is aimed at grades 2 to 5. Younger children can use the easy setting and a shorter list."
+    },
+    {
+      "q": "Can I make the list shorter?",
+      "a": "Yes. Edit the list above and press Generate. Twelve words suit a kindergarten session."
+    },
+    {
+      "q": "Is there an answer key?",
+      "a": "Yes, tick the option before printing."
+    }
+  ]
+}

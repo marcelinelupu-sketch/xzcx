@@ -1,0 +1,116 @@
+{
+  "shortTitle": "Dinosaur Bingo",
+  "title": "Free Printable Dinosaur Bingo Cards for Class and Parties",
+  "metaDescription": "Free printable dinosaur bingo with 36 prehistoric names, from Tyrannosaurus to Stegosaurus, plus fossils and eras. Print for school units or a dino party.",
+  "h1": "Dinosaur Bingo Cards (Free Printable Generator)",
+  "intro": "Print free dinosaur bingo cards with 36 real prehistoric animals and fossil terms. They suit a science unit, a party or a rainy day with a pile of dinosaur books.",
+  "toolTitle": "Dinosaur Bingo",
+  "items": [
+    "Tyrannosaurus rex",
+    "Triceratops",
+    "Stegosaurus",
+    "Velociraptor",
+    "Brachiosaurus",
+    "Diplodocus",
+    "Apatosaurus",
+    "Ankylosaurus",
+    "Allosaurus",
+    "Spinosaurus",
+    "Iguanodon",
+    "Parasaurolophus",
+    "Pachycephalosaurus",
+    "Gallimimus",
+    "Compsognathus",
+    "Protoceratops",
+    "Oviraptor",
+    "Archaeopteryx",
+    "Pteranodon",
+    "Ichthyosaur",
+    "Plesiosaur",
+    "Mosasaurus",
+    "Fossil",
+    "Footprint",
+    "Bone",
+    "Skeleton",
+    "Egg",
+    "Nest",
+    "Volcano",
+    "Meteor",
+    "Triassic",
+    "Jurassic",
+    "Cretaceous",
+    "Herbivore",
+    "Carnivore",
+    "Paleontologist"
+  ],
+  "itemsNote": "Real species, three eras and a few science words make this list useful as vocabulary. Some flying and swimming reptiles are included, though strictly they are not dinosaurs, so mention that to older students.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Dig Site",
+    "cards": 15,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/dinosaurs",
+    "bingo/solar-system",
+    "bingo/zoo",
+    "bingo/bugs-and-insects",
+    "bingo/birthday-party",
+    "bingo/weather"
+  ],
+  "relatedHeading": "More dinosaur and science printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play dinosaur bingo",
+      "body": [
+        "Dinosaur names are long and tricky, so this game gives children a reason to practice them. Take it slowly and let the caller say each name syllable by syllable.",
+        "1. Give every player a card and a stack of paper bones or small brown counters.\n2. The caller reads a name or a clue, for example three horns and a frill, and waits for players to find it.\n3. Players say the name together before covering the square.\n4. The first player to cover a row or the four corners calls out dig it.\n5. Play several rounds and let the winner choose the next caller."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three prehistoric variations",
+      "body": [
+        "* **Era sorting.** Before the game, sort the animals into Triassic, Jurassic and Cretaceous groups. Call only one era each round.\n* **Diet bingo.** Players cover only herbivores in the first game, then only carnivores in the second.\n* **Fossil hunt.** Bury plastic bones or cardboard cutouts in a sandbox and cover a square for each one that is dug up."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for classroom use",
+      "body": [
+        "Add a pronunciation guide to the board. Many children get stuck on names like Pachycephalosaurus, so a chart with sound-outs takes the pressure off.",
+        "Connect the game to what scientists really know. Some dinosaurs had feathers, and birds are their living relatives. A quick mention keeps the lesson current.",
+        "Let strong readers act as callers and quiet children as checkers, so every child has a job."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for dino fans",
+      "body": [
+        "Print on sand-colored or green paper and cut the cards to a handy size. Cardstock suits fossils-and-sandbox play because it survives dusty hands.",
+        "If you are printing for a party, put a dinosaur name tag on each card as a small favor. Ink saver keeps long names legible without heavy grids."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are all the animals on the list actually dinosaurs?",
+      "a": "Most are. Pteranodon, Ichthyosaur, Plesiosaur and Mosasaurus were flying or swimming reptiles that lived alongside dinosaurs, which makes a good discussion point."
+    },
+    {
+      "q": "How do children pronounce the names?",
+      "a": "Break each into syllables, for example tie-RAN-oh-SAW-rus, and say it with them a few times before play starts."
+    },
+    {
+      "q": "What age fits this game?",
+      "a": "Ages five and up enjoy it. Younger dinosaur fans can play with a 3x3 grid and a grown-up reading the names."
+    }
+  ]
+}

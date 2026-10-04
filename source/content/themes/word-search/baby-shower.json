@@ -1,0 +1,99 @@
+{
+  "shortTitle": "Baby Shower Word Search",
+  "title": "Baby Shower Word Search, Free Printable Party Game",
+  "metaDescription": "Print a free baby shower word search with 20 words, from stroller to lullaby. A quiet party game you can print in Letter or A4 and give out as guests arrive.",
+  "h1": "Baby Shower Word Search (Free Printable Party Game)",
+  "intro": "Print a free baby shower word search with 20 baby words, from rattle and lullaby to bodysuit and stroller. It is a calm game for guests to enjoy while the party settles in.",
+  "toolTitle": "Baby Shower Word Search",
+  "items": [
+    "Rattle",
+    "Stroller",
+    "Pacifier",
+    "Lullaby",
+    "Diaper",
+    "Bodysuit",
+    "Crib",
+    "Bottle",
+    "Blanket",
+    "Bassinet",
+    "Booties",
+    "Cuddle",
+    "Newborn",
+    "Nursery",
+    "Mobile",
+    "Teddy bear",
+    "Bib",
+    "Swaddle",
+    "Bonnet",
+    "Cradle"
+  ],
+  "itemsNote": "Everything on the list is about the baby, the nursery and the first weeks, so it stays warm and gender neutral.",
+  "defaultOptions": {
+    "size": 14,
+    "difficulty": "medium",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 4,
+    "key": true
+  },
+  "season": [],
+  "hubs": [
+    "baby-shower-games"
+  ],
+  "related": [
+    "bingo/baby-shower",
+    "word-scramble/baby-shower",
+    "bingo/gender-reveal-party",
+    "word-search/bridal-shower",
+    "word-search/birthday",
+    "scavenger-hunt/birthday-party"
+  ],
+  "relatedHeading": "More baby shower games",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at the shower",
+      "body": [
+        "A word search is the easiest shower game to set up. Print a few extra and keep them stacked at the welcome table or near the snacks.",
+        "1. Give each guest a puzzle and a pen as they arrive, or place one at every seat.\n2. Ask them to race against the clock for ten minutes, or play at their own pace.\n3. The first to find every word wins a small prize.\n4. Read the list aloud afterward and ask guests to share a favorite baby item from their own lives."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Shower-friendly variations",
+      "body": [
+        "* **Mama's pick.** Ask the guest of honor to choose five words, and add a lullaby from her own childhood to the discussion.\n* **Guess the name.** Add the baby's name to the list as a surprise, if the family is happy to share it.\n* **Team up.** Seat guests in groups of four, and give each table one puzzle to solve together."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for hosts",
+      "body": [
+        "Keep the game optional. Some guests prefer to chat, and a puzzle is nice precisely because they can pick it up or leave it alone.",
+        "For mixed-age gatherings, grandparents and teenagers can team up, and large print helps those who struggle to read small letters."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the party table",
+      "body": [
+        "Soft pastel paper in yellow, mint or lilac matches most shower palettes. Print the words in the list in a larger size if guests are older, by choosing a smaller grid.",
+        "Make an extra set with different seeds so that neighbors cannot simply read each other's answers, and bring a few spare pens."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many puzzles should I print for a baby shower?",
+      "a": "Print one for every guest, plus a few spares. Use the multiple puzzles option so that neighbors at a table have different layouts."
+    },
+    {
+      "q": "Is it gender neutral?",
+      "a": "Yes. The default list has no pink or blue words, so it fits any reveal plan."
+    },
+    {
+      "q": "How long does it take?",
+      "a": "Most adults finish in ten to fifteen minutes on the default grid, and sooner with the easy setting."
+    }
+  ]
+}

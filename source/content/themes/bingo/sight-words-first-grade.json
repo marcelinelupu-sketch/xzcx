@@ -1,0 +1,133 @@
+{
+  "shortTitle": "First Grade Sight Words Bingo",
+  "title": "Free Printable First Grade Sight Words Bingo Cards",
+  "metaDescription": "Free printable first grade sight words bingo with 41 Dolch first grade words. Generate unique cards for literacy centers, small groups and reading homework.",
+  "h1": "First Grade Sight Words Bingo Cards (Free Printable Generator)",
+  "intro": "Print free first grade sight words bingo cards using 41 words from the Dolch first grade list. Unique cards keep every child reading their own board.",
+  "toolTitle": "First Grade Sight Words Bingo",
+  "items": [
+    "after",
+    "again",
+    "an",
+    "any",
+    "as",
+    "ask",
+    "by",
+    "could",
+    "every",
+    "fly",
+    "from",
+    "give",
+    "going",
+    "had",
+    "has",
+    "her",
+    "him",
+    "his",
+    "how",
+    "just",
+    "know",
+    "let",
+    "live",
+    "may",
+    "of",
+    "old",
+    "once",
+    "open",
+    "over",
+    "put",
+    "round",
+    "some",
+    "stop",
+    "take",
+    "thank",
+    "them",
+    "then",
+    "think",
+    "walk",
+    "were",
+    "when"
+  ],
+  "itemsNote": "Each of the 41 words here comes from the Dolch first grade list. Several are tricky for spelling, such as could, once and were, so they make good targets for reading and writing practice at the same time.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Super Reader",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [
+    8,
+    9,
+    10
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/sight-words-kindergarten",
+    "bingo/cvc-words",
+    "bingo/back-to-school",
+    "word-search/sight-words",
+    "bingo/esl-action-verbs",
+    "bingo/last-day-of-school"
+  ],
+  "relatedHeading": "More reading and classroom printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play sight words bingo in first grade",
+      "body": [
+        "By first grade, children are moving from word-by-word decoding toward fluent reading. Sight word bingo helps with the shift because it asks them to recognize a word instantly, without sounding out. The words here, like could, once and were, break the usual phonics rules, so the best way to learn them is to see them again and again.",
+        "A 5x5 board gives each child plenty to scan, and your voice does the calling. A round takes around ten minutes, which suits a literacy center or a small group.",
+        "1. Give each player a card and a stack of markers. Pennies, mini pom-poms or small paper squares all work well.\n2. Call a word and use it in a sentence. For example: **think**. I think it will rain tomorrow.\n3. Players find the word and cover it. Encourage them to say it quietly as they place a marker.\n4. Check boards by walking around the room or the table.\n5. The first player to cover a line reads each covered word back. If one is wrong, the line is incomplete and play continues.\n6. Play again with the same cards. Rereading the same words builds speed."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Four ways to raise the challenge",
+      "body": [
+        "* **Spell it out.** After a player covers a word, they have to spell it aloud before the marker stays. It ties reading to spelling.\n* **Sentence builders.** Instead of calling single words, say a short sentence with one blank, like I will ___ you a gift. Players cover give.\n* **Speed round.** Call words every five seconds, then every three. Children enjoy trying to keep up, and you can see who is fluent.\n* **Partner coaching.** Pairs share one board and take turns. One finds the word, the other checks and reads it back."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for the reading teacher or parent",
+      "body": [
+        "Group the words by difficulty. Some are quick wins, such as an, as and by. Others, like again, once and could, need more time. Keep a mix on each card so all readers have a few easy squares.",
+        "Listen for guessing from the first letter. A child who covers then when you called them is often matching only the opening letters. Pause and point out the endings.",
+        "Record progress. A simple sheet with each child's name and the words they hesitated over gives you a ready-made plan for next week's group.",
+        "For homework, send home a folded card and the call list, and ask a family member to play. Even a short game before bed counts.",
+        "Celebrate effort as much as winning. A child who reads every word on a row slowly has done what the game is for."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for centers and home",
+      "body": [
+        "Print on cardstock and laminate if the cards will live in a center for the term. A zip bag holding the card, markers and a call list makes a ready-to-go game.",
+        "Use one card per page for the biggest print, which suits children who lose their place on a small grid. For a whole-class game, print two per page and cut the sheet in half to save paper.",
+        "Choose the black and white option for school printers, because ink is expensive and the words are all that matter. If you want a color theme, print on pastel paper instead."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the Dolch first grade list?",
+      "a": "It is one of the Dolch level lists, which gather very common English words found in children's books. The first grade list has 41 words, and this page uses every one."
+    },
+    {
+      "q": "Is this the same as Fry words?",
+      "a": "No. Dolch and Fry are different lists, though they overlap. The editable list lets you swap in Fry words if your school uses them."
+    },
+    {
+      "q": "How many cards do I need for a class?",
+      "a": "Print one card per child. The generator makes each card unique, so up to 30 can be printed at once, enough for most classrooms."
+    },
+    {
+      "q": "Should my child sound out sight words?",
+      "a": "Some can be sounded out, like and or had. Others, like once or were, do not follow regular patterns, which is why seeing them often helps more."
+    }
+  ]
+}

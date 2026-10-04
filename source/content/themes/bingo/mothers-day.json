@@ -1,0 +1,118 @@
+{
+  "shortTitle": "Mother's Day Bingo",
+  "title": "Free Printable Mother's Day Bingo Cards for Class Parties",
+  "metaDescription": "Free printable Mother's Day bingo cards with 36 squares from breakfast in bed to handmade cards. Ideal for brunches, class teas and family gatherings.",
+  "h1": "Mother's Day Bingo Cards (Free Printable Generator)",
+  "intro": "Print free Mother's Day bingo cards for a brunch, a class tea or a call with grandma. The 36 squares are warm, funny and full of the little things mothers do all year.",
+  "toolTitle": "Mother's Day Bingo",
+  "items": [
+    "Breakfast in bed",
+    "Handmade card",
+    "Bouquet of flowers",
+    "Carnation",
+    "Tulip",
+    "Teacup",
+    "Tea party",
+    "Brunch table",
+    "Pancakes",
+    "Strawberries",
+    "Chocolate box",
+    "Photo frame",
+    "Family photo",
+    "Hug",
+    "Kiss on the cheek",
+    "Thank you note",
+    "Macaroni necklace",
+    "Painted rock",
+    "Garden gloves",
+    "Pot of herbs",
+    "Cozy blanket",
+    "Bubble bath",
+    "Slow morning",
+    "Cup of coffee",
+    "Lunch made with love",
+    "Bedtime story",
+    "Lullaby",
+    "Hand-me-down recipe",
+    "Apron",
+    "Cookie recipe",
+    "Phone call to grandma",
+    "Sunday walk",
+    "Matching pajamas",
+    "I love you",
+    "Sticky handprint",
+    "Mom's laugh"
+  ],
+  "itemsNote": "Many families celebrate with a mother, grandmother, aunt or other caring adult, so squares speak about care in general. Add a real family joke or a favorite dish to make each card special.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Thank You",
+    "cards": 20,
+    "perPage": 2
+  },
+  "season": [
+    5
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/fathers-day",
+    "bingo/birthday-party",
+    "bingo/baby-shower",
+    "bingo/easter",
+    "bingo/bridal-shower",
+    "word-search/baby-shower"
+  ],
+  "relatedHeading": "More Mother's Day printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at a Mother's Day gathering",
+      "body": [
+        "The best part of this game is that the guest of honor does not have to take part in the calling. Let the children or grandchildren run the whole thing while she sits down with a hot drink.",
+        "1. Give every guest a card and a pen, and let the youngest child draw the first square from a bowl.\n2. When a square is called, players mark it and, if they like, add a short memory about the item.\n3. A completed row earns a bookmark or a flower seed packet.\n4. Keep a spare card for the guest of honor, who can mark items as she remembers them happening.\n5. End the game by reading aloud the memories that were shared."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to make it personal",
+      "body": [
+        "* **Memory squares.** Replace half the list with real moments from the family, such as the time dinner burned or the big road trip. Guests mark a square when they were there.\n* **Teacher tea edition.** At school, children make a card and pour pretend tea, and visiting mothers play the game with them side by side.\n* **Long-distance bingo.** Email or text the same card to relatives in other places. Everyone plays on a video call and the first row wins a virtual round of applause."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for a thoughtful event",
+      "body": [
+        "Not everyone has a mother nearby, and for some the day is tender. Phrase the invitation as a celebration of anyone who cares for you, and let children choose a grandmother, aunt or neighbor.",
+        "Keep prizes sentimental rather than expensive. A small plant, a hand-drawn bookmark or a jar of tea are plenty.",
+        "If you plan to take photos, play the game before the meal so no one is distracted when the food arrives."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for brunch",
+      "body": [
+        "Print on cream paper or a pale floral sheet and use a pen for covering squares. Two cards per page fits neatly beside a plate at a small table.",
+        "Fold a finished card in half and write a note on the back, so the game doubles as a keepsake card."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I play without a mother present?",
+      "a": "Yes. Many people use it to honor a grandmother or friend over a call, or to celebrate someone who is no longer around by sharing stories."
+    },
+    {
+      "q": "What ages work best?",
+      "a": "Children from about five years old with help, and all the way up to grandparents. Use a 3x3 grid for little ones."
+    },
+    {
+      "q": "Can I include family inside jokes?",
+      "a": "Yes, and you should. Edit any square in the box above and press generate again to refresh the cards."
+    }
+  ]
+}

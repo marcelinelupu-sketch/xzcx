@@ -1,0 +1,103 @@
+{
+  "shortTitle": "Community Helpers Word Search",
+  "title": "Community Helpers Word Search, Free Printable Puzzle",
+  "metaDescription": "A free community helpers word search with 20 jobs, from firefighter and nurse to librarian and mail carrier. Print on Letter or A4 with an answer key included.",
+  "h1": "Community Helpers Word Search (Free Printable)",
+  "intro": "Print a free community helpers word search with 20 jobs that keep a town running. It is a natural fit for a social studies unit or a career day for early elementary classes.",
+  "toolTitle": "Community Helpers Word Search",
+  "items": [
+    "Firefighter",
+    "Police officer",
+    "Nurse",
+    "Doctor",
+    "Teacher",
+    "Librarian",
+    "Mail carrier",
+    "Farmer",
+    "Baker",
+    "Dentist",
+    "Plumber",
+    "Electrician",
+    "Bus driver",
+    "Mechanic",
+    "Veterinarian",
+    "Builder",
+    "Cashier",
+    "Chef",
+    "Pilot",
+    "Janitor"
+  ],
+  "itemsNote": "The 20 jobs mix the ones children see every day with a few they may not have thought about, like electrician and mechanic.",
+  "defaultOptions": {
+    "size": 15,
+    "difficulty": "easy",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [
+    8,
+    9
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/transportation",
+    "word-search/human-body",
+    "word-search/sports",
+    "bingo/back-to-school",
+    "scavenger-hunt/neighborhood-walk",
+    "word-search/musical-instruments"
+  ],
+  "relatedHeading": "More town and classroom printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Using the puzzle for a helpers unit",
+      "body": [
+        "Children usually know a few helpers well and a few barely at all. The puzzle gives you a way to introduce the second group gently.",
+        "1. Read the list aloud and ask who has met each helper in person.\n2. Search for the jobs they know first.\n3. For each remaining word, ask what tool or uniform that helper might use.\n4. Circle one job you might want to try someday and tell a neighbor why."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations for career week",
+      "body": [
+        "* **Guest visit prep.** Before a firefighter or nurse visits the class, children prepare two questions for each job on the page.\n* **Tools match.** Draw a tool for five of the jobs and trade papers to see if a friend can guess the helper.\n* **Thank you notes.** Pick a helper in your town and write a short thank you using words from the grid."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for inclusive career talk",
+      "body": [
+        "Every job here can be done by any person, so avoid assuming who does what. Using the neutral job titles on this list helps.",
+        "Ask children about the helpers in their own families. A parent who drives a truck or cleans offices is part of the community too.",
+        "A short story from a real helper, even a two-minute chat with the school custodian, brings the vocabulary to life better than any worksheet."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the career bulletin board",
+      "body": [
+        "Print the answer key at poster size and let children add drawings of each helper around it. For a quick class set, blue or red paper nods to uniforms without hurting readability.",
+        "Two-word jobs, like police officer and mail carrier, are shown with spaces in the list and joined in the grid."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is the term police officer used instead of policeman?",
+      "a": "Yes. The job titles are neutral, so they fit any child's picture of who might do the work."
+    },
+    {
+      "q": "Can I add helpers from our own town?",
+      "a": "Absolutely. Add names like crossing guard, lifeguard or the local bakery owner's job to the list and press Generate."
+    },
+    {
+      "q": "What grades is this puzzle for?",
+      "a": "It is aimed at kindergarten through third grade. Use easy mode and drop long words for the youngest group."
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "shortTitle": "Camping Bingo",
+  "title": "Free Printable Camping Bingo Cards for Trips and Scouts",
+  "metaDescription": "Free printable camping bingo cards with 40 squares from s'mores to shooting stars. Great for family campouts, scout meetings and backyard tent nights.",
+  "h1": "Camping Bingo Cards (Free Printable Generator)",
+  "intro": "Make free camping bingo cards with 40 sights, sounds and chores from a real campsite. Hand them out at the tent pad and let the whole group look for things from marshmallows to owls.",
+  "toolTitle": "Camping Bingo",
+  "items": [
+    "Tent stakes",
+    "Sleeping bag",
+    "Camp stove",
+    "Lantern",
+    "Headlamp",
+    "Campfire",
+    "Marshmallow",
+    "S'mores",
+    "Hot dog on a stick",
+    "Cast iron pan",
+    "Cooler",
+    "Picnic table",
+    "Firewood",
+    "Hatchet",
+    "Pocket knife",
+    "Compass",
+    "Trail map",
+    "Water bottle",
+    "Bug spray",
+    "Sunscreen",
+    "Hiking boots",
+    "Backpack",
+    "Canoe",
+    "Fishing pole",
+    "Hammock",
+    "Camp chair",
+    "Flashlight",
+    "Tarp",
+    "Bear canister",
+    "Trail marker",
+    "Pine cone",
+    "Acorn",
+    "Squirrel",
+    "Chipmunk",
+    "Deer",
+    "Owl hooting",
+    "Frog croaking",
+    "Shooting star",
+    "Full moon",
+    "Spider web"
+  ],
+  "itemsNote": "Half of these squares are gear and half are wildlife, so cards fill up from both the camp kitchen and the woods. Remove anything your site does not allow, like a fire, and add local birds.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Campfire",
+    "cards": 12,
+    "perPage": 2
+  },
+  "season": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hubs": [
+    "road-trip-and-outdoor-games"
+  ],
+  "related": [
+    "bingo/nature-walk",
+    "bingo/bugs-and-insects",
+    "bingo/road-trip",
+    "word-search/camping",
+    "scavenger-hunt/camping",
+    "bingo/summer"
+  ],
+  "relatedHeading": "More camping printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at the campsite",
+      "body": [
+        "Camping bingo works best as a slow game that unfolds over a whole weekend. Pass out cards when you arrive and keep them near the cooler or inside the tent so people can mark squares between hikes, meals and chores.",
+        "1. Give each camper a card and a stub of pencil, which survives dew better than a pen.\n2. Campers cover a square whenever they see, hear or use the item, so chopping firewood counts as soon as it happens.\n3. Ask for a witness on wildlife squares, because a chipmunk is easier to doubt than a tent stake.\n4. A full row earns a small camp job off the list, such as skipping dish duty.\n5. At the last evening campfire, tally up the cards and read the rarest squares aloud."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three variations around the fire",
+      "body": [
+        "* **Night sky edition.** Make a second sheet with only sounds and sights from after dark, like an owl, a star shower and crickets. It gives restless kids a reason to stay by the fire.\n* **Camp chore bingo.** Mix chores into the list, such as hauling water or sweeping the tent, and use the card as a fair way to hand out work.\n* **Silent round.** For a morning bird walk, nobody speaks and everyone covers squares quietly. Compare cards afterward."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for leaders and parents",
+      "body": [
+        "Keep a small bin of tiny prizes. Pinecone ornaments, bandanas or an extra marshmallow all feel like trophies after a cold morning.",
+        "Camp cooking makes some squares easy to complete and others dependent on weather. Plan a backup list for wet days so the game does not stall when the fire will not light.",
+        "If you lead a scout troop or group, reward teamwork. A square can be covered only if two campers sign it, which encourages kids to share finds."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the outdoors",
+      "body": [
+        "A paper card gets damp in a tent, so slip it into a zip-top bag or print on a heavier cardstock. Dry-erase markers work well through a page protector and wipe clean for the next game.",
+        "Print in black and white with ink saver turned on. The grid stays readable in lantern light, and you will not mind if a card ends up smudged by a s'more."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can camping bingo be played without a campfire?",
+      "a": "Yes. Delete the fire squares and add things like a clothesline, a bird at the feeder or a tree stump so that backyard or cabin stays work just as well."
+    },
+    {
+      "q": "How many cards do I need for a scout troop?",
+      "a": "Print one per scout plus a few spares. If the group is large, print four per page and cut them apart to save paper."
+    },
+    {
+      "q": "What is a good prize for camp bingo?",
+      "a": "Small, practical rewards go over best, like a glow stick, a trail snack or first pick of the sleeping spot on the next trip."
+    }
+  ]
+}

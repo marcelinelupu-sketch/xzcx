@@ -1,0 +1,57 @@
+{
+  "shortTitle": "Frog Life Cycle Word Search",
+  "title": "Frog Life Cycle Word Search, Free Printable with Answer Key",
+  "metaDescription": "A free frog life cycle word search with 20 words from frogspawn to adult frog. Print it with an answer key in Letter or A4, or make up to 10 unique puzzles.",
+  "h1": "Frog Life Cycle Word Search (Free Printable with Answer Key)",
+  "intro": "Print a free frog life cycle word search in seconds. The 20 words follow a frog from jelly-coated eggs to a hopping adult, and every puzzle comes with an answer key.",
+  "toolTitle": "Frog Life Cycle Word Search",
+  "items": [
+    "Eggs", "Frogspawn", "Jelly", "Hatch", "Tadpole", "Gills", "Tail", "Algae", "Hind legs", "Front legs",
+    "Lungs", "Froglet", "Adult frog", "Metamorphosis", "Amphibian", "Pond", "Lily pad", "Webbed feet", "Croak", "Leap"
+  ],
+  "itemsNote": "These 20 words are already in the generator above. Younger children may do better with the first 13, which cover just the main stages.",
+  "defaultOptions": {"size": 14, "difficulty": "easy", "case": "upper", "showList": true, "puzzles": 1, "key": true},
+  "season": [3, 4, 5],
+  "hubs": ["classroom-games"],
+  "related": ["word-search/pond-animals", "bingo/frog-and-pond", "word-search/insects", "word-search/plants-and-flowers", "word-search/weather", "scavenger-hunt/nature-walk"],
+  "relatedHeading": "More frog and pond printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search in a lesson",
+      "body": [
+        "The puzzle works well as a calm follow-up to a science lesson on life cycles, usually somewhere in first to third grade. The words go in the same order a frog grows, so you can talk through each stage as children find it.",
+        "1. Start with a quick chat about what children already know: where frogs lay eggs and what a tadpole looks like.\n2. Hand out the puzzle and ask them to find the stage words first: eggs, tadpole, froglet and adult frog.\n3. Once those are circled, have them number the four stages in order next to the word list.\n4. Finish with the harder science words, like gills, lungs and metamorphosis, and talk about what each one means.",
+        "> Frogs are amphibians. Most species lay eggs in water, the tadpoles breathe with gills, and during metamorphosis they grow legs and lungs and absorb the tail. Depending on the species and the water temperature, this can take from a few weeks to more than a year. The [USGS Amphibian Research and Monitoring Initiative](https://www.usgs.gov/programs/amphibian-research-and-monitoring-initiative) has more on frogs in the wild."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "3 ways to change it up",
+      "body": [
+        "* **Life cycle wheel.** After the puzzle, children draw a circle with four arrows and write egg, tadpole, froglet and adult frog in the right spots, using the words they just found.\n* **Pond partners.** Pair it with the pond animals word search and race in pairs: one finds frog stages, the other finds the animals that share the pond.\n* **Easy and hard sets.** Print an easy version that only runs across and down for early readers, and a hard version with backwards and diagonal words for fast finishers."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "If you can, show real frogspawn or tadpole photos before the puzzle. Seeing the jelly around the eggs makes the word jelly stick in a way the puzzle alone does not.",
+        "Keep tadpole watching hands-off. If your class visits a pond, look but leave the spawn in the water, since many places protect native amphibians."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips",
+      "body": [
+        "The default 14 by 14 grid fills a Letter or A4 page with letters large enough for young eyes. Turn on lowercase if your class is still learning capital letters.",
+        "Print the answer key on a separate page so you can keep it at your desk, or project it on the board for self-checking. Ink saver mode keeps a class set cheap on a laser printer."
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "What age is this frog life cycle word search for?", "a": "It suits roughly ages 6 to 9. Use the easy setting and the first 13 words for kindergarten and first grade, and the full list with diagonal words for older children."},
+    {"q": "Why is metamorphosis in the list when it is such a long word?", "a": "It is the key science word for this topic, and finding it in the grid helps children remember the spelling. Remove it from the list if your group is just starting out."},
+    {"q": "Can I make a different puzzle for every child?", "a": "Yes. Set the number of puzzles up to 10 and each one gets its own letter layout, so neighbors cannot copy. Each puzzle has its own answer key page."}
+  ]
+}

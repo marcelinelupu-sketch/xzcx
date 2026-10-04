@@ -1,0 +1,105 @@
+{
+  "shortTitle": "Back to School Word Search",
+  "title": "Back to School Word Search, Free Printable First Week Puzzle",
+  "metaDescription": "Print a free back to school word search with 22 words from backpacks to recess. Letter or A4, answer key included, or make new puzzles for the whole class.",
+  "h1": "Back to School Word Search (Free First Week Puzzle)",
+  "intro": "Print a free back to school word search with 22 classroom words, perfect for the first week when routines are still forming. It breaks the ice and gets students reading right away.",
+  "toolTitle": "Back to School Word Search",
+  "items": [
+    "Backpack",
+    "Teacher",
+    "Classroom",
+    "Pencil",
+    "Notebook",
+    "Locker",
+    "Recess",
+    "Homework",
+    "Lunchbox",
+    "Eraser",
+    "Crayons",
+    "Bus",
+    "Library",
+    "Desk",
+    "Friends",
+    "Schedule",
+    "Scissors",
+    "Glue stick",
+    "Playground",
+    "Principal",
+    "Calendar",
+    "Bell"
+  ],
+  "itemsNote": "The 22 words above are loaded. Add your own room number, mascot or teacher's name for a personal touch.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 15,
+    "difficulty": "easy",
+    "case": "upper"
+  },
+  "season": [
+    8,
+    9
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/back-to-school",
+    "word-scramble/back-to-school",
+    "word-search/summer",
+    "bingo/last-day-of-school",
+    "scavenger-hunt/classroom",
+    "word-search/musical-instruments"
+  ],
+  "relatedHeading": "More back to school printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search in the first week",
+      "body": [
+        "The first days of school are about routines and relationships, and a puzzle is a low-pressure way to let students settle in. It needs no teaching, and every child can start the moment they sit down.",
+        "1. Put a puzzle on each desk before students arrive as a morning work task.\n2. Let them work alone for five minutes, then compare with a neighbor.\n3. Ask students to find the words that name things in the room and point to the real object.\n4. Collect the sheets and note who finished quickly and who took longer. It is a gentle first look at reading comfort.",
+        "> Use the word list to introduce your classroom rules. Each word can start a short chat, such as what recess looks like here or where backpacks go."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three first-week variations",
+      "body": [
+        "* **Classroom tour.** Walk around the room and label things with sticky notes using words from the list.\n* **Name edition.** Make a second puzzle using every child's first name as an introduction game.\n* **Open house.** Leave a puzzle on each seat so families have something to try while waiting for the talk to start."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers",
+      "body": [
+        "Keep the puzzle easy so every child can succeed on the first day. Save harder grids for later in the month, once you know your readers.",
+        "Use the answer key to check quickly, then hand the solved puzzles back as an early win. Children like seeing a finished page with their own circles."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for the new year",
+      "body": [
+        "Copy rooms are busy in August, so print the whole week's worth at once. Ink saver mode keeps toner use low, and one page per child keeps things simple.",
+        "Use Letter paper in the US and A4 elsewhere. If you send the puzzle home in a welcome folder, include the answer key on a separate page."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What grade is the back to school word search for?",
+      "a": "It suits kindergarten through fourth grade. Use easy mode and a shorter list for the youngest."
+    },
+    {
+      "q": "Can I add the names of my students?",
+      "a": "Yes. Add names to the list, or make a separate puzzle that is only names. Check spellings first."
+    },
+    {
+      "q": "Is the puzzle suitable for homeschool?",
+      "a": "Yes. It works well as a simple first-day activity, and a parent can read the words aloud as a warm-up."
+    }
+  ]
+}

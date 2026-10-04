@@ -1,0 +1,122 @@
+{
+ "shortTitle": "Backyard Scavenger Hunt",
+ "title": "Backyard Scavenger Hunt, Free Printable List for Kids",
+ "metaDescription": "Print a free backyard scavenger hunt with 28 things to find in your own yard, from clover to a cloud shape. Shuffle copies so every child starts somewhere new.",
+ "h1": "Backyard Scavenger Hunt (Free Printable List)",
+ "intro": "Print a free backyard scavenger hunt with 28 things to find without leaving your own yard. It suits a lawn, a patio, a small garden or a shared courtyard.",
+ "toolTitle": "Backyard Scavenger Hunt",
+ "items": [
+  "A dandelion or clover",
+  "Something yellow",
+  "A rock you can hold in one hand",
+  "A worm or a worm hole | 2",
+  "A bird on a fence or branch",
+  "A leaf with jagged edges",
+  "A feather | 2",
+  "A spider or a web | 2",
+  "Something that makes a sound in the wind",
+  "A flower with a lot of petals",
+  "A seed or seed pod",
+  "A shadow shaped like an animal | 3",
+  "Something smooth",
+  "Something rough",
+  "A bug with more than four legs",
+  "A piece of bark",
+  "Something round",
+  "A cloud that looks like an object | 2",
+  "A garden tool",
+  "A patch of moss or a mossy spot | 2",
+  "Something that smells good",
+  "A stick shaped like a Y",
+  "Something green and something brown",
+  "A butterfly or bee | 2",
+  "A bird's nest or a place a bird might build | 3",
+  "A puddle or a damp patch",
+  "Something taller than you",
+  "A tiny flower"
+ ],
+ "itemsNote": "All 28 items are ready in the generator above. Swap in items that match your own yard, for instance a swing set, a bird feeder or the neighbor's cat on the wall.",
+ "defaultOptions": {
+  "layout": "two-column",
+  "names": true,
+  "timeLimit": false,
+  "copies": 4,
+  "shuffle": true,
+  "ageNote": "Ages 4 to 9"
+ },
+ "season": [
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "hubs": [
+  "road-trip-and-outdoor-games"
+ ],
+ "related": [
+  "scavenger-hunt/nature-walk",
+  "scavenger-hunt/park",
+  "scavenger-hunt/neighborhood-walk",
+  "scavenger-hunt/birthday-party",
+  "bingo/bugs-and-insects",
+  "word-search/insects"
+ ],
+ "relatedHeading": "More outdoor printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to run a backyard scavenger hunt",
+   "body": [
+    "The best thing about a backyard hunt is that nobody has to pack a bag. You can start it between lunch and dinner, and the whole thing can be over in twenty minutes or stretch to an hour, depending on how closely the children look.",
+    "1. Walk the yard first and cross out anything that does not live there. A yard with no flowers can still win on shadows and sticks.\n2. Print one sheet per child, or one per pair if the group is young, and hand out pencils.\n3. Mark the boundary out loud, such as the fence, the hose reel and the back step, so everyone knows how far they can roam.\n4. Call the start, let the children search, and have them come back to you to show finds you cannot see from the porch.\n5. Gather on the grass at the end and let each child pick the find they liked best."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "3 ways to change it up",
+   "body": [
+    "* **Same list, different weather.** Run the hunt on a sunny morning, then again after rain. Puddles, snails and wet bark turn up that the dry version never finds.\n* **Binocular round.** Give each child a paper tube and have them check off items by looking only through the tube. It slows them down and sharpens attention.\n* **Teams against the clock.** Turn on the time limit, split the group in two and count the ticks when the timer ends. Older cousins and younger siblings can share a team."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for the grown-up in charge",
+   "body": [
+    "Keep the first few items easy so everyone ticks something in the first minute. A child who gets an early win keeps searching, while one who stalls often drifts toward the trampoline.",
+    "If your garden is fully tidy, hide a few extras yourself. A plastic ladybug on a leaf or a painted stone on the path are cheap and delight small children.",
+    "Shuffled order is switched on, so siblings do not end up elbowing each other at the same flower bed."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Keeping it safe at home",
+   "body": [
+    "Even in a fenced yard, check for hazards before you start. Tuck away garden tools with sharp edges, cover any pond or pool, and make sure nobody samples berries, mushrooms or decorative seeds.",
+    "Keep an adult within sight, and remind children to look at bugs rather than pick them up. Wasp nests and ant hills are for looking at from a distance. Wash hands once everyone is back inside."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for the garden",
+   "body": [
+    "The two-column layout puts all 28 items on a single page in clear type. Print on regular paper and tape each sheet to a clipboard or a flattened cereal box, since dew will soften plain paper fast. Black and white is fine, and the frog stamp on each page gives children one more thing to find."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What age is a backyard scavenger hunt best for?",
+   "a": "Children from about 4 to 9 enjoy it most. Read the list aloud for those who cannot read yet, and let older children tackle it as a race or with the timer on."
+  },
+  {
+   "q": "How long does the backyard hunt take?",
+   "a": "Most children finish the full list in 20 to 40 minutes. If the yard is small, trim the list to 12 items or take the timer off and let them keep going."
+  },
+  {
+   "q": "Can I use this list in an apartment courtyard or on a balcony?",
+   "a": "Yes. Delete the items that need a lawn, such as worms and clover, and add things you can see from where you stand, like a neighbor's wind chime or a delivery truck."
+  }
+ ]
+}

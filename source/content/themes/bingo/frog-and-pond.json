@@ -1,0 +1,121 @@
+{
+  "shortTitle": "Frog and Pond Bingo",
+  "title": "Free Printable Frog and Pond Bingo Cards for Nature Lessons",
+  "metaDescription": "Free printable frog and pond bingo with 36 squares from tadpoles and lily pads to dragonflies and herons. Great for nature clubs, preschools and pond exploring.",
+  "h1": "Frog and Pond Bingo Cards (Free Printable Generator)",
+  "intro": "Print free frog and pond bingo cards that bring the whole pond habitat into one game. Thirty-six squares cover creatures, plants and sounds from tadpole to heron.",
+  "toolTitle": "Frog and Pond Bingo",
+  "items": [
+    "Tadpole",
+    "Frogspawn",
+    "Froglet",
+    "Green frog",
+    "Bullfrog",
+    "Tree frog",
+    "Toad",
+    "Newt",
+    "Salamander",
+    "Turtle",
+    "Water snake",
+    "Dragonfly",
+    "Damselfly",
+    "Mosquito larva",
+    "Water strider",
+    "Diving beetle",
+    "Pond snail",
+    "Minnow",
+    "Goldfish",
+    "Duck",
+    "Mallard",
+    "Goose",
+    "Swan",
+    "Heron",
+    "Kingfisher",
+    "Muskrat",
+    "Lily pad",
+    "Cattail",
+    "Duckweed",
+    "Reed",
+    "Algae",
+    "Mud",
+    "Ripple",
+    "Croak",
+    "Splash",
+    "Lotus flower"
+  ],
+  "itemsNote": "This list blends animals, plants and sounds so it fits both a real pond visit and a classroom unit. Take out species that do not live in your area to keep the game honest.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Ribbit",
+    "cards": 12,
+    "perPage": 2
+  },
+  "season": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "hubs": [
+    "road-trip-and-outdoor-games"
+  ],
+  "related": [
+    "word-search/frog-life-cycle",
+    "word-search/pond-animals",
+    "bingo/nature-walk",
+    "bingo/bugs-and-insects",
+    "scavenger-hunt/nature-walk",
+    "bingo/ocean-animals"
+  ],
+  "relatedHeading": "More frog and pond printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at the water's edge",
+      "body": [
+        "Frog and pond bingo can be played at a real pond, in a classroom with pictures or on a rainy day with a picture book. The steps stay the same, only the way you find things changes.",
+        "1. Give each player a card and a pencil, then gather around the pond or a projected photo.\n2. For real ponds, players cover squares when they see or hear the item. A croaking sound counts for the croak square.\n3. For classroom play, a caller reads items from a bag or flashes pictures.\n4. When a player completes a row, they say the names of the creatures out loud.\n5. Play again after a short talk about where each animal sleeps or hides."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three pond twists",
+      "body": [
+        "* **Life cycle round.** Use only the tadpole, frogspawn, froglet and frog squares, and ask players to arrange them in order on a strip of paper.\n* **Night pond.** Play at dusk and cover squares by sound alone. Frogs call loudest after sunset in spring.\n* **Pond exploring bingo.** Use a net and a white tray, then cover squares for each living thing in the tray before returning it to the water."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for pond helpers",
+      "body": [
+        "Wet hands help frogs, because dry skin can harm amphibians. Teach children to wet their hands before touching any animal, and to put it back where it was found.",
+        "Early spring is the best time to find frogspawn and tadpoles. By midsummer froglets and dragonflies dominate. Adjust the list for the month you visit.",
+        "Supervise closely near the water. A grown-up stays within arm's reach of any child leaning over the edge."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for pond visits",
+      "body": [
+        "Waterproof paper is ideal near ponds, but a zip bag works nearly as well. Print on green or cream paper for a swampy look.",
+        "For a classroom print two sets with different cards so that rows finish at varied times. The ink saver option keeps the grid light so small words do not bleed into the lines."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a real pond to play?",
+      "a": "No. Pictures, a story book or a school wetland poster will do, and a caller can read the names from the list."
+    },
+    {
+      "q": "Is it safe to touch tadpoles and frogs?",
+      "a": "Look first. If you must handle one, wet your hands first and set it back right where it was. Many frogs have sensitive skin."
+    },
+    {
+      "q": "What age is frog bingo for?",
+      "a": "Preschoolers can join using picture help. Early elementary students can read the cards and spell the animals on their own."
+    }
+  ]
+}

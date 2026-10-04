@@ -1,0 +1,128 @@
+{
+  "shortTitle": "Graduation Party Bingo",
+  "title": "Graduation Party Bingo, Free Printable Cards for Grads",
+  "metaDescription": "Free graduation party bingo cards with 45 squares from caps and gowns to career advice. Print up to 30 unique cards for any grade level, Letter or A4.",
+  "h1": "Graduation Party Bingo Cards (Free Printable Generator)",
+  "intro": "Print up to 30 unique graduation party bingo cards for free. The 45 squares cover cap tosses, speeches, photos and the classic questions every graduate gets asked, so guests have something fun to track.",
+  "toolTitle": "Graduation Party Bingo",
+  "items": [
+    "Cap and gown",
+    "Tassel",
+    "Diploma",
+    "Cap toss",
+    "Class photo",
+    "Yearbook",
+    "Memory board",
+    "Photo collage",
+    "Slideshow",
+    "Valedictorian",
+    "Speech",
+    "Standing ovation",
+    "What's next question",
+    "Career advice",
+    "Money in a card",
+    "Congratulations card",
+    "Proud parents",
+    "Teary grandma",
+    "Younger sibling",
+    "Teacher stops by",
+    "Best friend",
+    "Old classmate",
+    "Funny baby photo",
+    "Cake with grad hat",
+    "Sheet cake",
+    "Taco bar",
+    "Cookout",
+    "Lemonade stand",
+    "Candy table",
+    "Banner",
+    "Balloons in school colors",
+    "Sign on the lawn",
+    "Guest book",
+    "Handshake",
+    "Group hug",
+    "Group photo",
+    "Selfie",
+    "Toast",
+    "Music playlist",
+    "Yard games",
+    "Photo booth",
+    "Thank you note",
+    "Memory jar",
+    "Time capsule",
+    "Dancing"
+  ],
+  "itemsNote": "The squares apply to high school, college and even pre-school celebrations. Add the graduate's school colors, mascot or favorite food to make the cards personal.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "GRAD",
+    "cards": 15,
+    "perPage": 2
+  },
+  "season": [
+    5,
+    6
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/birthday-party",
+    "bingo/retirement-party",
+    "bingo/family-reunion",
+    "bingo/last-day-of-school",
+    "bingo/movie-night",
+    "bingo/wedding-reception"
+  ],
+  "relatedHeading": "More party and milestone printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at a graduation party",
+      "body": [
+        "Graduation open houses are long and drop-in. Guests arrive and leave at different times, so most of the usual party games do not work. Bingo cards on a table by the guest book fit perfectly, because each person can pick one up, play for as long as they stay and drop it in a bowl when they go.",
+        "1. Put a stack of cards and a cup of pens beside the guest book or the food table.\n2. Add a sign explaining that squares can be marked any time, and a bowl for finished cards.\n3. When a guest completes a line, they bring the card to the grad or a parent for a stamp or a signature.\n4. Draw one winner from the bowl at the end of the afternoon for a small gift or a gift card."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations to try",
+      "body": [
+        "* **Advice bingo.** Fill some squares with advice categories, like money, friendship or first apartment. Guests write a one-line tip in the square instead of marking it, creating a keepsake for the graduate.\n* **Class reunion style.** For a joint party of several graduates, include squares for each student's school, club or sport.\n* **Memory ride.** Use the card as a trail through a photo wall. Each square matches a picture, and guests find and mark the photo."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for families",
+      "body": [
+        "Remember the drop-in crowd. Stack plenty of cards, and keep a spare pen under the table, because pens disappear quickly at open houses.",
+        "Choose a prize relevant to the next step: a notebook for a college-bound grad, a coffee gift card or a desk plant. Wrap it in the school colors.",
+        "Do not make the graduate answer the what's next question over and over. Put it on the card, and guests may find that the game gets the joke across for them."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for an open house",
+      "body": [
+        "Print on heavier cardstock in the school colors, or print on white and add a stripe of colored tape along one edge. With one card per page you can staple a tassel or ribbon to the corner.",
+        "Black and white ink saver mode keeps costs down when you print a big stack for a long open house. Frame one printed card as a sign explaining the game."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this suitable for a college graduation?",
+      "a": "Yes. The squares work for any level. Remove the yearbook or the lawn sign square if they do not apply, and add squares for your family's traditions."
+    },
+    {
+      "q": "Should the grad play too?",
+      "a": "They can, though many graduates prefer to host. Offer them a card with the free space marked, and give them a prize square for the last bingo of the day."
+    },
+    {
+      "q": "How can I turn the card into a keepsake?",
+      "a": "Ask guests to sign their names on their cards, and keep a few of them in the graduation album. The cards show who came and what they noticed."
+    }
+  ]
+}

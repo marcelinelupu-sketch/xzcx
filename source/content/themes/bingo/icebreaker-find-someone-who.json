@@ -1,0 +1,126 @@
+{
+  "shortTitle": "Find Someone Who Bingo",
+  "title": "Find Someone Who Bingo, Free Printable Icebreaker Cards",
+  "metaDescription": "Free printable human bingo for icebreakers. Thirty-six find someone who prompts for classes, teams and parties. Guests mingle to fill each unique card.",
+  "h1": "Find Someone Who Bingo Cards (Free Printable Icebreaker)",
+  "intro": "Print free human bingo cards where each square is a prompt such as \"has visited another country.\" Guests mingle, find a match and collect a signature for each square.",
+  "toolTitle": "Find Someone Who Bingo",
+  "items": [
+    "Has traveled to another country",
+    "Speaks more than one language",
+    "Plays a musical instrument",
+    "Has a pet",
+    "Was born in a different state",
+    "Loves spicy food",
+    "Has run a race",
+    "Can juggle",
+    "Prefers tea to coffee",
+    "Has met someone famous",
+    "Reads for fun every week",
+    "Knows how to knit or sew",
+    "Has climbed a mountain",
+    "Has a birthday this month",
+    "Is an only child",
+    "Has more than three siblings",
+    "Can whistle a tune",
+    "Has been on a boat",
+    "Likes to cook",
+    "Has gone camping",
+    "Is left-handed",
+    "Has lived in more than three homes",
+    "Collects something",
+    "Has a green thumb",
+    "Owns a bicycle",
+    "Watches movies on weekends",
+    "Has a twin or knows one",
+    "Prefers mornings to evenings",
+    "Has been to a concert",
+    "Can solve a puzzle cube",
+    "Plays a team sport",
+    "Has a favorite board game",
+    "Likes to sing in the car",
+    "Has volunteered somewhere",
+    "Has never broken a bone",
+    "Wears glasses"
+  ],
+  "itemsNote": "These prompts are friendly and low-pressure, so nobody has to reveal anything uncomfortable. Replace any that do not suit your group, and add prompts about your own workplace, class or club to make it your own.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Sign here",
+    "cards": 30,
+    "perPage": 1,
+    "names": true
+  },
+  "season": [
+    8,
+    9
+  ],
+  "hubs": [
+    "party-games",
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/meeting-buzzword-bingo",
+    "bingo/family-reunion",
+    "bingo/back-to-school",
+    "bingo/graduation-party",
+    "bingo/baby-shower",
+    "bingo/esl-feelings"
+  ],
+  "relatedHeading": "More party and group printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to run a find someone who icebreaker",
+      "body": [
+        "Human bingo works because it gives shy people a reason to start a conversation. Nobody has to think of an opening line, since the card supplies one: \"Do you play an instrument?\" The goal is to fill squares by finding a different person for each prompt, so the room must keep moving.",
+        "1. Give everyone a card and a pen. Explain the rule: each square needs a different person's signature or initials, and nobody may sign more than once on your card.\n2. Set a timer for ten or fifteen minutes. Music in the background helps the room feel relaxed.\n3. Guests walk around, ask the question, and sign each other's cards when the answer is yes.\n4. Ask for one extra detail whenever possible. \"Which instrument?\" turns a signature into a short chat.\n5. The first person to fill a row, a corner set or a whole card calls out. Check a few signatures at random, which is part of the fun.\n6. Finish by asking a few people to share the most surprising thing they learned."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for hosts, teachers and team leads",
+      "body": [
+        "Think about the group. A new class of adults who have never met needs the simple prompts at the top of the list. A team that has worked together for years will enjoy something harder, like \"has a talent nobody here knows about.\"",
+        "Watch for the quiet guest standing against the wall. Walk over, ask them a prompt and send them toward someone who might match. A little prompting at the start can turn a stiff room into a loud one.",
+        "Keep the prompts positive. Avoid anything about age, health, income or family situations that could embarrass someone. The 'has never broken a bone' style prompt is lighter than it sounds, but remove it if your group might find it awkward.",
+        "Offer a small prize or just a round of applause. Winning matters less than the buzz of conversation."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations for different gatherings",
+      "body": [
+        "* **Team challenge.** Divide into teams and let each team fill one card together. The team that covers a full row first wins, and everyone has to talk to the other team members.\n* **Names only.** In a new group, ask players to write the name of each person who matches instead of a signature. It forces them to learn names.\n* **Two truths round.** After the game, each person picks a square from their card and tells two true things and one false one about it. The group guesses the false one."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing signature cards",
+      "body": [
+        "Choose the one per page layout so there is room to sign inside each square. Print on regular paper, as these cards are single use, and hand out pens or pencils at the door.",
+        "For outdoor events, print on heavier paper and provide clipboards. Keep a few spares in a folder for late arrivals."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many people do I need?",
+      "a": "At least 15 or 20 works well, so each person can find a different match for most squares. A smaller group can allow a signature to be used twice."
+    },
+    {
+      "q": "Can I use it with children?",
+      "a": "Yes, with simpler prompts like \"has a pet\" or \"likes pizza.\" Rewrite the list in the box above to suit their age, and use pencils."
+    },
+    {
+      "q": "Is it appropriate at work?",
+      "a": "It is popular at orientations and team days. Keep the prompts light and about interests, never about personal or private matters."
+    },
+    {
+      "q": "What if someone matches many squares?",
+      "a": "Set a rule that each person can sign a card only once. That forces everyone to meet more people."
+    }
+  ]
+}

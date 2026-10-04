@@ -1,0 +1,65 @@
+{
+  "shortTitle": "Nature Walk Scavenger Hunt",
+  "title": "Nature Walk Scavenger Hunt, Free Printable List for Kids",
+  "metaDescription": "A free printable nature walk scavenger hunt with 30 things to spot, from moss to animal tracks. Add points, shuffle each copy and print in Letter or A4.",
+  "h1": "Nature Walk Scavenger Hunt (Free Printable List)",
+  "intro": "Print a free nature walk scavenger hunt with 30 things to look for on any trail or park path. Everything on the list is for spotting, not picking, so it works in parks and nature reserves.",
+  "toolTitle": "Nature Walk Scavenger Hunt",
+  "items": [
+    "A bird singing", "A feather on the ground", "Moss on a tree", "A spider web", "Animal tracks | 3", "A leaf bigger than your hand",
+    "Something red", "A mushroom (look, don't touch) | 2", "Bark with deep grooves", "A seed pod", "An insect on a flower", "A cloud shaped like something",
+    "A hole in a tree | 2", "Lichen on a rock | 2", "A flower with five petals", "A smooth stone", "A pine cone", "An acorn or nut",
+    "A squirrel | 2", "A snail or slug", "A fallen log", "Something fuzzy", "A heart-shaped leaf | 3", "A butterfly or moth | 2",
+    "A plant with thorns", "A stick shaped like a letter", "A puddle or stream", "Three different greens", "A bird's nest | 3", "Something that smells nice"
+  ],
+  "itemsNote": "All 30 items are loaded in the generator above. The number after a bar is the points value for harder finds; delete it if you would rather not keep score.",
+  "defaultOptions": {"layout": "checklist", "names": true, "copies": 4, "shuffle": true},
+  "season": [4, 5, 6, 9, 10],
+  "hubs": ["road-trip-and-outdoor-games"],
+  "related": ["scavenger-hunt/backyard", "scavenger-hunt/park", "scavenger-hunt/fall", "bingo/nature-walk", "word-search/plants-and-flowers", "bingo/bugs-and-insects"],
+  "relatedHeading": "More outdoor printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to run a nature walk scavenger hunt",
+      "body": [
+        "A nature walk hunt slows children down enough to notice what is around them, which is the whole point. It works on a forest trail, a city park or a long route around the block.",
+        "1. Walk the route yourself first if you can, and remove anything from the list you are unlikely to find there.\n2. Print one copy per child or small team, and bring a clipboard and pencil for each.\n3. Agree on the rules at the start: spot it, point at it, tick it. Nothing goes in pockets.\n4. Set a turnaround point or a time limit so the walk back doesn't turn into a march.\n5. Finish with a snack and let everyone share their best find."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "4 fun variations",
+      "body": [
+        "* **Photo hunt.** Switch the layout to photo hunt and let older children snap each find on a phone or tablet. Afterward, make a slideshow of the walk.\n* **Points race.** Keep the points after the bar and add up scores at the end. Rare finds like a bird's nest are worth more, which keeps eager hunters looking up as well as down.\n* **Sense walk.** Add items for sounds and smells, like running water or wet soil, so children use more than their eyes.\n* **Color match.** Give each team a paint swatch card and ask them to find something in nature for every shade."
+      ]
+    },
+    {
+      "role": "safety",
+      "heading": "Safety on the trail",
+      "body": [
+        "An adult should go along on every nature walk, with children staying where they can see a grown-up at all times. Agree on a meeting spot in case anyone gets separated.",
+        "Look but don't touch mushrooms, berries or anything you can't identify. Leave flowers, nests and protected plants where they are, and keep away from animals, even friendly-looking ones. Check for ticks after walking through long grass."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for leaders",
+      "body": [
+        "Shuffle order per copy is switched on, so teams start with different items and don't crowd around the same tree. Toddlers enjoy a shorter list of eight or ten easy items, such as something red or a smooth stone."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for outdoor use",
+      "body": [
+        "Paper gets damp and crumpled outside, so print on cardstock or slip each sheet into a clear sheet protector and tick with a dry erase marker. The checklist layout fits on one Letter or A4 page in a size that is easy to read in bright sunlight."
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "What age is a nature walk scavenger hunt good for?", "a": "Children from about 4 to 11 enjoy it. Read the list aloud for non-readers, or trim it to the easy items. Older children like the photo hunt and points race versions."},
+    {"q": "How long does a nature walk hunt take?", "a": "Plan on 30 to 60 minutes for the full list of 30. A short list of 10 items fits a 20-minute walk around a park."},
+    {"q": "Is it okay to collect things we find?", "a": "Our list is designed for spotting only. Many parks and reserves don't allow collecting, and leaving things in place protects the plants and animals that live there."}
+  ]
+}

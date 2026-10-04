@@ -1,0 +1,102 @@
+{
+ "shortTitle": "Baby Shower Word Scramble",
+ "title": "Baby Shower Word Scramble, Free Printable Game with Answers",
+ "metaDescription": "A free baby shower word scramble with 22 nursery words, from stroller to lullaby. Print one per guest, with or without a word bank, plus an answer key.",
+ "h1": "Baby Shower Word Scramble (Free Printable Game)",
+ "intro": "Print a free baby shower word scramble with 22 nursery words for guests to unscramble, from bassinet to lullaby. It is a quiet game that works while the guest of honor opens gifts.",
+ "toolTitle": "Baby Shower Word Scramble",
+ "items": [
+  "Diaper",
+  "Bottle",
+  "Stroller",
+  "Bassinet",
+  "Pacifier",
+  "Lullaby",
+  "Rattle",
+  "Bodysuit",
+  "Blanket",
+  "Bib",
+  "Crib",
+  "Nursery",
+  "Mobile",
+  "Booties",
+  "Teddy bear",
+  "Newborn",
+  "Cuddle",
+  "Sleepy",
+  "Baby powder",
+  "Burp cloth",
+  "Mommy-to-be",
+  "Welcome baby"
+ ],
+ "itemsNote": "All 22 words are ready above. Add the parents' chosen names or the baby's due month for a puzzle only this shower could have.",
+ "defaultOptions": {
+  "puzzles": 1,
+  "case": "upper",
+  "hint": false,
+  "bank": true,
+  "key": true,
+  "shuffle": true
+ },
+ "season": [],
+ "hubs": [
+  "baby-shower-games",
+  "party-games"
+ ],
+ "related": [
+  "bingo/baby-shower",
+  "word-search/baby-shower",
+  "word-scramble/bridal-shower",
+  "bingo/gender-reveal-party",
+  "scavenger-hunt/birthday-party",
+  "word-scramble/valentines-day"
+ ],
+ "relatedHeading": "More baby shower games",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to use a baby shower word scramble",
+   "body": [
+    "Shower games work best when they fit around the main event rather than interrupt it. A scramble sheet sits in each guest's lap while the parent-to-be opens gifts and gives guests who do not know each other something to chat about.",
+    "1. Print one sheet per guest and one extra for the host. Decide whether to show the word bank.\n2. Set sheets and pencils at each seat, or hand them out as guests arrive.\n3. Announce a time, for example the end of gift opening, when the sheets are collected.\n4. Check answers together, reading each word aloud.\n5. Give a small prize to the guest with the most correct answers, and draw a name from the tied guests if needed."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Shower variations",
+   "body": [
+    "* **Pass the sheet.** After two minutes, guests pass their sheet to the right and continue solving the next person's puzzle.\n* **Mom and baby edition.** Make two sheets, one with words that matter to the mother and one with words for the baby, and let the mother-to-be choose the winning team.\n* **Memory lane.** Add words from the parents' own story, like the town they met in or a favorite food, and see who knows them best."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for the host",
+   "body": [
+    "Set a moderate time limit so the game does not take over the shower. Ten minutes is a good fit between the cake and the gifts.",
+    "Turn off the word bank for a harder version at a shower full of word-game lovers.",
+    "Keep an extra pen for left-handed guests, whose sleeves smudge a pencil."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for the party",
+   "body": [
+    "Soft pastel paper or a cream cardstock gives each sheet the look of a party favor. Ink saver mode keeps the frog stamp pale, and the answer key prints as its own page. Staple a small ribbon or sticker to each sheet if you are using it as a table favor. Letter and A4 are both supported."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "How many copies do I need for the shower?",
+   "a": "Print one per guest. For a big shower, choose several puzzles so neighbors do not copy each other."
+  },
+  {
+   "q": "Is this game suitable for a co-ed shower?",
+   "a": "Yes. The words are about babies and nurseries, so any guest can play. Remove the mommy-focused words for a couples' shower."
+  },
+  {
+   "q": "How long does the word scramble take?",
+   "a": "About ten minutes for most guests. Allow a little more if you turn off the word bank."
+  }
+ ]
+}

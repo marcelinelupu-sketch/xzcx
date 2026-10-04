@@ -1,0 +1,111 @@
+{
+  "shortTitle": "Thanksgiving Word Search",
+  "title": "Thanksgiving Word Search, Free Printable for the Table",
+  "metaDescription": "Print a free Thanksgiving word search with 22 words from cranberry sauce to gratitude. Letter or A4, answer key included, or make a new puzzle for every seat.",
+  "h1": "Thanksgiving Word Search (Free Printable for Family and Class)",
+  "intro": "Print a free Thanksgiving word search with 22 words about food, family and gratitude. It keeps kids busy while the turkey rests and works just as well in a classroom the week before the break.",
+  "toolTitle": "Thanksgiving Word Search",
+  "items": [
+    "Turkey",
+    "Pumpkin pie",
+    "Cranberry",
+    "Stuffing",
+    "Gravy",
+    "Potatoes",
+    "Harvest",
+    "Gratitude",
+    "Family",
+    "Feast",
+    "Pilgrim",
+    "Corn",
+    "Cornucopia",
+    "Parade",
+    "Football",
+    "Leftovers",
+    "Rolls",
+    "Squash",
+    "Thankful",
+    "Autumn",
+    "Pecan",
+    "Sweet potato"
+  ],
+  "itemsNote": "The 22 words above are already loaded. Add the names of your own dinner guests or your family's must-have dish and the puzzle becomes part of the day.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 15,
+    "difficulty": "medium",
+    "case": "upper"
+  },
+  "season": [
+    10,
+    11
+  ],
+  "hubs": [
+    "party-games",
+    "classroom-games"
+  ],
+  "related": [
+    "word-scramble/thanksgiving",
+    "bingo/thanksgiving",
+    "word-search/fall",
+    "bingo/fall",
+    "word-search/christmas",
+    "word-search/farm"
+  ],
+  "relatedHeading": "More Thanksgiving printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search on Thanksgiving Day",
+      "body": [
+        "The hour before a big dinner is often the hardest one for children. Adults are in the kitchen, cousins have run out of things to do, and everyone is hungry. A shared puzzle sheet on the kids' table fills that gap nicely.",
+        "1. Print one copy per child and set them out on the table with pencils before guests arrive.\n2. Add a family name or two to the list beforehand, so the grown-ups at the table turn up in the grid as a small surprise.\n3. When a word is found, the finder says what they are thankful for that begins with the same letter.\n4. Collect the finished sheets and tape them to the fridge or the dining room wall as a decoration.",
+        "In school, the puzzle is a good Monday-before-break activity. Pair it with a short writing prompt about a family tradition and you have a lesson that feels like a treat.",
+        "> Thanksgiving is a day of reflection for some and a day of mixed feelings for others. For a classroom, keep the focus on food, family and gratitude, and use age-appropriate resources if you also teach the history."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to make it a tradition",
+      "body": [
+        "* **Gratitude chain.** Each word found is written on a paper strip with something the finder is thankful for. Link the strips into a paper chain for the table.\n* **Pie-slice scoring.** Draw a pie on a whiteboard, color a slice for each finished word, and see which team fills the pie first.\n* **Grandparent edition.** Make a puzzle with names and favorite recipes from your family and ask an older relative to solve it with a grandchild."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for hosts and teachers",
+      "body": [
+        "Mixed ages at one table is the usual situation. Print two difficulty levels and let each child choose, or pair a reader with a non-reader for a team effort.",
+        "Keep a few extra pencils nearby. A word search seems to disappear into the hands of whichever adult wanders by and starts circling words."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for the big day",
+      "body": [
+        "Print the day before so you are not hunting for paper while the oven is full. Use plain white copy paper, since a puzzle is about the letters, not the page.",
+        "If you are serving a crowd, make 6 to 10 different puzzles from the same list so neighbors cannot copy. On a cluttered holiday table, ink saver mode also keeps the sheets from looking heavy next to the place cards."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is a good time to hand out a Thanksgiving word search?",
+      "a": "The hour before dinner works well, as does the stretch after dessert when children get restless. In a classroom, the last session before the holiday break is the usual choice."
+    },
+    {
+      "q": "What age is this Thanksgiving word search for?",
+      "a": "It suits roughly ages 7 and up on the medium setting. Use easy mode and a shorter list for younger children, and hard mode for teens and adults."
+    },
+    {
+      "q": "Can I add my family's recipes to the list?",
+      "a": "Yes. Just edit the list above, add the dish names, and press Generate. Words with spaces like sweet potato are joined together in the grid."
+    },
+    {
+      "q": "Does the puzzle explain the history of the holiday?",
+      "a": "No, it is a vocabulary activity about food, family and gratitude. Teachers who cover history can pair it with their own lessons and sources."
+    }
+  ]
+}

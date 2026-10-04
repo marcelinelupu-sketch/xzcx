@@ -1,0 +1,101 @@
+{
+  "shortTitle": "Scavenger Hunt Generator",
+  "title": "Scavenger Hunt Generator, Free Printable Lists for Any Age",
+  "metaDescription": "Make a printable scavenger hunt in seconds. Type your own list or start from a theme, add points, shuffle each team's copy and print a checklist or photo hunt.",
+  "h1": "Scavenger Hunt Generator (Free Printable Lists)",
+  "intro": "Type the things to find, pick a layout and print a scavenger hunt for a party, a classroom or a walk around the block. Every team can get its own shuffled copy, and there is no sign-up.",
+  "toolTitle": "Backyard Scavenger Hunt",
+  "items": [
+    "A smooth rock",
+    "Something yellow",
+    "A feather | 2",
+    "A leaf with jagged edges",
+    "Something that makes a sound",
+    "A Y-shaped stick",
+    "A flower",
+    "A spider web | 2",
+    "Something round",
+    "An ant",
+    "A pine cone or seed",
+    "Something soft",
+    "A bird | 2",
+    "A cloud shaped like an animal | 3",
+    "Something older than you",
+    "Three different leaves",
+    "A shadow shaped like a letter | 3",
+    "Something that starts with B",
+    "A worm or snail | 2",
+    "Something you can recycle"
+  ],
+  "defaultOptions": {"layout": "checklist", "names": true, "timeLimit": false, "copies": 1, "shuffle": true, "ageNote": ""},
+  "featuredHeading": "Ready-made scavenger hunt lists",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to make a scavenger hunt",
+      "body": [
+        "A backyard list is already loaded so you can see how a sheet looks. Replace it with your own items, or open one of the ready-made lists further down the page. For timing, teams and prizes, read our guide on [how to plan a scavenger hunt](/guides/how-to-plan-a-scavenger-hunt/).",
+        "1. Give the hunt a title. It prints at the top of every sheet, so something like \"Leo's Birthday Hunt\" or \"Room 4 Library Hunt\" works well.\n2. Type one thing to find per line. To make a harder find worth more, add a bar and a number after it, like \"A feather | 2\".\n3. Choose a layout: a simple checklist, two columns for long lists, a photo hunt with a camera column, or a team score sheet.\n4. Set the number of copies. With **Mix up the order** turned on, each copy lists the items in a different order, so teams spread out instead of following each other.\n5. Press **Print**, or **Download PDF** to save the sheets for later.",
+        "> Short, concrete items work best for young children. \"Something red\" is easy to judge. \"Something interesting\" leads to long debates."
+      ]
+    },
+    {
+      "heading": "Choosing a layout",
+      "body": [
+        "### Checklist\nOne item per row with a big box to tick. It is the easiest layout for early readers, and it switches to two columns on its own when the list is too long for one.",
+        "### Two columns\nFits up to 40 items on a single sheet. Good for older kids, adults and long indoor hunts where a clipboard is handy.",
+        "### Photo hunt\nEach row gets a found box and a \"Snap it\" box with a small camera. Players take a picture of every find instead of collecting it. This is the best choice for parks, museums, stores and anywhere that taking things home is not allowed.",
+        "### Team score sheet\nA numbered table with points, a found box and a score column, plus a total at the bottom. Use it for competitive hunts at parties, youth groups and team building days, where someone needs to add up the results."
+      ]
+    },
+    {
+      "heading": "Points, names and time limits",
+      "body": [
+        "Points are optional. Items without a number count as one point on the team score sheet, and on the other layouts no points pill is shown at all. When at least one item has points, a \"Total points\" box appears at the bottom of the checklist so players can add up their score.",
+        "Turn on **Team and player name lines** to print a team name and a players line under the title. Turn on **Time limit** to add lines for the time limit, start time and finish time, which helps when several groups set off a few minutes apart.",
+        "The **Note under the title** is a free text line. Use it for an age range, a boundary (\"Stay inside the fence\"), a meeting point or a reminder about the prize."
+      ]
+    },
+    {
+      "heading": "Ideas for your list",
+      "body": [
+        "* **Indoor rainy day:** a sock with stripes, something that ticks, a spoon, a book with a dog on the cover, something that starts with your initial.\n* **Classroom:** a word with five letters, something magnetic, a map, a shape with three sides, something that measures.\n* **Neighborhood walk:** a house number with a 7, a red door, a mailbox, a dog on a leash, a flag.\n* **Party:** the birthday child's favorite toy, a balloon, something sparkly, a photo of a guest wearing a hat.\n* **Grown-up team building:** a coworker who speaks three languages, a mug with a joke on it, the oldest item on someone's desk.",
+        "Need more? The ready-made lists below cover outdoor walks, holidays, the classroom, road trips and more. Each one opens in this same generator, so you can edit it before you print."
+      ]
+    },
+    {
+      "role": "safety",
+      "heading": "Keeping outdoor hunts safe",
+      "body": [
+        "Outdoor hunts need an adult in charge. Agree on a boundary before anyone sets off, and make sure younger children can always see a grown-up and a grown-up can always see them. Small teams with an adult or older child in each one are easier to keep track of than a crowd.",
+        "Write lists for spotting rather than collecting. Many parks and nature reserves protect their plants, so tell players to look, point and tick instead of picking flowers, digging or taking anything home. The photo hunt layout makes this easy. Skip mushrooms, berries and anything that stings as things to touch, and remind everyone to wash their hands afterward."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips",
+      "body": [
+        "Pick US Letter or A4 before you print and keep the print scale at 100 percent. Text shrinks automatically so every list stays on one page per copy.",
+        "Ink saver mode turns the green boxes and lines gray, which is kind to school printers when you need 30 copies. Outdoors, print on cardstock or clip the sheets to a clipboard so they survive wind and damp grass. A sheet in a clear sleeve can be marked with a dry erase pen and reused for the next group."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "How many items should a scavenger hunt have?",
+      "a": "For children under six, 8 to 12 things to find is plenty. School-age kids enjoy 15 to 25, and teens or adults can handle 30 or more, especially with a time limit. The generator accepts up to 60 items."
+    },
+    {
+      "q": "Can each team get a different order?",
+      "a": "Yes. Set the number of copies and keep **Mix up the order on each copy** turned on. Every copy has the same items in a different order, so teams do not crowd around the same spot."
+    },
+    {
+      "q": "How do I add points to harder items?",
+      "a": "Put a bar and a whole number after the item, like \"A bird's nest | 3\". The points print next to the item, and the team score sheet adds a points column. Items without a number count as one point."
+    },
+    {
+      "q": "Can I save my hunt and print it again later?",
+      "a": "Your last list is remembered in this browser. For a permanent copy, use **Download PDF**, or **Copy share link** to get a web address that rebuilds the exact same sheets, including the shuffled order."
+    }
+  ]
+}

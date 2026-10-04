@@ -1,0 +1,106 @@
+{
+  "shortTitle": "Bridal Shower Word Search",
+  "title": "Bridal Shower Word Search, Free Printable Party Puzzle",
+  "metaDescription": "A free bridal shower word search with 20 wedding words, from bouquet and veil to champagne. Print on Letter or A4 and give guests a quiet game at the party.",
+  "h1": "Bridal Shower Word Search (Free Printable Puzzle)",
+  "intro": "Print a free bridal shower word search with 20 words from bouquet and veil to honeymoon. It is a relaxed game for guests to enjoy while the bride-to-be opens gifts.",
+  "toolTitle": "Bridal Shower Word Search",
+  "items": [
+    "Bouquet",
+    "Veil",
+    "Bride",
+    "Groom",
+    "Honeymoon",
+    "Champagne",
+    "Wedding cake",
+    "Garter",
+    "Bridesmaid",
+    "Toast",
+    "Rings",
+    "Vows",
+    "Ceremony",
+    "Reception",
+    "Engaged",
+    "Flowers",
+    "Gown",
+    "Registry",
+    "Aisle",
+    "Tiara"
+  ],
+  "itemsNote": "Every word is wedding related and none is tied to a particular tradition, so the sheet suits many cultures and ceremonies.",
+  "defaultOptions": {
+    "size": 15,
+    "difficulty": "medium",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 3,
+    "key": true
+  },
+  "season": [
+    4,
+    5,
+    6,
+    9
+  ],
+  "hubs": [
+    "bridal-shower-games"
+  ],
+  "related": [
+    "bingo/bridal-shower",
+    "word-scramble/bridal-shower",
+    "bingo/wedding-reception",
+    "word-search/baby-shower",
+    "word-search/kitchen",
+    "word-search/birthday"
+  ],
+  "relatedHeading": "More bridal shower games",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to run it at the shower",
+      "body": [
+        "This game works at brunches, tea parties and backyard gatherings because it needs only paper and a pen.",
+        "1. Put a copy at each place setting before guests arrive.\n2. Announce that the first to circle all twenty words wins a small prize.\n3. Let the bride read the list of words aloud when the winner finishes.\n4. Ask each guest to share a wish for the couple using one of the words.",
+        "If the party is formal, set the puzzle beside a place card so it feels part of the table rather than an interruption."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Ways to make it your own",
+      "body": [
+        "* **Couple's story.** Replace five words with places, songs or nicknames that matter to the couple.\n* **Advice cards.** After the puzzle, pass out cards where guests write a short bit of marriage advice using a word from the grid.\n* **Rapid round.** Set a three-minute timer and see who finds the most words, instead of all of them."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for hosts and maids of honor",
+      "body": [
+        "Keep the prizes small and fun, such as a candle or a mini bottle of lotion. Large stakes make a quiet game feel competitive.",
+        "Make sure guests who prefer not to play have something else to do, like decorating a card for the couple.",
+        "Tell guests ahead that a puzzle will be part of the afternoon, so people who enjoy word games come ready to play."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for an elegant table",
+      "body": [
+        "Cream or blush cardstock gives the page a stationery feel. If you want it to match your invitations, print on the same paper stock.",
+        "Reduce the size of the word list or turn it off for a harder puzzle, then offer the list to only those who ask."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I put the bride's name in the puzzle?",
+      "a": "Yes. Add her name and the groom's name to the list, then press Generate. Both are hidden in the grid along with the wedding words."
+    },
+    {
+      "q": "How many puzzles should I print?",
+      "a": "One for each guest plus a few spares is enough. The multiple-puzzle setting gives each table different layouts."
+    },
+    {
+      "q": "Is the puzzle suitable for a mixed-age crowd?",
+      "a": "Yes. The words are all familiar, so guests from teens to grandparents can join in."
+    }
+  ]
+}

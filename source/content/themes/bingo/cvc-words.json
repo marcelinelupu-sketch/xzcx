@@ -1,0 +1,129 @@
+{
+  "shortTitle": "CVC Words Bingo",
+  "title": "Free Printable CVC Words Bingo Cards for Phonics Practice",
+  "metaDescription": "Free printable CVC words bingo with 48 consonant-vowel-consonant words like cat, pig, sun and mop. Make unique cards for phonics groups, centers and home.",
+  "h1": "CVC Words Bingo Cards (Free Printable Generator)",
+  "intro": "Print free CVC words bingo cards with 48 simple three-letter words that children can blend by sound. The list spreads all five short vowels across each card.",
+  "toolTitle": "CVC Words Bingo",
+  "items": [
+    "cat",
+    "hat",
+    "mat",
+    "bat",
+    "map",
+    "cap",
+    "van",
+    "jam",
+    "bag",
+    "dog",
+    "log",
+    "pot",
+    "mop",
+    "top",
+    "box",
+    "fox",
+    "hop",
+    "pig",
+    "big",
+    "pin",
+    "sit",
+    "lip",
+    "zip",
+    "six",
+    "bed",
+    "pen",
+    "hen",
+    "net",
+    "jet",
+    "web",
+    "red",
+    "ten",
+    "bus",
+    "cup",
+    "sun",
+    "rug",
+    "bug",
+    "hug",
+    "nut",
+    "mud",
+    "tub",
+    "run",
+    "fun",
+    "cut",
+    "fan",
+    "pan",
+    "wet",
+    "lid"
+  ],
+  "itemsNote": "Every word has a consonant, a short vowel and a consonant, with no blends or digraphs. The list balances the five short vowels, and you can limit a game to one vowel by deleting the rest.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 4,
+    "free": true,
+    "freeText": "Blend It",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/sight-words-kindergarten",
+    "bingo/sight-words-first-grade",
+    "word-search/sight-words",
+    "bingo/esl-classroom-objects",
+    "bingo/back-to-school",
+    "bingo/farm-animals"
+  ],
+  "relatedHeading": "More phonics and early reading printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play CVC bingo",
+      "body": [
+        "CVC words, short for consonant, vowel, consonant, are the first words many children learn to decode by blending sounds. In bingo, the caller says the word slowly, stretching each sound, and players find it on their cards.",
+        "1. Give each child a card and some counters.\n2. Call a word with sounds separated, like m, o, p, and then say it together: mop.\n3. Children find the word on their card and cover it.\n4. Ask the child to tap each sound with a finger before they place the counter.\n5. When someone covers a line, they read all the covered words aloud. Congratulate those who read all of them smoothly."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three variations for phonics groups",
+      "body": [
+        "* **One vowel at a time.** Edit the list so a round uses only short a words, then short i, and so on. It isolates the sound children are learning.\n* **Picture matching.** The caller holds up a picture, such as a pig, and children cover the matching word. This ties print to meaning.\n* **Word family focus.** Keep only words like cat, hat, mat and bat, and ask children what changes when you swap the first sound."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for phonics teachers",
+      "body": [
+        "Do not skip the blending routine. Children who see the word and say it without sounding it out are guessing. Slow the caller down and exaggerate each sound.",
+        "Watch for mix-ups between short e and short i, such as pen and pin. Call those two close together on purpose and see who catches the difference.",
+        "Include nonsense words as an optional extra for older readers. A card with a few made-up words tests whether children are truly decoding.",
+        "Keep cards small, with a 4x4 grid, until children are comfortable. Smaller boards finish sooner, so struggling readers see a win."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for phonics groups",
+      "body": [
+        "Print one card per page with large type so children can point to each letter. Laminated cards with dry-erase markers can be used again and again.",
+        "Use black and white with ink saver, and print a colored border on the sheet if you want a pretty look. Cut the call list into word strips and keep them in an envelope."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What does CVC stand for?",
+      "a": "It stands for consonant, vowel, consonant, the pattern in words like dog or sun where each letter makes one sound."
+    },
+    {
+      "q": "What age is CVC bingo for?",
+      "a": "It suits kindergarten and early first grade, usually ages five to seven, once children know most letter sounds."
+    },
+    {
+      "q": "Are all these words real, short-vowel words?",
+      "a": "Yes. Each has a single consonant, a short vowel sound and a final consonant. Words like box and fox end in x, which makes two sounds but still fits the pattern."
+    }
+  ]
+}

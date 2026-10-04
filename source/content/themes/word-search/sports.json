@@ -1,0 +1,103 @@
+{
+  "shortTitle": "Sports Word Search",
+  "title": "Sports Word Search, Free Printable Game Day Puzzle",
+  "metaDescription": "Print a free sports word search with 22 words, from soccer and basketball to referee and trophy. Letter or A4, answer key included, perfect for team time.",
+  "h1": "Sports Word Search (Free Printable Puzzle)",
+  "intro": "Print a free sports word search with 22 words covering popular games, equipment and team words. It is a good rainy day option for a coach, a PE teacher or a restless sports fan.",
+  "toolTitle": "Sports Word Search",
+  "items": [
+    "Soccer",
+    "Basketball",
+    "Baseball",
+    "Football",
+    "Tennis",
+    "Swimming",
+    "Gymnastics",
+    "Volleyball",
+    "Hockey",
+    "Golf",
+    "Referee",
+    "Coach",
+    "Teammate",
+    "Trophy",
+    "Stadium",
+    "Whistle",
+    "Helmet",
+    "Goalie",
+    "Sprint",
+    "Relay",
+    "Medal",
+    "Scoreboard"
+  ],
+  "itemsNote": "A mix of sports, equipment and people on the field, with no brand names or leagues included.",
+  "defaultOptions": {
+    "size": 14,
+    "difficulty": "medium",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/human-body",
+    "word-search/healthy-food",
+    "bingo/summer",
+    "bingo/birthday-party",
+    "word-search/summer",
+    "word-search/musical-instruments"
+  ],
+  "relatedHeading": "More active and party printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Using the puzzle for team time",
+      "body": [
+        "Sports fans often have strong opinions about their game, so let them bring that energy into the puzzle.",
+        "1. Split the group into two teams and give each team the same puzzle.\n2. Teams race to find the sports first, then the equipment, then the people.\n3. Award a point for each correct word and a bonus point for spelling it aloud.\n4. Review the answer key together and applaud the final tally.",
+        "If the group is mixed in age, pair older players with younger ones so every team has a confident reader."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Playing it differently",
+      "body": [
+        "* **Warm-up relay.** Tape a puzzle to the far wall and have children run over, find one word, and run back to tag a teammate.\n* **Mystery sport.** Hide one sport from the list and ask children to guess which is missing based on a few clues.\n* **Hall of fame.** Write a short paragraph about a favorite sport from the grid and why it matters to you."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for coaches and PE teachers",
+      "body": [
+        "Not every child likes competition. Offer a solo option where the goal is just to beat last week's time.",
+        "Include sports that students in your own community actually play, since many local favorites are not on a general list.",
+        "Celebrate effort and good sportsmanship as much as speed. A quiet round of applause for every finished puzzle sets a good tone."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the gym or field",
+      "body": [
+        "A clipboard is your friend outdoors. Print on regular paper and slide each sheet under the clip, or laminate a class set for the equipment closet.",
+        "Medium difficulty is the default here, and diagonal words add a bit of challenge for older athletes."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I make a puzzle for a single sport?",
+      "a": "Yes. Replace the list with terms from one sport, such as positions or equipment, and press Generate."
+    },
+    {
+      "q": "Is this good for a team party?",
+      "a": "It is a nice quiet option at a team pizza night or on a bus ride to an away game. Print one copy per player."
+    },
+    {
+      "q": "Why are there no league or team names?",
+      "a": "Team and league names are protected, so the list sticks to the general names of games."
+    }
+  ]
+}

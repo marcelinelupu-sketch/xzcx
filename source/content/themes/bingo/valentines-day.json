@@ -1,0 +1,119 @@
+{
+  "shortTitle": "Valentine's Day Bingo",
+  "title": "Free Printable Valentine's Day Bingo Cards for Class",
+  "metaDescription": "Free printable Valentine's Day bingo cards with 36 squares such as candy hearts, paper cards and red roses. Make up to 30 different cards for class parties.",
+  "h1": "Valentine's Day Bingo Cards (Free Printable Generator)",
+  "intro": "Make free Valentine's Day bingo cards for a class party, a family dinner or a friendship celebration. The 36 squares are all about cards, candy and kindness, with nothing that points kids toward romance.",
+  "toolTitle": "Valentine's Day Bingo",
+  "items": [
+    "Candy heart",
+    "Red rose",
+    "Pink balloon",
+    "Paper doily",
+    "Valentine card",
+    "Mailbox box",
+    "Envelope",
+    "Stamp",
+    "Love letter",
+    "Conversation hearts",
+    "Chocolate box",
+    "Strawberry",
+    "Cupid's bow",
+    "Cupcake with sprinkles",
+    "Pink frosting",
+    "Red ribbon",
+    "Lace trim",
+    "Teddy bear",
+    "Glitter",
+    "Cookie cutter heart",
+    "Sticker sheet",
+    "Pencil with a heart",
+    "Friendship bracelet",
+    "Thank you note",
+    "Kind word",
+    "Big hug",
+    "High five",
+    "Handmade card",
+    "Heart garland",
+    "Pink lemonade",
+    "Red cup",
+    "Sugar cookie",
+    "Crayons",
+    "Scissors and glue",
+    "Bouquet",
+    "Sharing a snack"
+  ],
+  "itemsNote": "These squares lean toward crafts, treats and friendship so they suit a mixed class. For a date night or a gathering of adults, try replacing a few with a candlelit dinner, a playlist or a handwritten note.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Be Kind",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [
+    1,
+    2
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/mothers-day",
+    "word-search/valentines-day",
+    "word-scramble/valentines-day",
+    "bingo/birthday-party",
+    "bingo/easter",
+    "bingo/st-patricks-day"
+  ],
+  "relatedHeading": "More Valentine's Day printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at a Valentine's Day party",
+      "body": [
+        "A card exchange can get chaotic, and bingo gives the room a purpose while the boxes are being decorated and the treats are being laid out. Pass the cards out as children arrive, then run the game from a seat so the helpers can set up the snack table in peace.",
+        "1. Hand out a card and a few conversation hearts or paper hearts to each player.\n2. Read a square aloud and let players cover it if it appears on their card.\n3. Pause after each call so slower readers can find it.\n4. A full line wins, and the winner chooses a sticker or a pencil from the prize tin.\n5. Eat the candy hearts last, once everyone has finished playing."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three Valentine twists",
+      "body": [
+        "* **Kindness bingo.** Turn the free space into a challenge. Each time a child covers a square, they say one kind thing about a classmate before the next call.\n* **Craft table bingo.** Put the real items out on the tables, such as doilies, glue and red paper, and children cover a square when they have used that item in their own card.\n* **Galentine's and Palentine's night.** For adult friends, add squares like a movie marathon, a face mask and a funny gift, and play it over snacks."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for classroom parents and teachers",
+      "body": [
+        "Check allergy lists before the party and mark any candy squares as pretend. A paper heart can stand in for a real one just as well, and nobody has to skip a turn.",
+        "Valentine's Day can leave some children feeling left out. Using a game with the whole room taking part helps keep the focus on fun rather than on who got the most cards.",
+        "If you are short on time, choose a 3x3 grid so rounds finish in five minutes, and run three quick games rather than one long one."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing in pinks and reds",
+      "body": [
+        "Pastel pink or cream paper makes the cards look festive without using any extra ink, and the ink saver setting keeps the grid light. Print two cards per page for kindergarteners so the squares stay roomy.",
+        "A sheet protector and a dry-erase marker let you reuse one set of cards across several class periods."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is Valentine's bingo right for young children?",
+      "a": "Yes. The squares are all things children can recognize, like hearts, candy and cards. Use a 3x3 grid for the youngest and read each word aloud."
+    },
+    {
+      "q": "How many cards can I print for a class?",
+      "a": "The generator makes up to 30 different cards at once, which covers most class sizes. Use two per page to save paper, then cut or fold them."
+    },
+    {
+      "q": "Can I use my own words on the cards?",
+      "a": "Yes. Edit the list in the box, and the cards update when you press generate. Add classmates' favorite treats or leave out any food squares if your school has a no-candy rule."
+    }
+  ]
+}

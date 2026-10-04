@@ -1,0 +1,116 @@
+{
+  "shortTitle": "Weather Bingo",
+  "title": "Free Printable Weather Bingo Cards for Science Lessons",
+  "metaDescription": "Free printable weather bingo with 36 squares from sunshine and fog to hurricanes and tools like thermometers. Ideal for science lessons and weather watching.",
+  "h1": "Weather Bingo Cards (Free Printable Generator)",
+  "intro": "Print free weather bingo cards that mix sky conditions, storm words and weather tools. They fit a science unit, a daily calendar routine or a day stuck indoors.",
+  "toolTitle": "Weather Bingo",
+  "items": [
+    "Sunny",
+    "Cloudy",
+    "Partly cloudy",
+    "Rain",
+    "Drizzle",
+    "Thunderstorm",
+    "Lightning",
+    "Thunder",
+    "Snow",
+    "Sleet",
+    "Hail",
+    "Fog",
+    "Mist",
+    "Wind",
+    "Breeze",
+    "Tornado",
+    "Hurricane",
+    "Blizzard",
+    "Heat wave",
+    "Cold front",
+    "Warm front",
+    "Rainbow",
+    "Frost",
+    "Dew",
+    "Puddle",
+    "Icicle",
+    "Cumulus",
+    "Stratus",
+    "Cirrus",
+    "Thermometer",
+    "Rain gauge",
+    "Wind vane",
+    "Barometer",
+    "Umbrella",
+    "Forecast",
+    "Meteorologist"
+  ],
+  "itemsNote": "The squares run from everyday conditions to cloud types and instruments. For younger children, take out the cloud names and front types so the card stays simple.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Clear Sky",
+    "cards": 15,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/weather",
+    "bingo/solar-system",
+    "bingo/winter",
+    "bingo/summer",
+    "bingo/nature-walk",
+    "bingo/earth-day"
+  ],
+  "relatedHeading": "More weather and science printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play weather bingo",
+      "body": [
+        "Weather bingo works in two ways. You can call words in class, or you can play it live by watching the sky across a week and covering squares as conditions appear.",
+        "1. Give each child a card and some counters, such as cotton balls or paper clouds.\n2. For the classroom game, the caller describes a condition, like water falling in tiny drops, and players find drizzle.\n3. For the live game, hang the card near the window and cover squares as weather arrives.\n4. A row of covered squares earns a prize or a choice of seat.\n5. At the end of the week, discuss which squares stayed empty and why."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to extend the game",
+      "body": [
+        "* **Cloud spotter round.** Take cards outside and cover cumulus, stratus and cirrus squares only when you can match the sky to a chart.\n* **Season sort.** After playing, have children mark each square with a sun, leaf, snowflake or flower to show when it is most common.\n* **Forecast challenge.** Each morning, players predict which squares might be covered by afternoon and check afterward."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers",
+      "body": [
+        "Keep a simple weather log beside the card. Dates and short notes turn the game into data for a bar graph.",
+        "Use the word storm carefully with children who find thunder frightening. Talk about safety rules at the same time, such as going indoors when thunder rumbles.",
+        "The National Weather Service site at [weather.gov](https://www.weather.gov/) has pictures of cloud types you can show on a screen."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the window sill",
+      "body": [
+        "Print on light blue or gray paper and tape the card where students can reach it. Ink saver keeps the lines light so pencil marks stand out.",
+        "If you plan to reuse the card all season, laminate it and use a dry-erase marker, then wipe clean at the start of each week."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I play weather bingo outdoors?",
+      "a": "Yes. Take the card outside and cover squares such as wind, cloud type and puddle only when you see them."
+    },
+    {
+      "q": "Do I need to know weather terms to run it?",
+      "a": "No. The list includes simple words and a few technical ones, and the tips above point to a source for the definitions."
+    },
+    {
+      "q": "What age is this suitable for?",
+      "a": "Kindergarteners can play with sunny, rainy and snowy squares. Third graders can manage the full list with cloud names."
+    }
+  ]
+}

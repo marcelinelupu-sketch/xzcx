@@ -1,0 +1,104 @@
+{
+ "shortTitle": "Back to School Word Scramble",
+ "title": "Back to School Word Scramble, Free Printable for Class",
+ "metaDescription": "A free back to school word scramble with 22 classroom words, from backpack to recess. Print a class set with a word bank and answer key for the first week.",
+ "h1": "Back to School Word Scramble (Free Printable)",
+ "intro": "Print a free back to school word scramble with 22 classroom words, from notebook to recess. It makes a calm first-week activity while you settle a new class.",
+ "toolTitle": "Back to School Word Scramble",
+ "items": [
+  "Backpack",
+  "Notebook",
+  "Pencil",
+  "Eraser",
+  "Teacher",
+  "Classroom",
+  "Recess",
+  "Homework",
+  "Lunchbox",
+  "Crayons",
+  "Scissors",
+  "Library",
+  "Bus stop",
+  "Desk",
+  "Marker",
+  "Folder",
+  "Playground",
+  "Calendar",
+  "Alphabet",
+  "Friends",
+  "Textbook",
+  "Bell"
+ ],
+ "itemsNote": "All 22 words are loaded above. Replace a few with your own routines, such as the name of your reading corner or class pet.",
+ "defaultOptions": {
+  "puzzles": 2,
+  "case": "upper",
+  "hint": false,
+  "bank": true,
+  "key": true,
+  "shuffle": true
+ },
+ "season": [
+  8,
+  9
+ ],
+ "hubs": [
+  "classroom-games"
+ ],
+ "related": [
+  "bingo/back-to-school",
+  "word-search/back-to-school",
+  "scavenger-hunt/classroom",
+  "bingo/last-day-of-school",
+  "word-scramble/summer",
+  "bingo/icebreaker-find-someone-who"
+ ],
+ "relatedHeading": "More back to school printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to use a back to school word scramble",
+   "body": [
+    "In the first week back, teachers need quiet moments that still feel like learning. A scramble is a gentle way to practice spelling and vocabulary while new students find their feet.",
+    "1. Print enough copies so everyone gets a sheet, with at least two different puzzles in the pile.\n2. Hand them out during morning work, after lunch or in the last ten minutes of the day.\n3. Remind students that a scramble is a puzzle, not a test, and they can skip a word and come back.\n4. Use the word bank for younger students and remove it for those ready for a challenge.\n5. Review answers together and ask each student to put one of the words into a sentence."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Classroom variations",
+   "body": [
+    "* **Table teams.** Each table gets a sheet and one pencil that is passed after every word.\n* **Locker labels.** Solved words become labels for supply bins, such as folder, marker and scissors.\n* **Vocabulary swap.** Replace the stock list with words from your first unit, and the scramble becomes a spelling warm-up."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for teachers",
+   "body": [
+    "Keep a stack of already-printed sheets in a tray for early finishers. A scramble gives fast workers something worthwhile to do.",
+    "The two-puzzle setting means neighbors in a crowded classroom rarely copy each other.",
+    "Use the first letter hint for emerging readers, which makes a long word like playground a lot more approachable."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing a class set",
+   "body": [
+    "Print on regular paper in black and white, which is cheap and quick for a class of thirty. Stagger the puzzle versions so every second sheet differs. The answer key lives on its own page that you can file in your sub folder. Both Letter and A4 are supported."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What grade levels suit the back to school scramble?",
+   "a": "It works for grades 2 to 6 with the word bank on. Older students can try it with the bank off."
+  },
+  {
+   "q": "Can I use my own spelling words?",
+   "a": "Yes. Replace the list above with your own words, up to 30, and the sheet will update."
+  },
+  {
+   "q": "How long should I give students?",
+   "a": "Ten minutes is a common limit. Students who finish early can write sentences with the words on the back."
+  }
+ ]
+}

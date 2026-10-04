@@ -1,0 +1,83 @@
+{
+ "shortTitle": "Toddler Picture Chart",
+ "title": "Toddler Bedtime Chart, Free Printable Picture Routine",
+ "metaDescription": "A free printable toddler bedtime chart with six big pictures and almost no words: bath, pajamas, teeth, story, hugs and lights out. Add a name and print.",
+ "h1": "Toddler Bedtime Picture Chart (Free Printable)",
+ "intro": "This toddler bedtime chart has just six large pictures and very few words, so a two or three year old can see what comes next without being told. Add your child's name, print it, and hang it at their eye level.",
+ "toolTitle": "Bedtime Routine",
+ "items": [
+  "Bath time | bath",
+  "Pajamas on | pajamas",
+  "Brush teeth | brush-teeth",
+  "Pick a story | story",
+  "Hugs and kisses | hug",
+  "Lights out | lights-off"
+ ],
+ "itemsNote": "Six steps is deliberate. Toddlers lose the thread after about that many, and each picture is big enough to point at. You can swap any step for another picture, or delete one if bath is not a nightly event at your house.",
+ "defaultOptions": {
+  "layout": "grid",
+  "palette": "lavender",
+  "name": "",
+  "times": false,
+  "mascot": true
+ },
+ "season": [],
+ "hubs": [],
+ "related": [
+  "bedtime-routine-chart/preschool",
+  "bedtime-routine-chart/morning-and-bedtime-routine",
+  "bedtime-routine-chart/school-age",
+  "reward-chart-maker/potty-training-chart",
+  "reward-chart-maker/weekly-sticker-chart",
+  "scavenger-hunt/toddler"
+ ],
+ "relatedHeading": "More charts and printables for little ones",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to use the picture chart with a toddler",
+   "body": [
+    "A toddler does not read the chart. The pictures are there so that you can stop being the one who says everything, and the chart can take over some of the nagging. The first week is about teaching the chart itself.",
+    "1. Print the chart in the two-column grid layout and put the child's name on it. Seeing their own name makes the page theirs.\n2. Hang it low, on the bedroom door or the wall by the bed, where small eyes can reach it.\n3. On the first night, walk to the chart together before each step. Point at the picture, say the word once, then do the step.\n4. Let your toddler touch the picture when the step is finished. A sticker on the card or a stamp on the star works well.\n5. After a week or two, ask 'What comes next?' and wait. Many children will walk to the chart on their own."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Three ways to adjust it",
+   "body": [
+    "* **The four step version.** For a two-year-old who is still finding their feet, delete two steps and keep pajamas, teeth, story and lights out. You can add steps back as the routine settles.\n* **A nap version.** Print a second copy and keep only the potty or diaper change, a story and lights out. It gives naps their own short ritual, so they feel different from bedtime.\n* **Busy nights.** Swap the story card for a song, or the bath for a wash cloth wipe on nights when there is no time for a bath. Changing the picture keeps the chart honest."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "What helps a toddler follow the picture chart",
+   "body": [
+    "Keep the order identical every night, even when you are tired. Toddlers lean on sameness, and the sequence soon matters more to them than the clock.",
+    "Use the same few words with each picture. If the card shows pajamas, always say 'pajamas', not 'jammies' one night and 'sleep clothes' the next.",
+    "Give a small choice inside a step rather than a choice about the step. 'Which book tonight, the red one or the green one?' keeps the story on the chart while giving your toddler some say.",
+    "> Expect protests in the first few nights. A new chart is exciting and a bit odd, and a toddler may want to repeat a picture over and over. That is normal and usually fades."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing a chart that survives a toddler",
+   "body": [
+    "The grid layout gives the largest pictures and works on a single sheet. Print on cardstock or slide the sheet into a plastic pocket, then fix it to the door with painter's tape so that it can come down without peeling paint. Toddlers pull at paper, so keep a spare copy in a drawer. If you want your child to color it in, choose the black and white palette and let them scribble over the outlines."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "At what age can a toddler use a bedtime picture chart?",
+   "a": "Many families start around 18 months to two years, with a grown-up pointing at each picture. The chart works best as a shared signal at that age. Children usually begin to check it themselves closer to three."
+  },
+  {
+   "q": "How many steps should a toddler bedtime chart have?",
+   "a": "Six is a good ceiling, and four can be plenty for a young two-year-old. Fewer, larger pictures are easier to follow than a long list."
+  },
+  {
+   "q": "Should I add times to a toddler chart?",
+   "a": "Usually not. Toddlers cannot read a clock, so the order of the pictures does the job. If you want a rough target for yourself, write it on the back or turn on the time option and fill it in by hand."
+  }
+ ]
+}

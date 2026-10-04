@@ -1,0 +1,120 @@
+{
+  "shortTitle": "Movie Night Bingo",
+  "title": "Free Printable Movie Night Bingo Cards for Home Viewings",
+  "metaDescription": "Free movie night bingo cards with 40 squares for popcorn, plot twists and film clichés. Print up to 30 unique cards for any genre, Letter or A4.",
+  "h1": "Movie Night Bingo Cards (Free Printable Generator)",
+  "intro": "Print up to 30 unique movie night bingo cards for free. The 40 squares spot common film moments, from chase scenes to the dramatic rain, so everyone watches closely and laughs together.",
+  "toolTitle": "Movie Night Bingo",
+  "items": [
+    "Opening credits",
+    "Voiceover",
+    "Dramatic rain",
+    "Car chase",
+    "Plot twist",
+    "Villain's speech",
+    "Hero in slow motion",
+    "Training montage",
+    "Surprise cameo",
+    "Sidekick joke",
+    "Fake-out ending",
+    "Sequel hook",
+    "Phone with no signal",
+    "Flickering lights",
+    "Stormy night",
+    "Unexpected kiss",
+    "Running late",
+    "Big misunderstanding",
+    "Dramatic music",
+    "Whispered secret",
+    "Mysterious letter",
+    "Locked door",
+    "Flashback",
+    "Dream sequence",
+    "Sudden silence",
+    "Dog barks",
+    "Someone cries",
+    "Someone laughs",
+    "Funny sneeze",
+    "Popcorn bowl",
+    "Pillow fort",
+    "Blanket burrito",
+    "Snack run",
+    "Pause for the bathroom",
+    "Fell asleep",
+    "Someone guesses the ending",
+    "Talking during the film",
+    "Credits scene",
+    "Everyone cheers",
+    "Group groan"
+  ],
+  "itemsNote": "The list is built for any genre, from comedies to thrillers. Remove squares that do not suit your film and add your own, such as a character name or a famous line.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "POPCORN",
+    "cards": 10,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/birthday-party",
+    "bingo/road-trip",
+    "bingo/family-reunion",
+    "bingo/graduation-party",
+    "bingo/meeting-buzzword-bingo",
+    "scavenger-hunt/rainy-day"
+  ],
+  "relatedHeading": "More at-home game printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play while watching a film",
+      "body": [
+        "This is a quiet game that fits around the screen. Nobody needs to stop the movie, because the squares fill as events happen.",
+        "1. Choose a film and look over the card list. Remove squares that cannot happen, like a car chase in a period drama.\n2. Hand out cards, pencils and a pile of popcorn kernels or small candies for markers.\n3. Everyone marks squares as they appear, then whispers or raises a hand for a row.\n4. Pause the film quickly to check the win, then continue. Decide in advance whether one winner ends the game or whether you play to blackout."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Variations",
+      "body": [
+        "* **Genre night.** Make one list for comedy night and another for horror night, then keep the cards in a drawer for future viewings.\n* **Prediction bingo.** Before the film starts, everyone writes guesses for what will happen into the squares, then marks the ones that prove right.\n* **Cheers round.** Pour juice or sparkling water, and every time someone calls bingo the whole room raises a glass."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for hosts",
+      "body": [
+        "Dim the lights but keep a small lamp near the table, so people can still see their cards. A clipboard or a book as a hard surface helps if you are sitting on a couch.",
+        "Choose prizes that fit the evening, such as a chocolate bar, a movie theater candy box or the choice of the next film.",
+        "Pick films that people have not seen. Familiar favorites make the squares too easy to predict."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for a movie night",
+      "body": [
+        "A dark living room is hard on small print, so choose a 4x4 grid for bigger squares. Pencils are easier to use than pens when you cannot see the page clearly.",
+        "Print one card per page on plain paper and tuck the stack into a snack bowl. Ink saver mode makes the grid light, which suits a dim room."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use the cards for any film?",
+      "a": "Yes, the squares were chosen to appear in many kinds of films. Edit the list for specific genres, and keep your changes for next time with the share link."
+    },
+    {
+      "q": "Is it spoilery to read the card?",
+      "a": "Squares are general film moments rather than plot points, so nothing about a specific story is given away."
+    },
+    {
+      "q": "How many people can play?",
+      "a": "Up to 30 unique cards print at once, which covers a school film club or a large family. For a few people, just print a couple."
+    }
+  ]
+}

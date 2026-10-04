@@ -1,0 +1,119 @@
+{
+  "shortTitle": "Birthday Party Bingo",
+  "title": "Free Printable Birthday Party Bingo Cards to Customize",
+  "metaDescription": "Free birthday party bingo cards with 40 squares from cake and candles to party hats. Print up to 30 unique cards for kids or adults, Letter or A4, caller list.",
+  "h1": "Birthday Party Bingo Cards (Free Printable Generator)",
+  "intro": "Print up to 30 unique birthday party bingo cards for free. The 40 squares cover decorations, food, gifts and traditions, and you can edit the list to suit the age of the guest of honor.",
+  "toolTitle": "Birthday Bingo",
+  "items": [
+    "Birthday cake",
+    "Candles",
+    "Make a wish",
+    "Blow out the candles",
+    "Party hat",
+    "Balloons",
+    "Streamers",
+    "Banner",
+    "Confetti",
+    "Piñata",
+    "Ice cream",
+    "Cupcake",
+    "Pizza",
+    "Juice box",
+    "Lemonade",
+    "Goody bag",
+    "Wrapped present",
+    "Gift bow",
+    "Birthday card",
+    "Birthday song",
+    "Photo with the cake",
+    "Clapping",
+    "Cheering",
+    "Sparkle candle",
+    "Party horn",
+    "Face paint",
+    "Bouncy castle",
+    "Music",
+    "Dancing",
+    "Musical chairs",
+    "Treasure hunt",
+    "Magic trick",
+    "Balloon animal",
+    "Sticker",
+    "Craft table",
+    "Thank you note",
+    "Grandparents",
+    "Best friend",
+    "Big hug",
+    "Sleepy yawn"
+  ],
+  "itemsNote": "Pick the squares your party will actually have. The cards are fun for kids, but you can swap in grown-up items such as a toast, a vinyl record or a surprise guest for an adult celebration.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 4,
+    "free": false,
+    "cards": 16,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/baby-shower",
+    "bingo/graduation-party",
+    "bingo/family-reunion",
+    "scavenger-hunt/birthday-party",
+    "word-search/birthday",
+    "bingo/movie-night"
+  ],
+  "relatedHeading": "More birthday printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at a birthday party",
+      "body": [
+        "Birthday bingo works best as a calm activity between louder moments, like the time after arrivals and before the cake. Guests who are shy or still waiting for friends have something to hold, and parents standing at the edge of the room can join.",
+        "1. Give each guest a card and a crayon or a pile of small counters such as dried beans.\n2. Read each item out loud, or let the guests spot things in the room as they appear.\n3. Everyone covers a square when its item has been found or called.\n4. The first guest with a full row says \"Bingo!\" and picks a sticker or a small prize.\n5. Clear the cards and play again while the cake is being set up."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to change it up",
+      "body": [
+        "* **Scavenger style.** Guests look for the things on their cards around the house or the yard. This turns a quiet game into a movement game, which suits a group of energetic kids.\n* **Memory lane bingo.** For a milestone birthday, fill the squares with memories from the guest of honor's life. Guests mark the ones they have heard of.\n* **Quiet table version.** At a sleepover or a restaurant party, use a 3x3 grid and play at the table. It takes only a few minutes and does not need extra space."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for the party host",
+      "body": [
+        "For younger children, call the items slowly and show a picture or point at the real object. Older children and adults can play from the written word alone.",
+        "Choose prizes that are easy to share, like a sticker sheet for each round winner, so no one is left out when the group is large. Let each child win once before anyone wins twice.",
+        "If the party is for adults, add a free space labeled with the guest's name and mark it with a pen. Lightly funny squares such as a bad joke or a long story are popular."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for a party",
+      "body": [
+        "Use cardstock if children will be pressing hard with crayons or markers, and a sturdy sheet will also survive a spill of juice. Two cards per page gives each child a big, easy square.",
+        "For a rainbow look, print on colored paper and switch on ink saver mode for plain black grids. Laminated sets can be reused at the next birthday and wiped with a damp cloth."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is birthday bingo for?",
+      "a": "Children from about five years old can play with picture help from an adult. Older kids and adults can play on their own. Choose a 3x3 grid for young players and 5x5 for adults."
+    },
+    {
+      "q": "Can I play without a caller?",
+      "a": "Yes. Guests can spot things as they happen during the party, such as the cake arriving or someone laughing. The caller checklist is only needed when you want to read items aloud."
+    },
+    {
+      "q": "How long does a round last?",
+      "a": "A 4x4 card usually finishes in under ten minutes. Play several rounds while waiting for pizza or the cake."
+    }
+  ]
+}

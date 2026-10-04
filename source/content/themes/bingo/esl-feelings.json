@@ -1,0 +1,116 @@
+{
+  "shortTitle": "ESL Feelings Bingo",
+  "title": "Free Printable Feelings Bingo Cards for ESL Learners",
+  "metaDescription": "Free printable feelings bingo for English learners. Thirty emotion and state words from happy and sad to jealous and embarrassed, with unique cards to print.",
+  "h1": "ESL Feelings and Emotions Bingo Cards (Free Printable Generator)",
+  "intro": "Make free feelings bingo cards for English learners, built on 30 emotion and state words from happy and sad to nervous and disappointed.",
+  "toolTitle": "Feelings Bingo",
+  "items": [
+    "happy",
+    "sad",
+    "angry",
+    "scared",
+    "tired",
+    "hungry",
+    "thirsty",
+    "excited",
+    "nervous",
+    "worried",
+    "surprised",
+    "bored",
+    "proud",
+    "shy",
+    "sleepy",
+    "sick",
+    "lonely",
+    "confused",
+    "embarrassed",
+    "jealous",
+    "calm",
+    "silly",
+    "grumpy",
+    "cheerful",
+    "hot",
+    "cold",
+    "frustrated",
+    "curious",
+    "relaxed",
+    "disappointed"
+  ],
+  "itemsNote": "The list starts with the feelings most courses teach in the first unit and finishes with words that give older learners a richer range. A few body states like hungry, hot and cold sit alongside the emotions because learners use the same \"I am\" pattern for all of them.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Free",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "esl-games",
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/esl-action-verbs",
+    "bingo/esl-animals",
+    "bingo/icebreaker-find-someone-who",
+    "bingo/esl-colors-and-shapes",
+    "bingo/last-day-of-school",
+    "word-scramble/animals"
+  ],
+  "relatedHeading": "More ESL and classroom printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Feelings bingo as a speaking game, not just a matching game",
+      "body": [
+        "Feelings vocabulary is different from animal or food words because learners cannot simply point at an object. They have to link a word to an inner state, and that is easier when faces, voices and stories help. The best way to use these cards is to call with your face and voice as well as your words.",
+        "1. Practice first. Make a face for each of five or six feelings and ask the class to name them. Then ask learners to make the faces for you.\n2. Give out cards and markers. Plain paper squares are fine.\n3. Call a feeling in a voice that fits. A bored \"I am bored\" in a flat tone and an excited one in a high voice are both useful clues.\n4. Learners find the word and cover it, and then put on that face for their partner.\n5. The first full row wins. The winner reads out the line and picks one word to explain with an example, such as \"I feel nervous before a test.\"\n6. Keep the mood light so nobody feels pressured to share something personal."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Level guidance and sensitive moments",
+      "body": [
+        "Beginners should start with six or eight basics: happy, sad, angry, scared, tired, hungry, hot and cold. Cut the list down and play on a 3x3 grid. These are the words learners meet first and can mime easily.",
+        "At elementary level, add the sentence pattern \"I feel ___ when ___.\" After each cover, learners finish the sentence for a partner. The structure carries into writing journals later.",
+        "Intermediate and older learners can handle nuance. Ask them to explain the difference between nervous and worried, or between shy and embarrassed. Words that overlap in their first language often split in English, and this is a clear way to show it.",
+        "Be aware that some learners may have lived through hard experiences. Make it clear they can talk about a character or an imagined situation instead of themselves. That keeps the game safe and still gives full practice."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to extend the game",
+      "body": [
+        "* **Charades round.** A learner picks a word from a bag and acts it out silently. Everyone who finds it on their card covers it, and the actor chooses who can speak the answer.\n* **Weather and feelings.** Call a short situation, such as \"You lost your umbrella in the rain,\" and have learners cover the feeling they think fits. There is no single right answer, so a short debate follows.\n* **Mood of the day.** Use one card as a daily check-in. Each learner covers the word that matches their mood as they enter the room, which gives you a quick read of the class."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing feelings cards",
+      "body": [
+        "A warm pastel paper suits the topic and keeps the page easy on the eyes. If you laminate, you can use the same cards as a mood chart by leaving markers on the corners.",
+        "For a whole class, choose the two per page layout and cut. For a pair of tutoring students, one big card per page is easier to share, and a pencil can circle words instead of covering them."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is feelings bingo suitable for young learners?",
+      "a": "Yes, with a short list and plenty of acting. Trim the list to the first eight or ten words and use a 3x3 grid, which keeps the round short enough for a small attention span."
+    },
+    {
+      "q": "How can I deal with words that learners find too similar?",
+      "a": "Teach them in pairs. Show a situation for nervous and another for worried, then let learners decide which card word fits. A short debate is part of the learning."
+    },
+    {
+      "q": "Does the list include only emotions?",
+      "a": "It includes a few body states like hungry, thirsty and cold, because learners use them with the same sentence pattern. You can delete these if you want emotions only."
+    },
+    {
+      "q": "Can this help with writing practice?",
+      "a": "Yes. After the game, ask learners to write three sentences using words from their card. It gives you a quick sample of their grammar."
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "shortTitle": "Camping Word Search",
+  "title": "Camping Word Search, Free Printable Campfire Puzzle",
+  "metaDescription": "Print a free camping word search with 22 words, from tent and lantern to marshmallow and compass. Letter or A4, with an answer key, for trips and campfires.",
+  "h1": "Camping Word Search (Free Printable Campfire Puzzle)",
+  "intro": "Print a free camping word search with 22 words about tents, trails and campfires. Tuck it into a trip bag to fill quiet time at the campsite or on a rainy day under the awning.",
+  "toolTitle": "Camping Word Search",
+  "items": [
+    "Tent",
+    "Sleeping bag",
+    "Campfire",
+    "Marshmallow",
+    "Lantern",
+    "Flashlight",
+    "Compass",
+    "Backpack",
+    "Hiking",
+    "Canteen",
+    "Trail",
+    "Binoculars",
+    "Firewood",
+    "Fishing",
+    "Kayak",
+    "Hammock",
+    "Canoe",
+    "Forest",
+    "Cooler",
+    "Stargazing",
+    "S'mores",
+    "Trailhead"
+  ],
+  "itemsNote": "Words from the gear list to the campsite fun. Cut the longer ones for little campers or add your own favorite campground names.",
+  "defaultOptions": {
+    "size": 15,
+    "difficulty": "medium",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hubs": [
+    "road-trip-and-outdoor-games"
+  ],
+  "related": [
+    "bingo/camping",
+    "scavenger-hunt/camping",
+    "word-search/transportation",
+    "bingo/nature-walk",
+    "word-search/summer",
+    "word-search/insects"
+  ],
+  "relatedHeading": "More camping and outdoor printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Playing at the campsite",
+      "body": [
+        "A word search is a quiet game for the moments between meals, hikes and sunset. It needs only paper and a pencil.",
+        "1. Bring a few sheets in a zip-top bag to keep them dry.\n2. Gather around the picnic table and read the word list aloud.\n3. Find the gear words first, then the activity words.\n4. Whoever finishes first picks the next campfire song.",
+        "Children who finish quickly can pick a word and tell a short true story about the last time they saw or used it."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Campfire variations",
+      "body": [
+        "* **Packing check.** Treat the list as a gear checklist and see if everything on it is actually in the car.\n* **Story chain.** Pick a word at random and take turns adding sentences to a campfire story that must include it.\n* **Night sky hunt.** After finding stargazing and lantern, go outside at dusk and look at the sky together."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for happy camping families",
+      "body": [
+        "Bring a clipboard so the puzzle does not slide off a bumpy picnic table. A pencil on a string means no one loses it in the grass.",
+        "Sticky pages can be a problem near a campfire, so keep the puzzle away from sparks and food.",
+        "Treat the puzzle as a calm reset before bed, since screens are better left in the car at the campsite."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the outdoors",
+      "body": [
+        "Print at home before you leave, since campgrounds rarely have printers. Folded in thirds, a sheet fits into a pocket, and plain paper is lighter than a pad of puzzle books.",
+        "Black ink on white paper is easiest to read by lantern light, so skip the colored paper for evening use."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is the puzzle waterproof?",
+      "a": "No, it is on regular paper. Slide it into a zip-top bag if rain is possible."
+    },
+    {
+      "q": "Can I use this for a scout meeting?",
+      "a": "Yes. It is a good icebreaker for troops going on a trip, and the list is easy to edit to match your gear."
+    },
+    {
+      "q": "What if we camp in an RV?",
+      "a": "Replace a few words, such as tent and hammock, with terms like awning and hookup and press Generate."
+    }
+  ]
+}

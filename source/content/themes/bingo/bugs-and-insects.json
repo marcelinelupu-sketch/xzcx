@@ -1,0 +1,123 @@
+{
+  "shortTitle": "Bugs and Insects Bingo",
+  "title": "Free Printable Bug and Insect Bingo for Backyard Explorers",
+  "metaDescription": "Free printable bugs and insects bingo with 36 creepy-crawlies from ladybugs to dragonflies. Use it in the garden, on a nature walk or for a science lesson.",
+  "h1": "Bugs and Insects Bingo Cards (Free Printable Generator)",
+  "intro": "Print free bugs and insects bingo cards with 36 minibeasts to find under logs and over flowers. Use them for a garden hunt or a lesson on arthropods.",
+  "toolTitle": "Bugs and Insects Bingo",
+  "items": [
+    "Ladybug",
+    "Honeybee",
+    "Bumblebee",
+    "Wasp",
+    "Ant",
+    "Butterfly",
+    "Moth",
+    "Caterpillar",
+    "Cocoon",
+    "Dragonfly",
+    "Damselfly",
+    "Grasshopper",
+    "Cricket",
+    "Katydid",
+    "Praying mantis",
+    "Stick insect",
+    "Firefly",
+    "Beetle",
+    "Dung beetle",
+    "Stag beetle",
+    "Weevil",
+    "Cicada",
+    "Aphid",
+    "Cockroach",
+    "Earwig",
+    "Mosquito",
+    "Housefly",
+    "Ladybug larva",
+    "Spider",
+    "Centipede",
+    "Millipede",
+    "Pill bug",
+    "Snail",
+    "Slug",
+    "Earthworm",
+    "Spider web"
+  ],
+  "itemsNote": "Strictly speaking, spiders, centipedes, pill bugs, snails and worms are not insects, and the list slips a few in on purpose. Ask older children to sort true insects from the rest.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Buzz",
+    "cards": 12,
+    "perPage": 2
+  },
+  "season": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "hubs": [
+    "road-trip-and-outdoor-games"
+  ],
+  "related": [
+    "bingo/nature-walk",
+    "bingo/frog-and-pond",
+    "bingo/camping",
+    "word-search/insects",
+    "scavenger-hunt/backyard",
+    "bingo/zoo"
+  ],
+  "relatedHeading": "More bug and nature printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play bug bingo outdoors",
+      "body": [
+        "Bug bingo is best played in a patch of garden or park. Give each child a card, a hand lens if you have one, and a bit of time to flip over stones and peer under leaves.",
+        "1. Hand out the cards and agree on the search zone.\n2. Children cover a square when they find a minibeast, alive and left where it was.\n3. Crawling creatures can be watched in a clear container for a moment, then released.\n4. If a child sees a bug from the list on a flower, ask them to describe it before covering the square.\n5. The first full line wins, and everyone shares what they saw."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to change the hunt",
+      "body": [
+        "* **Classroom version.** A caller reads descriptions, such as six legs and glowing tail, and players find the firefly square.\n* **Sort the card.** After the game, children circle the true insects in one color and the other creatures in another.\n* **Night bugs.** At dusk, use a flashlight and a white sheet to see moths, crickets and beetles that come out after dark."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for tiny scientists",
+      "body": [
+        "Show children how to move gently. A soft paintbrush can nudge a beetle onto a leaf without harm.",
+        "Set a rule for stinging insects. Bees and wasps are observed from a distance, and any child with an allergy stays with a grown-up.",
+        "Keep a field guide handy. Identifying a creature in the book is a thrilling moment and takes the guesswork out of the game."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the garden",
+      "body": [
+        "Use sturdy paper or stick the card on a clipboard so it does not flop while kids crouch. Print on pale green paper for fun.",
+        "If you are running a school event, print two to a page and slide them into plastic sleeves that can be wiped after use."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are spiders insects?",
+      "a": "No. Insects have six legs and three body parts, while spiders have eight legs and two. Spiders are on the list because children love finding them."
+    },
+    {
+      "q": "What if we cannot find many bugs?",
+      "a": "Play in a different season, check under logs and stones, or use a picture book so every child can still complete a row."
+    },
+    {
+      "q": "Is bug bingo safe for kids with allergies?",
+      "a": "Keep children with insect allergies at a safe distance from bees and wasps, and keep any medication close by. Check with a parent first."
+    }
+  ]
+}

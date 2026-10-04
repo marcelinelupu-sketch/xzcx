@@ -1,0 +1,117 @@
+{
+ "shortTitle": "Rainy Day Scavenger Hunt",
+ "title": "Rainy Day Scavenger Hunt, Free Printable Activity List",
+ "metaDescription": "Stuck inside on a wet day? Print this free rainy day scavenger hunt with 24 window, puddle and cozy-corner finds, plus a few for a quick splash outside.",
+ "h1": "Rainy Day Scavenger Hunt (Free Printable Activity)",
+ "intro": "Print a free rainy day scavenger hunt with 24 things to find indoors, by the window and, if you like, just outside the door. It is made for the afternoon the park plans fell through.",
+ "toolTitle": "Rainy Day Scavenger Hunt",
+ "items": [
+  "A raindrop running down the window",
+  "Something that sounds like rain",
+  "A cozy blanket",
+  "A cup of something warm",
+  "An umbrella",
+  "A pair of rubber boots",
+  "A puddle | 2",
+  "A rainbow or something rainbow-colored | 3",
+  "A storm cloud",
+  "A book you have not read in a while",
+  "A candle or a lamp for a dim room",
+  "A snail or worm that came out in the rain | 3",
+  "A drip from a gutter or eave",
+  "Something that is wet",
+  "Something that is dry",
+  "A hooded coat",
+  "A reflection in the glass | 2",
+  "A paper boat or something that floats | 3",
+  "A puzzle piece",
+  "A tree with drooping branches",
+  "A damp doormat",
+  "A bird sheltering under a roof | 3",
+  "Mud on a shoe",
+  "Steam on a window or a mirror | 2"
+ ],
+ "itemsNote": "All 24 items are ready above. The outdoor ones are optional and can be crossed out if the weather is too wild for a doorway peek.",
+ "defaultOptions": {
+  "layout": "checklist",
+  "names": true,
+  "timeLimit": false,
+  "copies": 3,
+  "shuffle": true,
+  "ageNote": "Ages 4 to 10"
+ },
+ "season": [
+  3,
+  4,
+  5,
+  10,
+  11
+ ],
+ "hubs": [
+  "party-games"
+ ],
+ "related": [
+  "scavenger-hunt/indoor-for-kids",
+  "scavenger-hunt/toddler",
+  "scavenger-hunt/road-trip",
+  "bingo/weather",
+  "word-search/weather",
+  "bingo/movie-night"
+ ],
+ "relatedHeading": "More weather and indoor printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to play on a wet day",
+   "body": [
+    "This hunt belongs to the afternoon when the plan changed. It has a calm, observing mood: window watching, listening and cozy things, with a quick dash outside for those who want it.",
+    "1. Print a sheet per child and set up a base on the sofa with a blanket and a hot drink.\n2. Start with the window items and the sounds, which need nothing more than looking and listening.\n3. Open the door or step under an awning, with a grown-up present, for the items outdoors. Skip them in a storm.\n4. Return to base to dry off and tick the rest.\n5. Finish with a mug of cocoa or a story about the best find."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Rainy day variations",
+   "body": [
+    "* **Window watch only.** Give children a sheet with just the window and sound items and a chair by the glass. Lovely for a quiet hour.\n* **Splash outside.** Dress in boots and coats and take the whole list out for a ten-minute adventure with an adult. Come in for towels when the list is done.\n* **Draw it.** Instead of ticking, children sketch each find on the back of the sheet, then show their drawings."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for a soggy afternoon",
+   "body": [
+    "Have a towel basket by the door and a spot for wet coats before the outdoor part starts. It saves a lot of mopping.",
+    "Keep the mood quiet and curious. The power of this list is in the noticing, so ask what a rain sound reminds them of.",
+    "The shuffle setting keeps siblings from ticking the same window item at the same time and arguing about who saw it first."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Wet weather safety",
+   "body": [
+    "Only go outside in light rain, never during thunder or lightning. Wear boots with grip, since wet steps and leaves are slippery, and stay away from fast-flowing water, drains and flooded paths.",
+    "Keep children close, avoid jumping in deep puddles whose bottoms you cannot see, and wash hands after touching mud or damp soil."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for a cozy day",
+   "body": [
+    "Use plain paper and a clipboard or a hardback book as a lap desk. Wet fingers and damp pages do not mix, so if you plan to venture outside, slip the sheet into a sandwich bag. Black and white is perfectly fine, and you can print extras in a few seconds."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a good age for the rainy day hunt?",
+   "a": "It suits ages 4 to 10. Younger children can tick the window and sound items with help, and older ones can add their own."
+  },
+  {
+   "q": "Do we have to go outside?",
+   "a": "No. About half the list can be done from a window or a doorway. Cross out the rest if the weather is too rough."
+  },
+  {
+   "q": "How long does the activity last?",
+   "a": "Plan on 20 to 40 minutes. It is more of a slow, calm activity than a race, so let it stretch if children are enjoying it."
+  }
+ ]
+}

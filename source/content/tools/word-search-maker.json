@@ -1,0 +1,73 @@
+{
+  "shortTitle": "Word Search Maker",
+  "title": "Free Word Search Maker with Answer Keys | Frog's Dream",
+  "metaDescription": "Make a printable word search from your own words. Pick the grid size and difficulty, print up to 10 different puzzles, and get a free answer key with each one.",
+  "h1": "Word Search Maker (Free Printable Puzzles with Answer Keys)",
+  "intro": "Type your words, choose a grid size and print a word search in seconds. Every puzzle comes with an answer key, and you can print up to 10 different versions of the same list for free, with no sign-up.",
+  "toolTitle": "Pond Life Word Search",
+  "items": [
+    "Frog", "Tadpole", "Lily pad", "Dragonfly", "Turtle", "Duck", "Heron", "Cattail",
+    "Reeds", "Minnow", "Snail", "Water beetle", "Ripple", "Splash", "Mud"
+  ],
+  "defaultOptions": {"size": 12, "difficulty": "medium", "case": "upper", "showList": true, "puzzles": 1, "key": true},
+  "featuredHeading": "Ready-made word search themes",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to make a word search",
+      "body": [
+        "The maker starts with a small pond list so you can see how it works. Replace it with your own words, or pick one of the ready-made themes further down the page.",
+        "1. Type a title. It is printed at the top of every sheet, so something like \"Unit 4 Spelling\" or \"Grandma's 80th Birthday\" works well.\n2. Put one word or short phrase on each line of the list. The counter shows how many words you have.\n3. Choose a grid size and a difficulty. The preview redraws as you change anything.\n4. Press **Generate** whenever you want a fresh letter layout for the same words.\n5. Print straight from the page, or download a PDF to print later or send to a colleague.",
+        "> Phrases are fine. \"Lily pad\" goes into the grid as LILYPAD, while the word list under the puzzle keeps the space so it is easy to read. Apostrophes, hyphens and other punctuation are skipped in the same way."
+      ]
+    },
+    {
+      "heading": "Choosing a grid size and difficulty",
+      "body": [
+        "Grids run from 10 by 10 up to 20 by 20. Smaller grids have bigger letters, which matters more than you might expect for young readers. Larger grids give older children and adults more room to get lost.",
+        "### Easy\nWords run only left to right and top to bottom. This suits kindergarten to second grade, early English learners, and anyone who is still tracking letters with a finger. A 10 or 12 grid with 10 to 15 words is a comfortable sheet.",
+        "### Medium\nDiagonal words join in, running down to the right and up to the right. Most children from about second grade up enjoy this level, and it is a good default for mixed groups.",
+        "### Hard\nWords can run in all eight directions, including backwards and diagonally upward. Older kids, teens and adults get a real challenge here, especially with a 15 by 15 grid or larger and 20 or more words.",
+        "As a rough guide, keep the list to about one word per ten squares. A 12 by 12 grid holds 15 words comfortably; a 15 by 15 grid holds 20 to 25."
+      ]
+    },
+    {
+      "heading": "How the maker builds each puzzle",
+      "body": [
+        "It places the longest words first, because they have the fewest spots where they fit. Each word gets up to 500 tries at random positions and directions. If a word gets stuck, the maker steps back, moves an earlier word, and tries again.",
+        "If the words truly cannot fit, the grid grows by one row and one column and placement starts over. You will see a short note under the list when that happens. A word is never quietly dropped, so the word list and the answer key always match the puzzle. The only hard limit is a single word longer than 20 letters, which cannot fit in any grid, and the maker tells you which one it is.",
+        "The empty squares are filled with random letters. Random letters occasionally spell something rude, so the maker checks every row, column and diagonal against a short list of words you would not want on a classroom sheet, and swaps letters until none appear. It also makes sure that each of your words shows up only once."
+      ]
+    },
+    {
+      "heading": "Ideas for classrooms, parties and therapy sessions",
+      "body": [
+        "* **Weekly spelling.** Paste this week's spelling list on Monday and send the puzzle home as low-stress practice. Searching for a word means reading it letter by letter, which is the point.\n* **Vocabulary review.** Science and social studies terms work well. Ask students to write a definition next to each word once they find it.\n* **Early finishers.** Keep a stack of hard puzzles by the door for students who finish a test early.\n* **Different puzzle per student.** Set the number of puzzles to 4 or more so neighbors have different grids and cannot copy positions.\n* **Party table activity.** A shower, birthday or retirement word search full of names and inside jokes keeps guests busy while food comes out.\n* **Speech and language practice.** Load a list of words that share a target sound and talk about each one as it is found."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips",
+      "body": [
+        "Choose US Letter or A4 under the options. The sheet is laid out at the real paper size, so what you see is what prints. In the print dialog, leave scaling at 100 percent or \"actual size\" rather than \"fit to page\".",
+        "Ink saver mode turns the green accents gray and keeps the answer key highlights light, which helps when you are printing a class set. The answer key prints on its own page after the puzzles. With several puzzles, the keys are grouped four to a page so you only print one or two extra sheets.",
+        "More detail on paper sizes and printer settings is in our [Letter vs A4 printing guide](/guides/printing-tips-letter-vs-a4/)."
+      ]
+    },
+    {
+      "heading": "Sharing, saving and embedding",
+      "body": [
+        "**Copy share link** gives you a web address that rebuilds the exact same puzzles, with the same letters in the same places. Paste it into Google Classroom, an email to a co-teacher, or your lesson plan, and anyone who opens it sees your sheets ready to print.",
+        "The maker also remembers your last list on this device, so it is still there when you come back. Nothing is uploaded and you never need an account.",
+        "If you run a blog or class website, the **Embed** button gives you a code snippet that places the word search maker on your own page. See the [embed page](/embed/) for details."
+      ]
+    }
+  ],
+  "faq": [
+    {"q": "Is the word search maker really free?", "a": "Yes. You can make, print and download as many puzzles as you like for home, classroom and party use. There is no sign-up and no watermark beyond a small line that says where the sheet was made."},
+    {"q": "How many words can I put in one word search?", "a": "Up to 40, though 12 to 25 is the sweet spot for most grids. If your words do not fit at the size you picked, the grid grows a little instead of leaving any word out."},
+    {"q": "Can I make several different puzzles from one list?", "a": "Yes. Set Puzzles to any number from 1 to 10. Each one gets its own letter layout, and the answer keys are printed together at the end."},
+    {"q": "Why are some letters in my word search lowercase?", "a": "The Letters option switches the whole grid and word list between uppercase and lowercase. Lowercase is often easier for children who are still learning capital letters."},
+    {"q": "Does it work on a Chromebook or phone?", "a": "Yes. It runs in any modern browser, including Chromebooks, tablets and phones. Printing from a phone depends on your printer app, so a downloaded PDF is often the easiest route."}
+  ]
+}

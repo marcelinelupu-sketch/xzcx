@@ -1,0 +1,107 @@
+{
+  "shortTitle": "Word Scramble Maker",
+  "title": "Word Scramble Maker, Free Printable with Answer Keys",
+  "metaDescription": "Turn any word list into a printable word scramble. Add first-letter hints and a word bank, print up to 10 versions, and get an answer key for every sheet.",
+  "h1": "Word Scramble Maker (Free Printable Generator)",
+  "intro": "Paste a list of words and get a printable word scramble with letter tiles, writing lines and an answer key. It is free, works on any device, and needs no account.",
+  "toolTitle": "Garden Word Scramble",
+  "items": [
+    "Garden",
+    "Flower",
+    "Seeds",
+    "Watering can",
+    "Sunflower",
+    "Tomato",
+    "Shovel",
+    "Worm",
+    "Ladybug",
+    "Butterfly",
+    "Carrot",
+    "Rake",
+    "Pumpkin",
+    "Bumblebee",
+    "Soil",
+    "Sprout"
+  ],
+  "defaultOptions": {
+    "puzzles": 1,
+    "case": "upper",
+    "hint": false,
+    "bank": true,
+    "key": true,
+    "shuffle": true
+  },
+  "featuredHeading": "Ready-made word scramble themes",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to make a word scramble",
+      "body": [
+        "A garden list is loaded so you can try it right away. Swap it for your own words or open a ready-made theme below.",
+        "1. Give the sheet a title, such as \"Week 12 Vocabulary\" or \"Camp Cabin Challenge\".\n2. Enter one word or short phrase per line. Each word needs at least three letters, and the counter keeps track as you type.\n3. Turn on the extras you want: a first-letter hint, a word bank, an answer key, and mixed-up word order.\n4. Press **Generate** to shuffle the letters again. The same words get a brand new set of scrambles every time.\n5. Print the sheets or download a PDF.",
+        "> Two-word answers keep their shape. \"Watering can\" becomes two groups of tiles with a gap between them, so solvers know they are looking for two words."
+      ]
+    },
+    {
+      "heading": "Picking the right options",
+      "body": [
+        "### First-letter hint\nThe first letter of each answer is printed on its writing line. This roughly halves the difficulty and is a good choice for beginning readers, English learners, and long words like \"bumblebee\".",
+        "### Word bank\nThe word bank lists every answer at the bottom of the sheet in alphabetical order. With the bank, the puzzle becomes a matching game, which suits younger children and mixed-ability groups. Without it, solvers have to recall the word, which is much harder.",
+        "### Mixed-up order\nWhen this is on, the words appear in a different order from your list. Leave it off if you want the puzzle to follow the order of a lesson or a story.",
+        "### Several puzzles\nSet Puzzles anywhere from 1 to 10. Each version scrambles the letters differently, which keeps neighbors from comparing answers and gives you fresh sheets for the same unit week after week."
+      ]
+    },
+    {
+      "heading": "How the scrambles are made",
+      "body": [
+        "Each word is shuffled with a random number generator that starts from a seed. The maker checks every result and shuffles again if a word comes out unchanged, so no answer is ever printed in its original spelling. In phrases, each word is scrambled on its own.",
+        "Words with fewer than three letters, or with only one repeated letter, cannot be scrambled in a useful way. The maker skips them and says which ones it skipped, so you are never left guessing why a word is missing. Up to 60 words fit in one puzzle, and long lists flow onto a second page automatically.",
+        "Because the scrambles come from a seed, a share link rebuilds exactly the same sheet. That is handy when a colleague wants the version you used, or when you need to reprint a lost answer key."
+      ]
+    },
+    {
+      "heading": "Ways to use word scrambles",
+      "body": [
+        "* **Spelling and phonics.** Scrambling forces children to think about which letters go where, so it pairs naturally with a weekly spelling list.\n* **Vocabulary warmups.** Put five or six new terms from today's lesson on the board as a scramble and let students solve them while you take attendance.\n* **ESL classes.** Use a first-letter hint and a word bank so learners focus on spelling rather than recall.\n* **Holiday and party games.** Shower guests, birthday parties and family reunions enjoy a timed scramble with prizes for the fastest table.\n* **Team relay.** Cut a sheet into strips and have teams race to solve one strip each before passing the next one along.\n* **Brain breaks for grown-ups.** Office parties and senior centers often enjoy a themed scramble with a short time limit and a small prize."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips",
+      "body": [
+        "The sheet is drawn at real paper size, so pick US Letter or A4 before you print and keep the print dialog at 100 percent. Letter tiles shrink automatically when a list is long, so everything stays on the page.",
+        "Ink saver mode swaps the green tiles for light gray, which is easier on a classroom printer. The answer key lands on its own page after each puzzle, so you can pull it out before you photocopy the student sheets.",
+        "If your printer struggles with web pages, use **Download PDF** instead. The PDF matches the preview and opens in any PDF reader."
+      ]
+    },
+    {
+      "heading": "Saving and sharing your scramble",
+      "body": [
+        "Your last list is remembered on this device, so you can close the tab and pick up where you left off. Nothing is uploaded to a server.",
+        "**Copy share link** creates a web address that reopens the same title, words, options and scrambled letters. It is a quick way to post a puzzle to Google Classroom or send it to a parent helper. Bloggers and teachers with a class website can also use the **Embed** button to put this maker on their own pages; the [embed page](/embed/) explains how."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a scrambled word ever come out the same as the answer?",
+      "a": "No. The maker checks each scramble and shuffles again whenever the result matches the original word, so every answer is genuinely mixed up."
+    },
+    {
+      "q": "Why did the maker skip one of my words?",
+      "a": "Words need at least three letters and two different letters to be scrambled. Very short words like \"to\" and words such as \"aaa\" are skipped, and the message under the list names them."
+    },
+    {
+      "q": "How many words fit on one word scramble sheet?",
+      "a": "About 20 with the word bank turned on and 24 without it. Longer lists continue on extra pages, up to 60 words per puzzle."
+    },
+    {
+      "q": "What age is a word scramble good for?",
+      "a": "With a word bank and first-letter hints, children who can read simple three and four letter words, usually around age 6 or 7, can enjoy one. Without those helps, and with longer words, scrambles stay tricky for teens and adults."
+    },
+    {
+      "q": "Is there a version with the answers?",
+      "a": "Yes. Keep the answer key option ticked and a key page prints after each puzzle, showing the scrambled letters next to the correct word."
+    }
+  ]
+}

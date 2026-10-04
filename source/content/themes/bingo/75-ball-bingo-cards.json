@@ -1,0 +1,78 @@
+{
+  "shortTitle": "75-Ball Bingo Cards",
+  "title": "75-Ball Bingo Cards, Free Printable B-I-N-G-O Sheets",
+  "metaDescription": "Print free 75-ball bingo cards with the classic B-I-N-G-O columns and a free center. Make up to 30 unique cards, Letter or A4, and call numbers with our caller.",
+  "h1": "75-Ball Bingo Cards (Free Printable Generator)",
+  "intro": "Print up to 30 unique 75-ball bingo cards for free. Each card has five columns headed B, I, N, G and O, filled with numbers from 1 to 75, and the center square is free.",
+  "toolTitle": "75-Ball Bingo",
+  "items": [],
+  "defaultOptions": {
+    "mode": "75",
+    "free": true,
+    "cards": 12,
+    "perPage": 2,
+    "caller": true
+  },
+  "season": [],
+  "hubs": [
+    "party-games",
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/90-ball-bingo-tickets",
+    "bingo/number-bingo-1-30-for-kids",
+    "bingo/family-reunion",
+    "bingo/birthday-party",
+    "bingo/retirement-party",
+    "bingo/baby-shower"
+  ],
+  "relatedHeading": "More bingo printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How the 75-ball game works",
+      "body": [
+        "This is the version most people in the United States and Canada know. A card is a five by five grid. Each column has its own range of numbers: B holds 1 to 15, I holds 16 to 30, N holds 31 to 45, G holds 46 to 60 and O holds 61 to 75. The center square is free.",
+        "1. Print a card for every player and give each one a pen, a dauber or a handful of small counters.\n2. Put the numbers 1 to 75 into a bag or open the [online bingo caller](/bingo-caller/) on a screen.\n3. Call each number with its letter, such as \"B 7\" or \"O 68\", and players mark it if it is on the card.\n4. The first player to complete the agreed pattern calls \"Bingo!\". Check their marked numbers against the numbers already called.\n5. Clear the cards and begin again with the next pattern."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Patterns to play",
+      "body": [
+        "* **Straight line.** Any row, column or diagonal wins. This is the standard opening game and usually ends quickly.\n* **Four corners.** The four outer corner squares. It suits short rounds between other activities.\n* **Blackout.** Every number on the card must be covered. It takes the longest and is the usual choice for a final, larger prize.\n* **Postage stamp or letter shapes.** Players cover a small square in one corner, or form a T, an X or an L. Announce the shape before the round."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for running a game",
+      "body": [
+        "Keep a written list of the numbers called, in order, so you can check a winner. The caller sheet option prints a tick list of all 75 numbers for this.",
+        "With a large group, call at a steady pace of about one number every five seconds, and repeat each number once. Printing larger cards, one per page, helps older players.",
+        "Decide the prize and the pattern before the first number. Then there are no arguments later, and everyone knows what they are playing for."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing and sizes",
+      "body": [
+        "Two cards per page on Letter or A4 paper gives squares large enough to read comfortably. For a hall or a classroom with a mixed crowd, one card per page is easier on the eyes.",
+        "Cardstock holds up better when players press with daubers. Use black and white mode if you are printing a large batch for a fundraiser or community night, since that saves ink."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is the difference between 75-ball and 90-ball bingo?",
+      "a": "The 75-ball game uses a five by five grid with a free center and is common in North America. The 90-ball game uses a 3 by 9 ticket and is common in the United Kingdom. See the 90-ball page for those tickets."
+    },
+    {
+      "q": "Are all the cards different?",
+      "a": "Yes. The generator shuffles the numbers for each card using a seed and checks that no two cards in a set are the same."
+    },
+    {
+      "q": "Do I need a caller to play?",
+      "a": "You need some way to draw numbers. A bag of numbered tokens works well, or you can use the free online caller on this site."
+    }
+  ]
+}

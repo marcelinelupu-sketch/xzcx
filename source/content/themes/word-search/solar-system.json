@@ -1,0 +1,100 @@
+{
+  "shortTitle": "Solar System Word Search",
+  "title": "Solar System Word Search, Free Printable Space Puzzle",
+  "metaDescription": "Print a free solar system word search with 20 space words from Mercury to the asteroid belt. Use it to review planet names after a space science lesson.",
+  "h1": "Solar System Word Search (Free Printable Space Puzzle)",
+  "intro": "Print a free solar system word search with 20 space words, from the eight planets to comets and the Milky Way. It makes a fun partner to a unit on space for grades two to six.",
+  "toolTitle": "Solar System Word Search",
+  "items": [
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Sun",
+    "Moon",
+    "Asteroid",
+    "Comet",
+    "Orbit",
+    "Galaxy",
+    "Milky Way",
+    "Meteor",
+    "Telescope",
+    "Astronaut",
+    "Crater",
+    "Gravity"
+  ],
+  "itemsNote": "The 20 words above are loaded. Younger children can start with the eight planets and the sun.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 14,
+    "difficulty": "medium",
+    "case": "upper"
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/solar-system",
+    "word-search/weather",
+    "bingo/weather",
+    "word-search/dinosaurs",
+    "word-search/human-body",
+    "word-search/ocean-animals"
+  ],
+  "relatedHeading": "More science printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search in a space unit",
+      "body": [
+        "Space names are tricky to spell, and a word search fixes them in the mind by repeating the letter patterns. It also gives students a reason to read every planet's name closely, rather than skimming a textbook.",
+        "1. Start by naming the planets in order from the sun, using a rhyme or mnemonic your class likes.\n2. Solve the puzzle and ask students to write the planets in order beside the word list.\n3. Then find the other words, such as comet and orbit, and discuss what each one is.\n4. Finish with a question: which place would you most like to visit and why?",
+        "> NASA's [Solar System Exploration](https://science.nasa.gov/solar-system/) pages have photos and facts you can use to support the lesson."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to extend it",
+      "body": [
+        "* **Planet fact cards.** Each student picks one planet and writes three facts on an index card.\n* **Scale walk.** Use the planets as stops on a hallway model of the solar system, with distances marked by floor tiles or paces.\n* **Astronaut interview.** Students take turns as an astronaut returning from one planet, answering questions from classmates."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "The word Earth is short and easy to miss, which makes a fine lesson in search strategy. Suggest scanning for rarer letters, like the J in Jupiter or the U in Uranus, to spot long words faster.",
+        "Pair the puzzle with an evening of stargazing, or a look at the moon through binoculars, so the vocabulary connects to something real."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for space lessons",
+      "body": [
+        "Stay with white paper so letters stay crisp. Dark blue paper looks dramatic but hides pencil marks, unless you give children white gel pens.",
+        "The 14 by 14 grid fits Milky Way and asteroid comfortably. Laminate a class set and use dry-erase markers to reuse it across several days."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is this solar system word search for?",
+      "a": "It suits ages 7 to 12. Younger children can use easy mode and only the planet names."
+    },
+    {
+      "q": "Does it include Pluto?",
+      "a": "No, the list uses the eight planets. You can add Pluto or dwarf planet to the list yourself if your lesson covers it."
+    },
+    {
+      "q": "Is there an answer key?",
+      "a": "Yes, tick the answer key option and it prints after the puzzle, so you can check at a glance."
+    }
+  ]
+}

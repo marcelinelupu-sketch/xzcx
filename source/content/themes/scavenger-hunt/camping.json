@@ -1,0 +1,123 @@
+{
+ "shortTitle": "Camping Scavenger Hunt",
+ "title": "Camping Scavenger Hunt, Free Printable for Campsites",
+ "metaDescription": "A free printable camping scavenger hunt with 30 campsite, trail and night sky finds. Give kids something to do while you pitch the tent and cook dinner.",
+ "h1": "Camping Scavenger Hunt (Free Printable for Families)",
+ "intro": "Print a free camping scavenger hunt with 30 things to find around the campsite, on the trail and under the evening sky. It keeps children busy while the tents go up.",
+ "toolTitle": "Camping Scavenger Hunt",
+ "items": [
+  "A tent that is not yours",
+  "A camp stove or fire ring",
+  "A tree with a name tag or marker | 2",
+  "A pine cone",
+  "Smoke rising from a campfire",
+  "A flashlight beam | 2",
+  "A star | 2",
+  "A bird calling at dawn",
+  "A trail marker | 2",
+  "A rock shaped like an animal | 3",
+  "A log you could sit on",
+  "A spider web with dew | 3",
+  "A feather",
+  "Footprints on a muddy trail | 2",
+  "A marshmallow stick",
+  "A sleeping bag",
+  "A mosquito or moth near the lantern",
+  "A lantern",
+  "A campsite number",
+  "Something that smells like pine or smoke",
+  "A water spigot or stream | 2",
+  "A squirrel or chipmunk | 2",
+  "A tree with a hollow | 3",
+  "The moon | 2",
+  "A clothesline or hammock",
+  "A mushroom. Look only, do not touch | 2",
+  "A path through the trees",
+  "A bag of trash picked up and put in the proper bin | 3",
+  "A patch of moss",
+  "Something you have seen only at camp"
+ ],
+ "itemsNote": "All 30 items are ready to go above. Adjust for your site, since a desert campground and a forest one offer quite different finds.",
+ "defaultOptions": {
+  "layout": "checklist",
+  "names": true,
+  "timeLimit": false,
+  "copies": 4,
+  "shuffle": true,
+  "ageNote": "Ages 5 to 12"
+ },
+ "season": [
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "hubs": [
+  "road-trip-and-outdoor-games"
+ ],
+ "related": [
+  "scavenger-hunt/nature-walk",
+  "scavenger-hunt/beach",
+  "scavenger-hunt/road-trip",
+  "bingo/camping",
+  "word-search/camping",
+  "bingo/nature-walk"
+ ],
+ "relatedHeading": "More camping printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to use a camping scavenger hunt",
+   "body": [
+    "Camping has plenty of waiting: waiting for the tent, waiting for the fire, waiting for sausages. A hunt gives children a purpose in all that gap, and it works well on arrival day, after dinner and again in the morning.",
+    "1. Print the list before you leave home and tuck it into the same bag as the first aid kit.\n2. On arrival, walk the campsite perimeter together so children know which areas are safe to roam.\n3. Give each child a clipboard or a flat hardback book and a pencil, and set the start time after the tent is up.\n4. Let children search for fifteen or twenty minutes, then call them back for a progress check around the picnic table.\n5. Save the star and moon items for after dark, with a grown-up and a headlamp."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Camp-style variations",
+   "body": [
+    "* **Day and night lists.** Split the sheet in two: the first half for daylight finds, the second for after dark. Older children can keep a camp notebook of what they found.\n* **Leave no trace round.** Reward the child who spots litter, ties up a bag or finds a tool someone left behind. Children enjoy being the keeper of the campsite.\n* **Camp-out bingo.** Try the camping bingo cards on a rainy afternoon when everyone is stuck in the tent."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips from the campsite",
+   "body": [
+    "Use the shuffle setting if more than one family is camping together, so cousins do not all rush to the same pine tree.",
+    "Rainy camping weekends are when a printed list is worth its weight. Tick items from inside the tent door, and carry on once the shower passes.",
+    "Keep a pencil on a string. They vanish in leaf litter at the speed of light."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Staying safe at camp",
+   "body": [
+    "Children should stay within an agreed area and within earshot of an adult, and should never go to the water, the fire or the road without a grown-up. Teach everyone what to do if they get lost: stay put, blow a whistle and wait.",
+    "Look but do not touch mushrooms, berries and plants you do not recognize, and do not feed wildlife. Keep food stored properly, since animals follow smells, and keep children well back from campfires and cooking stoves."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for the campsite",
+   "body": [
+    "Dew and campfire smoke are hard on paper. Print on cardstock or slide the sheet into a clear sleeve and tick with a dry erase marker. If you print at home beforehand, print an extra copy for the tent in case the first one gets soggy. Black and white is fine and saves ink."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is the best time of day to do the camping scavenger hunt?",
+   "a": "Late afternoon works well because the list has daylight and dusk items. Finish the night sky items after dinner with a flashlight and an adult."
+  },
+  {
+   "q": "Do we need a campfire for this hunt?",
+   "a": "No. Items related to fire or smoke are only for campsites that have them. You can strike them out or swap them for a lantern or a camp stove."
+  },
+  {
+   "q": "Can the hunt be used at a backyard campout?",
+   "a": "Yes. A tent in the garden is camping in miniature, and the list works there too. Cross out trail markers and add things like the porch light and the neighbor's cat."
+  }
+ ]
+}

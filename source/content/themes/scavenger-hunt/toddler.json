@@ -1,0 +1,106 @@
+{
+ "shortTitle": "Toddler Scavenger Hunt",
+ "title": "Toddler Scavenger Hunt, Free Printable Picture Game",
+ "metaDescription": "A free printable toddler scavenger hunt with 20 simple finds like something red, something soft and a spoon. Short, easy and made for little hands.",
+ "h1": "Toddler Scavenger Hunt (Free Printable List)",
+ "intro": "Print a free toddler scavenger hunt with 20 very simple things to find, read aloud by a grown-up. It is short, forgiving and built around colors, shapes and everyday objects.",
+ "toolTitle": "Toddler Scavenger Hunt",
+ "items": [
+  "Something red",
+  "Something blue",
+  "Something yellow",
+  "Something soft",
+  "Something hard",
+  "A ball",
+  "A spoon",
+  "A shoe",
+  "A book",
+  "A teddy bear or stuffed toy",
+  "A cup",
+  "Something round",
+  "A pillow",
+  "A sock",
+  "A toy car",
+  "A cat or dog, real or toy",
+  "A flower",
+  "A banana or an apple",
+  "Something that makes a sound",
+  "A hat"
+ ],
+ "itemsNote": "Only 20 items so the game stays short. Most toddlers will manage ten to twelve, and that is a perfectly good result.",
+ "defaultOptions": {
+  "layout": "checklist",
+  "names": false,
+  "timeLimit": false,
+  "copies": 2,
+  "shuffle": false,
+  "ageNote": "Ages 2 to 4"
+ },
+ "season": [],
+ "hubs": [
+  "party-games"
+ ],
+ "related": [
+  "scavenger-hunt/indoor-for-kids",
+  "scavenger-hunt/rainy-day",
+  "scavenger-hunt/backyard",
+  "bingo/farm-animals",
+  "bingo/esl-colors-and-shapes",
+  "word-search/farm"
+ ],
+ "relatedHeading": "More printables for little ones",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to play with a toddler",
+   "body": [
+    "Toddlers do not read the list. The grown-up reads each item out and the toddler goes and finds it, so you are the clue giver, helper and cheerleader in one.",
+    "1. Print the sheet and keep it in your hand. Choose a small space such as one room.\n2. Read the first item aloud in a bright voice. 'Can you find something red?'\n3. Walk with the child. Point and wait. If they are stuck, offer a gentle clue, like 'Look near the toy box.'\n4. Tick the box together and hold up the find. Celebrate each one with a clap or a cheer.\n5. Stop when attention fades. Ten items is a full game for many two-year-olds."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Ways to adapt it",
+   "body": [
+    "* **Color hunt.** Use only the first five items. Pick one color and find everything in the room that matches it.\n* **Basket game.** Give the toddler a small basket and place found items inside, then tip them out for a second round.\n* **Sound hunt.** Close your eyes together and listen. Look for the thing that makes the sound and tick it."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for grown-ups",
+   "body": [
+    "Make the hunt about practice with words rather than winning. Naming each item aloud builds vocabulary, and the satisfaction of finding it builds confidence.",
+    "Pre-place a few easy items where you know the child will see them. Toddlers love an early victory.",
+    "Have just one or two sheets handy. A toddler is quite likely to chew the first one, and that is fine."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Safety for the smallest players",
+   "body": [
+    "Stay with your toddler throughout. Remove coins, buttons, small batteries and other choking hazards from the search area, and keep anything with a cord or sharp edge out of reach. Toddlers explore with their mouths, so check what is in the basket before they play."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for little hands",
+   "body": [
+    "Choose the checklist layout, which puts the words on a single clear page. Laminate or slip the sheet into a plastic pocket, since toddlers tend to wave paper around. Use cardstock if you want it to survive a second round. Plain black and white is fine; you can add stickers for colors."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What age is a toddler scavenger hunt for?",
+   "a": "It is made for children from about 2 to 4. Very young toddlers need a grown-up to read and help, while older preschoolers may manage a few items alone."
+  },
+  {
+   "q": "Does my toddler need to be able to read?",
+   "a": "No. The grown-up reads the list aloud and the child finds the item. The tick-boxes are for the adult to keep track."
+  },
+  {
+   "q": "How long should the game last?",
+   "a": "Five to ten minutes is typical. Stop while the child is still enjoying it, and come back to the sheet later in the day."
+  }
+ ]
+}

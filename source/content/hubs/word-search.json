@@ -1,0 +1,45 @@
+{
+ "shortTitle": "Word Search",
+ "title": "Free Printable Word Searches by Theme, With Answer Keys",
+ "metaDescription": "Browse free printable word searches for holidays, science, animals, everyday topics and geography, each with a themed word list and an answer key to print.",
+ "h1": "Free Printable Word Searches by Theme",
+ "ogTitle": "Free Printable Word Searches",
+ "intro": "Each word search page below comes with its own theme word list, a generator that builds a fresh grid and an answer key. Choose a topic, adjust the words if you like, and print as many puzzles as you need.",
+ "linksHeading": "All word search themes",
+ "sections": [
+  {
+   "heading": "What you can change on each page",
+   "body": [
+    "The word list, the grid size and the direction of the words are all in your hands. Younger children do best with words that run across and down only, and a small grid. Older students and adults can switch on diagonals and backwards words for a real challenge.",
+    "The answer key prints on its own page, so you can keep it back while students solve. Give the puzzle a new title if you want to name a unit, a class or a birthday.",
+    "Because the grid is built from a seed, you can share the link to a puzzle and the recipient sees exactly the same one. That makes it easy to hand a puzzle to a co-teacher or a grandparent."
+   ]
+  },
+  {
+   "heading": "Picking a theme",
+   "body": [
+    "Frog and pond themes are our home territory: try the [frog life cycle](/word-search/frog-life-cycle/) and [pond animals](/word-search/pond-animals/) puzzles for a science lesson that starts with eggs and ends with tadpoles.",
+    "Seasonal puzzles such as [Christmas](/word-search/christmas/) and [Halloween](/word-search/halloween/) arrive when you most need them, and subject puzzles on weather, the solar system and the human body support classroom units all year.",
+    "If you need something exact, open the [word search maker](/word-search-maker/), paste in your own spelling list, and let it place the words for you. It checks that every word fits before it prints."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Do the word searches come with answers?",
+   "a": "Yes. Turn on the answer key option and it prints on a separate page."
+  },
+  {
+   "q": "What is the best grid size for children?",
+   "a": "For ages five to seven, a small grid with 8 to 10 short words is plenty. Increase the size as children grow in confidence."
+  }
+ ],
+ "extraLinks": [
+  {
+   "heading": "Printing help",
+   "paths": [
+    "guides/printing-tips-letter-vs-a4"
+   ]
+  }
+ ]
+}

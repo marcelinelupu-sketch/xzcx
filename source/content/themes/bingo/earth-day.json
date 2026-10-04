@@ -1,0 +1,118 @@
+{
+  "shortTitle": "Earth Day Bingo",
+  "title": "Free Printable Earth Day Bingo Cards for Class and Scouts",
+  "metaDescription": "Print free Earth Day bingo cards with 36 squares such as recycle bin, solar panel and compost. Great for classrooms, scout groups and neighborhood cleanups.",
+  "h1": "Earth Day Bingo Cards (Free Printable Generator)",
+  "intro": "Print free Earth Day bingo cards with 36 squares on recycling, energy, wildlife and kind choices for the planet. They work for a classroom lesson, a scout meeting or a neighborhood cleanup.",
+  "toolTitle": "Earth Day Bingo",
+  "items": [
+    "Recycling bin",
+    "Compost pile",
+    "Reusable bag",
+    "Water bottle refill",
+    "Solar panel",
+    "Wind turbine",
+    "Bicycle",
+    "Walking to school",
+    "Bus ride",
+    "Tree planting",
+    "Seedling",
+    "Garden bed",
+    "Rain barrel",
+    "Worm bin",
+    "Butterfly",
+    "Bee",
+    "Bird feeder",
+    "Litter pickup",
+    "Glass jar reuse",
+    "Cloth napkin",
+    "Paper recycling",
+    "Turn off the light",
+    "Short shower",
+    "Energy saver bulb",
+    "Thrift store find",
+    "Leaf pile",
+    "Flower bed",
+    "Pond",
+    "River",
+    "Forest",
+    "Clean beach",
+    "Planet Earth",
+    "Rain cloud",
+    "Library book",
+    "Hand-me-down jacket",
+    "Packed lunch box"
+  ],
+  "itemsNote": "The squares mix small daily habits with natural sights, which keeps the game positive instead of preachy. Add local touches such as your river, park or recycling day for a more personal card.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Love Earth",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [
+    4
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/plants-and-flowers",
+    "scavenger-hunt/nature-walk",
+    "scavenger-hunt/park",
+    "bingo/nature-walk",
+    "bingo/bugs-and-insects",
+    "bingo/easter"
+  ],
+  "relatedHeading": "More Earth Day printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play for Earth Day",
+      "body": [
+        "Earth Day bingo can double as a gentle lesson. Rather than reading a long list of rules about the environment, children cover squares and talk about each habit as it comes up.",
+        "1. Give each learner a card and a pencil, or paper leaves cut from scrap sheets, to use as markers.\n2. Call a square and ask for one example from home, such as how the family uses a reusable bag.\n3. Players with the square cover it.\n4. The first row finished earns a seedling pot sticker or a turn as caller.\n5. Wrap up by asking each child which square they will try this week."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to take it further",
+      "body": [
+        "* **Outdoor spotting round.** Walk the school grounds with cards and tick squares when you see them in real life, such as a bird feeder, a worm or a leaf pile.\n* **Pledge bingo.** Every time a child covers a habit square, they write the matching action on a paper leaf. The leaves become a class tree on the wall.\n* **Cleanup crew.** At a litter pickup, give each volunteer a card of items they might find and agree to sort them properly into the right bins."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for educators and group leaders",
+      "body": [
+        "Keep the tone hopeful. Children respond better to what they can do than to a list of problems, so lead with squares they already do at home.",
+        "Invite families to bring their own ideas for the list. A square suggested by a child is always the one that gets the biggest cheer.",
+        "Check local recycling rules before you teach the details. Programs vary by town, so show a real example from your own area."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing without waste",
+      "body": [
+        "This page is the right one to print on the back of used paper or on recycled stock. Choose ink saver and two cards per page, and send only as many sheets as you need.",
+        "Collect the cards after the lesson and store them in an envelope, since the same set can be used again next spring."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this suitable for a science lesson?",
+      "a": "Yes, it works as a warm-up or a review. Pair it with a short discussion about each square so the game supports your lesson rather than replacing it."
+    },
+    {
+      "q": "When is Earth Day?",
+      "a": "It is celebrated every year on April 22. You can use the cards at any time of year, such as on a class cleanup day or a camping trip."
+    },
+    {
+      "q": "Can small children play?",
+      "a": "Children from about five can play with picture clues and an adult reading the squares. A 3x3 grid keeps the game short."
+    }
+  ]
+}

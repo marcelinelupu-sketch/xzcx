@@ -1,0 +1,85 @@
+{
+ "shortTitle": "Preschool Bedtime Chart",
+ "title": "Preschool Bedtime Routine Chart, Free Printable Steps",
+ "metaDescription": "Free printable bedtime chart for 3 to 5 year olds: eight picture steps from tidying toys to lights out, with stars to color in. Add a name and print.",
+ "h1": "Preschool Bedtime Routine Chart (Free Printable)",
+ "intro": "Three to five year olds like to be in charge, and this eight step preschool bedtime chart gives them a job: tick off each picture and tell you what is next. Add a name, print it and let your child color the stars.",
+ "toolTitle": "Bedtime Routine",
+ "items": [
+  "Toys away | toys-away",
+  "Bath time | bath",
+  "Pajamas on | pajamas",
+  "Potty | potty",
+  "Brush teeth | brush-teeth",
+  "Read a book | book",
+  "Hugs | hug",
+  "Lights out | lights-off"
+ ],
+ "itemsNote": "Eight steps suits a child who can hold a short sequence in mind. Put the tidy up step first so the busiest part of the evening is over before the water starts running.",
+ "defaultOptions": {
+  "layout": "strip",
+  "palette": "sky",
+  "name": "",
+  "times": false,
+  "mascot": true
+ },
+ "season": [],
+ "hubs": [],
+ "related": [
+  "bedtime-routine-chart/toddler-picture-chart",
+  "bedtime-routine-chart/school-age",
+  "bedtime-routine-chart/morning-and-bedtime-routine",
+  "reward-chart-maker/behavior-chart",
+  "reward-chart-maker/weekly-sticker-chart",
+  "bingo/number-bingo-1-30-for-kids"
+ ],
+ "relatedHeading": "More for preschoolers",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "Handing the routine to a preschooler",
+   "body": [
+    "A preschooler can usually follow a chart on their own after a short training period. The aim is to move the grown-up from giving orders to being the audience.",
+    "1. Sit down together with the finished page and let your child name each picture in their own words. Rename any step that does not match your house, for example 'Tidy up' instead of 'Toys away'.\n2. For the first week, go through the chart with them step by step and color in a star as each step is done.\n3. In the second week, say only 'Check your chart' and let them lead. Help only if they stall.\n4. Praise the process out loud. 'You remembered the potty without me asking' means more than a prize.\n5. When a whole week is done, let them choose the color or pose of the next chart."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Variations for a three to five year old",
+   "body": [
+    "* **The race against the music.** Play one slow song and see whether the chart is finished by the last chorus. Use it sparingly, on nights that have run late.\n* **A helper night.** Let a stuffed animal go through the routine first while your child supervises, checking each card. Preschoolers enjoy being the expert.\n* **The weekly tick version.** Switch the layout to the weekly grid after a month. It turns the same steps into a streak, which suits children beginning to count and understand days of the week."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for keeping preschool bedtime on track",
+   "body": [
+    "Put the screen-free, calm things at the end of the chart and the energetic ones at the start. Tidying and bath are the loud part; the story and hugs are the quiet part.",
+    "Preschoolers stall with requests: another drink, another hug, one more question. Build one drink of water into the routine, so that the request has already been answered.",
+    "Keep the chart a little behind your child's ability, not ahead of it. If they can do all eight steps without you, add one that gives them new responsibility, such as choosing tomorrow's shirt.",
+    "> A preschooler who rushes the chart to get the stars is not cheating. Slow down by asking them to tell you what each picture means as they color it."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for a preschool bedroom",
+   "body": [
+    "The tall strip layout reads top to bottom like a list, which is how this age group learns to follow things. Print on regular paper and slip it in a sheet protector, then give your child a dry erase marker for the stars. Wipe it clean each morning and the same page lasts all month. If your printer is low on ink, turn on the ink saver and color the cards in by hand together."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What should a preschool bedtime routine include?",
+   "a": "Most families use tidying up, a bath or wash, pajamas, the potty, teeth, a book, a hug and lights out. It is your routine, so edit the steps to match what actually happens in your home."
+  },
+  {
+   "q": "My preschooler ignores the chart. What now?",
+   "a": "Check that it hangs at their height and that they helped choose the colors. Then shorten it for a week. A shorter chart that gets finished is better than a longer one that gets skipped."
+  },
+  {
+   "q": "Should the chart include a reward?",
+   "a": "It does not need one. The stars give a small sense of finishing. If you want an extra, a reward chart for a whole week of ticks is simple to add."
+  }
+ ]
+}

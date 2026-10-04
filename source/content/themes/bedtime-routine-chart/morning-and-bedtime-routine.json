@@ -1,0 +1,89 @@
+{
+ "shortTitle": "Morning and Bedtime Chart",
+ "title": "Morning and Bedtime Routine Chart for Kids, Free Printable",
+ "metaDescription": "Free printable chart with both a morning and a bedtime routine on one page: wake up, breakfast and shoes, then bath, story and lights out. Add a name and print.",
+ "h1": "Morning and Bedtime Routine Chart (Free Printable)",
+ "intro": "Mornings and evenings are the two rushed parts of the day, so this chart puts both on one page. It has a morning group with five steps and a bedtime group with five more, each with its own picture.",
+ "toolTitle": "Morning and Bedtime Routine",
+ "items": [
+  "Morning:",
+  "Wake up and open the curtains | sun",
+  "Make my bed | make-bed",
+  "Get dressed | get-dressed",
+  "Eat breakfast | breakfast",
+  "Shoes on | shoes",
+  "Bedtime:",
+  "Bath time | bath",
+  "Pajamas on | pajamas",
+  "Brush teeth | brush-teeth",
+  "Story time | story",
+  "Lights out | lights-off"
+ ],
+ "itemsNote": "A line ending in a colon prints as a small heading, which is how the two halves of the day are separated. Rename the headings or steps freely. Teeth appear in the bedtime half only, since many families brush once at each end and you can add it in the morning too.",
+ "defaultOptions": {
+  "layout": "strip",
+  "palette": "peach",
+  "name": "",
+  "times": false,
+  "mascot": true
+ },
+ "season": [],
+ "hubs": [],
+ "related": [
+  "bedtime-routine-chart/school-age",
+  "bedtime-routine-chart/preschool",
+  "bedtime-routine-chart/toddler-picture-chart",
+  "reward-chart-maker/chore-chart-for-kids",
+  "reward-chart-maker/weekly-sticker-chart",
+  "bingo/last-day-of-school"
+ ],
+ "relatedHeading": "More routines and charts",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to use a two part daily chart",
+   "body": [
+    "The chart has one page and two jobs. The top half runs from waking until you walk out of the door, and the bottom half runs from the last hour of the evening until sleep.",
+    "1. Read both halves with your child before you start. Ask which step is hardest and move it to a time when there is more room.\n2. Hang it somewhere visible from both bed and breakfast table, such as a hallway wall.\n3. Stick a star on or tick each step in the morning. Do the evening half after dinner.\n4. Let your child be the one to say, 'It's bedtime now, so I look at the bottom,' to mark the shift between halves.\n5. After two weeks, remove one step from each half that no longer needs reminding."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Three variations",
+   "body": [
+    "* **Two pages.** If you want larger pictures, print the morning half and the bedtime half as separate charts by deleting the other group. Hang one by the door and one by the bed.\n* **A weekend swap.** Print a version with no school clothes, no shoes and a later breakfast, then label it 'Slow Saturday'.\n* **Helper roles.** Add one extra step per half for an older sibling, such as 'Check on little brother', so that the chart serves both children."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for smoother mornings and evenings",
+   "body": [
+    "Do as much of the morning on the night before as you can. Packing the bag, choosing clothes and filling the water bottle can all live in the bedtime half, which shortens the morning half.",
+    "Keep the two halves visually distinct so the child knows which one is live. A sun marker for the morning and a moon for the evening are on the chart for exactly that reason.",
+    "Choose the order of the morning steps by what your child finds hardest. Getting dressed before breakfast saves syrup stains; breakfast before getting dressed avoids a fight about the shirt.",
+    "> A chart cannot fix a bedtime that is too late. If mornings are always a struggle, look at the clock the night before first."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing a double routine chart",
+   "body": [
+    "Ten steps and two headings use the whole page, so the cards are smaller than on the single routine charts. The strip layout is the clearest. Choose a cheerful palette like peach for the day, or print the evening half in lavender on a second sheet. Laminate it if the sheet is going to live in a busy hallway, and stick it up with removable adhesive hooks."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can one chart cover both morning and bedtime?",
+   "a": "Yes. Use a line ending with a colon, such as Morning:, to start a group, then add the steps for that group below it. This chart already has two groups ready to edit."
+  },
+  {
+   "q": "How many steps can the chart hold?",
+   "a": "Up to 14 steps, not counting the headings. Ten is comfortable for a single page and leaves the pictures large enough to read."
+  },
+  {
+   "q": "What if the routine is different on weekends?",
+   "a": "Print a second version with the weekend steps and a different title. Keep both on the wall, or swap them on Friday night."
+  }
+ ]
+}

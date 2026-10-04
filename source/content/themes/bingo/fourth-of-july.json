@@ -1,0 +1,126 @@
+{
+  "shortTitle": "Fourth of July Bingo",
+  "title": "Free Printable Fourth of July Bingo for Cookouts and Parades",
+  "metaDescription": "Free printable Fourth of July bingo cards with 36 squares like parade, sparkler and watermelon. Print for cookouts, camp days and fireworks nights.",
+  "h1": "Fourth of July Bingo Cards (Free Printable Generator)",
+  "intro": "Print free Fourth of July bingo cards for a cookout, a parade day or a backyard fireworks night. The 36 squares cover food, flags, music and summer fun without needing any special setup.",
+  "toolTitle": "Fourth of July Bingo",
+  "items": [
+    "Parade",
+    "Marching band",
+    "Flag",
+    "Bunting",
+    "Sparkler",
+    "Fireworks",
+    "Firework boom",
+    "Red, white and blue",
+    "The Star-Spangled Banner",
+    "Hot dog",
+    "Hamburger",
+    "Watermelon",
+    "Corn on the cob",
+    "Potato salad",
+    "Apple pie",
+    "Ice pop",
+    "Lemonade",
+    "Cooler",
+    "Beach towel",
+    "Sunscreen",
+    "Sunglasses",
+    "Water balloon",
+    "Sprinkler",
+    "Lawn chair",
+    "Picnic blanket",
+    "Bike with streamers",
+    "Face paint",
+    "Glow stick",
+    "Patriotic hat",
+    "Fire truck",
+    "Neighbor wave",
+    "Backyard game",
+    "Sack race",
+    "Bug spray",
+    "Fan to cool off",
+    "Sparkle in the sky"
+  ],
+  "itemsNote": "A mix of foods, decorations and summer sights keeps the card easy to play. Add local traditions such as a lake swim, a town concert or a flag-raising to make your card match your own celebration.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Hooray",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [
+    6,
+    7
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/summer",
+    "bingo/fathers-day",
+    "bingo/camping",
+    "bingo/beach",
+    "scavenger-hunt/neighborhood-walk",
+    "scavenger-hunt/backyard"
+  ],
+  "relatedHeading": "More summer holiday printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play on the Fourth",
+      "body": [
+        "The day usually has a long waiting game built in. People gather in the afternoon and need something to do until dark. Bingo fills that gap, and it can run from the first arrival to the first firework.",
+        "1. Give out cards as people arrive and set a handful of bottle caps or pebbles on each table as markers.\n2. Players cover squares as they see them during the day, so no one needs to call.\n3. When a full row appears, the player shouts a loud \"boom!\" and shows the card.\n4. Check with the host and award a small prize, like a glow stick.\n5. Start a fresh round at sundown with a new set of cards for the show."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three variations for the holiday",
+      "body": [
+        "* **Parade watcher.** Take the cards to a town parade. Each child spots squares like the marching band or the fire truck, and the first to finish wins a snack from the vendor.\n* **Evening blackout.** Cards stay in play until the fireworks end. Anyone who fills every square before the finale wins bragging rights for the year.\n* **Team picnic bingo.** Divide the guests into teams by table. Each table shares a card and works together to cover squares as they enjoy the meal."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for outdoor hosts",
+      "body": [
+        "Heat and glare are the biggest enemies. Put cards in the shade, keep water close and expect them to get a little damp from drinks and sprinklers.",
+        "Keep sparklers and fireworks an adult responsibility. The squares are for spotting from a safe distance, and children should never handle them. Local fire rules vary, so check yours first.",
+        "Save the free space for something silly, such as a neighbor's dog in a flag bandana."
+      ]
+    },
+    {
+      "role": "safety",
+      "heading": "A note on fireworks and sun",
+      "body": [
+        "Bingo makes a good calm activity during the hottest part of the day. Keep players hydrated, and move the game into the shade whenever the temperature climbs."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the picnic",
+      "body": [
+        "Print on thick paper or card, then slip each card into a plastic sleeve so the juice from a watermelon slice wipes off. Ink saver helps keep the squares crisp on bright, sunny days.",
+        "Use a pencil or a dry-erase marker on sleeves, and bring a couple of spare cards in a zip bag."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this safe for young children?",
+      "a": "The game itself is safe. Fireworks and sparklers are only squares to watch for from a distance, and an adult should handle them."
+    },
+    {
+      "q": "Can I use this for a camp or a block party?",
+      "a": "Yes. Print up to 30 cards and spread them across tables or give one to each family."
+    },
+    {
+      "q": "Does it work for people outside the United States?",
+      "a": "The squares celebrate a US holiday, but many are general summer items. Edit them for other national days."
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "shortTitle": "ESL Action Verbs Bingo",
+  "title": "Action Verbs Bingo for ESL and EFL, Free Printable Cards",
+  "metaDescription": "Free printable action verbs bingo for English learners. Thirty-eight movement and daily action words with unique cards for phonics, TPR and speaking practice.",
+  "h1": "ESL Action Verbs Bingo Cards (Free Printable Generator)",
+  "intro": "Print free action verbs bingo for English learners, with 38 common verbs from run and jump to whisper and carry. Every learner gets a unique card.",
+  "toolTitle": "Action Verbs Bingo",
+  "items": [
+    "run",
+    "walk",
+    "jump",
+    "swim",
+    "fly",
+    "climb",
+    "sit",
+    "stand",
+    "sleep",
+    "eat",
+    "drink",
+    "read",
+    "write",
+    "draw",
+    "sing",
+    "dance",
+    "laugh",
+    "cry",
+    "clap",
+    "throw",
+    "catch",
+    "kick",
+    "push",
+    "pull",
+    "open",
+    "close",
+    "cook",
+    "wash",
+    "brush",
+    "listen",
+    "speak",
+    "whisper",
+    "shout",
+    "build",
+    "carry",
+    "turn",
+    "ride",
+    "paint"
+  ],
+  "itemsNote": "All 38 verbs are base forms that learners can act out in a classroom, which makes them ideal for movement-based teaching. They run from big body actions to quieter tasks like read and write, so you can pick a calm or an active subset.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Free",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "esl-games",
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/esl-feelings",
+    "bingo/esl-classroom-objects",
+    "bingo/esl-animals",
+    "bingo/sight-words-first-grade",
+    "scavenger-hunt/indoor-for-kids",
+    "word-search/sports"
+  ],
+  "relatedHeading": "More ESL and learning printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Action verbs bingo with movement built in",
+      "body": [
+        "Verbs are easiest to learn when the body is involved, and bingo gives you a calm structure around that energy. The idea is simple. You call a verb, the class performs it for a few seconds, and then everyone finds and covers the written word. By the end of a round, learners have seen, heard, said and done each word.",
+        "1. Teach or review a set of verbs with actions. Say \"jump\" and jump, and let the class copy.\n2. Hand out cards and markers.\n3. Call a verb without acting it. Learners perform the action once, find the word and cover it.\n4. Every few calls, change the pace: a slow \"swim\" in the air, a fast \"run\" on the spot. It keeps the game lively and teaches adverbs informally.\n5. When a learner has a line, they read the verbs and the class performs each one together.\n6. Settle everyone back into seats with a calm word like \"sit\" or \"listen\" before the next round."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Level guidance for different groups",
+      "body": [
+        "Pre-readers can play with the TPR approach alone. Call the verb, do the action, and use cards only for the matching. The written word is simply decoration that becomes familiar.",
+        "Beginners reading short words will do well with the one-syllable verbs, such as run, sit, eat and clap. Choose these for a 3x3 grid, then widen as they gain confidence.",
+        "Elementary learners can add third person forms. After the card is covered, ask them to say \"She runs\" or \"He sleeps.\" The base forms on the card are the anchor, and the extra ending is the new work.",
+        "For teenagers, who may feel silly miming, switch to a quieter version: call a short sentence such as \"A bird can do this\" and learners find fly. Keep the energy up with quick, sensible clues rather than forced acting.",
+        "Plan for space. Movement games in a crowded room can get bumpy, so ask learners to stay by their desks and use only arms and head."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to vary the round",
+      "body": [
+        "* **Freeze bingo.** Play music while learners move around. When the music stops, call a verb. Everyone freezes in that action and then sits down to cover the word.\n* **Past tense round.** After learners know the base forms, call the past tense (\"ran\", \"ate\", \"wrote\") and have them cover the matching base verb. It's a gentle first look at irregular verbs.\n* **Silent caller.** A learner acts out the verb with no sound. The class guesses, then covers. This reverses the usual roles and gives the teacher a chance to observe."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing action verb cards",
+      "body": [
+        "Verbs are short, so the font can be large. Use one card per page if you plan to leave pencils nearby for circling. A pack of cards in a folder can become a recurring review station.",
+        "Teachers who project the game can leave off the markers and ask learners to hold up the card in front of them. Laminated sets will withstand a lot of enthusiastic handling."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What does TPR mean for this game?",
+      "a": "TPR is Total Physical Response, a teaching method where learners respond to spoken language with movement. Calling a verb and having the class act it out is a straightforward example."
+    },
+    {
+      "q": "Can I play this quietly?",
+      "a": "Yes. Have learners mime in their seats using only hands and face, or skip the acting and use verbal clues. The cards work just as well in a quiet round."
+    },
+    {
+      "q": "Should I call verbs in the base form only?",
+      "a": "Start with base forms because that is what the card shows. Later, call forms like running or ran, and have learners find the base verb. It adds difficulty for stronger groups."
+    },
+    {
+      "q": "Are the verbs suitable for adult learners?",
+      "a": "Yes. Adults often like the lighter feel of a quick movement game, and the list covers the daily actions that appear in nearly every beginner course."
+    }
+  ]
+}

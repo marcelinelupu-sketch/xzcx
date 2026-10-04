@@ -1,0 +1,105 @@
+{
+  "shortTitle": "Farm Word Search",
+  "title": "Farm Word Search, Free Printable Barnyard Puzzle with Key",
+  "metaDescription": "Print a free farm word search with 20 barnyard words from tractors to chickens. It suits preschool farm units and makes a calm follow-up to a field trip.",
+  "h1": "Farm Word Search (Free Printable Barnyard Puzzle)",
+  "intro": "Print a free farm word search with 20 words about animals, crops and the work that happens on a farm. It suits preschool and elementary lessons and fall trips to the pumpkin patch.",
+  "toolTitle": "Farm Word Search",
+  "items": [
+    "Tractor",
+    "Barn",
+    "Cow",
+    "Pig",
+    "Horse",
+    "Chicken",
+    "Sheep",
+    "Goat",
+    "Duck",
+    "Rooster",
+    "Hay",
+    "Scarecrow",
+    "Fence",
+    "Silo",
+    "Farmer",
+    "Harvest",
+    "Corn",
+    "Wheat",
+    "Pasture",
+    "Orchard"
+  ],
+  "itemsNote": "The 20 words above are loaded. For the youngest children, keep it to the animals and the barn.",
+  "defaultOptions": {
+    "showList": true,
+    "puzzles": 1,
+    "key": true,
+    "size": 12,
+    "difficulty": "easy",
+    "case": "upper"
+  },
+  "season": [
+    9,
+    10,
+    5,
+    6
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "bingo/farm-animals",
+    "word-search/fall",
+    "word-search/thanksgiving",
+    "word-search/spring",
+    "word-search/ocean-animals",
+    "word-search/rainforest-animals"
+  ],
+  "relatedHeading": "More farm and harvest printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search on a farm theme day",
+      "body": [
+        "Farm words are among the first long lists many children can read, because the animals are familiar and the words are short. That makes this puzzle a friendly first word search for kindergarten and first grade.",
+        "1. Read the animal words aloud together, with a sound for each one if the class is feeling brave.\n2. Hand out the puzzle and let children find the animals first.\n3. Then find the farm things, like tractor, silo and fence, and talk about what each one is for.\n4. Finish with a sorting task: which words are animals, which are buildings or tools, and which are crops?",
+        "> Not every farm has every animal. Ask children which ones they might see on a dairy farm and which on a vegetable farm."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three barnyard variations",
+      "body": [
+        "* **Who lives here.** Draw a barn and a pasture and place the animal words in the right spot.\n* **Farm to table.** Trace where a food such as bread starts, using words like wheat and harvest.\n* **Farm trip checklist.** Bring the list on a visit to a farm and tick off what you see."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "For very young children, print a 10 by 10 grid with six words and let them hunt with a grown-up. A big finger works better than a pencil.",
+        "If you are visiting a working farm, follow the farm's rules and ask before petting any animal."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for farm days",
+      "body": [
+        "Large, easy grids work best here. Use the 12 by 12 size and the easy setting, and print with a thicker line so little eyes can follow.",
+        "Print a few extra copies, since barnyard visits tend to be muddy. Ink saver mode keeps costs down."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is the farm word search for?",
+      "a": "It suits ages 5 to 8. Use the easy setting for kindergarten."
+    },
+    {
+      "q": "Can I use it on a farm field trip?",
+      "a": "Yes. Print on regular paper and bring a clipboard."
+    },
+    {
+      "q": "Can children make their own farm puzzle?",
+      "a": "Yes. Let them type their favorite farm words into the list and press Generate."
+    }
+  ]
+}

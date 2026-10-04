@@ -1,0 +1,124 @@
+{
+  "shortTitle": "Fall Bingo",
+  "title": "Free Printable Fall Bingo Cards for Leaf Walks and Hayrides",
+  "metaDescription": "Free printable fall bingo cards with 40 squares from red maple leaf to pumpkin patch. Great for autumn walks, orchard trips, classrooms and cozy afternoons.",
+  "h1": "Fall Bingo Cards (Free Printable Generator)",
+  "intro": "Print free fall bingo cards for autumn walks, orchard trips and cozy afternoons indoors. The 40 squares are crisp, colorful sights and flavors from September to November.",
+  "toolTitle": "Fall Bingo",
+  "items": [
+    "Red maple leaf",
+    "Yellow leaf",
+    "Acorn",
+    "Pine cone",
+    "Pumpkin",
+    "Pumpkin patch",
+    "Scarecrow",
+    "Hay bale",
+    "Hayride",
+    "Corn maze",
+    "Apple orchard",
+    "Apple cider",
+    "Caramel apple",
+    "Apple pie",
+    "Cinnamon",
+    "Pumpkin spice",
+    "Sweater",
+    "Scarf",
+    "Rain boots",
+    "Mittens",
+    "Campfire",
+    "Marshmallow",
+    "Hot chocolate",
+    "Soup",
+    "Football game",
+    "Geese flying south",
+    "Squirrel",
+    "Chipmunk",
+    "Spider web",
+    "Fog",
+    "Frost",
+    "Early sunset",
+    "Bonfire smoke",
+    "Rake",
+    "Leaf pile",
+    "Corn stalk",
+    "Gourd",
+    "Cornucopia",
+    "Porch lantern",
+    "Harvest moon"
+  ],
+  "itemsNote": "Fall looks different in every region, so adjust the list to what you can actually spot. Replace maple leaf with aspen or oak, or add your local fair if you have one.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Fall In",
+    "cards": 20,
+    "perPage": 2
+  },
+  "season": [
+    9,
+    10,
+    11
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "scavenger-hunt/fall",
+    "word-search/fall",
+    "bingo/halloween",
+    "bingo/thanksgiving",
+    "bingo/nature-walk",
+    "bingo/winter"
+  ],
+  "relatedHeading": "More fall printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play on a fall outing",
+      "body": [
+        "Take this bingo outdoors on a walk, or play it at a school harvest party. It works as a spotting game and as a quiet seated game, and the sights give you plenty to talk about.",
+        "1. Give each person a card, a pencil and a small paper bag for collecting leaves or acorns.\n2. Head outside and cover squares as you find them, or call them out for a seated game.\n3. Players may collect safe items such as fallen leaves, and leave living plants and nuts for wildlife.\n4. Return to base when someone has a row, and share what you saw.\n5. Press the best leaves between book pages for a craft later."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three seasonal ideas",
+      "body": [
+        "* **Orchard edition.** Print a card with apple varieties, a ladder, a basket and a farm cat. Children cross squares as they pick.\n* **Colors of fall.** Each square asks for a color found in a leaf, like crimson, gold and brown. Children match real leaves to the color words.\n* **Cozy night in.** Play with a blanket and a mug on a rainy day, with squares such as soup, a sweater and a fire in the grate."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for autumn adventures",
+      "body": [
+        "Dress for changing weather. Fall afternoons can be warm in the sun and cold in the shade, and wet leaves are slippery on paths.",
+        "Talk about why leaves change color, if the group is curious. A short explanation from a nature guide helps children connect the squares to what they see.",
+        "Keep a few blank squares for surprises. Children love to add their own sighting on the spot."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for outdoor use",
+      "body": [
+        "Use a clipboard and a pencil, because pens skip on cool, damp paper. Print on slightly thicker paper if you expect drizzle, and fold the card into a pocket.",
+        "Orange, tan or cream paper suits the season, and ink saver keeps the colors warm instead of heavy."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use fall bingo in a classroom?",
+      "a": "Yes. Use it with a seasonal reading unit or a nature walk on school grounds. Print enough for each pair of students."
+    },
+    {
+      "q": "What about places without fall colors?",
+      "a": "Edit the list. Swap in squares like first rain, cooler air or a harvest festival that fit your region."
+    },
+    {
+      "q": "Is this the same as Halloween bingo?",
+      "a": "No. Fall bingo covers the whole season, while Halloween has its own page with spooky items."
+    }
+  ]
+}

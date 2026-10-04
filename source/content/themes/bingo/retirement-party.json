@@ -1,0 +1,122 @@
+{
+  "shortTitle": "Retirement Party Bingo",
+  "title": "Retirement Party Bingo Cards, Free Printable and Funny",
+  "metaDescription": "Free retirement party bingo cards with 42 squares, from the gold watch to the last email. Print up to 30 unique cards for the office or home, Letter or A4.",
+  "h1": "Retirement Party Bingo Cards (Free Printable Generator)",
+  "intro": "Print up to 30 unique retirement party bingo cards for free. The 42 squares tease the retiree gently, with office classics, speeches and plans for all that free time.",
+  "toolTitle": "Retirement Party Bingo",
+  "items": [
+    "Gold watch",
+    "Sheet cake",
+    "Card signed by everyone",
+    "Slideshow",
+    "Speech from the boss",
+    "Speech from a coworker",
+    "Funny story",
+    "Embarrassing story",
+    "Last email",
+    "Out of office reply",
+    "Empty desk",
+    "Cardboard box",
+    "Name tag",
+    "Lanyard",
+    "Coffee mug",
+    "Conference room",
+    "Group photo",
+    "Standing ovation",
+    "Toast",
+    "Gift card",
+    "Golf joke",
+    "Fishing trip",
+    "Travel plans",
+    "Rocking chair joke",
+    "Sleeping in",
+    "Alarm clock gift",
+    "Bucket list",
+    "Garden plans",
+    "Grandkids",
+    "Spouse speech",
+    "Old photos",
+    "Years of service award",
+    "Plaque",
+    "Balloons",
+    "Banner",
+    "Potluck dish",
+    "Catered lunch",
+    "Friendly teasing",
+    "Emotional moment",
+    "Hug",
+    "Handshake",
+    "Promise to stay in touch"
+  ],
+  "itemsNote": "Keep the humor kind. The list mixes workplace classics with plans for retirement, and you can swap in jokes that belong to your own office or family.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "FREE AT LAST",
+    "cards": 12,
+    "perPage": 2
+  },
+  "season": [],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "bingo/meeting-buzzword-bingo",
+    "bingo/graduation-party",
+    "bingo/birthday-party",
+    "bingo/family-reunion",
+    "bingo/wedding-reception",
+    "bingo/icebreaker-find-someone-who"
+  ],
+  "relatedHeading": "More party printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at a retirement send-off",
+      "body": [
+        "The program at a retirement party usually involves several speeches and a slideshow. Bingo keeps coworkers engaged and adds a friendly laugh, especially when the retiree knows what is coming and plays along.",
+        "1. Place a card on every chair in the room or hand one out with the plate of food.\n2. Announce that squares can be marked when they happen, whether it is a funny story or a gift.\n3. The retiree keeps a card too and can mark off the moments they notice.\n4. The first person to fill a row calls it out and gets a small prize presented by the retiree.\n5. Continue until the cake is cut, and then call a final blackout round before everyone leaves."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three variations",
+      "body": [
+        "* **Inside joke bingo.** Write in-jokes, nicknames and catchphrases of the retiree in the squares. People who worked with them for years know them best.\n* **Plan predictor.** Fill the squares with what the retiree might do first, like travel, golf or sleeping in, then let guests guess before the speech.\n* **Remote retirement.** For colleagues joining on a video call, email the PDF in advance and have everyone mark squares as speakers take the screen."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for organizers",
+      "body": [
+        "Check with the retiree's family about topics to avoid. A good rule is that every square should make the retiree smile, not squirm.",
+        "Make the prize modest and thoughtful, like a coffee voucher or a box of good tea. The last prize can go to the retiree.",
+        "If the group is large, hand out cards in advance with the invitation, so people can think about their squares before they arrive."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing for the office",
+      "body": [
+        "Most offices have a laser printer, which handles the grid well. Print two cards per page and cut them on the paper trimmer for a stack of half sheets.",
+        "Using black and white mode saves toner, and a sheet of gold paper cut into a border adds a festive touch. Print a single large card as a poster to display in the breakroom."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this appropriate for a workplace?",
+      "a": "Yes, as long as the squares are kind. The list sticks to light, friendly topics. Review it before printing and remove anything that does not fit your office."
+    },
+    {
+      "q": "How many cards should I print?",
+      "a": "One per guest, plus some spare ones. If the guest list is not final, print twenty and run another batch the day before."
+    },
+    {
+      "q": "Can the retiree help make the card?",
+      "a": "It is a fun idea. Ask them for a few favorite sayings or office habits, and add them to the list before generating."
+    }
+  ]
+}

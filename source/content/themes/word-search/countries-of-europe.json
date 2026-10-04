@@ -1,0 +1,106 @@
+{
+  "shortTitle": "Countries of Europe Word Search",
+  "title": "Countries of Europe Word Search, Free Printable Map Puzzle",
+  "metaDescription": "Print a free Europe countries word search with 25 names, from Norway and Spain to Switzerland and Bulgaria. Letter or A4, with an answer key for geography.",
+  "h1": "Countries of Europe Word Search (Free Printable)",
+  "intro": "Print a free Europe word search with 25 countries, from Iceland and Ireland to Greece and Romania. It is a handy warm-up for a geography unit or a trip planning evening.",
+  "toolTitle": "Countries of Europe Word Search",
+  "items": [
+    "France",
+    "Germany",
+    "Spain",
+    "Italy",
+    "Portugal",
+    "Ireland",
+    "Norway",
+    "Sweden",
+    "Finland",
+    "Denmark",
+    "Poland",
+    "Greece",
+    "Austria",
+    "Switzerland",
+    "Belgium",
+    "Netherlands",
+    "Hungary",
+    "Croatia",
+    "Iceland",
+    "Romania",
+    "Ukraine",
+    "Estonia",
+    "Latvia",
+    "Slovakia",
+    "Bulgaria"
+  ],
+  "itemsNote": "A cross-section of 25 European countries from the north, south, east and west. Swap in your own set to match a lesson or a travel plan.",
+  "defaultOptions": {
+    "size": 16,
+    "difficulty": "medium",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/us-states",
+    "word-search/transportation",
+    "scavenger-hunt/road-trip",
+    "word-search/rainforest-animals",
+    "bingo/road-trip",
+    "bingo/esl-food"
+  ],
+  "relatedHeading": "More geography printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "Using the Europe puzzle with a map",
+      "body": [
+        "A blank map of Europe and a pencil are the best companions for this puzzle. Seeing the shape of a country makes its name easier to remember.",
+        "1. Hand out the puzzle along with an outline map of Europe.\n2. When you find a country, locate it on the map and write its name inside the borders.\n3. Start with the large ones, such as France and Spain, which are easy to place.\n4. Use the key to check the last few, then label any still blank on the map.",
+        "Younger students can focus on the countries they have visited or heard about, and leave the rest for another day."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Taking the puzzle further",
+      "body": [
+        "* **Neighbors list.** Pick a country and list every country that touches it.\n* **Flag colors.** Choose three countries and describe or sketch their flags from a reference book.\n* **Language match.** Write the main language next to each name and notice which ones repeat across borders."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teaching European geography",
+      "body": [
+        "Borders and names change over history, so double check the list against a current atlas before you use it for a test.",
+        "Students with family in Europe can share a story, a food or a phrase from there. That personal link makes the names stick.",
+        "Say the names aloud together before starting, because pronunciations such as Latvia and Croatia are not always obvious to new learners."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips for the atlas table",
+      "body": [
+        "Letter and A4 both fit the grid. A4 is slightly narrower and taller. Print at 100 percent scale so letters stay legible, and consider printing the key on its own page for self-checking.",
+        "With 25 countries the default grid is 16 by 16, which fits Switzerland and the Netherlands easily."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are all European countries on the list?",
+      "a": "No. The list holds 25 well-known countries so it fits a readable grid. Edit the list to include others."
+    },
+    {
+      "q": "Which spellings are used?",
+      "a": "Common English names, such as Netherlands and Switzerland, with no accents."
+    },
+    {
+      "q": "Can I make a harder version for older students?",
+      "a": "Yes. Choose hard difficulty, a 20 by 20 grid, and add smaller countries such as Liechtenstein and Luxembourg."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "shortTitle": "Reward Chart Maker",
+  "title": "Reward Chart Printable, Free Sticker Chart Maker for Kids",
+  "metaDescription": "Make a free printable reward chart or sticker chart for kids. Add tasks with pictures, choose 7, 14 or 30 days, write in the reward and print it at home.",
+  "h1": "Reward Chart Maker (Free Printable Sticker Chart)",
+  "intro": "Make a sticker chart for chores, potty training, reading or any new habit: list the tasks, pick how many days and write in the reward. Print it free, with no account needed.",
+  "toolTitle": "Reward Chart",
+  "items": [
+    "Make my bed",
+    "Brush teeth",
+    "Get dressed",
+    "Pack my bag",
+    "Read for 20 minutes",
+    "Be kind"
+  ],
+  "defaultOptions": {
+    "days": 7,
+    "mark": "sticker",
+    "palette": "mint",
+    "goal": "",
+    "name": ""
+  },
+  "featuredHeading": "Ready-made reward charts",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to make a reward chart",
+      "body": [
+        "Six everyday tasks are loaded so you can see a finished chart straight away. Swap them for the habits you are working on right now.",
+        "1. Add tasks from the picture library, or type them into the list box, one per line. Each task becomes a row with its own picture.\n2. Rename tasks in your own family's words and use the arrows to change the order.\n3. Choose 7, 14 or 30 days, and sticker circles or tick boxes.\n4. Type your child's name and the reward, for example \"Pancakes for breakfast\" or \"A trip to the pool\". Leave the reward empty to get a blank line you can fill in together.\n5. Print the chart or download a PDF.",
+        "> The maker chooses a picture for many common tasks on its own, such as teeth, homework, pets or trash. To pick a different one, add the picture name after a bar, like \"Tidy up | toys-away\", or choose it from the library."
+      ]
+    },
+    {
+      "heading": "7, 14 or 30 days",
+      "body": [
+        "### One week\nThe days of the week run across the top, starting on Monday or Sunday. One week is the right length for most young children, because the reward is never too far away. Print a fresh chart every Sunday night.",
+        "### Two weeks\nPrints as Week 1 and Week 2 with the days numbered 1 to 14. It works well for a habit that needs a little longer to settle, such as staying in bed all night or practicing an instrument.",
+        "### Thirty days\nPrints in blocks of ten numbered days. With a short task list all thirty days fit on one page; longer lists continue on a second page, so the boxes never get too small to use. Thirty days suits older children and bigger goals, like reading every day for a month.",
+        "Sticker circles are dashed rings sized for standard round stickers. Tick boxes are better for checkmarks, stamps or children who prefer to draw their own stars."
+      ]
+    },
+    {
+      "heading": "Making a reward chart work",
+      "body": [
+        "Reward charts work best when the goal is small, specific and something your child can actually do. \"Put my clothes in the basket\" is easy to judge; \"be good\" is not. Two to five tasks at a time keeps the chart about the habits that matter most.",
+        "* **Agree on the reward together.** Children work harder for a reward they chose. Small, frequent rewards beat one big prize at the end of the month.\n* **Fill in the number of stickers before you start.** The goal line reads \"When I get ___ stickers, I earn\". Pick a number your child can reach in the first week, so they taste success early.\n* **Add the sticker right away.** The best moment is straight after the task, with a few words about what they did well.\n* **Never take stickers away.** A missed day is simply an empty spot. Removing earned stickers turns the chart into a punishment and children quickly lose interest.\n* **Retire tasks that have become habits.** When a task has been done every day for a couple of weeks, celebrate it and replace it with a new one.",
+        "Put the chart where your child sees it every day, at their eye level rather than yours. A quick look together at bedtime (\"Look, three stickers already this week\") keeps the goal in mind without nagging, and it gives you a natural moment to notice the effort as well as the result."
+      ]
+    },
+    {
+      "heading": "Charts for common goals",
+      "body": [
+        "Some goals have their own ready-made chart with the tasks and length already set up:",
+        "* [Potty training chart](/reward-chart-maker/potty-training-chart/) with rows for tries and successes over 14 or 30 days.\n* [Chore chart for kids](/reward-chart-maker/chore-chart-for-kids/) with age-friendly jobs around the house.\n* [Reading log reward chart](/reward-chart-maker/reading-log-reward-chart/) for daily reading practice.\n* [Behavior chart](/reward-chart-maker/behavior-chart/) focused on a few clear, positive behaviors.\n* [Weekly sticker chart](/reward-chart-maker/weekly-sticker-chart/) for any habit, one week at a time.",
+        "For the evening routine itself, the [bedtime routine chart](/bedtime-routine-chart/) uses the same picture library with a step-by-step layout and a sleepy frog."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips",
+      "body": [
+        "The chart fits one page of US Letter or A4. Keep the print scale at 100 percent so the circles print at their true size. With a short task list, each circle fits a round sticker about three quarters of an inch across.",
+        "The pastel color themes print well on home inkjets. **Black and white** or **Ink saver** gives a clean outline version that children can color in themselves, which many kids enjoy as much as the stickers. Cardstock holds up to a month of stickers better than plain paper, and a strip of tape at each corner keeps the chart flat on the fridge or bedroom door."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is a reward chart good for?",
+      "a": "Many families start sticker charts somewhere around age two or three, and they often keep working well through the early school years. For toddlers, use one or two tasks and a reward every day or two. Older children can handle longer charts and bigger goals."
+    },
+    {
+      "q": "How many stickers should a child need to earn a reward?",
+      "a": "Start low enough that your child earns the first reward within a few days. For a seven-day chart with three tasks, something like 10 to 15 stickers is a reasonable first goal. You can raise the number on the next chart as the habit gets easier."
+    },
+    {
+      "q": "Can I make a potty training sticker chart?",
+      "a": "Yes. Type \"Tries\" and \"Success\" as the two tasks and choose 14 or 30 days, or open the ready-made [potty training chart](/reward-chart-maker/potty-training-chart/), which is already set up that way."
+    },
+    {
+      "q": "Does the week start on Monday or Sunday?",
+      "a": "It follows your region by default, so visitors in the US see Sunday first and most other regions see Monday. Change it with the **Week starts** option. On 14 and 30 day charts the days are numbered instead."
+    }
+  ]
+}

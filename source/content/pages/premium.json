@@ -1,0 +1,69 @@
+{
+  "shortTitle": "Mega Pack",
+  "title": "Frog's Dream Mega Pack: Ready-Made Printable Games for $7",
+  "metaDescription": "Every bingo theme, word search, word scramble and scavenger hunt from Frog's Dream as ready-to-print PDFs in Letter and A4, with answer keys. One payment of $7.",
+  "h1": "The Frog's Dream Mega Pack",
+  "mascot": "celebrating",
+  "intro": [
+    "Everything on this site is free to make and print, and it will stay that way. The Mega Pack is for the times when you would rather not generate anything at all: one download with every theme already laid out as print-ready PDFs, in both US Letter and A4, with answer keys and caller sheets included.",
+    "<!-- OWNER: the $7 price below and in the Product data in this page's head must match PACK_PRICE in assets/js/config.js. Edit both if the price changes. -->\n<p class=\"btns\"><a class=\"btn btn-primary\" data-pack-buy data-label=\"Get the Mega Pack for $7\">Coming soon</a></p>\n<p>One payment of <strong><span data-pack-price>$7</span></strong>. No subscription.</p>"
+  ],
+  "product": {
+    "name": "Frog's Dream Mega Pack",
+    "description": "Print-ready PDFs of every Frog's Dream bingo theme, word search, word scramble and scavenger hunt, plus bedtime and reward charts, in US Letter and A4 with answer keys and caller sheets.",
+    "price": "7.00",
+    "images": ["/assets/img/premium/sample-bingo.png"]
+  },
+  "sections": [
+    {
+      "heading": "What's inside",
+      "body": [
+        "* **Themed bingo:** all 51 themed bingo pages from the site, each with **40 unique cards** (5 x 5, or 4 x 4 for the kindergarten themes), printed 2 per page (1 per page for Find Someone Who, so there is room for names), plus a caller checklist for each theme.\n* **75-ball bingo:** **100 unique** cards.\n* **90-ball UK bingo:** **20 strips of 6 tickets**, where each strip uses every number from 1 to 90 exactly once.\n* **Word searches:** all **36** word search themes at **2 difficulty levels** each, every puzzle with its answer key.\n* **Word scrambles:** all **10** word scramble themes, each with an answer key.\n* **Scavenger hunts:** all **18** scavenger hunt lists.\n* **Charts:** **6** bedtime routine and reward chart designs, each in **4 colors**.\n* **A one-page Start here sheet** that explains the folders and printing settings.",
+        "Every file comes in both **US Letter** and **A4**, as one PDF per theme and paper size, sorted into folders inside a single ZIP download. The PDFs are vector files, so text and lines stay crisp at any print size."
+      ]
+    },
+    {
+      "heading": "See sample pages",
+      "body": [
+        "These previews are real pages from the pack, shown with a SAMPLE watermark that the downloaded files don't have.",
+        "<div class=\"pack-previews\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px\">\n<figure style=\"margin:0\"><img src=\"/assets/img/premium/sample-bingo.png\" width=\"600\" height=\"776\" loading=\"lazy\" style=\"width:100%;height:auto;border:1px solid #ddd;border-radius:8px\" alt=\"Sample page showing two Christmas bingo cards with a SAMPLE watermark\"><figcaption>Bingo cards, 2 per page</figcaption></figure>\n<figure style=\"margin:0\"><img src=\"/assets/img/premium/sample-word-search.png\" width=\"600\" height=\"776\" loading=\"lazy\" style=\"width:100%;height:auto;border:1px solid #ddd;border-radius:8px\" alt=\"Sample frog life cycle word search page with a SAMPLE watermark\"><figcaption>Word search with word list</figcaption></figure>\n<figure style=\"margin:0\"><img src=\"/assets/img/premium/sample-chart.png\" width=\"600\" height=\"776\" loading=\"lazy\" style=\"width:100%;height:auto;border:1px solid #ddd;border-radius:8px\" alt=\"Sample bedtime routine chart with a SAMPLE watermark\"><figcaption>Bedtime routine chart</figcaption></figure>\n</div>"
+      ]
+    },
+    {
+      "heading": "Who it's for",
+      "body": "The pack suits teachers who want a term's worth of games in one folder, party hosts who would like to print and go, and anyone with a slow connection or a school computer that blocks new websites. If you only need one set of cards for one event, the free generators already do that well, and you don't need the pack."
+    },
+    {
+      "heading": "License",
+      "body": [
+        "Buying the pack gives you a personal license. You may print the files as often as you like for your own home, for your own parties and events, and for **a single classroom** (the classes you teach yourself). You may hand the printed sheets to your students, guests and players.",
+        "Please don't resell the files or printouts, upload them to a shared drive or website where others can download them, or pass the ZIP on to other people. If several teachers at a school want to use the pack, each teacher needs their own copy. The full wording is in our [terms](/terms/)."
+      ]
+    },
+    {
+      "heading": "Payment and refunds",
+      "body": [
+        "Lemon Squeezy handles payment and VAT; if a file doesn't work for you, email us for a refund within 14 days.",
+        "Lemon Squeezy is the merchant of record for the sale. It takes the payment, works out and charges any sales tax or VAT for your country, sends your receipt and gives you the download link. We never see your card details. Your rights under consumer law in your country are not affected by anything on this page."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need the Mega Pack to use the generators?",
+      "a": "No. Every generator on this site is free and makes up to 30 bingo cards, or up to 10 puzzles, each time you press Generate. You can generate as many times as you like. The pack only saves you the generating and gives you more cards per theme in one place."
+    },
+    {
+      "q": "What format are the files?",
+      "a": "PDF files inside one ZIP download. Open the ZIP on a computer, then open any PDF and print it like a normal document. Each theme has a Letter file and an A4 file, so pick the one that matches the paper in your printer."
+    },
+    {
+      "q": "Can I change the words in the pack?",
+      "a": "The PDFs are finished pages and can't be edited. If you want your own words, use the free generator for that theme, which starts with the same list and lets you edit every line."
+    },
+    {
+      "q": "How do I get a refund?",
+      "a": "If a file doesn't open, prints wrongly or is missing something, email us within 14 days of buying and tell us what went wrong. We will fix the file or refund you through Lemon Squeezy, whichever you prefer."
+    }
+  ]
+}

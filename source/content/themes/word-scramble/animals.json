@@ -1,0 +1,104 @@
+{
+ "shortTitle": "Animals Word Scramble",
+ "title": "Animals Word Scramble, Free Printable with Answer Key",
+ "metaDescription": "Print a free animals word scramble with 24 creatures, from elephant to penguin. Choose a word bank or hint letters for young readers and download an answer key.",
+ "h1": "Animals Word Scramble (Free Printable with Answers)",
+ "intro": "Print a free animals word scramble with 24 creatures to unscramble, from kangaroo to dolphin. It suits a science lesson, a zoo day or a quiet moment at home.",
+ "toolTitle": "Animals Word Scramble",
+ "items": [
+  "Elephant",
+  "Giraffe",
+  "Penguin",
+  "Kangaroo",
+  "Dolphin",
+  "Crocodile",
+  "Butterfly",
+  "Octopus",
+  "Squirrel",
+  "Hedgehog",
+  "Rabbit",
+  "Gorilla",
+  "Turtle",
+  "Zebra",
+  "Flamingo",
+  "Cheetah",
+  "Panda",
+  "Lion",
+  "Tiger",
+  "Frog",
+  "Camel",
+  "Koala",
+  "Seahorse",
+  "Owl"
+ ],
+ "itemsNote": "All 24 animals are ready above. Swap in the animals your class has just studied, or the ones on your zoo trip.",
+ "defaultOptions": {
+  "puzzles": 1,
+  "case": "upper",
+  "hint": true,
+  "bank": true,
+  "key": true,
+  "shuffle": true
+ },
+ "season": [],
+ "hubs": [
+  "classroom-games",
+  "party-games"
+ ],
+ "related": [
+  "bingo/zoo",
+  "bingo/farm-animals",
+  "bingo/ocean-animals",
+  "word-search/ocean-animals",
+  "word-search/rainforest-animals",
+  "word-scramble/summer"
+ ],
+ "relatedHeading": "More animal printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to use an animals word scramble",
+   "body": [
+    "Almost every child has a favorite animal, which is why this puzzle tends to land well. It is a natural extra for a science lesson, a library visit or the quiet time after a trip to the zoo.",
+    "1. Decide how many animals to include. Twelve works for early readers, while all 24 give older children a good challenge.\n2. Turn the first letter hint on for those still sounding out words.\n3. Print a sheet for each child and one answer key for the adult.\n4. Let children solve in any order. Many start with the animals they know best.\n5. When the sheet is finished, ask children to draw their favorite animal on the back."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Animal variations",
+   "body": [
+    "* **Habitat sort.** After solving, children sort the animals into groups: jungle, ocean, farm and savanna.\n* **Guess the animal.** One player picks a solved word and gives clues, such as 'I have a long neck', while others guess.\n* **Zoo trip prep.** Use the animals on the zoo map as the word list and solve the sheet on the bus."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for classrooms and homes",
+   "body": [
+    "Seahorse and flamingo are good tough words for strong readers. Easy ones like lion and frog are quick wins for beginners.",
+    "Combine with a library visit, and ask children to find a picture book about their favorite animal on the sheet.",
+    "Print two different puzzles so neighbors cannot copy each other."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing animal puzzles",
+   "body": [
+    "Print on regular paper and add colored pencils so children can decorate the margins. If you print the puzzle for a younger child, choose the word bank and the first letter hint together. The answer key prints on a separate page, and ink saver mode keeps the sheet light."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What age is the animals word scramble for?",
+   "a": "With the hint and word bank, from about age 6. Without them, ages 9 and up find it a fun test of spelling."
+  },
+  {
+   "q": "Can I choose specific animals?",
+   "a": "Yes. Delete or add animals in the list above and the sheet will use your words. Keep each at three letters or more."
+  },
+  {
+   "q": "Does every animal have the right spelling?",
+   "a": "Yes. The words are common animals spelled the standard US way. Check any you add yourself before printing."
+  }
+ ]
+}

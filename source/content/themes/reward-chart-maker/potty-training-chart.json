@@ -1,0 +1,80 @@
+{
+ "shortTitle": "Potty Training Chart",
+ "title": "Potty Training Chart, Free Printable Sticker Tracker",
+ "metaDescription": "Free printable potty training chart with a 14 or 30 day sticker grid for tries, successes and hand washing. Add your child's name and a small prize goal.",
+ "h1": "Potty Training Chart (Free Printable Sticker Chart)",
+ "intro": "A potty chart gives your child a sticker for trying, not only for succeeding. This one tracks three things each day (a try, a dry success and hand washing) on a 14 or 30 day grid.",
+ "toolTitle": "My Potty Chart",
+ "items": [
+  "Sat on the potty | potty",
+  "Stayed dry | star",
+  "Washed my hands | wash-hands"
+ ],
+ "itemsNote": "Three rows keep the chart readable. The first row rewards effort, which matters in the early days when most tries end with nothing in the potty. Add a row for staying dry overnight when you start night training.",
+ "defaultOptions": {
+  "days": 14,
+  "mark": "sticker",
+  "palette": "sky",
+  "goal": "A new book from the library",
+  "name": ""
+ },
+ "season": [],
+ "hubs": [],
+ "related": [
+  "reward-chart-maker/weekly-sticker-chart",
+  "reward-chart-maker/behavior-chart",
+  "bedtime-routine-chart/toddler-picture-chart",
+  "bedtime-routine-chart/preschool",
+  "scavenger-hunt/toddler",
+  "bingo/number-bingo-1-30-for-kids"
+ ],
+ "relatedHeading": "More for toddlers and preschoolers",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to use the potty training chart",
+   "body": [
+    "Start the chart when your child shows interest, not on a fixed date. Signs of readiness differ from child to child, and your pediatrician can help if you are unsure.",
+    "1. Print the 14 day grid, write your child's name on it and hang it low in the bathroom.\n2. Choose a goal and write it in the space provided. Keep it small and quick, such as a new library book or a trip to the park.\n3. Give a sticker for every time your child sits on the potty, even when nothing happens. Give a second sticker when they stay dry.\n4. Put the stickers on together, with your child doing the sticking. The ritual is part of the reward.\n5. When the goal is reached, hand over the prize the same day and start a fresh chart."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Variations by stage",
+   "body": [
+    "* **Day one chart.** Use only the 'sat on the potty' row for the first week. One row is easy to manage while everyone is learning.\n* **Longer horizon.** Switch to the 30 day grid once your child has started to succeed, and use the goal for something bigger, such as a trip to the zoo.\n* **Overnight chart.** Replace the rows with one line, 'Dry night', and place the chart in the bedroom instead of the bathroom."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips that help potty training go smoothly",
+   "body": [
+    "Reward effort in the early days. A sticker for sitting down teaches that the potty is a place to try, and the dry successes will follow in their own time.",
+    "Never remove a sticker because of an accident. A chart only works if it stays a place for good news. Accidents are part of learning.",
+    "Keep the prize close and small. A toddler cannot wait for something that is three weeks away, so the goal should be reachable within a few days.",
+    "> If your child seems anxious about the potty, take a break and try again in a few weeks. A chart should help, not add pressure."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing and placing the chart",
+   "body": [
+    "Print on cardstock and use big round stickers, which are easier for small fingers than tiny ones. Stickers tear if you peel them off and move them, so pick one spot for the chart and leave it there. If you would rather not use stickers, switch to the tick option and let your child draw the marks with a crayon. A bathroom is damp, so a sheet protector or a laminated copy stays flat much longer."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Should I give a sticker for trying or only for success?",
+   "a": "Many parents reward both, with one sticker for trying and a second for staying dry. Rewarding the try keeps motivation up on days when nothing happens."
+  },
+  {
+   "q": "Is the 14 day or 30 day chart better?",
+   "a": "Start with 14 days. A shorter grid is quicker to fill and gives your child more wins. Move to 30 days once the habit is established."
+  },
+  {
+   "q": "What age is this chart for?",
+   "a": "There is no set age, since children become ready at different times. Most families use a chart with children who are already curious about the potty. Ask your pediatrician if you have questions about readiness."
+  }
+ ]
+}

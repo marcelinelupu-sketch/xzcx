@@ -1,0 +1,119 @@
+{
+  "shortTitle": "Easter Bingo",
+  "title": "Free Printable Easter Bingo Cards for Kids and Families",
+  "metaDescription": "Free Easter bingo cards with 36 squares including pastel eggs, baskets and baby chicks. Print up to 30 cards for a class party, church event or family brunch.",
+  "h1": "Easter Bingo Cards (Free Printable Generator)",
+  "intro": "Print free Easter bingo cards for a classroom party, church gathering or family brunch. The 36 squares are all springtime fun, with eggs, baskets, flowers and treats.",
+  "toolTitle": "Easter Bingo",
+  "items": [
+    "Easter egg",
+    "Egg hunt",
+    "Basket",
+    "Bunny ears",
+    "Chocolate bunny",
+    "Jelly beans",
+    "Marshmallow chick",
+    "Baby chick",
+    "Lamb",
+    "Duckling",
+    "Tulip",
+    "Daffodil",
+    "Lily",
+    "Spring rain",
+    "Butterfly",
+    "Nest",
+    "Carrot",
+    "Pastel ribbon",
+    "Plastic egg",
+    "Egg dye cup",
+    "Sticker",
+    "Bonnet",
+    "Church bell",
+    "Sunday dress",
+    "Ham dinner",
+    "Deviled eggs",
+    "Hot cross bun",
+    "Hop contest",
+    "Egg roll",
+    "Spoon race",
+    "Grass in the basket",
+    "Paint brush",
+    "Bunny tail",
+    "Candy",
+    "Spring song",
+    "Family photo"
+  ],
+  "itemsNote": "Many families celebrate Easter in different ways, so edit the list to fit yours. Remove anything religious or food-based if the group is mixed, and add a house tradition if you have one.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Hop Hop",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [
+    3,
+    4
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "word-search/easter",
+    "word-scramble/easter",
+    "scavenger-hunt/spring-easter",
+    "bingo/mothers-day",
+    "bingo/earth-day",
+    "bingo/st-patricks-day"
+  ],
+  "relatedHeading": "More Easter printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play at an Easter gathering",
+      "body": [
+        "Egg hunts are loud and fast, so bingo works best before or after, when the children are calm enough to sit. A card game fills the gap while grown-ups finish hiding eggs or setting out brunch.",
+        "1. Hand out the cards and a stack of small paper eggs, jelly beans or plastic counters.\n2. Call a square, or hold up a real item such as a plastic egg or a toy chick.\n3. Players cover matching squares.\n4. A row of five wins a basket treat, and play continues for a second prize.\n5. Finish with a round of blackout, so every child is working toward the same goal."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three spring variations",
+      "body": [
+        "* **Egg-in-the-card.** Hide a small slip of paper inside a plastic egg for every square. A child opens an egg, reads the word and covers it, which makes the game feel like a hunt.\n* **Garden bingo.** Take the cards outdoors and have children search the yard for tulips, grass, puddles and butterflies, ticking squares as they spot them.\n* **Family trivia round.** Add a squares-and-questions twist for grandparents, where a square is covered only after a child answers a spring riddle."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for hosts and teachers",
+      "body": [
+        "Spring weather can turn at any moment, so print a few extra cards for the indoor backup plan. Tuck them in a basket near the door.",
+        "Make the prizes non-food when you can, such as stickers or bookmarks, so children with allergies or sugar limits can play on equal footing.",
+        "For toddlers, use pictures cut from magazines next to the words, and let a grown-up point as the squares are called."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing in pastels",
+      "body": [
+        "Pastel paper in lavender, mint or butter yellow gives cards a spring look with no extra ink. Use ink saver for a pale grid so the colors stay soft.",
+        "A sheet of clear contact paper over the finished card makes them wipe-clean, which is handy if jelly beans leave a sticky trail."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can I use Easter bingo at a school?",
+      "a": "Yes. Many teachers keep to the egg, flower and spring squares for a secular class party. Edit the list to leave out anything that does not fit your school."
+    },
+    {
+      "q": "How many players can share a game?",
+      "a": "The generator makes up to 30 different cards, so a full class can play at once. For larger events, print the same set twice and divide into two groups."
+    },
+    {
+      "q": "What age is this suitable for?",
+      "a": "Preschoolers can play a 3x3 version with picture help, and older children manage the 5x5 card on their own."
+    }
+  ]
+}

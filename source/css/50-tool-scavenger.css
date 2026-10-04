@@ -1,0 +1,6 @@
+/* 50-tool-scavenger: sheets are inline SVG from the shared drawing kit (the dk- and k* classes are shared with the chart tools). Owner: scavenger tool. */
+.dk-svg{display:block;width:100%;height:auto;overflow:hidden}
+.dk-svg .kd{font-family:var(--display);font-weight:600}
+.dk-svg .kr,.dk-svg .kb,.dk-svg .ki{font-family:Helvetica,Arial,"Liberation Sans",sans-serif}
+.dk-svg .kb{font-weight:700}
+.dk-svg .ki{font-style:italic}

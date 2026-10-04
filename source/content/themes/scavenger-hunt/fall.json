@@ -1,0 +1,121 @@
+{
+ "shortTitle": "Fall Scavenger Hunt",
+ "title": "Fall Scavenger Hunt, Free Printable Autumn Leaf Checklist",
+ "metaDescription": "A free printable fall scavenger hunt with 30 autumn finds, from red maple leaves to acorns and pumpkins. Print it for a leaf walk, orchard trip or school yard.",
+ "h1": "Fall Scavenger Hunt (Free Printable Autumn List)",
+ "intro": "Print a free fall scavenger hunt with 30 autumn sights, from crunchy leaves to pumpkins. It suits a leaf walk, an orchard visit or a crisp Saturday in the yard.",
+ "toolTitle": "Fall Scavenger Hunt",
+ "items": [
+  "A red leaf",
+  "A yellow leaf",
+  "An orange leaf | 2",
+  "A leaf with a stem",
+  "A crunchy pile of leaves",
+  "An acorn | 2",
+  "A pine cone",
+  "A pumpkin on a porch",
+  "A scarecrow or a straw bale | 2",
+  "A squirrel gathering food | 3",
+  "A bird flying south in a V | 3",
+  "A spider web in the morning",
+  "A feather",
+  "A seed that spins like a helicopter | 3",
+  "A bare branch",
+  "A sweater or a scarf",
+  "A mushroom. Look only | 2",
+  "A hay bale",
+  "An apple on a tree or in a basket | 2",
+  "A chrysanthemum",
+  "A bright berry. Look only",
+  "A thick tree trunk",
+  "A leaf bigger than your hand",
+  "A leaf smaller than your thumb",
+  "Smoke from a chimney",
+  "A pair of boots with leaves stuck to them",
+  "Something that smells like cinnamon",
+  "A harvest decoration",
+  "A fence covered in vines",
+  "A sunset or a low golden light | 3"
+ ],
+ "itemsNote": "All 30 items are ready above. Only the leaf colors depend on your trees, so adjust them for evergreens or a warmer climate.",
+ "defaultOptions": {
+  "layout": "checklist",
+  "names": true,
+  "timeLimit": false,
+  "copies": 4,
+  "shuffle": true,
+  "ageNote": "Ages 4 to 10"
+ },
+ "season": [
+  9,
+  10,
+  11
+ ],
+ "hubs": [
+  "road-trip-and-outdoor-games"
+ ],
+ "related": [
+  "bingo/fall",
+  "word-search/fall",
+  "scavenger-hunt/halloween",
+  "scavenger-hunt/nature-walk",
+  "scavenger-hunt/park",
+  "bingo/thanksgiving"
+ ],
+ "relatedHeading": "More fall printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to go on a fall hunt",
+   "body": [
+    "Autumn does the decorating for you: the colors, textures and smells are all outside. A fall hunt simply asks children to slow down and notice them, and a big pile of leaves is the reward at the end.",
+    "1. Pick a place with trees, such as a park, an orchard, a pumpkin patch or your own street, and a clear fall day.\n2. Hand out a sheet to each child, with pencils on a clipboard, a small bag or bucket and a jacket.\n3. Walk the route together. Children tick items as they spot them, and the leaf colors can be matched to real leaves on the ground.\n4. Collect fallen leaves only where it is allowed, and choose just one per child to keep.\n5. Press the leaves between heavy books at home and use them for a collage later."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Autumn variations",
+   "body": [
+    "* **Leaf color match.** Take paint swatches in autumn shades and find a leaf to match each one.\n* **Pumpkin patch version.** Add a few items to the list, such as the roundest pumpkin and the tallest one, and play at a farm.\n* **Sounds of fall.** Have children tick items they hear, like leaves crunching, wind in branches or geese calling."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for leaf lovers",
+   "body": [
+    "Go after a dry spell, so the leaves crunch and the paths are firm. Wet leaves are slippery.",
+    "Keep a paper bag for collected leaves. Plastic traps moisture and makes them mold quickly.",
+    "Bring a snack of apple slices or cider donuts for a mid-hunt reward."
+   ]
+  },
+  {
+   "role": "safety",
+   "heading": "Safety on fall outings",
+   "body": [
+    "Stay together and watch for slippery leaf piles on steps and paths, since wet leaves hide uneven ground. Look but do not taste wild berries, mushrooms and nuts you cannot identify, and leave nests and animal homes alone.",
+    "Dress in layers and bright colors during hunting season in areas where hunting is allowed, and ask local rangers about any trail closures."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for crisp weather",
+   "body": [
+    "Print on cardstock in warm paper colors such as cream or pale orange. Clear checklist layout works well when hands are chilly and gloves make small boxes hard to tick. Pencil works better than pens in damp weather, and a clear sleeve protects the sheet from drizzle."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Can I collect leaves on the hunt?",
+   "a": "Where it is allowed, a single leaf per child is a lovely souvenir. In parks and nature reserves, take only what has fallen on the ground, or just photograph the finds."
+  },
+  {
+   "q": "What if my trees are evergreens?",
+   "a": "Swap the leaf items for pine cones, needles, moss and bark, or take a trip to a park with deciduous trees."
+  },
+  {
+   "q": "Is this suitable for a school field day?",
+   "a": "Yes. Print a class set and send teams into the school grounds with an adult each. It is a simple way to link a science lesson on seasons to something real."
+  }
+ ]
+}

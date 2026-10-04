@@ -1,0 +1,103 @@
+{
+  "shortTitle": "Pond Animals Word Search",
+  "title": "Pond Animals Word Search, Free Printable Puzzle Sheets",
+  "metaDescription": "Print a free pond animals word search with 18 creatures, from dragonflies to newts. Pair it with a pond walk or a frog life cycle lesson for ages 6 to 9.",
+  "h1": "Pond Animals Word Search (Free Printable with Answer Key)",
+  "intro": "Print a free pond animals word search with 18 creatures that live in and around still water. Every puzzle can include an answer key, so it works for a quiet center or a family afternoon.",
+  "toolTitle": "Pond Animals Word Search",
+  "items": [
+    "Dragonfly",
+    "Newt",
+    "Beaver",
+    "Heron",
+    "Duckling",
+    "Minnow",
+    "Snail",
+    "Turtle",
+    "Otter",
+    "Water strider",
+    "Salamander",
+    "Mallard",
+    "Catfish",
+    "Muskrat",
+    "Leech",
+    "Toad",
+    "Bullfrog",
+    "Damselfly"
+  ],
+  "itemsNote": "These 18 animals are already loaded in the generator above. Swap out the ones your local pond does not have for creatures you have actually seen there.",
+  "defaultOptions": {
+    "size": 14,
+    "difficulty": "easy",
+    "case": "upper",
+    "showList": true,
+    "puzzles": 1,
+    "key": true
+  },
+  "season": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "hubs": [
+    "classroom-games"
+  ],
+  "related": [
+    "word-search/frog-life-cycle",
+    "bingo/frog-and-pond",
+    "word-search/insects",
+    "word-search/ocean-animals",
+    "word-search/spring",
+    "scavenger-hunt/nature-walk"
+  ],
+  "relatedHeading": "More pond and nature printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to use this word search before a pond visit",
+      "body": [
+        "Pond animals make a good warm-up for a field trip or a walk to a local park pond. The puzzle gives children a mental checklist, so they arrive already knowing what to look for.",
+        "1. Give each child a puzzle a day or two before the visit and let them find the creatures they have heard of first.\n2. Read the leftovers aloud together and ask which ones they think they will spot, and which are hiding underwater or in the reeds.\n3. At the pond, bring the sheet along on a clipboard and tick off any animal you actually see.\n4. Back at home or in class, circle the ones that were missing and talk about why. Some are shy, some only come out at dusk.",
+        "> Some words in this list are animals that share the water, like the heron, which wades along the edge hunting minnows. Pairing predator and prey words is a nice way to start a conversation about a food chain."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three ways to stretch the puzzle",
+      "body": [
+        "* **Habitat sort.** After solving, children copy the words into three columns: in the water, on the water, and near the water. Dragonflies, otters and herons all land in different spots.\n* **Mystery animal.** One child picks a word from the list and gives three clues without naming it. The others guess, then locate it in the grid.\n* **Pond mural.** Cut up the finished list, glue each animal onto a big paper pond, and add a drawing next to every word."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for teachers and parents",
+      "body": [
+        "Mix in a few animals children find odd, like the leech and the water strider. Kids are often more curious about those than about ducks, and the spelling sticks because they are interested.",
+        "If your pond is in a dry region, trade out the beaver and muskrat for animals you can actually find nearby. The editable list above makes that a one-minute job."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing tips",
+      "body": [
+        "Pond words run long, so a 14 by 14 grid gives long names like salamander and water strider room to fit without feeling crowded. For a summer outdoor session, laminate the sheet or slip it in a plastic sleeve and use a dry-erase marker so a splash does not ruin it.",
+        "Turn on the answer key if you plan to send the puzzle home, so parents can check quickly. Ink saver mode is a good choice when you are printing a whole class set."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "What age is this pond animals word search for?",
+      "a": "It suits roughly ages 6 to 10. Younger children do well with the easy setting, where words only run across and down, and older ones can try medium or hard with diagonal and backwards words."
+    },
+    {
+      "q": "Can I use it with a nature journal?",
+      "a": "Yes. Have children solve the puzzle first, then pick three animals from the list to sketch and describe in the journal. The word list on the printed page doubles as a spelling reference."
+    },
+    {
+      "q": "Why are some words made of two words, like water strider?",
+      "a": "Spaces are removed when the word is placed in the grid, so it appears as one run of letters. The printed list keeps the space so children can read the real name."
+    }
+  ]
+}

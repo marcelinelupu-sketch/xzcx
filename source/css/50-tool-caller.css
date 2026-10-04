@@ -1,0 +1,23 @@
+/* 50-tool-caller: online bingo caller with board and projector mode. Owner: caller tool. */
+[data-tool=caller]{display:block}
+.cl{display:grid;grid-template-columns:minmax(0,1fr);gap:1rem}
+@media (min-width:960px){.cl{grid-template-columns:minmax(300px,1fr) 1.4fr}.cl-set{grid-column:1/-1}}
+.cl-now{container-type:inline-size;display:grid;place-items:center;min-height:9.5rem;background:var(--pond);color:#fff;border-radius:14px;padding:.8rem;text-align:center}
+.cl-big{font:600 13vw/1 var(--display);font-size:min(5.5rem,calc(160cqi / var(--n,3)))}
+.cl-btns,.cl-last ol{display:flex;flex-wrap:wrap;gap:.5rem;margin:.8rem 0 .4rem;padding:0;list-style:none}
+.cl-btns .btn{flex:1 1 auto}
+.cl-next{flex-basis:100%!important;min-height:58px;font-size:1.25rem}
+.cl-last li{background:var(--lily-l);border-radius:9px;padding:0 .6em}
+.cl-last li:first-child,.cl-c.now{background:var(--sun)}
+.cl-board{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:3px;align-content:start}
+.cl-board[data-mode="75"]{grid-template-columns:repeat(16,minmax(0,1fr))}
+.cl-board[data-mode=words]{display:flex;flex-wrap:wrap}
+.cl-c,.cl-l{display:grid;place-items:center;min-height:2em;border-radius:6px;background:#F1F4EE;font-size:clamp(.7rem,2.4vw,1rem);padding:0 .15em;min-width:0}
+.cl-l{background:var(--pond);color:#fff}
+.cl-c.on{background:var(--lily);font-weight:700}
+.cl-c.now{outline:2px solid var(--ink)}
+[data-sm]:not([data-sm=words]) .cl-words,[data-sm]:not([data-sm="90"]) .cl-uk,.cl-proj .cl-set{display:none}
+.cl-proj{position:fixed;inset:0;z-index:50;margin:0;border-radius:0;overflow:auto;background:var(--ink);color:#fff}
+.cl-proj .cl{grid-template-columns:1fr}.cl-proj .cl-big{font-size:min(22vh,calc(160cqi / var(--n,3)))}.cl-proj .cl-now{overflow:hidden;max-height:60vh}.cl-proj .cl-last li{color:var(--ink)}
+@media (min-width:900px){.cl-proj .cl{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+.cl-proj .cl-c{font-size:2.4vh;min-height:4.4vh;color:var(--ink)}

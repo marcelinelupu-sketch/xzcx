@@ -1,0 +1,118 @@
+{
+  "shortTitle": "St. Patrick's Day Bingo",
+  "title": "Free Printable St. Patrick's Day Bingo Cards for Class",
+  "metaDescription": "Download free St. Patrick's Day bingo cards with 36 squares like shamrock, gold coin and rainbow. Print up to 30 unique cards for school, home or a green party.",
+  "h1": "St. Patrick's Day Bingo Cards (Free Printable Generator)",
+  "intro": "Print free St. Patrick's Day bingo cards in minutes. The 36 squares include shamrocks, rainbows and gold coins, and you can edit them to match your classroom or family party.",
+  "toolTitle": "St. Patrick's Day Bingo",
+  "items": [
+    "Shamrock",
+    "Four-leaf clover",
+    "Pot of gold",
+    "Gold coin",
+    "Rainbow",
+    "Leprechaun hat",
+    "Green beard",
+    "Green shirt",
+    "Green balloon",
+    "Green cupcake",
+    "Mint cookie",
+    "Irish soda bread",
+    "Potato",
+    "Cabbage",
+    "Harp",
+    "Bagpipes",
+    "Fiddle",
+    "Celtic knot",
+    "Ireland map",
+    "Irish flag",
+    "Horseshoe",
+    "Ladybug",
+    "Green glitter",
+    "Gold chocolate coin",
+    "Lucky charm",
+    "Wishing well",
+    "Rain boots",
+    "Puddle",
+    "Spring flower",
+    "Green paper chain",
+    "Jig dance",
+    "Parade",
+    "Leprechaun trap",
+    "Green lemonade",
+    "Clover cookie",
+    "Something gold"
+  ],
+  "itemsNote": "These squares stick to symbols, foods and music that people associate with the day. Add a family surname, a local parade spot or a favorite green snack to make the card your own.",
+  "defaultOptions": {
+    "mode": "word",
+    "grid": 5,
+    "free": true,
+    "freeText": "Lucky You",
+    "cards": 24,
+    "perPage": 2
+  },
+  "season": [
+    3
+  ],
+  "hubs": [
+    "party-games"
+  ],
+  "related": [
+    "word-search/st-patricks-day",
+    "bingo/easter",
+    "bingo/valentines-day",
+    "scavenger-hunt/spring-easter",
+    "bingo/summer",
+    "word-scramble/easter"
+  ],
+  "relatedHeading": "More St. Patrick's Day printables",
+  "sections": [
+    {
+      "role": "howTo",
+      "heading": "How to play on St. Patrick's Day",
+      "body": [
+        "Green day in a classroom or at home tends to start with excitement and end with sugar, so a quiet card game is a good middle act. Gold-wrapped chocolate coins or green paper squares make ideal markers.",
+        "1. Give each player a card and a small cup of markers such as coins, green beads or pennies.\n2. Call a square, wait a moment and let everyone search their card.\n3. Cover each match with a coin.\n4. Whoever completes a row calls out \"lucky!\" and takes a turn pulling the next call from the bowl.\n5. Play a second round with a different list order, since every winner gets a fresh chance."
+      ]
+    },
+    {
+      "role": "variations",
+      "heading": "Three lucky variations",
+      "body": [
+        "* **Rainbow row.** Each player needs a full line but must also have a marker of a different color on every square. It adds a color-matching challenge for young kids.\n* **Leprechaun hunt.** Hide small gold paper coins around the room. When children find one, they exchange it for a free call. It turns a seated game into a gentle search.\n* **Trivia twist.** Older students read a short fact about the symbol before covering it, such as what a shamrock looks like, which brings in a bit of reading practice."
+      ]
+    },
+    {
+      "role": "tips",
+      "heading": "Tips for school and home",
+      "body": [
+        "Keep the cultural side respectful. Present the squares as symbols and traditions, and avoid costumes or jokes that make fun of any group of people.",
+        "For a bigger crowd, split players into teams that share a single card, and let them whisper before they cover a square. This is gentler for children who get anxious about competing alone.",
+        "Reuse your green paper chain or leftover decorations as the prize table, and pick small items like pencils or bookmarks."
+      ]
+    },
+    {
+      "role": "printing",
+      "heading": "Printing the green card",
+      "body": [
+        "Plain white paper looks sharp with a green marker, so no colored stock is needed. If you want a full green sheet, choose a pale shade, because deep green swallows black text.",
+        "Switch on ink saver to keep the grid light, and use two cards per page if you plan to cover squares with real coins that need a bit more room."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this bingo only for St. Patrick's Day?",
+      "a": "The squares are themed for the day, but a clover, rainbow or gold coin works at any spring party. Swap in your own words to reuse the cards."
+    },
+    {
+      "q": "What can we use as markers?",
+      "a": "Gold chocolate coins, green pom-poms, dried peas or paper shamrocks all work. Choose a marker that matches the age of the players."
+    },
+    {
+      "q": "Can I add Irish words to the list?",
+      "a": "Yes. Edit the list in the box above the cards and type any words, such as a few simple greetings, then generate again."
+    }
+  ]
+}

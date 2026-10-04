@@ -1,0 +1,25 @@
+/* 50-tool-bingo: bingo cards, 90-ball strips and caller sheets. Owner: bingo tool. */
+[data-bm="75"] .x75,[data-bm="90"] .x90,[data-bm="30"] .x30,[data-bm]:not([data-bm=word]) .field:has(#fd-words){display:none}
+.bg-area{position:relative;flex:1}
+.bg-blk{position:absolute}
+.bg-cut{outline:1px dashed #BBB;outline-offset:.12in}
+.bg-lab{display:flex;justify-content:space-between;font-size:9.5pt;color:#666}
+.bg-lab b,.bg-h{font:600 14pt/1.1 var(--display);color:var(--a);margin:0}
+.bg-tl{font-size:9.5pt;font-weight:700;color:var(--a)}
+.bg-let{display:flex;background:var(--a);color:#fff;font-family:var(--display)}
+.bg-let span{flex:1;display:grid;place-items:center}
+.bg-let,.bg-grid{outline:2px solid var(--a)}
+.bg-grid{display:grid;font-weight:700}
+.bg-c{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;line-height:1.12;box-shadow:inset 0 0 0 .5pt var(--ln);overflow:hidden;font-family:var(--display)}
+.bg-c span{display:block}
+.bg-e,.bg-fr{background:var(--soft)}
+.ink .bg-frog{filter:grayscale(1)}
+.bg-hn>div:first-child{flex:1;display:flex;flex-direction:column;justify-content:center}
+.bg-nm{align-self:stretch;margin:0 .1in .05in;border-bottom:1px solid var(--ln);font:6.5pt/1.5 var(--font);color:#777;text-align:left}
+.bg-note{font-size:9pt;color:#666;margin:.04in 0 .1in}
+.bg-slips,.bg-ord{display:grid;margin:0;padding:0}
+.bg-slips div{display:flex;align-items:center;gap:.06in;padding:0 .06in;border:1px dashed var(--ln);margin:0 -1px -1px 0}
+.bg-slips i{flex:none;width:.13in;height:.13in;border:1px solid var(--a)}
+.bg-ord{grid-auto-flow:column;list-style:none}
+.bg-ord b{color:var(--a)}
+.bg-slips div,.bg-ord li{white-space:nowrap;overflow:hidden}

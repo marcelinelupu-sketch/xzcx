@@ -1,0 +1,104 @@
+{
+ "shortTitle": "Thanksgiving Word Scramble",
+ "title": "Thanksgiving Word Scramble, Free Printable for Family Tables",
+ "metaDescription": "A free Thanksgiving word scramble with 22 words about food, family and gratitude. Add a word bank for kids, print an answer key and keep the table busy.",
+ "h1": "Thanksgiving Word Scramble (Free Printable)",
+ "intro": "Print a free Thanksgiving word scramble with 22 words about the feast, the harvest and giving thanks. It keeps cousins busy at the kids' table while the last dishes come out.",
+ "toolTitle": "Thanksgiving Word Scramble",
+ "items": [
+  "Turkey",
+  "Stuffing",
+  "Gravy",
+  "Cranberry",
+  "Pumpkin pie",
+  "Harvest",
+  "Gratitude",
+  "Family",
+  "Cornucopia",
+  "Mashed potatoes",
+  "Pilgrim",
+  "Feast",
+  "Autumn",
+  "Parade",
+  "Football",
+  "Leftovers",
+  "Squash",
+  "Sweet potato",
+  "Dessert",
+  "Blessings",
+  "Grateful",
+  "Dinner roll"
+ ],
+ "itemsNote": "All 22 words are ready above. Add the names of everyone seated at the table, or the name of the dish only Aunt Carol makes.",
+ "defaultOptions": {
+  "puzzles": 1,
+  "case": "upper",
+  "hint": false,
+  "bank": true,
+  "key": true,
+  "shuffle": true
+ },
+ "season": [
+  11
+ ],
+ "hubs": [
+  "party-games",
+  "classroom-games"
+ ],
+ "related": [
+  "bingo/thanksgiving",
+  "word-search/thanksgiving",
+  "word-scramble/halloween",
+  "word-scramble/christmas",
+  "bingo/fall",
+  "word-search/fall"
+ ],
+ "relatedHeading": "More Thanksgiving printables",
+ "sections": [
+  {
+   "role": "howTo",
+   "heading": "How to use a Thanksgiving word scramble",
+   "body": [
+    "The hour before a big dinner is the hardest to fill. Guests are hungry, the kitchen is full and the children are looping around the house. A scramble sheet gives them a calm task they can do on the sofa.",
+    "1. Print one sheet per child, or one for each table if guests prefer to solve in groups.\n2. Put pencils in a mug and the sheets on a clipboard in the living room.\n3. Explain that two-word answers keep their space, which helps with phrases like pumpkin pie.\n4. Allow collaboration. Grandparents and teens are often glad to join in.\n5. Share answers while waiting for the turkey to rest."
+   ]
+  },
+  {
+   "role": "variations",
+   "heading": "Thanksgiving variations",
+   "body": [
+    "* **Gratitude round.** After each word is solved, the solver names one thing they are thankful for that begins with the same letter.\n* **Place card puzzle.** Print one scrambled word at each seat, and the guest has to solve it before sitting down.\n* **Classroom feast.** Before a school break, divide students into pilgrim and harvest teams and race to finish a sheet each."
+   ]
+  },
+  {
+   "role": "tips",
+   "heading": "Tips for the host",
+   "body": [
+    "Cut the sheets into halves for toddlers, and use only the shortest words. Older children can try the version without the word bank.",
+    "Keep one sheet to be filled out by adults, because they will want to try as well, and a little rivalry between generations makes dinner livelier.",
+    "The answer key is its own page, so tuck it under the cranberry sauce bowl until needed."
+   ]
+  },
+  {
+   "role": "printing",
+   "heading": "Printing for the holiday",
+   "body": [
+    "Print on cream or kraft-colored paper to give the sheets an autumn look. If you are printing several for guests, set the number of puzzles to match, so each person has a different arrangement. Standard Letter works for most American tables, and A4 is available for anyone printing abroad."
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "What is a good age for this Thanksgiving word scramble?",
+   "a": "With the word bank, from about age 7. Without it, ages 10 to adult will enjoy the challenge."
+  },
+  {
+   "q": "How many copies should I print for dinner?",
+   "a": "Print one per child and a few for adults. Choose up to 10 puzzles for variety, and each will have a different mix of letters."
+  },
+  {
+   "q": "Can we use it in a classroom?",
+   "a": "Yes. It works well in the last days before the break. Add a few vocabulary words your class has been studying for a bit of reinforcement."
+  }
+ ]
+}
