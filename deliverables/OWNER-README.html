@@ -145,7 +145,9 @@ footer{color:var(--muted);font-size:.9rem;margin-top:30px}
 <h3>b) Upload and extract the zip</h3>
 <ol class="clicks">
 <li>Open <span class="path">Files → File Manager</span> and double-click <span class="path">public_html</span>.</li>
-<li>If you see <code>default.php</code> or <code>index.php</code> (a Hostinger placeholder), right-click it and choose <span class="path">Delete</span>.</li>
+<li><strong>Back up first.</strong> Select everything in public_html, choose <span class="path">Compress</span>, make a zip, then right-click that zip and <span class="path">Download</span> it to your computer. Delete the backup zip from the server afterwards. If anything goes wrong, you can put the old files back from it.</li>
+<li><strong>Do not touch the <code>lessoncorner</code> folder.</strong> The new site has nothing with that name, so extracting the zip will not change anything inside it. The site settings also keep that folder out of Google and out of ads, and stop browsers from caching its files for long.</li>
+<li>If you see <code>default.php</code> or <code>index.php</code> directly in public_html (a Hostinger placeholder), right-click it and choose <span class="path">Delete</span>. Only delete it in public_html itself, never inside <code>lessoncorner</code>.</li>
 <li>Click the <span class="path">Upload</span> icon (an arrow pointing up) and choose <code>frogsdream-public_html.zip</code>.</li>
 <li>When the upload finishes, right-click the zip file and choose <span class="path">Extract</span>. When it asks for a folder, leave it as the current folder (public_html) and confirm. If it asks about existing files, choose to overwrite.</li>
 <li>Right-click the zip file again and <span class="path">Delete</span> it. It is not needed on the server.</li>
@@ -155,6 +157,7 @@ footer{color:var(--muted);font-size:.9rem;margin-top:30px}
 <ul class="checks">
 <li><input type="checkbox" id="c1a"><label for="c1a">SSL shows Active.</label></li>
 <li><input type="checkbox" id="c1b"><label for="c1b">Zip uploaded, extracted into public_html, and the zip deleted.</label></li>
+<li><input type="checkbox" id="c1lc"><label for="c1lc">A Lesson Corner link that students use still opens the right file.</label></li>
 <li><input type="checkbox" id="c1c"><label for="c1c"><a href="https://frogsdream.com" target="_blank" rel="noopener">https://frogsdream.com</a> opens and shows the frog home page.</label></li>
 <li><input type="checkbox" id="c1d"><label for="c1d"><a href="https://frogsdream.com/bingo/baby-shower/" target="_blank" rel="noopener">https://frogsdream.com/bingo/baby-shower/</a> opens, and the Generate button makes bingo cards.</label></li>
 <li><input type="checkbox" id="c1e"><label for="c1e"><code>http://www.frogsdream.com</code> automatically changes to <code>https://frogsdream.com/</code>.</label></li>

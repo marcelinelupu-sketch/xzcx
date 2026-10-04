@@ -1120,8 +1120,10 @@ def wrap_text(d, text, font, maxw):
 
 
 HTACCESS = """# Frog's Dream: Apache settings for Hostinger
-Options -Indexes
-DirectoryIndex index.html
+# /lessoncorner/ holds the owner's separately managed lesson files. The rules below
+# leave it alone: no forced folder listing setting, index.php still works there,
+# no long caching and no index.html rewrites, and it is kept out of search engines.
+DirectoryIndex index.html index.php
 ErrorDocument 404 /404.html
 
 <IfModule mod_rewrite.c>
@@ -1131,6 +1133,7 @@ ErrorDocument 404 /404.html
   RewriteCond %{HTTP_HOST} ^www\\. [NC]
   RewriteRule ^ https://frogsdream.com%{REQUEST_URI} [R=301,L]
   # /some/page/index.html to /some/page/ so each page has one URL
+  RewriteCond %{REQUEST_URI} !^/lessoncorner/ [NC]
   RewriteCond %{THE_REQUEST} \\s/(.*/)?index\\.html[\\s?] [NC]
   RewriteRule ^ /%1 [R=301,L]
 </IfModule>
@@ -1166,7 +1169,14 @@ ErrorDocument 404 /404.html
   ExpiresByType application/json "access plus 1 hour"
 </IfModule>
 
+<IfModule mod_setenvif.c>
+  SetEnvIfNoCase Request_URI "^/lessoncorner/" LESSONCORNER
+</IfModule>
+
 <IfModule mod_headers.c>
+  Header always set X-Robots-Tag "noindex, nofollow" env=LESSONCORNER
+  Header always set Cache-Control "no-cache" env=LESSONCORNER
+  Header always unset Expires env=LESSONCORNER
   Header always set X-Content-Type-Options "nosniff"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   <FilesMatch "config\\.js$">
