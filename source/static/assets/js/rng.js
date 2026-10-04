@@ -1,4 +1,4 @@
-/* Frog's Dream rng.js: seeded random numbers so a seed always rebuilds the same sheets.
+/* frogsdream rng.js: seeded random numbers so a seed always rebuilds the same sheets.
    FD.rng.create(seed) -> rand() in [0,1); FD.rng.shuffle(arr, rand) -> new shuffled array. */
 (function (FD) {
   'use strict';

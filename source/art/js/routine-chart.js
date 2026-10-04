@@ -1,4 +1,4 @@
-/* Frog's Dream bedtime routine chart (SPEC 3.5, TOOL-CONTRACT.md).
+/* frogsdream bedtime routine chart (SPEC 3.5, TOOL-CONTRACT.md).
    Options (tools/routine.controls.html): layout strip|grid|weekly, palette mint|sky|peach|lavender|bw, name, times, mascot.
    Each line is one step: "Brush teeth", "Brush teeth | 7:30 PM", or with a picture name, "Teeth time | brush-teeth | 7:30 PM".
    A line ending in a colon ("Morning:") starts a group heading. Pictures come from the icon library in the kit below. */

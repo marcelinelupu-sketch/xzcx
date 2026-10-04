@@ -1,4 +1,4 @@
-/* Frog's Dream bingo card generator. Modes: word bingo (default), 75-ball numbers, 90-ball UK strips, numbers 1 to 30.
+/* frogsdream bingo card generator. Modes: word bingo (default), 75-ball numbers, 90-ball UK strips, numbers 1 to 30.
    Options (tools/bingo.controls.html): mode, grid, free, freeText, cards, perPage, repeats, caller, names.
    Word list lines may be "square | call" (addition facts: the square shows the answer, the caller sheet shows the problem). */
 (function (FD) {

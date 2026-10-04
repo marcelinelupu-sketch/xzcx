@@ -1,4 +1,4 @@
-/* Shared helpers for the Frog's Dream browser QA scripts.
+/* Shared helpers for the frogsdream browser QA scripts.
    Serves a built site folder over HTTP and launches headless Chromium (Playwright). */
 const http = require('http'), fs = require('fs'), path = require('path'), zlib = require('zlib');
 const PW = process.env.PW_PATH || '/opt/node22/lib/node_modules/playwright';

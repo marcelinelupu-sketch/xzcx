@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Static QA for a built Frog's Dream site (SPEC section 13 and related rules).
+"""Static QA for a built frogsdream site (SPEC section 13 and related rules).
 
   python3 source/qa/qa_static.py [SITE_DIR] [--json OUT.json]
 
@@ -26,6 +26,14 @@ import fdlib  # noqa: E402
 BASE = "https://frogsdream.com"
 BANNED = {"—": "U+2014 em dash", "–": "U+2013 en dash"}
 BANNED_ENT = re.compile(r"&(mdash|ndash);|&#(8212|8211);|&#x(2014|2013);", re.I)
+# Old brand spellings. The brand is "frogsdream": one word, all lowercase. Matches Frog's Dream with any apostrophe
+# (straight, curly, HTML entity or JS escape) and Frogs Dream in any case, plus a whole-word frogsdream in any case
+# other than all lowercase (Frogsdream, FrogsDream, FROGSDREAM). Lowercase "frogsdream" and frogsdream.com pass.
+OLD_BRAND = re.compile(
+    r"(?i:frog(?:['\u2019`]|&#0*39;|&#x0*27;|&apos;|&rsquo;|\\u2019|\\')s[\s\u00a0]*dream)"
+    r"|(?i:\bfrogs(?:[\s\u00a0]|&nbsp;)+dream\b)"
+    r"|\b(?!frogsdream\b)(?i:frogsdream)\b"
+)
 YEAR = re.compile(r"(?<!\d)(19|20)\d\d(?!\d)")
 TEXT_EXT = {".html", ".css", ".js", ".json", ".txt", ".xml", ".svg", ".webmanifest", ".htaccess", ".md"}
 SHARED_JS = ["config.js", "site.js", "rng.js", "print.js", "pdf.js", "toolkit.js"]
@@ -401,7 +409,7 @@ class QA:
             for k in ("viewport", "theme-color", "charset", "og:title", "og:description", "og:url", "og:image", "og:type", "og:site_name", "twitter:card"):
                 if not d.meta.get(k):
                     probs.append(f"{p}: missing meta {k}")
-            if d.meta.get("og:site_name", [""])[0] != "Frog's Dream":
+            if d.meta.get("og:site_name", [""])[0] != "frogsdream":
                 probs.append(f"{p}: og:site_name")
             if (d.meta.get("og:url") or [""])[0] != BASE + p:
                 probs.append(f"{p}: og:url mismatch")
@@ -430,7 +438,7 @@ class QA:
                 if not credit:
                     probs.append(f"{p}: no visible credit link with target=_blank rel=noopener")
                 txt = " ".join("".join(d.text).split())
-                if "Free tool by Frog's Dream" not in txt:
+                if "Free tool by frogsdream" not in txt:
                     probs.append(f"{p}: credit text missing")
                 if d.h1 > 1:
                     probs.append(f"{p}: {d.h1} H1")
@@ -475,7 +483,7 @@ class QA:
                 if "WebSite" not in types or "Organization" not in types:
                     probs.append("home: needs WebSite and Organization")
                 for o in types.get("Organization", []):
-                    if o.get("name") != "Frog's Dream" or not o.get("url") or not o.get("logo"):
+                    if o.get("name") != "frogsdream" or not o.get("url") or not o.get("logo"):
                         probs.append("home: Organization needs name, url, logo")
             if kind in ("tool", "theme"):
                 wa = types.get("WebApplication", [])
@@ -510,7 +518,7 @@ class QA:
                 for a in art:
                     if not a.get("headline") or not re.fullmatch(r"\d{4}-\d\d-\d\d.*", str(a.get("datePublished", ""))):
                         probs.append(f"{p}: Article headline/datePublished")
-                    if (a.get("author") or {}).get("@type") != "Organization" or (a.get("author") or {}).get("name") != "Frog's Dream" or not a.get("publisher"):
+                    if (a.get("author") or {}).get("@type") != "Organization" or (a.get("author") or {}).get("name") != "frogsdream" or not a.get("publisher"):
                         probs.append(f"{p}: Article author/publisher")
                     if len(a.get("headline", "")) > 110:
                         probs.append(f"{p}: headline over 110 chars")
@@ -657,6 +665,22 @@ class QA:
                         if re.search(r"\S - \S", line) and not line.startswith("- "):
                             probs.append(f"{f.relative_to(SRC)} {path}: spaced hyphen dash")
         self.check("No em/en dashes (U+2014, U+2013) or spaced-hyphen dashes in public_html and source content", probs, f"{len(files)} files scanned")
+
+        # 10b. brand spelling: always "frogsdream" (one word, lowercase). Old variants fail the build.
+        probs, n = [], 0
+        for r in (site, SRC / "content"):
+            for f in r.rglob("*"):
+                if not f.is_file() or not (f.suffix in TEXT_EXT or f.name == ".htaccess"):
+                    continue
+                try:
+                    t = f.read_text("utf-8")
+                except UnicodeDecodeError:
+                    continue
+                n += 1
+                for m in OLD_BRAND.finditer(t):
+                    ln = t.count("\n", 0, m.start()) + 1
+                    probs.append(f"{f}: line {ln}: old brand spelling {m.group(0)!r} (write frogsdream)")
+        self.check("Brand is written frogsdream (no Frog's Dream, Frogs Dream or capitalized Frogsdream)", probs, f"{n} files scanned")
 
         # 11. years in titles and URLs
         probs = []

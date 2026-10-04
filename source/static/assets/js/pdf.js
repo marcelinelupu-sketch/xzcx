@@ -1,4 +1,4 @@
-/* Frog's Dream pdf.js: lazy jsPDF loader plus a small drawing helper for multi-page Letter/A4 PDFs.
+/* frogsdream pdf.js: lazy jsPDF loader plus a small drawing helper for multi-page Letter/A4 PDFs.
    Usage (inside a tool's pdf hook):
      var P = await FD.pdf.create({ paper: 'letter', ink: false, stamp: true, title: 'My puzzle' });
      P.header('Christmas Word Scramble', 'Unscramble each word');   // returns y below the header
@@ -132,11 +132,16 @@
           var n = doc.getNumberOfPages();
           for (var i = 1; i <= n; i++) {
             doc.setPage(i);
-            P.font('body', 8); doc.setTextColor(128, 128, 128);
-            doc.text('Made free at frogsdream.com', P.W / 2, P.H - M - 4, { align: 'center' });
+            /* Credit line with the two-color wordmark: "frogs" pond green, "dream" dusk purple (grey in ink saver). */
+            P.font('body', 8);
+            var cy = P.H - M - 4, cx = P.W / 2 - doc.getTextWidth('Made free at frogsdream.com') / 2;
+            [['Made free at ', [128, 128, 128]], ['frogs', P.ink ? [128, 128, 128] : [47, 143, 91]],
+              ['dream', P.ink ? [128, 128, 128] : [59, 58, 107]], ['.com', [128, 128, 128]]].forEach(function (s) {
+              doc.setTextColor(s[1][0], s[1][1], s[1][2]); doc.text(s[0], cx, cy); cx += doc.getTextWidth(s[0]);
+            });
             if (P.stamp) P.frog(P.W - M - 26, P.H - M - 26, 26);
           }
-          doc.setProperties({ title: clean(opts.title || "Frog's Dream printable"), creator: "Frog's Dream (frogsdream.com)" });
+          doc.setProperties({ title: clean(opts.title || "frogsdream printable"), creator: "frogsdream.com" });
           return P;
         },
         save: function (name) { P.finish(); doc.save(name || 'frogsdream.pdf'); },

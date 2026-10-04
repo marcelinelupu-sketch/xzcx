@@ -1,10 +1,10 @@
 {
   "shortTitle": "Embed our tools",
   "title": "Embed a Free Bingo or Word Search Maker on Your Website",
-  "metaDescription": "Copy-and-paste embed codes for the Frog's Dream bingo card generator, word search maker and word scramble maker. Free for blogs, class pages and school sites.",
+  "metaDescription": "Copy-and-paste embed codes for the frogsdream bingo card generator, word search maker and word scramble maker. Free for blogs, class pages and school sites.",
   "h1": "Embed Our Free Tools on Your Site",
   "mascot": "pencil",
-  "intro": "If you run a teaching blog, a class page, a library site or a party planning site, you can put a working Frog's Dream generator right on your own page. Your readers make and print their sheets without leaving your site, and it costs nothing.",
+  "intro": "If you run a teaching blog, a class page, a library site or a party planning site, you can put a working frogsdream generator right on your own page. Your readers make and print their sheets without leaving your site, and it costs nothing.",
   "sections": [
     {
       "heading": "How to embed a tool",
@@ -17,21 +17,21 @@
       "heading": "Bingo card generator",
       "body": [
         "Word bingo, 75-ball cards, 90-ball UK tickets and 1 to 30 number cards, with a caller sheet. See the [live embedded version](/embed/bingo/).",
-        "<pre class=\"embed-code\" style=\"white-space:pre-wrap;overflow-wrap:anywhere;background:#fff;border:1px solid #cfd8d2;border-radius:10px;padding:12px;font-size:.85rem\"><code>&lt;iframe src=\"https://frogsdream.com/embed/bingo/\" width=\"100%\" height=\"900\" style=\"border:0;max-width:100%\" title=\"Bingo Card Generator by Frog's Dream\" loading=\"lazy\"&gt;&lt;/iframe&gt;\n&lt;p&gt;&lt;a href=\"https://frogsdream.com/bingo-card-generator/\"&gt;Bingo Card Generator by Frog's Dream&lt;/a&gt;&lt;/p&gt;</code></pre>"
+        "<pre class=\"embed-code\" style=\"white-space:pre-wrap;overflow-wrap:anywhere;background:#fff;border:1px solid #cfd8d2;border-radius:10px;padding:12px;font-size:.85rem\"><code>&lt;iframe src=\"https://frogsdream.com/embed/bingo/\" width=\"100%\" height=\"900\" style=\"border:0;max-width:100%\" title=\"Bingo Card Generator by frogsdream\" loading=\"lazy\"&gt;&lt;/iframe&gt;\n&lt;p&gt;&lt;a href=\"https://frogsdream.com/bingo-card-generator/\"&gt;Bingo Card Generator by frogsdream&lt;/a&gt;&lt;/p&gt;</code></pre>"
       ]
     },
     {
       "heading": "Word search maker",
       "body": [
         "Grids from 10 x 10 to 20 x 20, three difficulty levels and answer keys. See the [live embedded version](/embed/word-search/).",
-        "<pre class=\"embed-code\" style=\"white-space:pre-wrap;overflow-wrap:anywhere;background:#fff;border:1px solid #cfd8d2;border-radius:10px;padding:12px;font-size:.85rem\"><code>&lt;iframe src=\"https://frogsdream.com/embed/word-search/\" width=\"100%\" height=\"900\" style=\"border:0;max-width:100%\" title=\"Word Search Maker by Frog's Dream\" loading=\"lazy\"&gt;&lt;/iframe&gt;\n&lt;p&gt;&lt;a href=\"https://frogsdream.com/word-search-maker/\"&gt;Word Search Maker by Frog's Dream&lt;/a&gt;&lt;/p&gt;</code></pre>"
+        "<pre class=\"embed-code\" style=\"white-space:pre-wrap;overflow-wrap:anywhere;background:#fff;border:1px solid #cfd8d2;border-radius:10px;padding:12px;font-size:.85rem\"><code>&lt;iframe src=\"https://frogsdream.com/embed/word-search/\" width=\"100%\" height=\"900\" style=\"border:0;max-width:100%\" title=\"Word Search Maker by frogsdream\" loading=\"lazy\"&gt;&lt;/iframe&gt;\n&lt;p&gt;&lt;a href=\"https://frogsdream.com/word-search-maker/\"&gt;Word Search Maker by frogsdream&lt;/a&gt;&lt;/p&gt;</code></pre>"
       ]
     },
     {
       "heading": "Word scramble maker",
       "body": [
         "Scrambled word puzzles with optional hints, a word bank and an answer key. See the [live embedded version](/embed/word-scramble/).",
-        "<pre class=\"embed-code\" style=\"white-space:pre-wrap;overflow-wrap:anywhere;background:#fff;border:1px solid #cfd8d2;border-radius:10px;padding:12px;font-size:.85rem\"><code>&lt;iframe src=\"https://frogsdream.com/embed/word-scramble/\" width=\"100%\" height=\"900\" style=\"border:0;max-width:100%\" title=\"Word Scramble Maker by Frog's Dream\" loading=\"lazy\"&gt;&lt;/iframe&gt;\n&lt;p&gt;&lt;a href=\"https://frogsdream.com/word-scramble-maker/\"&gt;Word Scramble Maker by Frog's Dream&lt;/a&gt;&lt;/p&gt;</code></pre>"
+        "<pre class=\"embed-code\" style=\"white-space:pre-wrap;overflow-wrap:anywhere;background:#fff;border:1px solid #cfd8d2;border-radius:10px;padding:12px;font-size:.85rem\"><code>&lt;iframe src=\"https://frogsdream.com/embed/word-scramble/\" width=\"100%\" height=\"900\" style=\"border:0;max-width:100%\" title=\"Word Scramble Maker by frogsdream\" loading=\"lazy\"&gt;&lt;/iframe&gt;\n&lt;p&gt;&lt;a href=\"https://frogsdream.com/word-scramble-maker/\"&gt;Word Scramble Maker by frogsdream&lt;/a&gt;&lt;/p&gt;</code></pre>"
       ]
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "heading": "Privacy for your readers",
-      "body": "The embedded tool runs in your reader's browser. The words they type are not sent to us. Like any web page, loading the iframe means our host receives a normal server request, and the tool may save the reader's last list in their own browser so it is still there next time. Our [privacy policy](/privacy/) explains both. If your site needs to list third-party content in its own privacy notice, you can name Frog's Dream (frogsdream.com) as an embedded tool."
+      "body": "The embedded tool runs in your reader's browser. The words they type are not sent to us. Like any web page, loading the iframe means our host receives a normal server request, and the tool may save the reader's last list in their own browser so it is still there next time. Our [privacy policy](/privacy/) explains both. If your site needs to list third-party content in its own privacy notice, you can name frogsdream (frogsdream.com) as an embedded tool."
     }
   ],
   "faq": [

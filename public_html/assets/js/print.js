@@ -1,4 +1,4 @@
-/* Frog's Dream print.js: paper sizes, @page injection and preview scaling. */
+/* frogsdream print.js: paper sizes, @page injection and preview scaling. */
 (function (FD) {
   'use strict';
   var PAPER = {

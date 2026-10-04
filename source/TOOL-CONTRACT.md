@@ -1,4 +1,4 @@
-# Frog's Dream tool plugin contract
+# frogsdream tool plugin contract
 
 Every generator (bingo, word search, scavenger hunt, word scramble, bedtime chart, reward chart) is a
 plugin that plugs into one shared shell. The word scramble maker is the reference implementation:

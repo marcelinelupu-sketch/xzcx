@@ -468,7 +468,7 @@ def main():
         if "/* <kit> */\n/* </kit> */" not in code:
             raise SystemExit(f"{src}: missing the empty <kit> placeholder")
         code = code.replace("/* <kit> */\n/* </kit> */", body)
-        head = (f"/* Frog's Dream {fname}: generated and minified by source/art/make_icons.py from source/art/js/{fname}\n"
+        head = (f"/* frogsdream {fname}: generated and minified by source/art/make_icons.py from source/art/js/{fname}\n"
                 "   and source/art/drawkit.js. Edit those files, then run: python3 source/art/make_icons.py */\n")
         out = head + minify_js(code).strip() + "\n"
         out = re.sub(r"[^\x00-\x7f]", lambda m: "\\u%04x" % ord(m.group()), out)

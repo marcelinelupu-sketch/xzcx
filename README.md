@@ -1,6 +1,8 @@
-# Frog's Dream Printables (frogsdream.com)
+# frogsdream Printables (frogsdream.com)
 
 Free printable bingo cards, word searches, scavenger hunts, word scrambles, bedtime and reward charts, and an online bingo caller. The site is plain static HTML, CSS and vanilla JavaScript for Hostinger shared hosting. There is no server code, no database and no build step on the server.
+
+The brand is written **frogsdream**: one word, always lowercase, even at the start of a sentence. On the site, in the logo, the OG images and the Mega Pack PDFs it is drawn two-colored ("frogs" green, "dream" purple); `build.py` colors it in page text automatically, so content files just say `frogsdream`.
 
 The full specification is in `source/SPEC.md`. The owner overrides at its top always win (for example: no em dashes or en dashes in any human-readable text).
 
@@ -10,7 +12,7 @@ The full specification is in `source/SPEC.md`. The owner overrides at its top al
 |---|---|
 | `public_html/` | The generated website. Its contents are uploaded to Hostinger as they are. Do not edit by hand; rebuild instead. |
 | `deliverables/frogsdream-public_html.zip` | The contents of `public_html/` at the zip root (including `.htaccess`), ready to extract inside Hostinger's `public_html`. |
-| `deliverables/megapack/` | The paid Mega Pack: the PDF folder and `Frogs-Dream-Mega-Pack.zip`. Never put this inside `public_html/`. |
+| `deliverables/megapack/` | The paid Mega Pack: the PDF folder and `frogsdream-Mega-Pack.zip`. Never put this inside `public_html/`. |
 | `deliverables/OWNER-README.html` | The owner's plain-English setup checklist (hosting, Search Console, Bing, Lemon Squeezy, AdSense, taxes, expectations). |
 | `source/build.py` | Static site generator. Reads content JSON, CSS and static files and writes `public_html/`. |
 | `source/fdlib.py` | Shared helpers for the build and the validator (markup, paths, content loading). |

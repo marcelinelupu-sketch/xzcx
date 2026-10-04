@@ -1,4 +1,4 @@
-/* Frog's Dream reward chart maker (SPEC 3.6, TOOL-CONTRACT.md).
+/* frogsdream reward chart maker (SPEC 3.6, TOOL-CONTRACT.md).
    Options (tools/reward.controls.html): days 7|14|30, mark sticker|tick, goal, name, palette, weekStart mon|sun.
    Each line is one task (row): "Make my bed" or "Make my bed | make-bed" to choose the picture.
    7 days show weekday names; 14 days print as two weeks; 30 days print as three blocks of 10 numbered days. */

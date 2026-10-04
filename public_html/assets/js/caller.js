@@ -1,4 +1,4 @@
-/* Frog's Dream bingo caller (custom shell, no toolkit). 75-ball, 90-ball and custom word games with a big display,
+/* frogsdream bingo caller (custom shell, no toolkit). 75-ball, 90-ball and custom word games with a big display,
    called board, last 5 calls, undo, auto-call, optional speech (speechSynthesis), projector mode and a saved game
    (localStorage fd:caller). Markup lives in tools/caller.controls.html. */
 (function (FD) {

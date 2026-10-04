@@ -1,16 +1,16 @@
 {
   "shortTitle": "Mega Pack",
-  "title": "Frog's Dream Mega Pack: Ready-Made Printable Games for $7",
-  "metaDescription": "Every bingo theme, word search, word scramble and scavenger hunt from Frog's Dream as ready-to-print PDFs in Letter and A4, with answer keys. One payment of $7.",
-  "h1": "The Frog's Dream Mega Pack",
+  "title": "frogsdream Mega Pack: Ready-Made Printable Games for $7",
+  "metaDescription": "Every bingo theme, word search, word scramble and scavenger hunt from frogsdream as ready-to-print PDFs in Letter and A4, with answer keys. One payment of $7.",
+  "h1": "The frogsdream Mega Pack",
   "mascot": "celebrating",
   "intro": [
     "Everything on this site is free to make and print, and it will stay that way. The Mega Pack is for the times when you would rather not generate anything at all: one download with every theme already laid out as print-ready PDFs, in both US Letter and A4, with answer keys and caller sheets included.",
     "<!-- OWNER: the $7 price below and in the Product data in this page's head must match PACK_PRICE in assets/js/config.js. Edit both if the price changes. -->\n<p class=\"btns\"><a class=\"btn btn-primary\" data-pack-buy data-label=\"Get the Mega Pack for $7\">Coming soon</a></p>\n<p>One payment of <strong><span data-pack-price>$7</span></strong>. No subscription.</p>"
   ],
   "product": {
-    "name": "Frog's Dream Mega Pack",
-    "description": "Print-ready PDFs of every Frog's Dream bingo theme, word search, word scramble and scavenger hunt, plus bedtime and reward charts, in US Letter and A4 with answer keys and caller sheets.",
+    "name": "frogsdream Mega Pack",
+    "description": "Print-ready PDFs of every frogsdream bingo theme, word search, word scramble and scavenger hunt, plus bedtime and reward charts, in US Letter and A4 with answer keys and caller sheets.",
     "price": "7.00",
     "images": ["/assets/img/premium/sample-bingo.png"]
   },

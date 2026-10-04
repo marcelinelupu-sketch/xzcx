@@ -1,4 +1,4 @@
-/* Frog's Dream word scramble maker (reference tool for TOOL-CONTRACT.md).
+/* frogsdream word scramble maker (reference tool for TOOL-CONTRACT.md).
    Options (names in tools/scramble.controls.html): puzzles 1-10, case upper|lower, hint, bank, key, shuffle. */
 (function (FD) {
   'use strict';

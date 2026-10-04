@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Frog's Dream static site generator.
+"""frogsdream static site generator.
 
   python3 source/build.py                     build into ./public_html
   python3 source/build.py --out /tmp/site     build somewhere else
@@ -46,7 +46,7 @@ LIST_HEADINGS = {
 }
 TOOL_NOUNS = {"bingo": "Bingo", "word-search": "Word searches", "scavenger-hunt": "Scavenger hunts", "word-scramble": "Word scrambles",
               "bedtime-routine-chart": "Bedtime charts", "reward-chart-maker": "Reward charts"}
-WHY_DEFAULT = "Why Frog's Dream"
+WHY_DEFAULT = "Why frogsdream"
 MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
 SECTION_GUIDES = {
     "bingo": ["/guides/how-to-play-bingo-rules/", "/guides/bingo-patterns/"],
@@ -291,10 +291,10 @@ class Builder:
             '<link rel="manifest" href="/site.webmanifest">',
         ]
         if canonical:
-            ogt = p.data.get("ogTitle") or title.replace(" | Frog's Dream", "")
+            ogt = p.data.get("ogTitle") or title.replace(" | frogsdream", "")
             tags += [
                 f'<meta property="og:type" content="{"article" if p.kind == "guide" else "website"}">',
-                f'<meta property="og:site_name" content="Frog\'s Dream">',
+                f'<meta property="og:site_name" content="frogsdream">',
                 f'<meta property="og:title" content="{E(ogt)}">',
                 f'<meta property="og:description" content="{E(desc)}">',
                 f'<meta property="og:url" content="{E(canonical)}">',
@@ -324,7 +324,7 @@ class Builder:
         return (
             '<a class="skip" href="#main">Skip to content</a>'
             '<header class="site-header"><div class="wrap hdr">'
-            '<a class="brand" href="/"><img src="/assets/img/frog-mascot.svg" width="46" height="46" alt="">Frog\'s Dream</a>'
+            '<a class="brand" href="/"><img src="/assets/img/frog-mascot.svg" width="46" height="46" alt="">frogsdream</a>'
             '<input type="checkbox" id="nav-t" class="nav-t" aria-label="Show menu">'
             '<label for="nav-t" class="nav-btn" aria-hidden="true"><i></i>Menu</label>'
             f'<ul class="nav" id="nav">{"".join(nav)}</ul>'
@@ -365,9 +365,9 @@ class Builder:
             '<div class="wrap"><div class="ft-grid">'
             f'<div><h2>Make it</h2><ul>{tools}</ul></div>'
             f'<div><h2>Browse</h2><ul>{hubs}</ul></div>'
-            f'<div><h2>Frog\'s Dream</h2><ul>{about}</ul></div>'
+            f'<div><h2>frogsdream</h2><ul>{about}</ul></div>'
             "</div>"
-            f'<div class="ft-base"><p>&copy; <span data-year>{year}</span> Frog\'s Dream</p>'
+            f'<div class="ft-base"><p>&copy; <span data-year>{year}</span> frogsdream</p>'
             "<p>Everything here is free to print for home, classroom and party use.</p></div>"
             "</div></footer>"
         )
@@ -542,7 +542,7 @@ class Builder:
             "description": desc, "applicationCategory": tool.get("category", "EducationalApplication"),
             "operatingSystem": "Any (web browser)", "isAccessibleForFree": True, "inLanguage": "en",
             "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
-            "publisher": {"@type": "Organization", "name": "Frog's Dream", "url": self.base + "/"},
+            "publisher": {"@type": "Organization", "name": "frogsdream", "url": self.base + "/"},
         }
 
     def tool_scripts(self, tool):
@@ -629,14 +629,14 @@ class Builder:
 
     def render_embed(self, p: Page):
         d, tool = p.data, self.cat.tools[p.slug]
-        credit = f'<a href="{self.url(tool["path"])}" target="_blank" rel="noopener">Free tool by Frog\'s Dream at frogsdream.com</a>'
+        credit = f'<a href="{self.url(tool["path"])}" target="_blank" rel="noopener">Free tool by frogsdream.com</a>'
         body = (
             f'<h1 class="vh">{E(tool["name"])}</h1>'
             + f'<p class="embed-credit embed-top">{credit}</p>'
             + self.tool_shell(p, tool, d.get("items", []), d.get("defaultOptions"), d.get("toolTitle") or tool["name"], theme=False, embed=True)
             + f'<p class="embed-credit">{credit}</p>'
         )
-        return self.page_shell(p, f"{tool['name']} (embedded) | Frog's Dream", d.get("metaDescription", ""), body, [], None,
+        return self.page_shell(p, f"{tool['name']} (embedded) | frogsdream", d.get("metaDescription", ""), body, [], None,
                                self.tool_scripts(tool), body_cls="embed has-tool", robots="noindex,follow",
                                canonical="", chrome=False)  # noindex page: no canonical (mixed signals otherwise)
 
@@ -731,8 +731,8 @@ class Builder:
             "@context": "https://schema.org", "@type": "Article", "headline": d["h1"], "description": d["metaDescription"],
             "url": self.url(p.path), "mainEntityOfPage": self.url(p.path), "image": self.og_for(p),
             "datePublished": d.get("datePublished") or self.date, "dateModified": self.date, "inLanguage": "en",
-            "author": {"@type": "Organization", "name": "Frog's Dream", "url": self.base + "/"},
-            "publisher": {"@type": "Organization", "name": "Frog's Dream", "url": self.base + "/",
+            "author": {"@type": "Organization", "name": "frogsdream", "url": self.base + "/"},
+            "publisher": {"@type": "Organization", "name": "frogsdream", "url": self.base + "/",
                           "logo": {"@type": "ImageObject", "url": self.base + "/assets/img/logo.png"}},
         }]
         if d.get("faq"):
@@ -760,7 +760,7 @@ class Builder:
             ld.append({
                 "@context": "https://schema.org", "@type": "Product", "name": pr["name"], "description": pr.get("description", d["metaDescription"]),
                 "image": [self.url(i) if i.startswith("/") else i for i in pr.get("images", [])] or [self.base + "/assets/img/logo.png"],
-                "brand": {"@type": "Brand", "name": "Frog's Dream"},
+                "brand": {"@type": "Brand", "name": "frogsdream"},
                 # OWNER: when PACK_URL is set in config.js, change PreOrder to InStock (see the comment in premium/index.html).
                 "offers": {"@type": "Offer", "price": pr.get("price", "7.00"), "priceCurrency": "USD", "url": self.url(p.path),
                            "availability": "https://schema.org/" + pr.get("availability", "PreOrder")},
@@ -801,7 +801,7 @@ class Builder:
         body = (
             f'<section class="hero"><div><h1>{fdlib.inline(d["h1"])}</h1><p class="lede">{fdlib.inline(d.get("subhead", ""))}</p>'
             f'{fdlib.markup_to_html(d.get("intro", ""))}{cta}</div>'
-            '<img src="/assets/img/frog-waving.svg" width="280" height="280" alt="Frog\'s Dream mascot waving hello" fetchpriority="high"></section>'
+            '<img src="/assets/img/frog-waving.svg" width="280" height="280" alt="frogsdream mascot waving hello" fetchpriority="high"></section>'
             + (f'<section id="tools"><h2>{E(d.get("toolsHeading") or "Pick a tool")}</h2><ul class="grid">{"".join(cards)}</ul></section>' if cards else "")
             + self.in_season()
             + (f'<section id="popular"><h2>{E(d.get("popularHeading") or "Popular themes")}</h2>{popular}</section>' if popular else "")
@@ -810,8 +810,8 @@ class Builder:
             + self.prose_sections(d.get("sections"), no_ads=True)
         )
         ld = [
-            {"@context": "https://schema.org", "@type": "WebSite", "name": "Frog's Dream", "url": self.base + "/", "inLanguage": "en"},
-            {"@context": "https://schema.org", "@type": "Organization", "name": "Frog's Dream", "url": self.base + "/", "logo": self.base + "/assets/img/logo.png"},
+            {"@context": "https://schema.org", "@type": "WebSite", "name": "frogsdream", "url": self.base + "/", "inLanguage": "en"},
+            {"@context": "https://schema.org", "@type": "Organization", "name": "frogsdream", "url": self.base + "/", "logo": self.base + "/assets/img/logo.png"},
         ]
         return self.page_shell(p, d["title"], d["metaDescription"], body, ld, None)
 
@@ -828,7 +828,7 @@ class Builder:
             + (f"<h2>Browse printables</h2>{hubs}" if hubs else "")
         )
         p.data["noAds"] = True  # no ads on an error page (AdSense valuable inventory policy)
-        return self.page_shell(p, "Page Not Found | Frog's Dream", "", body, [], None, robots="noindex", canonical="")
+        return self.page_shell(p, "Page Not Found | frogsdream", "", body, [], None, robots="noindex", canonical="")
 
     # ------------------------------------------------------------ write everything
     def render_all(self):
@@ -843,10 +843,11 @@ class Builder:
             except Exception as e:  # noqa: BLE001
                 self.error(f"{path}: render failed: {type(e).__name__}: {e}")
                 continue
+            p.html = brand_html(p.html)
             target = self.out / path.strip("/") / "index.html" if path != "/" else self.out / "index.html"
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(p.html, encoding="utf-8")
-        (self.out / "404.html").write_text(self.render_404(), encoding="utf-8")
+        (self.out / "404.html").write_text(brand_html(self.render_404()), encoding="utf-8")
 
     def write_root_files(self):
         out = self.out
@@ -866,7 +867,7 @@ class Builder:
         self.indexnow_key = key
         (out / ".htaccess").write_text(HTACCESS, encoding="utf-8")
         manifest = {
-            "name": "Frog's Dream Printables", "short_name": "Frog's Dream", "start_url": "/", "scope": "/", "display": "standalone",
+            "name": "frogsdream Printables", "short_name": "frogsdream", "start_url": "/", "scope": "/", "display": "standalone",
             "background_color": "#FFF9EC", "theme_color": self.site["themeColor"], "lang": "en",
             "description": "Free printable bingo cards, word searches, scavenger hunts and charts.",
             "icons": [{"src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png"},
@@ -1058,6 +1059,49 @@ def minify_css(css):
     return css.strip()
 
 
+# ------------------------------------------------------------ brand wordmark
+# The brand is always written "frogsdream" (one word, lowercase). In visible page text it is drawn
+# two-colored: "frogs" green and "dream" purple (CSS in 10-chrome.css). brand_html() wraps each
+# occurrence in text nodes only. Attributes, <title>, <script> (JSON-LD and page data), <style>,
+# <textarea>, <option>, code samples (<pre>, <code>) and inline SVG are left exactly as written.
+BRAND = "frogsdream"
+BRAND_RE = re.compile(r"(?<![\w@/.-])frogsdream(?![\w-])")
+BRAND_MARKUP = fdlib.BRAND_MARKUP
+_BRAND_RAW = ("script", "style", "textarea", "title")  # raw text elements: skipped up to their end tag
+_BRAND_SKIP = {"option", "pre", "code", "kbd", "samp", "svg", "select"}
+_BRAND_TOKEN = re.compile(r"<!--.*?-->|<!\[CDATA\[.*?\]\]>|<!(?:[^>]*)>|<(/?)([a-zA-Z][a-zA-Z0-9-]*)((?:[^>\"']|\"[^\"]*\"|'[^']*')*)>", re.S)
+
+
+def brand_html(h: str) -> str:
+    """Wrap every visible "frogsdream" in the two-color wordmark spans (text nodes only)."""
+    out, i, skip = [], 0, 0
+    low = h.lower()
+    while True:
+        m = _BRAND_TOKEN.search(h, i)
+        text = h[i:m.start() if m else len(h)]
+        if text:
+            out.append(text if skip else BRAND_RE.sub(BRAND_MARKUP, text))
+        if not m:
+            break
+        out.append(m.group(0))
+        i = m.end()
+        name = (m.group(2) or "").lower()
+        if not name:
+            continue
+        closing = bool(m.group(1))
+        if name in _BRAND_RAW and not closing:
+            end = low.find("</" + name, i)
+            end = len(h) if end < 0 else end
+            out.append(h[i:end])
+            i = end
+        elif name in _BRAND_SKIP:
+            if closing:
+                skip = max(0, skip - 1)
+            elif not m.group(3).rstrip().endswith("/"):
+                skip += 1
+    return "".join(out)
+
+
 def pad_square(img, pad):
     w, h = img.size
     side = int(max(w, h) * (1 + 2 * pad))
@@ -1084,8 +1128,9 @@ def make_og(path, title, sub, pose):
         src = ART / "frog-mascot.png"
     frog = Image.open(src).convert("RGBA").resize((430, 430), Image.LANCZOS)
     im.alpha_composite(frog, (735, 120))
-    brand = ImageFont.truetype(str(FONT_TTF), 40)
-    d.text((80, 70), "Frog's Dream", font=brand, fill=(33, 104, 63, 255))
+    brand = ImageFont.truetype(str(FONT_TTF), 44)  # two-color wordmark: "frogs" pond green, "dream" dusk purple
+    d.text((80, 66), "frogs", font=brand, fill=(47, 143, 91, 255))
+    d.text((80 + d.textlength("frogs", font=brand), 66), "dream", font=brand, fill=(59, 58, 107, 255))
     size = 76
     while size > 40:
         f = ImageFont.truetype(str(FONT_TTF), size)
@@ -1119,7 +1164,7 @@ def wrap_text(d, text, font, maxw):
     return lines
 
 
-HTACCESS = """# Frog's Dream: Apache settings for Hostinger
+HTACCESS = """# frogsdream: Apache settings for Hostinger
 # /lessoncorner/ holds the owner's separately managed lesson files. The rules below
 # leave it alone: no forced folder listing setting, index.php still works there,
 # no long caching and no index.html rewrites, and it is kept out of search engines.

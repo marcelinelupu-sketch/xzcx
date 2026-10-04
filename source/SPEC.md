@@ -1,13 +1,14 @@
 # OWNER OVERRIDES (take precedence over everything below)
 
-1. NO EM DASHES OR EN DASHES ANYWHERE in any human-readable text the site, PDFs, README or docs contain. That means the characters U+2014 and U+2013 are banned, and so is a spaced hyphen used as a dash (" - "). This includes titles, meta descriptions, headings, prose, UI labels, alt text, JSON-LD strings, PDF text. Do NOT mechanically swap them for colons either. Write sentences the way they would sound spoken aloud, plain and natural. For page titles use natural phrasing, e.g. "Baby Shower Bingo Cards, Free Printable and Customizable" or "Free Printable Baby Shower Bingo Cards". A trailing " | Frog's Dream" brand suffix is allowed where it fits in 60 chars. Hyphens inside compound words (e.g. "90-ball", "free-to-print") are fine. The QA must grep the built output and source content for U+2014 and U+2013 and fail on any hit.
+1. NO EM DASHES OR EN DASHES ANYWHERE in any human-readable text the site, PDFs, README or docs contain. That means the characters U+2014 and U+2013 are banned, and so is a spaced hyphen used as a dash (" - "). This includes titles, meta descriptions, headings, prose, UI labels, alt text, JSON-LD strings, PDF text. Do NOT mechanically swap them for colons either. Write sentences the way they would sound spoken aloud, plain and natural. For page titles use natural phrasing, e.g. "Baby Shower Bingo Cards, Free Printable and Customizable" or "Free Printable Baby Shower Bingo Cards". A trailing " | frogsdream" brand suffix is allowed where it fits in 60 chars. Hyphens inside compound words (e.g. "90-ball", "free-to-print") are fine. The QA must grep the built output and source content for U+2014 and U+2013 and fail on any hit.
 2. About page honesty: say content was written with AI assistance and reviewed for accuracy. Do NOT claim a person checked it.
-3. Keep the "Frog's Dream" brand voice warm, clear and natural. US English.
+3. Keep the "frogsdream" brand voice warm, clear and natural. US English.
 4. Do not commit to git. The orchestrator commits.
+5. The brand is written "frogsdream": one word, always lowercase, even at the start of a sentence (like the owner's other brand, "rhymeart"). Never "Frog's Dream", "Frogsdream", "FrogsDream" or "Frogs Dream". In visual places (page text, header and footer, logo, OG images, PDF headers and footers) it is drawn two-colored, "frogs" in pond green #2F8F5B and "dream" in dusk purple #3B3A6B; build.py does this for page text automatically, with the slightly darker --pond #287D50 for small text so it passes WCAG AA on cream. Plain-text places (titles, meta tags, JSON-LD, alt text, PDF metadata, docs) use plain "frogsdream". The product is the "frogsdream Mega Pack".
 
 # BUILD SPEC
 
-FROG'S DREAM PRINTABLES: BUILD SPEC (static files for Hostinger public_html)
+frogsdream printables: build spec (static files for Hostinger public_html)
 
 0. GLOBAL RULES (builders follow literally)
 - Deliverable: a folder `public_html/` the owner uploads as-is. index.html is the home page.
@@ -18,7 +19,7 @@ FROG'S DREAM PRINTABLES: BUILD SPEC (static files for Hostinger public_html)
 - Audience: adults (teachers, parents, party hosts, ESL teachers). Copy addresses adults, never children directly, so the site is not 'child-directed' for ad purposes.
 - Honesty rules:
   - No fake reviews, testimonials, user counts, 'as seen in' badges, or invented author personas or credentials.
-  - The About page states plainly that Frog's Dream is a small independent project, with content written with AI assistance and checked for accuracy.
+  - The About page states plainly that frogsdream is a small independent project, with content written with AI assistance and checked for accuracy.
   - No fabricated statistics. Cite sources for any factual claim (sleep durations: AAP/AASM; frog life cycle: a reputable source).
 - Trademarks: no themed pages or words using protected brands or characters (Super Bowl, Disney, Pokémon, Harry Potter, Taboo, Pictionary, Wordle, etc.). Use generic names ('Big Game', 'football party').
 - Anti-thin-content rules (critical for indexing and AdSense):
@@ -135,7 +136,7 @@ Hub: /guides/
 Other pages:
 - /premium/ — Mega Pack sales page
 - /embed/ — instructions plus copy-paste embed codes
-- /embed/bingo/ and /embed/word-search/ — minimal iframe versions, meta robots noindex,follow, with a visible 'Free tool by Frog's Dream – frogsdream.com' link (rel=noopener, target=_blank)
+- /embed/bingo/ and /embed/word-search/ are minimal iframe versions with meta robots noindex,follow and a visible 'Free tool by frogsdream.com' link (rel=noopener, target=_blank)
 - /about/, /contact/, /privacy/, /terms/, /disclosure/ (ads and affiliate disclosure)
 
 Total: about 155 indexable pages.
@@ -145,14 +146,14 @@ Total: about 155 indexable pages.
 - <title>: unique, 50-60 characters.
 - Meta description: unique, 140-160 characters.
 - <link rel=canonical> with the absolute URL.
-- Open Graph tags (og:title, og:description, og:url, og:image absolute, og:type, og:site_name 'Frog's Dream') and twitter:card summary_large_image.
-- Header: logo (mascot plus 'Frog's Dream' wordmark) linking to /. Nav: Bingo, Word Search, Scavenger Hunts, Charts, Bingo Caller, Guides. Mobile: CSS-only disclosure menu.
+- Open Graph tags (og:title, og:description, og:url, og:image absolute, og:type, og:site_name 'frogsdream') and twitter:card summary_large_image.
+- Header: logo (mascot plus 'frogsdream' wordmark) linking to /. Nav: Bingo, Word Search, Scavenger Hunts, Charts, Bingo Caller, Guides. Mobile: CSS-only disclosure menu.
 - Breadcrumb trail (visible) plus BreadcrumbList JSON-LD on all non-home pages.
 - Footer:
   - tool links, hub links
   - About, Contact, Privacy, Terms, Disclosure
   - 'Privacy choices' link — calls googlefc.showRevocationMessage() if available, else links to /privacy/#choices
-  - '© <year> Frog's Dream'
+  - '© <year> frogsdream'
   - 'Everything here is free to print for home, classroom and party use.'
 - Print CSS (@media print): hide header, footer, nav, ads, buttons and prose. Print only the generated sheets, each with the bottom credit line 'Made free at frogsdream.com' in 8pt grey. Page breaks between sheets. @page size set from the paper toggle (letter or A4) and margins 0.4in.
 - 'In season now' block (home and hubs): static HTML list of all seasonal hubs. site.js reorders it by current month so the next upcoming holiday is first. It still works without JS.
@@ -165,7 +166,7 @@ Common to all generators:
 - Save the last word list per tool in localStorage, wrapped in try/catch. Never required.
 - Free-use cap: up to 30 bingo cards per generation, which is plenty for most groups and honestly stated. Under the generator: 'Need 40 ready-made cards for every theme, answer keys and caller sheets in one download? Get the Mega Pack' → /premium/. Hide this line if config.PACK_URL is empty.
 - Credit footer on every printed and PDF page: 'Made free at frogsdream.com'.
-- An 'Embed this tool' button opens a modal with iframe code: <iframe src="https://frogsdream.com/embed/bingo/" ...> plus a credit <a href="https://frogsdream.com/bingo-card-generator/">Bingo card generator by Frog's Dream</a>.
+- An 'Embed this tool' button opens a modal with iframe code: <iframe src="https://frogsdream.com/embed/bingo/" ...> plus a credit <a href="https://frogsdream.com/bingo-card-generator/">Bingo card generator by frogsdream</a>.
 - Ads never appear inside the tool container, never within 150px of any button, and never print.
 
 3.1 Bingo card generator (bingo.js)
@@ -245,16 +246,16 @@ Common to all generators:
 - 'In season now' block.
 - Popular themes grid (12 links: baby shower bingo, christmas bingo, halloween word search, road trip bingo, esl animals bingo, sight words bingo, bridal shower bingo, nature walk scavenger hunt, frog life cycle word search, potty training chart, toddler bedtime chart, 90-ball tickets).
 - Hubs.
-- Short 'Why Frog's Dream' section (truthful: free, no sign-up, works on phones and Chromebooks, Letter and A4, prints in black-and-white).
+- Short 'Why frogsdream' section (truthful: free, no sign-up, works on phones and Chromebooks, Letter and A4, prints in black-and-white).
 - 300-500 words total prose.
-- JSON-LD: WebSite (name, url) and Organization (name 'Frog's Dream', url, logo).
+- JSON-LD: WebSite (name, url) and Organization (name 'frogsdream', url, logo).
 
 6. STRUCTURED DATA (JSON-LD, valid, no fake ratings)
 - Tool pages and themed pages: WebApplication { name, url, applicationCategory: 'EducationalApplication' (or 'GameApplication' for the caller), operatingSystem: 'Any (web browser)', offers {price: '0', priceCurrency: 'USD'}, isAccessibleForFree: true }. NO aggregateRating.
 - FAQPage on pages with an FAQ section (Google shows FAQ rich results only for authoritative gov/health sites, but the markup is harmless and helps AI search). The text must exactly match the visible FAQ.
 - BreadcrumbList everywhere except home.
 - Hubs: CollectionPage plus ItemList of linked pages.
-- Guides: Article (headline, datePublished = build date, author {Organization 'Frog's Dream'}, publisher).
+- Guides: Article (headline, datePublished = build date, author {Organization 'frogsdream'}, publisher).
 - /premium/: Product with offers (price from config shown statically as '$7'; builders put PRICE text in HTML; owner must keep it in sync — note this on the page source). No reviews.
 - Validate all with a JSON-LD linter script at build.
 
@@ -329,9 +330,9 @@ window.FD_CONFIG = {
   - All 10 word scrambles with keys.
   - All 18 scavenger hunts.
   - 6 bedtime and reward chart designs in 4 colours.
-- One PDF per theme and paper size, organised in folders. Each page carries the footer 'Frog's Dream Mega Pack – frogsdream.com – personal & classroom use'.
+- One PDF per theme and paper size, organised in folders. Each page carries the footer 'frogsdream Mega Pack, frogsdream.com, personal and classroom use'.
 - Also a 1-page 'Start here' PDF.
-- ZIP the result: Frogs-Dream-Mega-Pack.zip (Lemon Squeezy max file size is generous; keep under 200MB, ideally under 60MB by using vector PDFs).
+- ZIP the result: frogsdream-Mega-Pack.zip (Lemon Squeezy max file size is generous; keep under 200MB, ideally under 60MB by using vector PDFs).
 - Builders must open-check a random 10% of PDFs: render to PNG and inspect for overflow, missing words, or repeated cards.
 
 11. LEGAL / TRUST PAGES (real content, not lorem)
@@ -406,7 +407,7 @@ TIMING REALITY
 3. In File Manager, open privacy/index.html and replace the one marked placeholder [OWNER FULL NAME] with your name. EU privacy law requires naming who runs the site; no photo or address is needed. (about 2 min)
 4. Google Search Console: add a 'Domain' property for frogsdream.com, copy the TXT record into Hostinger DNS Zone, verify, submit sitemap.xml, and request indexing for the home page and the main tool pages listed in OWNER-README. (about 15 min)
 5. Bing Webmaster Tools: sign in with Google, import the site from Search Console, then paste the IndexNow ping link from OWNER-README into your browser once. (about 5 min)
-6. Lemon Squeezy: sign up, complete identity verification and payout setup (mBank IBAN or PayPal), create a product 'Frog's Dream Mega Pack' at $7, upload Frogs-Dream-Mega-Pack.zip from the deliverables folder (NOT public_html), and copy the product's checkout link into PACK_URL in public_html/assets/js/config.js. If Lemon Squeezy refuses you, use Gumroad the same way. (about 20-30 min, plus their review wait)
+6. Lemon Squeezy: sign up, complete identity verification and payout setup (mBank IBAN or PayPal), create a product 'frogsdream Mega Pack' at $7, upload frogsdream-Mega-Pack.zip from the deliverables folder (NOT public_html), and copy the product's checkout link into PACK_URL in public_html/assets/js/config.js. If Lemon Squeezy refuses you, use Gumroad the same way. (about 20-30 min, plus their review wait)
 7. About 4-8 weeks later, once Search Console shows 20 or more indexed pages: apply to Google AdSense with frogsdream.com. Paste your ca-pub ID into ADSENSE_CLIENT in config.js, and replace the line in ads.txt with the exact line AdSense shows you. Choose 'ads.txt snippet' as the verification method. (about 15 min)
 8. Once AdSense approves: turn on Auto ads, and if accidental clicks appear, switch off vignette and side-rail formats. Under Privacy & messaging, create and publish the European regulations (GDPR) consent message (3-option). Fill in the W-8BEN tax form (Poland as tax residence; check the treaty withholding rate it shows). Add your mBank account in PLN and confirm the small test deposit. Later, enter the PIN from the letter Google posts to you. If you are rejected for 'low value content', wait 2-4 weeks and reapply; you can also ask Claude to expand pages. (about 30 min spread over weeks)
 9. Optional, one time: submit to AlternativeTo, SaaSHub and Product Hunt (as a free tool), and make one honest post in teacher subreddits that allow it. (about 30-45 min)
@@ -433,4 +434,4 @@ TIMING REALITY
   - Nothing in the site goes stale: no prices, no rates, no dated claims. Small-print policy changes from Google or Lemon Squeezy may occasionally need a reaction.
 - **Legal and tax.** GDPR requires the privacy policy to name the operator (his name, not his face). Income is taxable in Poland, and a W-8BEN is needed for AdSense. I am not a tax adviser.
 - **Content honesty.** The site openly states it was built with AI assistance. No fake reviews, personas, ratings or trademarked themes are used. This avoids deception and policy risk, at the cost of 'trust badges' that some competitors fake.
-- **Brand fit.** 'Frog's Dream' is a playful brand, not a keyword. That is fine for printables, but the obvious sleep/dream fit is left for a possible phase-2 /sleep/ section (the runner-up concept). It should be added only after the printables site has earned authority, so the site's topical focus stays clear.
+- **Brand fit.** 'frogsdream' is a playful brand, not a keyword. That is fine for printables, but the obvious sleep/dream fit is left for a possible phase-2 /sleep/ section (the runner-up concept). It should be added only after the printables site has earned authority, so the site's topical focus stays clear.

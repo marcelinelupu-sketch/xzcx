@@ -1,7 +1,7 @@
 {
   "shortTitle": "Privacy",
-  "title": "Privacy Policy for Frog's Dream Printables and Tools",
-  "metaDescription": "How Frog's Dream handles data. No accounts, browser-only storage, server logs, Google AdSense with consent, Lemon Squeezy purchases and your GDPR rights.",
+  "title": "Privacy Policy for frogsdream Printables and Tools",
+  "metaDescription": "How frogsdream handles data. No accounts, browser-only storage, server logs, Google AdSense with consent, Lemon Squeezy purchases and your GDPR rights.",
   "h1": "Privacy Policy",
   "noAds": true,
   "intro": [
@@ -12,7 +12,7 @@
     {
       "heading": "Who is responsible for your data",
       "body": [
-        "<p>The data controller for this website is <!-- OWNER: replace [OWNER FULL NAME] below with your full legal name --><strong>[OWNER FULL NAME]</strong>, Poland, who runs Frog's Dream as a small independent project.</p>\n<p>Contact for anything about privacy: <span data-email>hello at frogsdream dot com</span></p>",
+        "<p>The data controller for this website is <!-- OWNER: replace [OWNER FULL NAME] below with your full legal name --><strong>[OWNER FULL NAME]</strong>, Poland, who runs frogsdream as a small independent project.</p>\n<p>Contact for anything about privacy: <span data-email>hello at frogsdream dot com</span></p>",
         "We have not appointed a data protection officer, because the law does not require one for a site of this size. Write to the email address above and your message comes straight to the person responsible."
       ]
     },
@@ -87,7 +87,7 @@
     },
     {
       "heading": "Children",
-      "body": "Frog's Dream is made for adults: teachers, parents and party hosts who print games and charts for the children in their care. The site is not directed at children, and we don't knowingly collect personal data from anyone under 16. If you believe a child has sent us personal data, please email us and we will delete it."
+      "body": "frogsdream is made for adults: teachers, parents and party hosts who print games and charts for the children in their care. The site is not directed at children, and we don't knowingly collect personal data from anyone under 16. If you believe a child has sent us personal data, please email us and we will delete it."
     },
     {
       "heading": "Security",

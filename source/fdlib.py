@@ -1,4 +1,4 @@
-"""Shared helpers for build.py and validate_content.py (Frog's Dream).
+"""Shared helpers for build.py and validate_content.py (frogsdream).
 
 Holds: catalog loading, page-kind detection, the FD inline markup renderer,
 plain-text extraction, word counting and every content validation rule.
@@ -217,7 +217,12 @@ def markup_to_html(body, allow_html: bool = True) -> str:
 TAG = re.compile(r"<[^>]+>")
 
 
+# The two-color brand wordmark build.py puts around every visible "frogsdream" (see build.brand_html).
+BRAND_MARKUP = '<span class="fd-brand"><span class="fd-b1">frogs</span><span class="fd-b2">dream</span></span>'
+
+
 def html_to_text(h: str) -> str:
+    h = h.replace(BRAND_MARKUP, "frogsdream")  # the wordmark spans are one word, not three
     h = re.sub(r"<(script|style)\b.*?</\1>", " ", h, flags=re.S | re.I)
     h = TAG.sub(" ", h)
     return re.sub(r"\s+", " ", html.unescape(h)).strip()

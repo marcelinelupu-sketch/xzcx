@@ -1,4 +1,4 @@
-# Frog's Dream: Apache settings for Hostinger
+# frogsdream: Apache settings for Hostinger
 # /lessoncorner/ holds the owner's separately managed lesson files. The rules below
 # leave it alone: no forced folder listing setting, index.php still works there,
 # no long caching and no index.html rewrites, and it is kept out of search engines.

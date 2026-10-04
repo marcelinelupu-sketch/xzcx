@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Frog's Dream full QA run (SPEC section 13). From the repo root:
+# frogsdream full QA run (SPEC section 13). From the repo root:
 #   bash source/qa/run_all.sh            build public_html, run every check, zip for upload if all pass
 #   QUICK=1 bash source/qa/run_all.sh    skip the slow bingo uniqueness test and the all-themes browser pass
 #   OUT=/tmp/site bash source/qa/run_all.sh   build and test somewhere else (no zip)

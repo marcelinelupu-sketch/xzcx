@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Build the Frog's Dream Mega Pack (SPEC section 10).
+"""Build the frogsdream Mega Pack (SPEC section 10).
 
 Reads the same content JSON the website uses (source/content/) and writes print-ready vector PDFs
-with embedded fonts to deliverables/megapack/Frogs-Dream-Mega-Pack/, then zips the folder to
-deliverables/megapack/Frogs-Dream-Mega-Pack.zip. It is safe to re-run: the pack folder is rebuilt
+with embedded fonts to deliverables/megapack/frogsdream-Mega-Pack/, then zips the folder to
+deliverables/megapack/frogsdream-Mega-Pack.zip. It is safe to re-run: the pack folder is rebuilt
 from scratch and every random choice is seeded from the theme slug, so the output is stable.
 
 Usage:
@@ -45,10 +45,10 @@ ROOT = SRC.parent
 CONTENT = SRC / "content"
 IMG = SRC / "static" / "assets" / "img"
 OUT_BASE = ROOT / "deliverables" / "megapack"
-PACK = "Frogs-Dream-Mega-Pack"
+PACK = "frogsdream-Mega-Pack"
 SAMPLES_DIR = IMG / "premium"
 
-FOOTER = "Frog's Dream Mega Pack, frogsdream.com, personal and classroom use"
+FOOTER = "frogsdream Mega Pack, frogsdream.com, personal and classroom use"  # drawn with the two-color wordmark
 
 # Brand palette (SPEC section 12)
 POND = HexColor("#2F8F5B")
@@ -119,6 +119,22 @@ def put(c, x, y, s, font="FD", size=11, color=INK, align="left", cs=0):
     else:
         c.drawString(x, y, s)
     return w
+
+
+def put_brand(c, x, y, s, font="FD", size=11, color=INK, frogs=POND, dream=DUSK):
+    """Draw one left-aligned line where every "frogsdream" is the two-color wordmark ("frogs" green, "dream" purple)."""
+    chk(s)
+    c.setFont(font, size)
+    parts = re.split(r"(frogsdream)", s)
+    for part in parts:
+        if not part:
+            continue
+        segs = [("frogs", frogs), ("dream", dream)] if part == "frogsdream" else [(part, color)]
+        for t, col in segs:
+            c.setFillColor(col)
+            c.drawString(x, y, t)
+            x += sw(t, font, size)
+    return x
 
 
 def wrap(s, font, size, maxw):
@@ -234,10 +250,10 @@ class Doc:
         self.c = canvas.Canvas(str(path), pagesize=pagesize, pageCompression=1, invariant=1,
                                     initialFontName="FD", initialFontSize=11)
         self.c.setTitle(chk(title))
-        self.c.setAuthor("Frog's Dream")
+        self.c.setAuthor("frogsdream")
         self.c.setSubject(chk(subject or FOOTER))
         self.c.setCreator("frogsdream.com")
-        self.c.setKeywords("Frog's Dream, printable, Mega Pack")
+        self.c.setKeywords("frogsdream, printable, Mega Pack")
         self.set_size(pagesize)
         self.pages = 0
 
@@ -249,7 +265,7 @@ class Doc:
         c = self.c
         y = 20
         mascot(c, "mascot", M - 1, y - 4, 13)
-        put(c, M + 15, y, FOOTER, "FD", 7.5, GREY)
+        put_brand(c, M + 15, y, FOOTER, "FD", 7.5, GREY)
         if label:
             put(c, self.W - M, y, label, "FD", 7.5, GREY, "right")
         c.showPage()
@@ -1482,7 +1498,7 @@ def build_chart(section, slug, kind, title, out_dirs, counts):
 # START HERE
 # ---------------------------------------------------------------------------------------------
 def build_start_here(path, counts):
-    d = Doc(path, letter, "Start here: Frog's Dream Mega Pack")
+    d = Doc(path, letter, "Start here: frogsdream Mega Pack")
     c = d.c
     W, H = d.W, d.H
     # banner
@@ -1490,7 +1506,7 @@ def build_start_here(path, counts):
     c.roundRect(M, H - M - 120, W - 2 * M, 120, 18, stroke=0, fill=1)
     mascot(c, "waving", W - M - 120, H - M - 116, 112)
     put(c, M + 22, H - M - 42, "Welcome to the", "FD", 16, POND)
-    put(c, M + 22, H - M - 76, "Frog's Dream Mega Pack", "FDB", 30, INK)
+    put_brand(c, M + 22, H - M - 76, "frogsdream Mega Pack", "FDB", 30, INK)
     put(c, M + 22, H - M - 100, "Thank you for your support. Here is how to find your way around.", "FD", 11.5, GREY)
     y = H - M - 140
 

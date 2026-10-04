@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Writes the hand-coded Frog's Dream mascot SVGs (5 poses), favicon.svg and logo.svg.
+"""Writes the hand-coded frogsdream mascot SVGs (5 poses), favicon.svg and logo.svg.
 
 Run once after editing: python3 source/art/make_mascots.py
 Outputs to source/static/assets/img/ (copied to public_html by build.py) and
@@ -82,7 +82,7 @@ def svg(body, label, vb="0 0 200 200"):
 
 def build():
     poses = {}
-    poses["frog-mascot"] = svg(frog(eyes_open(), SMILE, FRONT_FEET), "Frog's Dream mascot, a smiling green frog")
+    poses["frog-mascot"] = svg(frog(eyes_open(), SMILE, FRONT_FEET), "frogsdream mascot, a smiling green frog")
 
     zz = (
         f'<path d="M26 26h14l-14 14h14M8 8h9l-9 9h9" fill="none" stroke="{DUSK}" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>'
@@ -145,14 +145,16 @@ def build():
         f'<circle cx="59" cy="65" r="12" fill="{INK}"/><circle cx="147" cy="65" r="12" fill="{INK}"/>'
         f'<path d="M72 124q28 22 56 0" fill="none" stroke="{INK}" stroke-width="9" stroke-linecap="round"/>'
     )
-    fav = svg(head, "Frog's Dream", "0 20 200 160")
+    fav = svg(head, "frogsdream", "0 20 200 160")
     (ROOT / "static" / "favicon.svg").write_text(fav, encoding="utf-8")
 
     logo = (
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 200" role="img" aria-label="Frog\'s Dream">'
-        "<title>Frog's Dream</title>"
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" role="img" aria-label="frogsdream">'
+        "<title>frogsdream</title>"
         + frog(eyes_open(), SMILE, FRONT_FEET)
-        + f'<text x="214" y="128" font-family="Fredoka, ui-rounded, \'Trebuchet MS\', sans-serif" font-weight="600" font-size="84" fill="{DARK}">Frog\'s Dream</text>'
+        # two-color wordmark: "frogs" pond green, "dream" dusk purple
+        + f'<text x="214" y="128" font-family="Fredoka, ui-rounded, \'Trebuchet MS\', sans-serif" font-weight="600" font-size="84">'
+        f'<tspan fill="{DARK}">frogs</tspan><tspan fill="{DUSK}">dream</tspan></text>'
         + "</svg>\n"
     )
     (IMG / "logo.svg").write_text(logo, encoding="utf-8")

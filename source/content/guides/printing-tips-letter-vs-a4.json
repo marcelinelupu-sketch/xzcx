@@ -18,7 +18,7 @@
     {
       "heading": "Set the paper size before you generate",
       "body": [
-        "Every generator on Frog's Dream has a **Paper** setting with US Letter and A4. It picks a starting value from your browser's language settings, so a browser set to US English starts on Letter and most others start on A4. Check it anyway, especially on a shared school computer. Canada and Mexico use Letter too, so readers there will usually want to switch it.",
+        "Every generator on frogsdream has a **Paper** setting with US Letter and A4. It picks a starting value from your browser's language settings, so a browser set to US English starts on Letter and most others start on A4. Check it anyway, especially on a shared school computer. Canada and Mexico use Letter too, so readers there will usually want to switch it.",
         "The paper setting changes the layout, not just the label. Bingo cards, word search grids and charts are sized to fit the page you chose, the margins are set for that sheet, and the downloaded PDF uses the same page size. If you share a link with a colleague in another country, they can switch the paper size and print the same cards on their own paper.",
         "> If you are not sure which paper you have, look at the ream wrapper, or measure a sheet. A Letter sheet is exactly 11 inches tall; an A4 sheet is just under 11.7 inches."
       ]
@@ -75,7 +75,7 @@
   "faq": [
     {
       "q": "Can I print an A4 printable on Letter paper?",
-      "a": "Yes, but the printer will usually shrink it slightly or crop the bottom. On Frog's Dream it is better to switch the Paper setting to Letter and regenerate, so the layout is made for your sheet."
+      "a": "Yes, but the printer will usually shrink it slightly or crop the bottom. On frogsdream it is better to switch the Paper setting to Letter and regenerate, so the layout is made for your sheet."
     },
     {
       "q": "What paper weight is best for bingo cards?",

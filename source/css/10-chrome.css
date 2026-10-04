@@ -2,7 +2,7 @@
 .wrap{max-width:1160px;margin:0 auto;padding:0 16px}
 .site-header{border-bottom:1px solid var(--line)}
 .hdr{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:68px;flex-wrap:wrap}
-.brand{display:inline-flex;align-items:center;gap:.55rem;text-decoration:none;color:var(--pond-d);font:600 1.45rem/1 var(--display)}
+.brand{display:inline-flex;align-items:center;gap:.55rem;text-decoration:none;color:var(--pond-d);font:600 1.5rem/1 var(--display)}
 .brand img{width:46px;height:46px;transition:transform .25s}
 .brand:hover img{transform:rotate(-8deg) scale(1.06)}
 .nav-t{position:absolute;opacity:0}
@@ -34,3 +34,14 @@
 .embed-credit{text-align:center;font-size:.9rem;margin:.75rem 0}
 .embed-top{margin:0 0 6px;padding:.3rem .6rem;background:var(--lily-l);border-radius:10px}
 .embed .tool{margin-bottom:1rem}
+/* Brand wordmark: build.py wraps every visible "frogsdream" as .fd-brand > .fd-b1 (frogs) + .fd-b2 (dream).
+   Text colors pass WCAG AA on cream and white: --pond #287D50 is 4.8:1 on cream (the logo green #2F8F5B is 3.9:1,
+   so it is used only in the 24px header wordmark, where 3:1 applies), dusk #3B3A6B is 10:1.
+   The dark footer uses lighter variants (5.9:1 and 6.2:1 on --forest). On colored fills it inherits the text color. */
+.fd-brand{white-space:nowrap;font-weight:600}
+.fd-b1{color:var(--pond)}
+.fd-b2{color:var(--dusk)}
+.brand .fd-b1{color:#2F8F5B}
+.site-footer .fd-b1{color:#8FD6A6}
+.site-footer .fd-b2{color:#C9C6F2}
+:is(.btn,.note,.embed-top,.toast,.skip,.ink) .fd-brand>span{color:inherit}

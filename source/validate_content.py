@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate Frog's Dream content JSON files.
+"""Validate frogsdream content JSON files.
 
 Usage:
   python3 source/validate_content.py FILE [FILE...]       check specific files

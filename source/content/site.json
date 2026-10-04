@@ -1,7 +1,7 @@
 {
   "_comment": "Site catalog: the single source of truth for which pages exist, URL structure, tool metadata, hub groupings and the In season now list. Content files under content/ fill these slots. build.py skips any slot whose content file does not exist yet.",
   "baseUrl": "https://frogsdream.com",
-  "siteName": "Frog's Dream",
+  "siteName": "frogsdream",
   "themeColor": "#2F8F5B",
   "nav": [
     {"label": "Bingo", "path": "/bingo/"},

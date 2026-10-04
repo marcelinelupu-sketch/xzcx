@@ -1,4 +1,4 @@
-/* Frog's Dream toolkit.js: the shared generator shell. A tool file calls FD.tool.register({...});
+/* frogsdream toolkit.js: the shared generator shell. A tool file calls FD.tool.register({...});
    this file wires the standard controls (title, list, paper, ink saver, frog stamp, seed), the buttons
    (Generate, Print, Download PDF, Copy share link, Reset), share links, localStorage and preview scaling.
    See source/TOOL-CONTRACT.md for the full contract. */
@@ -110,7 +110,7 @@
         opts = opts || {};
         var body = FD.h('div', { cls: 'sheet-body' });
         var sheet = FD.h('div', { cls: 'sheet' + (opts.cls ? ' ' + opts.cls : '') + (opts.key ? ' sheet-key' : ''), 'aria-label': opts.label || null }, body,
-          FD.h('div', { cls: 'sheet-credit', text: 'Made free at frogsdream.com' }));
+          FD.h('div', { cls: 'sheet-credit', html: 'Made free at <span class="fd-brand"><span class="fd-b1">frogs</span><span class="fd-b2">dream</span></span>.com' }));
         if (state.stamp) sheet.insertAdjacentHTML('beforeend', FD.frogSVG('sheet-stamp'));
         els.sheets.appendChild(FD.h('div', { cls: 'sheet-frame' }, sheet));
         return body;

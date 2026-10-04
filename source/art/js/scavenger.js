@@ -1,4 +1,4 @@
-/* Frog's Dream scavenger hunt generator (SPEC 3.3, TOOL-CONTRACT.md).
+/* frogsdream scavenger hunt generator (SPEC 3.3, TOOL-CONTRACT.md).
    Options (tools/scavenger.controls.html): layout checklist|two-column|photo|team, names, timeLimit, copies 1-30, shuffle, ageNote.
    Items are "Thing to find" or "Thing to find | 3" (points). Pages are laid out once in build() with the
    drawing kit below, then drawn as SVG for the preview and print, and with jsPDF for the download. */

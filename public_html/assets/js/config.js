@@ -1,4 +1,4 @@
-/* Frog's Dream settings. This is the only file you need to edit.
+/* frogsdream settings. This is the only file you need to edit.
    Leave a value as "" to switch that feature off. Save the file, then refresh the site. */
 window.FD_CONFIG = {
   ADSENSE_CLIENT: "",          // e.g. "ca-pub-1234567890123456", paste it after AdSense approves the site

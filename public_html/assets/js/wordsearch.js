@@ -1,4 +1,4 @@
-/* Frog's Dream word search maker (SPEC 3.2, TOOL-CONTRACT.md).
+/* frogsdream word search maker (SPEC 3.2, TOOL-CONTRACT.md).
    Options (names in tools/wordsearch.controls.html): size 10-20, difficulty easy|medium|hard,
    case upper|lower, showList, puzzles 1-10, key.
    Placement: longest words first, randomized backtracking with up to 500 attempts per word.

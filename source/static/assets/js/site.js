@@ -1,4 +1,4 @@
-/* Frog's Dream site.js: config-driven bits (ads, Mega Pack, tip, email), In season reordering,
+/* frogsdream site.js: config-driven bits (ads, Mega Pack, tip, email), In season reordering,
    embed modal, toast, clipboard and footer year. Loaded with defer on every page. */
 (function (FD) {
   'use strict';
@@ -50,7 +50,7 @@
   function openEmbed(btn) {
     var src = btn.getAttribute('data-embed-src'), link = btn.getAttribute('data-embed-link'), name = btn.getAttribute('data-embed-name');
     var code = '<iframe src="' + src + '" width="100%" height="900" style="border:0;max-width:100%" title="' + name +
-      ' by Frog\'s Dream" loading="lazy"></iframe>\n<p><a href="' + link + '">' + name + ' by Frog\'s Dream</a></p>';
+      ' by frogsdream" loading="lazy"></iframe>\n<p><a href="' + link + '">' + name + ' by frogsdream</a></p>';
     var d = FD.modal('Embed this tool', '<p>Paste this code into your blog, class page or website. The tool runs inside your page and stays free to use.</p>' +
       '<label class="vh" for="fd-embed-code">Embed code</label><textarea id="fd-embed-code" readonly>' + FD.esc(code) + '</textarea>' +
       '<div class="btns"><button type="button" class="btn btn-primary" id="fd-embed-copy">Copy code</button></div>');
