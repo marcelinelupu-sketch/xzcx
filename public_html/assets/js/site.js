@@ -134,11 +134,13 @@
   }
 
   function init() {
+    /* Older versions kept tool input in localStorage. Remove those leftovers; tools now use sessionStorage only. */
+    try { for (var i = localStorage.length - 1; i >= 0; i--) { var k = localStorage.key(i); if (k && k.indexOf('fd:') === 0) localStorage.removeItem(k); } } catch (e) { /* storage blocked */ }
     $$('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
     var pack = (cfg.PACK_URL || '').trim();
     var price = cfg.PACK_PRICE || '$7';
     $$('[data-pack-price]').forEach(function (el) { el.textContent = price; });
-    if (pack) $$('[data-pack]').forEach(function (el) { el.hidden = false; });
+    $$('[data-pack]').forEach(function (el) { el.hidden = !pack; });
     $$('[data-pack-buy]').forEach(function (a) {
       if (pack) { a.href = pack; a.removeAttribute('aria-disabled'); a.textContent = a.getAttribute('data-label') || ('Get the Mega Pack for ' + price); }
       else { a.removeAttribute('href'); a.setAttribute('aria-disabled', 'true'); a.textContent = 'Coming soon'; }

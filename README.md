@@ -12,8 +12,9 @@ The full specification is in `source/SPEC.md`. The owner overrides at its top al
 |---|---|
 | `public_html/` | The generated website. Its contents are uploaded to Hostinger as they are. Do not edit by hand; rebuild instead. |
 | `deliverables/frogsdream-public_html.zip` | The contents of `public_html/` at the zip root (including `.htaccess`), ready to extract inside Hostinger's `public_html`. |
-| `deliverables/megapack/` | The paid Mega Pack: the PDF folder and `frogsdream-Mega-Pack.zip`. Never put this inside `public_html/`. |
-| `deliverables/OWNER-README.html` | The owner's plain-English setup checklist (hosting, Search Console, Bing, Lemon Squeezy, AdSense, taxes, expectations). |
+| `deliverables/megapack/` | The paid Mega Pack: the PDF folder and `frogsdream-Mega-Pack.zip`. Not part of the site build; the owner uploads only the zip, unextracted, into `public_html/pack-download-b0b5f94d131b/` on the server. |
+| `deliverables/COMPLIANCE-REPORT.md` | The legal, privacy and cookie compliance report, with the decisions left to the owner. |
+| `deliverables/OWNER-README.html` | The owner's plain-English setup checklist (hosting, Search Console, Bing, Stripe, AdSense, taxes, expectations). |
 | `source/build.py` | Static site generator. Reads content JSON, CSS and static files and writes `public_html/`. |
 | `source/fdlib.py` | Shared helpers for the build and the validator (markup, paths, content loading). |
 | `source/validate_content.py` | Content rules: word counts, banned characters, word list sizes, 5-word shingle similarity. |
@@ -70,4 +71,12 @@ The output is seeded from each theme slug, so repeated runs give the same pack. 
 2. Run `python3 source/validate_content.py <file>` for a quick check.
 3. Run `bash source/qa/run_all.sh` and upload the new zip.
 
-Remember that a fresh upload overwrites the owner's edits on the server (`assets/js/config.js`, `ads.txt` and the name in `privacy/index.html`). The owner checklist explains this.
+## Legal and payment settings
+
+- **Operator identity** (shown on /privacy/, /terms/ and /contact/ as the law requires) lives only in `source/content/site.json` under `"operator": {"name", "address"}`. An empty name renders `[OWNER FULL NAME]` and the QA prints a WARNING; an empty address is left out.
+- **Policy date** for the privacy policy and terms is `"legal": {"updated": "YYYY-MM-DD"}` in `site.json`. Change it only when their wording changes.
+- **Mega Pack sales** go through a Stripe Payment Link with Stripe Managed Payments (Link is the merchant of record). `PACK_URL` in `source/static/assets/js/config.js` holds the live link, and the build writes the Buy buttons into the HTML already live. `"packAvailable"` in `site.json` sets the Product availability (InStock or OutOfStock). After payment Stripe redirects to the hidden, noindex page `/pack-download-b0b5f94d131b/`; the owner uploads the zip there by hand.
+- **No third-party requests** while `ADSENSE_CLIENT` is empty: jsPDF 2.5.1 is self-hosted in `assets/js/vendor/` with its MIT licence, and the Fredoka font in `assets/fonts/` with `OFL.txt`. The QA fails on any request to another host.
+- **On-device storage:** the tools keep user input in `sessionStorage` only (cleared when the tab closes). No cookies or `localStorage` of our own; the QA checks this.
+
+Remember that a fresh upload overwrites the owner's edits on the server (`assets/js/config.js` and `ads.txt`). The name, address and Stripe link are built in, so after a re-upload only `ADSENSE_CLIENT` and the `ads.txt` line need pasting again once AdSense is live. The owner checklist explains this.

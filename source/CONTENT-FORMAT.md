@@ -168,12 +168,13 @@ for Product JSON-LD.
 
 * `<a class="btn btn-primary" data-pack-buy data-label="Get the Mega Pack for $7">Coming soon</a>`
   becomes a checkout link when `PACK_URL` is set, otherwise stays "Coming soon".
-* `<span data-pack-price>$7</span>` shows `PACK_PRICE`.
+* `<span data-pack-price>$7</span>` shows `PACK_PRICE`. When the shipped config.js has a `PACK_URL`, the build already writes Buy buttons and `data-pack` elements as live.
 * Any element with `data-pack hidden` is shown only when `PACK_URL` is set.
 * `<span data-email></span><noscript>hello at frogsdream dot com</noscript>` becomes a mailto link built from `CONTACT_EMAIL`.
 * `<a href="/privacy/#choices" data-privacy-choices>Privacy choices</a>` reopens Google's consent message when available.
-* `{{BUILD_DATE}}` anywhere in a page is replaced with the build date, e.g. "October 4, 2026" (used for policy dates).
-* `<!-- OWNER: replace -->` comments are kept as written (use one next to `[OWNER FULL NAME]` on the privacy page).
+* `{{BUILD_DATE}}` anywhere in a page is replaced with the build date, e.g. "October 4, 2026" (policy dates use `{{POLICY_DATE}}` instead).
+* `{{OPERATOR_NAME}}` and `{{OPERATOR_BLOCK}}` insert the operator from `site.json` `"operator"` (name, address lines when set, and the email). Use the block on /privacy/, /terms/ and /contact/; never type the name yourself.
+* `{{POLICY_DATE}}` is `site.json` `"legal.updated"`, used for the privacy and terms dates.
 
 ## Home (`content/home.json`)
 

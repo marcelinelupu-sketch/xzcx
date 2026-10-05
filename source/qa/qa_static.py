@@ -350,9 +350,12 @@ class QA:
         if "# Replace with: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0" not in ads:
             probs.append("ads.txt placeholder line differs from spec")
         cfg = (site / "assets/js/config.js").read_text()
-        for k in ("ADSENSE_CLIENT", "AD_SLOT_IN_ARTICLE", "PACK_URL", "TIP_URL"):
+        for k in ("ADSENSE_CLIENT", "AD_SLOT_IN_ARTICLE", "TIP_URL"):
             if not re.search(k + r':\s*""', cfg):
                 probs.append(f"config.js {k} is not empty")
+        # PACK_URL may ship empty or set to the live Stripe payment link
+        if not re.search(r'PACK_URL:\s*"(https://buy\.stripe\.com/[A-Za-z0-9]+)?"', cfg):
+            probs.append("config.js PACK_URL is neither empty nor an https://buy.stripe.com/ payment link")
         if 'PACK_PRICE: "$7"' not in cfg or 'CONTACT_EMAIL: "hello@frogsdream.com"' not in cfg:
             probs.append("config.js PACK_PRICE or CONTACT_EMAIL differs from spec")
         self.check("robots.txt, .htaccess, ads.txt and config.js defaults", probs)
@@ -860,7 +863,7 @@ class QA:
         css = (site / "assets/css/site.css").read_text()
         if re.search(r"@import|url\(\s*[\"']?(https?:)?//", css):
             probs.append("site.css imports or loads a third-party resource")
-        allowed_js_hosts = {"frogsdream.com", "www.w3.org", "pagead2.googlesyndication.com"}  # AdSense: only when ADSENSE_CLIENT is set
+        allowed_js_hosts = {"frogsdream.com", "www.w3.org", "pagead2.googlesyndication.com", "buy.stripe.com"}  # AdSense: only when ADSENSE_CLIENT is set; Stripe: a link, never fetched
         for f in sorted((site / "assets/js").glob("*.js")):
             t = f.read_text("utf-8")
             for u in re.findall(r"https?://[A-Za-z0-9.-]+", t):

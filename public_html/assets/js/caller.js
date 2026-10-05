@@ -1,6 +1,6 @@
 /* frogsdream bingo caller (custom shell, no toolkit). 75-ball, 90-ball and custom word games with a big display,
    called board, last 5 calls, undo, auto-call, optional speech (speechSynthesis), projector mode and a saved game
-   (localStorage fd:caller). Markup lives in tools/caller.controls.html. */
+   (sessionStorage fd:caller, cleared when the tab closes). Markup lives in tools/caller.controls.html. */
 (function (FD) {
   'use strict';
   var KEY = 'fd:caller', LET = ['B', 'I', 'N', 'G', 'O'];
@@ -22,8 +22,8 @@
   var $ = function (id) { return document.getElementById(id); };
   var el = {}, data = {}, st = null, items = [], timer = null, themes = null;
 
-  function load() { try { return JSON.parse(localStorage.getItem(KEY) || 'null'); } catch (e) { return null; } }
-  function save() { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) { /* storage is optional */ } }
+  function load() { try { return JSON.parse(sessionStorage.getItem(KEY) || 'null'); } catch (e) { return null; } }
+  function save() { try { sessionStorage.setItem(KEY, JSON.stringify(st)); } catch (e) { /* storage is optional */ } }
   function seed() { return FD.rng && FD.rng.newSeed ? FD.rng.newSeed() : (Math.random() * 4294967296) >>> 0; }
   function listLines(text) { return String(text || '').split(/\r?\n/).map(function (s) { return s.trim(); }).filter(Boolean); }
   /* "12 | 7 + 5" calls the problem; "Pine cone | 3" (points) calls the item */

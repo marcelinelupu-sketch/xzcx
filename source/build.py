@@ -849,6 +849,22 @@ class Builder:
         return (h.replace("{{OPERATOR_NAME}}", shown).replace("{{OPERATOR_BLOCK}}", block)
                 .replace("{{POLICY_DATE}}", self.policy_date()))
 
+    def pack_url(self):
+        """PACK_URL from the shipped config.js. When set, the Mega Pack links and Buy buttons are written into the
+        HTML already live (they work without JavaScript); site.js still follows config.js at run time and hides them
+        again if PACK_URL is emptied on the server."""
+        cfg = (STATIC / "assets" / "js" / "config.js").read_text(encoding="utf-8")
+        m = re.search(r'PACK_URL:\s*"([^"]*)"', cfg)
+        return (m.group(1).strip() if m else "")
+
+    def bake_pack(self, h):
+        url = self.pack_url()
+        if not url:
+            return h
+        h = h.replace(" data-pack hidden>", " data-pack>")
+        return re.sub(r'<a class="btn btn-primary" data-pack-buy data-label="([^"]*)">Coming soon</a>',
+                      lambda m: f'<a class="btn btn-primary" href="{E(url)}" rel="noopener" data-pack-buy data-label="{m.group(1)}">{m.group(1)}</a>', h)
+
     def render_404(self):
         p = Page("404", "/404.html", {"h1": "Page not found"})
         tools = "".join(f'<li><a class="tcard" href="{t["path"]}"><b>{E(t["name"])}</b></a></li>' for t in self.site["tools"] if self.built(t["path"]))
@@ -874,7 +890,7 @@ class Builder:
                 if "{{BUILD_DATE}}" in p.html:
                     bd = dt.date.fromisoformat(self.date)
                     p.html = p.html.replace("{{BUILD_DATE}}", f"{bd:%B} {bd.day}, {bd.year}")
-                p.html = self.fill_legal(p.html)
+                p.html = self.bake_pack(self.fill_legal(p.html))
             except Exception as e:  # noqa: BLE001
                 self.error(f"{path}: render failed: {type(e).__name__}: {e}")
                 continue
@@ -882,7 +898,7 @@ class Builder:
             target = self.out / path.strip("/") / "index.html" if path != "/" else self.out / "index.html"
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(p.html, encoding="utf-8")
-        (self.out / "404.html").write_text(brand_html(self.render_404()), encoding="utf-8")
+        (self.out / "404.html").write_text(brand_html(self.bake_pack(self.render_404())), encoding="utf-8")
 
     def write_root_files(self):
         out = self.out

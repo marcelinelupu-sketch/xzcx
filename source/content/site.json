@@ -4,11 +4,11 @@
   "siteName": "frogsdream",
   "themeColor": "#2F8F5B",
   "_operator": "Who runs the site, as the law requires it to be shown (GDPR Art. 13, Polish act on electronic services (USUDE) Art. 5). This is the ONLY place to set it; build.py puts it on /privacy/, /terms/ and /contact/. While name is empty the pages show [OWNER FULL NAME] and the QA prints a warning. address: one string with \n between lines (street, postcode and city, country); leave it empty to leave the address out.",
-  "operator": {"name": "", "address": ""},
+  "operator": {"name": "Wojciech Niedźwiecki", "address": "Zwola 43\n26-920 Gniewoszów\nPoland"},
   "_legal": "updated: the date the privacy policy and terms last changed in substance (YYYY-MM-DD). Change it only when their wording changes.",
   "legal": {"updated": "2026-10-05"},
   "_packAvailable": "true once the Stripe payment link is live and PACK_URL is set in assets/js/config.js. Sets the Product availability in the /premium/ structured data (InStock, or OutOfStock while false).",
-  "packAvailable": false,
+  "packAvailable": true,
   "nav": [
     {"label": "Bingo", "path": "/bingo/"},
     {"label": "Word Search", "path": "/word-search/"},

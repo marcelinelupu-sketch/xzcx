@@ -4,7 +4,13 @@
 2. About page honesty: say content was written with AI assistance and reviewed for accuracy. Do NOT claim a person checked it.
 3. Keep the "frogsdream" brand voice warm, clear and natural. US English.
 4. Do not commit to git. The orchestrator commits.
-5. The brand is written "frogsdream": one word, always lowercase, even at the start of a sentence (like the owner's other brand, "rhymeart"). Never "Frog's Dream", "Frogsdream", "FrogsDream" or "Frogs Dream". In visual places (page text, header and footer, logo, OG images, PDF headers and footers) it is drawn two-colored, "frogs" in pond green #2F8F5B and "dream" in dusk purple #3B3A6B; build.py does this for page text automatically, with the slightly darker --pond #287D50 for small text so it passes WCAG AA on cream. Plain-text places (titles, meta tags, JSON-LD, alt text, PDF metadata, docs) use plain "frogsdream". The product is the "frogsdream Mega Pack".
+6. Compliance pass (October 2026), overriding the sections below where they differ:
+   - Payments: the Mega Pack is sold through a Stripe Payment Link with Stripe Managed Payments. Link (Sold through Link, LLC), a Stripe company, is the merchant of record. Lemon Squeezy and Gumroad are no longer used. After payment Stripe redirects to the hidden, noindex page /pack-download-b0b5f94d131b/, where the owner uploads frogsdream-Mega-Pack.zip by hand. config.js ships with PACK_URL set to the live link; site.json "packAvailable" sets the Product availability (InStock or OutOfStock).
+   - Operator identity lives only in source/content/site.json "operator" {name, address}. build.py renders it on /privacy/, /terms/ and /contact/ through the tokens {{OPERATOR_NAME}} and {{OPERATOR_BLOCK}}. An empty name renders [OWNER FULL NAME] and the QA prints a warning; an empty address is left out. Policy dates come from site.json "legal.updated" ({{POLICY_DATE}}), not the build date.
+   - jsPDF 2.5.1 is self-hosted at /assets/js/vendor/jspdf.umd.min.js with its MIT licence file. No page makes any third-party request while ADSENSE_CLIENT is empty.
+   - Tools keep user input in sessionStorage (cleared when the tab closes), never localStorage or cookies, so no consent is needed (Polish Electronic Communications Law Art. 399, ePrivacy Art. 5(3)).
+   - /terms/ is the regulamin under Art. 8 of the Polish act on electronic services (services, technical requirements, unlawful content ban, contract start and end, complaints answered within 14 days).
+7. The brand is written "frogsdream": one word, always lowercase, even at the start of a sentence (like the owner's other brand, "rhymeart"). Never "Frog's Dream", "Frogsdream", "FrogsDream" or "Frogs Dream". In visual places (page text, header and footer, logo, OG images, PDF headers and footers) it is drawn two-colored, "frogs" in pond green #2F8F5B and "dream" in dusk purple #3B3A6B; build.py does this for page text automatically, with the slightly darker --pond #287D50 for small text so it passes WCAG AA on cream. Plain-text places (titles, meta tags, JSON-LD, alt text, PDF metadata, docs) use plain "frogsdream". The product is the "frogsdream Mega Pack".
 
 # BUILD SPEC
 
@@ -56,7 +62,7 @@ assets/:
 - js/site.js — nav, consent-aware ad loader, 'in season now' block, share buttons, embed modal, year in footer
 - js/rng.js — seeded PRNG (mulberry32) plus shuffle; deterministic from a seed so shared URLs reproduce the same cards
 - js/print.js — paper size and print helpers
-- js/pdf.js — lazy-loads jsPDF from https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js and draws PDFs
+- js/pdf.js lazy-loads the self-hosted jsPDF 2.5.1 from /assets/js/vendor/jspdf.umd.min.js and draws PDFs
 - js/bingo.js, js/wordsearch.js, js/scavenger.js, js/scramble.js, js/routine-chart.js, js/reward-chart.js, js/caller.js
 - img/frog-mascot.svg plus 4 poses: waving, sleeping, holding a pencil, celebrating. Simple, cute, flat, 2-3 greens with a cream belly; hand-coded SVG.
 - img/icons/ — about 36 simple line SVG icons for routine and reward charts: bath, brush teeth, pajamas, potty/toilet, wash hands, book, story, hug, bed, lights off, water glass, snack, toys away, get dressed, shoes, breakfast, backpack, hair brush, vitamins, prayer/quiet time (neutral 'quiet time'), music, sun, moon, star, sticker, trophy, chores (bed-making, dishes, pet feeding, laundry, plants, trash), homework, reading, screen-off, kindness heart. Consistent 2px stroke, 48x48 viewBox, currentColor.
@@ -163,7 +169,7 @@ Common to all generators:
 - Controls: Title (text), word list (textarea, one per line, with live count and validation), options, Paper (US Letter / A4; default from navigator.language: en-US → Letter, otherwise A4), Ink saver (B/W) toggle, Seed (hidden). Buttons: 'Generate', 'Print', 'Download PDF', 'Copy share link', 'Reset to theme list'.
 - The share link encodes title, words and options in the URL hash (base64url of JSON). Opening it restores the state. Pages also accept ?seed=.
 - Preview renders as HTML/SVG at screen size. Print uses the same DOM.
-- Save the last word list per tool in localStorage, wrapped in try/catch. Never required.
+- Keep the last word list per tool in sessionStorage (survives a refresh, cleared when the tab closes), wrapped in try/catch. Never required. No localStorage, no cookies.
 - Free-use cap: up to 30 bingo cards per generation, which is plenty for most groups and honestly stated. Under the generator: 'Need 40 ready-made cards for every theme, answer keys and caller sheets in one download? Get the Mega Pack' → /premium/. Hide this line if config.PACK_URL is empty.
 - Credit footer on every printed and PDF page: 'Made free at frogsdream.com'.
 - An 'Embed this tool' button opens a modal with iframe code: <iframe src="https://frogsdream.com/embed/bingo/" ...> plus a credit <a href="https://frogsdream.com/bingo-card-generator/">Bingo card generator by frogsdream</a>.
@@ -217,7 +223,7 @@ Common to all generators:
 3.7 Bingo caller (caller.js)
 - Modes: 75-ball, 90-ball, custom words (paste a list, or load any themed list from a dropdown backed by /assets/js/themes.json).
 - Big 'Call next' button (spacebar shortcut), large display, called board grid highlighting called items, last 5 calls, undo, reset, auto-call every N seconds.
-- Optional voice using the Web Speech API speechSynthesis (en-US/en-GB voice picker), fullscreen projector mode, state saved in localStorage so a refresh doesn't lose the game.
+- Optional voice using the Web Speech API speechSynthesis (en-US/en-GB voice picker), fullscreen projector mode, state saved in sessionStorage so a refresh doesn't lose the game.
 - 90-ball optional traditional UK calls ('Kelly's eye – number one') as a toggle. Write the list from public-domain tradition; keep it family-friendly.
 
 3.8 Data
@@ -297,9 +303,9 @@ Common to all generators:
   - No ads on /embed/, /premium/, /privacy/, /terms/, /contact/, or in print.
   - Consent: AdSense's Privacy & messaging (Google-certified, TCF v2.2) EEA/UK/CH message is configured by the owner in the AdSense UI and served automatically by the AdSense tag. The site sets no other cookies, so no separate custom cookie banner is needed. The footer 'Privacy choices' link reopens the Google consent message. The privacy policy explains this.
 - Mega Pack (activated only when config.PACK_URL is non-empty, else every premium CTA and the /premium/ nav link are hidden; the /premium/ page itself shows 'Coming soon' and is noindex until a URL is set — implemented via JS adding a meta robots tag is unreliable, so: /premium/ is always indexable with honest copy, and the Buy button shows 'Coming soon' when no URL is set):
-  - Buy button is a plain <a href=PACK_URL> (Lemon Squeezy hosted checkout; no lemon.js needed).
+  - Buy button is a plain <a href=PACK_URL> (Stripe Payment Link with Managed Payments; no Stripe.js needed).
   - Price text '$7' is in HTML.
-  - /premium/ content: what's inside (exact counts), 3 preview images (PNG renders of real pack pages, watermarked 'SAMPLE'), licence (personal and single-classroom use; no resale), refund line ('Lemon Squeezy handles payment and VAT; if a file doesn't work for you, email us for a refund within 14 days'), FAQ.
+  - /premium/ content: what's inside (exact counts), 3 preview images (PNG renders of real pack pages, watermarked 'SAMPLE'), licence (personal and single-classroom use; no resale), seller line (sold through Link, Stripe's merchant of record; price includes taxes), refund line ('If a file doesn't work for you, email us within 14 days of your purchase and we will fix it or give you a full refund, whichever you prefer'), FAQ.
 - Tip link: optional config.TIP_URL (Ko-fi/Buy Me a Coffee) shown as a small footer link 'Buy the frog a coffee' only if set.
 - No Amazon links at launch. The Amazon 3-sales-in-180-days rule makes early signup counterproductive. Leave a documented hook for later.
 - /disclosure/ page: explains ads, the paid pack, and that future affiliate links will be labelled.
@@ -310,7 +316,7 @@ Common to all generators:
 window.FD_CONFIG = {
   ADSENSE_CLIENT: "",          // e.g. "ca-pub-1234567890123456" — paste after AdSense gives it
   AD_SLOT_IN_ARTICLE: "",      // optional, leave empty
-  PACK_URL: "",                // Lemon Squeezy checkout link for the Mega Pack
+  PACK_URL: "https://buy.stripe.com/6oU5kD4iYeTr5eJ4oN7kc05", // Stripe payment link for the Mega Pack
   PACK_PRICE: "$7",
   TIP_URL: "",                 // optional Ko-fi link
   CONTACT_EMAIL: "hello@frogsdream.com"
@@ -319,7 +325,7 @@ window.FD_CONFIG = {
 - ads.txt: ships with one commented line '# Replace with: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0'. The owner replaces it with his pub ID (AdSense shows the exact line). This also serves as AdSense site verification (the 'ads.txt snippet' method).
 - Contact email: hello@frogsdream.com. The owner creates this free mailbox in Hostinger, or forwards it to Gmail.
 - The contact page uses a mailto link, assembled by JS to reduce scraping, with the plain address in a <noscript>.
-- Privacy policy: GDPR requires naming the data controller. Use placeholder '[OWNER FULL NAME], Poland' plus the email. The owner fills in his name in /privacy/index.html (one spot, marked with a HTML comment 'OWNER: replace'). No address beyond the country needs to be public.
+- Privacy policy and terms: GDPR and Art. 5 of the Polish act on electronic services require naming the operator. The name and address come from site.json "operator" (see OWNER OVERRIDE 6); nobody edits the built HTML.
 - Builders also produce OWNER-README.html (NOT in public_html; in deliverables/). It is a plain-language checklist of section 'owner_setup_steps', with exact click paths, the IndexNow ping URL, and screenshots-free instructions on editing config.js and ads.txt in the Hostinger File Manager.
 
 10. MEGA PACK (deliverables/megapack/, generated by a Python script with reportlab, fonts embedded)
@@ -332,7 +338,7 @@ window.FD_CONFIG = {
   - 6 bedtime and reward chart designs in 4 colours.
 - One PDF per theme and paper size, organised in folders. Each page carries the footer 'frogsdream Mega Pack, frogsdream.com, personal and classroom use'.
 - Also a 1-page 'Start here' PDF.
-- ZIP the result: frogsdream-Mega-Pack.zip (Lemon Squeezy max file size is generous; keep under 200MB, ideally under 60MB by using vector PDFs).
+- ZIP the result: frogsdream-Mega-Pack.zip (it is downloaded from our own server, so keep it under 60MB by using vector PDFs).
 - Builders must open-check a random 10% of PDFs: render to PNG and inspect for overflow, missing words, or repeated cards.
 
 11. LEGAL / TRUST PAGES (real content, not lorem)
@@ -340,11 +346,11 @@ window.FD_CONFIG = {
 - /privacy/:
   - controller identity placeholder
   - no accounts
-  - localStorage for preferences only (stays on the device)
+  - sessionStorage for tool input only (stays in the tab, cleared when it closes); no cookies of our own
   - Hostinger server logs
   - Google AdSense cookies and personalisation with a link to Google's 'How Google uses information from sites that use our services'
   - consent via Google's certified CMP and the footer 'Privacy choices' link
-  - Lemon Squeezy as merchant of record for purchases (their privacy policy)
+  - Link / Stripe (Stripe Managed Payments) as merchant of record for purchases (their privacy policies)
   - user rights under GDPR, contact email
   - children: the site is intended for adults; we don't knowingly collect children's data
   - effective date = build date
@@ -404,15 +410,15 @@ TIMING REALITY
 
 1. In Hostinger hPanel, make sure the free SSL certificate is active for frogsdream.com. Then open File Manager → public_html, delete the default placeholder file (default.php or index.php) if present, upload frogsdream-public_html.zip and click Extract. Visit https://frogsdream.com to confirm it loads. (about 10 min)
 2. Create the mailbox hello@frogsdream.com in Hostinger Emails, or set up a forward to your Gmail. (about 5 min)
-3. In File Manager, open privacy/index.html and replace the one marked placeholder [OWNER FULL NAME] with your name. EU privacy law requires naming who runs the site; no photo or address is needed. (about 2 min)
+3. Check that your name and address show correctly on /privacy/, /terms/ and /contact/. They are built in from site.json; no file editing is needed. (about 2 min)
 4. Google Search Console: add a 'Domain' property for frogsdream.com, copy the TXT record into Hostinger DNS Zone, verify, submit sitemap.xml, and request indexing for the home page and the main tool pages listed in OWNER-README. (about 15 min)
 5. Bing Webmaster Tools: sign in with Google, import the site from Search Console, then paste the IndexNow ping link from OWNER-README into your browser once. (about 5 min)
-6. Lemon Squeezy: sign up, complete identity verification and payout setup (mBank IBAN or PayPal), create a product 'frogsdream Mega Pack' at $7, upload frogsdream-Mega-Pack.zip from the deliverables folder (NOT public_html), and copy the product's checkout link into PACK_URL in public_html/assets/js/config.js. If Lemon Squeezy refuses you, use Gumroad the same way. (about 20-30 min, plus their review wait)
+6. Stripe: check the Payment Link settings (Managed Payments ON; product 'frogsdream Mega Pack' at $7, tax code 'Digital other news or documents, downloadable, non subscription, with permanent rights', tax included; quantity adjustment off; collect nothing extra; promotion codes optional; after payment, redirect to https://frogsdream.com/pack-download-b0b5f94d131b/). Upload frogsdream-Mega-Pack.zip, without extracting it, into public_html/pack-download-b0b5f94d131b/. The payment link is already in config.js, and the Product data is already InStock. Make one test purchase. (about 20 min)
 7. About 4-8 weeks later, once Search Console shows 20 or more indexed pages: apply to Google AdSense with frogsdream.com. Paste your ca-pub ID into ADSENSE_CLIENT in config.js, and replace the line in ads.txt with the exact line AdSense shows you. Choose 'ads.txt snippet' as the verification method. (about 15 min)
 8. Once AdSense approves: turn on Auto ads, and if accidental clicks appear, switch off vignette and side-rail formats. Under Privacy & messaging, create and publish the European regulations (GDPR) consent message (3-option). Fill in the W-8BEN tax form (Poland as tax residence; check the treaty withholding rate it shows). Add your mBank account in PLN and confirm the small test deposit. Later, enter the PIN from the letter Google posts to you. If you are rejected for 'low value content', wait 2-4 weeks and reapply; you can also ask Claude to expand pages. (about 30 min spread over weeks)
 9. Optional, one time: submit to AlternativeTo, SaaSHub and Product Hunt (as a free tool), and make one honest post in teacher subreddits that allow it. (about 30-45 min)
-10. Monthly, about 5 minutes: glance at Search Console for errors, AdSense for earnings and policy notices, and Lemon Squeezy sales. At months 3, 6 and 12, you can paste the Search Console 'Pages' and 'Queries' reports into a new Claude prompt to have titles improved or new themes added where data shows demand.
-11. Taxes: AdSense and Lemon Squeezy income is taxable in Poland even under the działalność nierejestrowana limit (10,813.50 PLN revenue per quarter in 2026). Keep a simple income record and confirm the PIT treatment with an accountant or the tax office once.
+10. Monthly, about 5 minutes: glance at Search Console for errors, AdSense for earnings and policy notices, and Stripe sales and refund requests. At months 3, 6 and 12, you can paste the Search Console 'Pages' and 'Queries' reports into a new Claude prompt to have titles improved or new themes added where data shows demand.
+11. Taxes: AdSense and Stripe payout income is taxable in Poland even under the działalność nierejestrowana limit (10,813.50 PLN revenue per quarter in 2026). Keep a simple income record and confirm the PIT treatment with an accountant or the tax office once.
 12. Later, if Search Console shows about 1,000 or more monthly sessions from the US, UK, Canada and Australia and the site is 4+ months old: apply to Journey by Mediavine for higher ad rates. Ask Claude to wire up their script.
 
 # RISKS AND CAVEATS (summarise honestly in OWNER-README)
@@ -427,11 +433,11 @@ TIMING REALITY
   - Accidental clicks near buttons can get an account restricted (the Imposter Game case), so ads are kept away from tool controls.
   - EEA traffic needs the Google consent message, or ad fill drops.
 - **Paid pack conversion.** 0.1-0.3% of visitors is my planning assumption, not measured. It could be lower. The free tool is deliberately generous (up to 30 cards), because a stingy paywall would hurt rankings and reputation.
-- **Lemon Squeezy** was acquired by Stripe, and its successor product lacks built-in digital delivery. It still takes signups as of 2026 with no shutdown date, but a migration to Gumroad may be needed someday (a 15-minute task: swap PACK_URL).
+- **Stripe Managed Payments** has no built-in file delivery, so buyers are redirected to a hidden, noindex download page. Anyone who has that URL can download the zip; that is an accepted risk for a $7 pack.
 - **Competition.** myfreebingocards, Bingo Baker, thewordsearch, TPT, Etsy and AI-built clone sites already exist. We win only on the long tail, quality (Letter/A4, 90-ball UK, answer keys, B/W ink saver, mobile/Chromebook) and seasonality. Anything good can be copied.
 - **Hands-free limits.**
-  - The owner must do roughly 1.5-2 hours of one-time identity-bound setup (AdSense, Lemon Squeezy, Search Console, Bing), plus about 5 minutes a month.
-  - Nothing in the site goes stale: no prices, no rates, no dated claims. Small-print policy changes from Google or Lemon Squeezy may occasionally need a reaction.
-- **Legal and tax.** GDPR requires the privacy policy to name the operator (his name, not his face). Income is taxable in Poland, and a W-8BEN is needed for AdSense. I am not a tax adviser.
+  - The owner must do roughly 1.5-2 hours of one-time identity-bound setup (AdSense, Stripe, Search Console, Bing), plus about 5 minutes a month.
+  - Nothing in the site goes stale: no prices, no rates, no dated claims. Small-print policy changes from Google or Stripe may occasionally need a reaction.
+- **Legal and tax.** GDPR and the Polish act on electronic services require the site to name the operator and give his address (both are published from site.json). Income is taxable in Poland, and a W-8BEN is needed for AdSense. I am not a tax adviser.
 - **Content honesty.** The site openly states it was built with AI assistance. No fake reviews, personas, ratings or trademarked themes are used. This avoids deception and policy risk, at the cost of 'trust badges' that some competitors fake.
 - **Brand fit.** 'frogsdream' is a playful brand, not a keyword. That is fine for printables, but the obvious sleep/dream fit is left for a possible phase-2 /sleep/ section (the runner-up concept). It should be added only after the printables site has earned authority, so the site's topical focus stays clear.

@@ -1,7 +1,9 @@
 /* Config behavior QA (SPEC 8, 9 and 13).
    Usage: node source/qa/qa_config.cjs SITE_DIR [--json OUT.json]
 
-   1. config.js as shipped (all empty): no third-party requests at all, no ad requests, no AdSense tag,
+   0. config.js as shipped (only PACK_URL set, to the live Stripe payment link, or empty): no third-party requests,
+      no AdSense tag, and when PACK_URL is set every Buy button links to it and none says Coming soon.
+   1. Empty config (all values "", injected): no third-party requests at all, no ad requests, no AdSense tag,
       ad slots take zero space, every Mega Pack CTA and nav link hidden, Buy button says Coming soon,
       tip link hidden, no console errors.
    2. Dummy config (ADSENSE_CLIENT, AD_SLOT_IN_ARTICLE, PACK_URL, TIP_URL set; Google requests stubbed):
@@ -19,7 +21,7 @@ const AD_PAGES = ['/', '/bingo-card-generator/', '/bingo/christmas/', '/word-sea
   '/christmas-printables/', '/bingo/', '/about/', '/bedtime-routine-chart/toddler-picture-chart/'];
 const NOAD_PAGES = ['/premium/', '/privacy/', '/terms/', '/contact/', '/embed/', '/embed/bingo/', '/embed/word-search/', '/bingo-caller/', '/404.html'];
 const DUMMY = { ADSENSE_CLIENT: 'ca-pub-0000000000000000', AD_SLOT_IN_ARTICLE: '1234567890',
-  PACK_URL: 'https://frogsdream.lemonsqueezy.com/checkout/buy/test', PACK_PRICE: '$7', TIP_URL: 'https://ko-fi.com/example',
+  PACK_URL: 'https://buy.stripe.com/test_dummy', PACK_PRICE: '$7', TIP_URL: 'https://ko-fi.com/example',
   CONTACT_EMAIL: 'hello@frogsdream.com' };
 
 (async () => {
@@ -42,9 +44,36 @@ const DUMMY = { ADSENSE_CLIENT: 'ca-pub-0000000000000000', AD_SLOT_IN_ARTICLE: '
     return { page, errors, external, adReq };
   }
 
-  // ---------------------------------------------------------------- 1. empty config
+  // ---------------------------------------------------------------- 0. config.js exactly as shipped
+  const shipped = fs.readFileSync(path.join(SITE, 'assets/js/config.js'), 'utf8');
+  const shippedPack = (/PACK_URL:\s*"([^"]*)"/.exec(shipped) || [])[1] || '';
+  {
+    const ctx = await browser.newContext({ viewport: { width: 1280, height: 800 }, locale: 'en-US' });
+    for (const url of ['/', '/premium/', '/bingo-card-generator/', '/bingo/christmas/', '/word-search-maker/', '/privacy/', '/about/']) {
+      const W = `[shipped config] ${url} `;
+      const { page, errors, external, adReq } = await visit(ctx, url, 1280);
+      const st = await page.evaluate(() => ({
+        buy: [...document.querySelectorAll('[data-pack-buy]')].map(a => ({ href: a.getAttribute('href'), text: a.textContent.trim() })),
+        pack: [...document.querySelectorAll('[data-pack]')].map(e => !e.hidden),
+        adTags: document.querySelectorAll('script[src*="adsbygoogle"], ins.adsbygoogle').length,
+      }));
+      R.ok(external.length === 0 && adReq.length === 0 && st.adTags === 0, W + 'no third-party or ad requests ' + (external.length ? JSON.stringify(external.slice(0, 3)) : ''));
+      if (shippedPack) {
+        R.ok(st.buy.every(b => b.href === shippedPack && b.text !== 'Coming soon'), W + `Buy buttons live with ${shippedPack} (${st.buy.length})`);
+        R.ok(st.pack.every(Boolean), W + `Mega Pack lines shown (${st.pack.length})`);
+        if (url === '/premium/') R.ok(st.buy.length > 0, W + 'premium page has a Buy button');
+      }
+      R.ok(errors.length === 0, W + 'no console errors ' + (errors.length ? JSON.stringify(errors.slice(0, 3)) : ''));
+      await page.close();
+    }
+    await ctx.close();
+  }
+
+  // ---------------------------------------------------------------- 1. empty config (injected, so it holds whatever config.js ships with)
+  const emptyCfg = 'window.FD_CONFIG = ' + JSON.stringify({ ADSENSE_CLIENT: '', AD_SLOT_IN_ARTICLE: '', PACK_URL: '', PACK_PRICE: '$7', TIP_URL: '', CONTACT_EMAIL: 'hello@frogsdream.com' }) + ';';
   for (const width of [360, 1280]) {
     const ctx = await browser.newContext({ viewport: { width, height: 800 }, locale: 'en-US' });
+    await ctx.route('**/assets/js/config.js*', r => r.fulfill({ body: emptyCfg, contentType: 'application/javascript' }));
     for (const url of AD_PAGES.concat(NOAD_PAGES)) {
       const W = `[empty config ${width}] ${url} `;
       const { page, errors, external } = await visit(ctx, url, width);

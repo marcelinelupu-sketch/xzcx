@@ -78,7 +78,7 @@ The toolkit reads options generically: checkbox gives a boolean, number and rang
 
 ```js
 FD.tool.register({
-  id: 'scramble',          // tool id, also the localStorage key fd:<id>
+  id: 'scramble',          // tool id, also the sessionStorage key fd:<id>
   noun: 'words',           // count badge label ("24 words")
   hint: 'One word per line.',           // default message under the list
   init: function (els, data) {},        // optional, runs once before the first render
@@ -136,7 +136,7 @@ Printed output is always on white.
 
 ### PDF API (`pdf.js`)
 
-`P` is created by the toolkit (jsPDF is lazy-loaded from cdnjs only when the user clicks Download PDF):
+`P` is created by the toolkit (the self-hosted jsPDF in /assets/js/vendor/ is lazy-loaded only when the user clicks Download PDF):
 
 | Member | Meaning |
 |---|---|
@@ -165,7 +165,7 @@ Do not call `save` yourself.
 * **Copy share link**: `<page url>#s=<base64url(JSON {t, w, o, p, i, f, s})>` (title, words, options, paper, ink, stamp, seed).
   Opening it restores the identical sheets. `?seed=123` is also accepted. Canonicals never include these.
 * **Reset** restores the page's list and defaultOptions with a new seed.
-* **localStorage** `fd:<id>` keeps the last title, list and options (try/catch, never required). It is restored only on the main tool page.
+* **sessionStorage** `fd:<id>` keeps the last title, list and options (try/catch, never required) until the tab closes. It is restored only on the main tool page. Never use localStorage or cookies: that would need consent under ePrivacy rules.
 * **Embed pages** (`/embed/<tool>/`) render the same shell without header and footer, with a credit link; share links point to the main tool page.
 * Paper defaults from `navigator.language` (en-US gives Letter, everything else A4).
 * After each render the document fires `fd:rendered` with `{ pages, seed }` (useful in Playwright tests).
@@ -191,7 +191,7 @@ A line ending in a colon, such as `"Morning:"`, prints as a group heading.
 ## Rules every tool must follow
 
 * No randomness outside `build`. Same seed and same inputs must give byte-identical sheets.
-* No network requests except jsPDF via `FD.pdf`. No external fonts or images in sheets.
+* No network requests except the self-hosted jsPDF via `FD.pdf`. No external fonts or images in sheets, and nothing from another host (the QA fails on any third-party request).
 * No ads inside `.tool` (the shell marks it `no-ads`); never add ad markup.
 * Keyboard operable, every control labelled, focus visible. No drag and drop dependency.
 * Text in the UI and on sheets follows the content rules (no em or en dashes, no spaced hyphen dashes, US English).
@@ -212,7 +212,6 @@ Print CSS for the caller is up to you (the page has no `has-tool` class, so norm
 python3 source/build.py --out /tmp/fd-test
 cd /tmp/fd-test && python3 -m http.server 8765
 ```
-In Playwright, route `https://cdnjs.cloudflare.com/**` to a local copy of jsPDF 2.5.1 if the sandbox has no
-internet (`npm pack jspdf@2.5.1`), then: wait for `.sheet`, click `#fd-generate`, `page.pdf()` with
+In Playwright (no network needed, jsPDF is part of the site): wait for `.sheet`, click `#fd-generate`, `page.pdf()` with
 `emulateMedia({media: 'print'})` and `preferCSSPageSize: true` for print preview, and
 `waitForEvent('download')` around a click on `#fd-pdf`.

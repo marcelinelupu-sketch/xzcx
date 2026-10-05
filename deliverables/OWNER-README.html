@@ -80,10 +80,11 @@ footer{color:var(--muted);font-size:.9rem;margin-top:30px}
 <div class="note"><strong>What is in the deliverables folder</strong>
 <ul class="plain">
 <li><code>frogsdream-public_html.zip</code>: the whole website. You upload this to Hostinger.</li>
-<li><code>megapack/frogsdream-Mega-Pack.zip</code>: the paid PDF pack (about 25 MB). You upload this to Lemon Squeezy (or Gumroad). <strong>Never put it on the website.</strong></li>
+<li><code>megapack/frogsdream-Mega-Pack.zip</code>: the paid PDF pack (about 25 MB). You upload it, still zipped, into one hidden folder on the server (step 6). <strong>Never put it anywhere else on the website.</strong></li>
+<li><code>COMPLIANCE-REPORT.md</code>: what was checked for privacy, cookies, consumer law and trademarks, and the few decisions left to you.</li>
 <li><code>OWNER-README.html</code>: this page.</li>
 </ul>
-<p>Hostinger, Google and Lemon Squeezy sometimes rename menu items. If a button name below does not match exactly, look for the closest name in the same place.</p>
+<p>Hostinger, Google and Stripe sometimes rename menu items. If a button name below does not match exactly, look for the closest name in the same place.</p>
 </div>
 
 <nav class="toc" aria-label="Steps">
@@ -91,10 +92,10 @@ footer{color:var(--muted);font-size:.9rem;margin-top:30px}
 <ol>
 <li><a href="#s1">Upload the website</a></li>
 <li><a href="#s2">Create your email address</a></li>
-<li><a href="#s3">Put your name in the privacy page</a></li>
+<li><a href="#s3">Check your name and address on the legal pages</a></li>
 <li><a href="#s4">Google Search Console</a></li>
 <li><a href="#s5">Bing Webmaster Tools and IndexNow</a></li>
-<li><a href="#s6">Sell the Mega Pack (Lemon Squeezy or Gumroad)</a></li>
+<li><a href="#s6">Sell the Mega Pack (Stripe)</a></li>
 <li><a href="#s7">Apply to Google AdSense</a></li>
 <li><a href="#s8">After AdSense approves you</a></li>
 <li><a href="#s9">Optional: one-time promotion</a></li>
@@ -123,12 +124,12 @@ footer{color:var(--muted);font-size:.9rem;margin-top:30px}
 <pre><code>window.FD_CONFIG = {
   ADSENSE_CLIENT: "",          // AdSense ID, step 7
   AD_SLOT_IN_ARTICLE: "",      // optional, leave empty
-  PACK_URL: "",                // Mega Pack checkout link, step 6
+  PACK_URL: "https://buy.stripe.com/6oU5kD4iYeTr5eJ4oN7kc05", // already set, step 6
   PACK_PRICE: "$7",
   TIP_URL: "",                 // optional Ko-fi link
   CONTACT_EMAIL: "hello@frogsdream.com"
 };</code></pre>
-<p>An empty value <code>""</code> switches that feature off. For example, while <code>PACK_URL</code> is empty, the site shows "Coming soon" instead of a Buy button, and while <code>ADSENSE_CLIENT</code> is empty, no ads load.</p>
+<p>An empty value <code>""</code> switches that feature off. While <code>ADSENSE_CLIENT</code> is empty, no ads load. Your Stripe payment link is already built into the zip, so the Buy button works from the first upload and stays after every new upload. <strong>The only value left for you to paste later is <code>ADSENSE_CLIENT</code></strong> (step 7).</p>
 <div class="note">Tip: before you edit a file, right-click it and choose <span class="path">Download</span>. Then you have a backup copy if something goes wrong.</div>
 </section>
 
@@ -189,18 +190,16 @@ footer{color:var(--muted);font-size:.9rem;margin-top:30px}
 <!-- ============ STEP 3 ============ -->
 <section class="step" id="s3">
 <span class="meta">Step 3 · about 2 minutes</span>
-<h2>Put your name in the privacy page</h2>
-<p>EU privacy law (GDPR) says the site must name the person who runs it. Only your name and the country are needed. No photo, no address.</p>
+<h2>Check your name and address on the legal pages</h2>
+<p>EU privacy law (GDPR) and the Polish law on electronic services (Article 5 of the <em>ustawa o świadczeniu usług drogą elektroniczną</em>) say the site must show who runs it. Your name and the address you chose to publish, <strong>Wojciech Niedźwiecki, Zwola 43, 26-920 Gniewoszów, Poland</strong>, are already built into the site. You do not need to edit any file.</p>
 <ol class="clicks">
-<li>File Manager → <span class="path">public_html → privacy → index.html</span>, double-click to edit.</li>
-<li>Press Ctrl+F and search for <code>[OWNER FULL NAME]</code>. There is one spot, right after a note that says <code>OWNER: replace</code>.</li>
-<li>Replace <code>[OWNER FULL NAME]</code> (including the square brackets) with your full name, for example <code>Wojciech Kowalski</code>. Keep the words <code>, Poland</code> after it.</li>
-<li>Save. Open <a href="https://frogsdream.com/privacy/" target="_blank" rel="noopener">frogsdream.com/privacy/</a> and check that your name shows.</li>
+<li>Open <a href="https://frogsdream.com/privacy/" target="_blank" rel="noopener">frogsdream.com/privacy/</a>, <a href="https://frogsdream.com/terms/" target="_blank" rel="noopener">frogsdream.com/terms/</a> and <a href="https://frogsdream.com/contact/" target="_blank" rel="noopener">frogsdream.com/contact/</a>.</li>
+<li>Check that your name and address are spelled correctly on each page. If anything is wrong, ask Claude to change it in <code>source/content/site.json</code> (the <code>operator</code> entry) and rebuild. That one entry feeds all three pages.</li>
 </ol>
 <ul class="checks">
-<li><input type="checkbox" id="c3a"><label for="c3a">My name is on the privacy page.</label></li>
+<li><input type="checkbox" id="c3a"><label for="c3a">My name and address are correct on the privacy, terms and contact pages.</label></li>
 </ul>
-<div class="note">If you upload a new version of the website zip later, it will bring back <code>[OWNER FULL NAME]</code> and empty settings. Do steps 3, 6 and 7 again after any re-upload (or keep copies of your edited <code>config.js</code>, <code>ads.txt</code> and <code>privacy/index.html</code> and upload them again).</div>
+<div class="note">A new website zip always brings your name, address and Stripe link with it. After a re-upload you only need to paste <code>ADSENSE_CLIENT</code> into config.js and your line into ads.txt again (step 7), if you have AdSense by then.</div>
 </section>
 
 <!-- ============ STEP 4 ============ -->
@@ -279,41 +278,39 @@ footer{color:var(--muted);font-size:.9rem;margin-top:30px}
 
 <!-- ============ STEP 6 ============ -->
 <section class="step" id="s6">
-<span class="meta">Step 6 · about 20 to 30 minutes, plus their review time</span>
-<h2>Sell the Mega Pack</h2>
-<p>The Mega Pack is a $7 download of ready-made PDFs. Lemon Squeezy is the shop: it takes the payment, handles VAT and sends the file to the buyer. You never handle card details.</p>
-<h3>Option A: Lemon Squeezy (first choice)</h3>
+<span class="meta">Step 6 · about 20 minutes</span>
+<h2>Sell the Mega Pack (Stripe)</h2>
+<p>The Mega Pack is a $7 download of ready-made PDFs. It is sold through a <strong>Stripe Payment Link with Stripe Managed Payments</strong>. With Managed Payments, Stripe's service <strong>Link</strong> is the seller of record (merchant of record): it takes the payment, charges and pays the sales tax or VAT, checks for fraud, handles disputes and answers buyers' payment questions. You never handle card details.</p>
+<p>Your payment link already exists and is built into every website zip: <code>https://buy.stripe.com/6oU5kD4iYeTr5eJ4oN7kc05</code>. You do <strong>not</strong> need to edit config.js for it. Use the list below to check that its settings are right.</p>
+<h3>a) Check the payment link settings in Stripe</h3>
 <ol class="clicks">
-<li>Go to <a href="https://www.lemonsqueezy.com" target="_blank" rel="noopener">lemonsqueezy.com</a> → <span class="path">Get started</span>. Create an account and a store. Store name: <code>frogsdream</code>.</li>
-<li>Click <span class="path">Settings → Payouts</span>. Add your bank account (mBank IBAN) or PayPal.</li>
-<li>Complete identity verification and store activation when the dashboard asks for it (usually a banner at the top: <span class="path">Activate your store</span>). Describe the store honestly, for example: "Printable bingo cards, word searches and party games as PDF downloads, sold from frogsdream.com." Lemon Squeezy reviews this, which can take a few days.</li>
-<li>Left menu: <span class="path">Store → Products</span> → <span class="path">+ New Product</span>.</li>
-<li>Name: <code>frogsdream Mega Pack</code>. Pricing: <span class="path">Single payment</span>, <code>7</code> USD. Description: you can copy the "What's inside" list from <a href="https://frogsdream.com/premium/" target="_blank" rel="noopener">frogsdream.com/premium/</a>.</li>
-<li>Under <span class="path">Files</span>, upload <code>deliverables/megapack/frogsdream-Mega-Pack.zip</code> (about 25 MB). Do <strong>not</strong> upload it to Hostinger.</li>
-<li>Click <span class="path">Publish</span>.</li>
-<li>In the product list, click the <span class="path">Share</span> button (or the three dots → <span class="path">Share</span>) and copy the checkout link. It looks like <code>https://frogsdream.lemonsqueezy.com/buy/....</code></li>
-<li>Buy it once yourself with a test or real card (you can refund yourself) to check that the email with the download arrives.</li>
+<li>Stripe Dashboard → <span class="path">Settings → Managed Payments</span>: Managed Payments is <strong>on</strong>.</li>
+<li>Product: name <code>frogsdream Mega Pack</code>, one-time price <code>7</code> USD.</li>
+<li>Tax code: <strong>Digital other news or documents, downloadable, non subscription, with permanent rights</strong>.</li>
+<li>Tax behavior: <strong>tax included</strong> in the price (the site says "$7, taxes included").</li>
+<li><span class="path">Payment Links</span> → your link: <span class="path">Let customers adjust quantity</span> is <strong>off</strong>.</li>
+<li>Collect nothing extra: no shipping address, no phone number, no custom fields. Promotion codes are optional.</li>
+<li><span class="path">After payment</span>: choose <span class="path">Don't show confirmation page</span> (redirect your customers) and enter <code>https://frogsdream.com/pack-download-b0b5f94d131b/</code></li>
+<li>Set the support email in your Stripe public business details to <code>hello@frogsdream.com</code>, so Link can reach you about refunds.</li>
 </ol>
-<h3>Option B: Gumroad (if Lemon Squeezy refuses you)</h3>
+<h3>b) Upload the pack to the hidden download folder</h3>
 <ol class="clicks">
-<li>Go to <a href="https://gumroad.com" target="_blank" rel="noopener">gumroad.com</a> → <span class="path">Start selling</span> and create an account.</li>
-<li><span class="path">Settings → Payments</span>: add your bank account or PayPal and fill in the tax form Gumroad asks for.</li>
-<li><span class="path">Products → New product</span> → type <span class="path">Digital product</span>. Name <code>frogsdream Mega Pack</code>, price <code>7</code> USD. Click <span class="path">Next: Customize</span>.</li>
-<li>In <span class="path">Content</span>, upload <code>frogsdream-Mega-Pack.zip</code>. Click <span class="path">Publish</span>.</li>
-<li>Copy the product link, for example <code>https://yourname.gumroad.com/l/megapack</code>.</li>
+<li>File Manager → <span class="path">public_html</span>. Open the folder <code>pack-download-b0b5f94d131b</code> (it arrives with the website zip).</li>
+<li>Click <span class="path">Upload</span> and choose <code>deliverables/megapack/frogsdream-Mega-Pack.zip</code> (about 25 MB).</li>
+<li><strong>Do not extract it.</strong> Buyers download the zip file itself. The folder should now hold <code>index.html</code> and <code>frogsdream-Mega-Pack.zip</code>.</li>
+<li>Uploading a new website zip later does not delete this file, because the website zip has no file with that name.</li>
 </ol>
-<h3>Then switch on the Buy button on the website</h3>
+<h3>c) Test it once</h3>
 <ol class="clicks">
-<li>Edit <code>public_html/assets/js/config.js</code> (see <a href="#how-edit">how to edit a file</a>).</li>
-<li>Paste the link between the quote marks: <code>PACK_URL: "https://frogsdream.lemonsqueezy.com/buy/....",</code> and save.</li>
-<li>Edit <code>public_html/premium/index.html</code>. Press Ctrl+F and search for <code>schema.org/PreOrder</code>. Change <code>PreOrder</code> to <code>InStock</code>, so it reads <code>https://schema.org/InStock</code>. Save. (This tells Google the product is now on sale.)</li>
-<li>Open <a href="https://frogsdream.com/premium/" target="_blank" rel="noopener">frogsdream.com/premium/</a> and press Ctrl+F5. The button should now say "Get the Mega Pack for $7" and open the checkout.</li>
+<li>Open <a href="https://frogsdream.com/premium/" target="_blank" rel="noopener">frogsdream.com/premium/</a> and press Ctrl+F5. The button says "Get the Mega Pack for $7" and opens the Stripe checkout, which shows that the purchase is sold through Link.</li>
+<li>Buy it once yourself (you can refund yourself in the Stripe Dashboard). Check that you land on the download page and that the zip downloads and opens.</li>
 </ol>
-<div class="note">If you ever change the price, change it in three places: Lemon Squeezy, <code>PACK_PRICE</code> in config.js, and the price in <code>premium/index.html</code> (search for <code>$7</code> and <code>7.00</code>).</div>
+<div class="note">The data that tells Google the pack is on sale (InStock) is already switched on in the build. If you ever change the price, change it in Stripe and in <code>PACK_PRICE</code> in config.js, and ask Claude to update the $7 text on the site and rebuild. If you ever stop selling, empty <code>PACK_URL</code> in config.js and ask Claude to set <code>packAvailable</code> to false in site.json.</div>
 <ul class="checks">
-<li><input type="checkbox" id="c6a"><label for="c6a">Shop account verified and payout added.</label></li>
-<li><input type="checkbox" id="c6b"><label for="c6b">Product created with the zip, published, test purchase works.</label></li>
-<li><input type="checkbox" id="c6c"><label for="c6c">PACK_URL set in config.js and PreOrder changed to InStock.</label></li>
+<li><input type="checkbox" id="c6a"><label for="c6a">Managed Payments on, tax code and tax-included price checked, quantity off, nothing extra collected.</label></li>
+<li><input type="checkbox" id="c6b"><label for="c6b">After payment redirects to https://frogsdream.com/pack-download-b0b5f94d131b/</label></li>
+<li><input type="checkbox" id="c6c"><label for="c6c">frogsdream-Mega-Pack.zip uploaded (not extracted) into public_html/pack-download-b0b5f94d131b/.</label></li>
+<li><input type="checkbox" id="c6d"><label for="c6d">Test purchase works and the zip downloads.</label></li>
 </ul>
 </section>
 
@@ -433,7 +430,7 @@ Note: in ads.txt the ID starts with <code>pub-</code>, without <code>ca-</code>.
 <ul class="checks">
 <li><input type="checkbox" id="c10a"><label for="c10a"><strong>Search Console:</strong> open the <span class="path">Overview</span>. Look for red errors or emails about problems. Look at <span class="path">Indexing → Pages</span>: the "Indexed" number should slowly grow.</label></li>
 <li><input type="checkbox" id="c10b"><label for="c10b"><strong>AdSense:</strong> look at earnings and the bell icon / <span class="path">Policy center</span> for any policy notices. If there is a notice, ask Claude for help with the exact text.</label></li>
-<li><input type="checkbox" id="c10c"><label for="c10c"><strong>Lemon Squeezy (or Gumroad):</strong> check sales and any customer emails. Answer refund requests kindly; the site promises refunds within 14 days.</label></li>
+<li><input type="checkbox" id="c10c"><label for="c10c"><strong>Stripe:</strong> check sales, refund requests and messages from Link support. Answer complaints within 14 days (the terms promise this), and refund kindly: the site promises a fix or a full refund within 14 days if a file does not work.</label></li>
 <li><input type="checkbox" id="c10d"><label for="c10d"><strong>Email:</strong> check hello@frogsdream.com.</label></li>
 </ul>
 <p><strong>At months 3, 6 and 12:</strong> in Search Console, open <span class="path">Performance</span> (Queries tab and Pages tab) and <span class="path">Indexing → Pages</span>. Click <span class="path">Export</span> (top right) and paste the results into a new Claude chat. Ask Claude to improve the titles of pages that get views but few clicks, and to add new themes where people are searching. If many pages stay "Crawled, currently not indexed", the fix is to merge or hide the weakest pages, not to add more.</p>
@@ -444,9 +441,10 @@ Note: in ads.txt the ID starts with <code>pub-</code>, without <code>ca-</code>.
 <span class="meta">Step 11 · taxes</span>
 <h2>Taxes in Poland</h2>
 <ul class="plain">
-<li>Money from AdSense and from Lemon Squeezy or Gumroad is taxable income in Poland, also when you use <em>działalność nierejestrowana</em> (unregistered activity).</li>
+<li>Money from AdSense and from Stripe payouts is taxable income in Poland, also when you use <em>działalność nierejestrowana</em> (unregistered activity).</li>
 <li>The limit for unregistered activity is <strong>10,813.50 PLN revenue per quarter</strong> in 2026 (this is the 2026 figure; it changes each year with the minimum wage). If you go above it, you must register a business within 7 days.</li>
-<li>Keep a simple income record: date, source (AdSense, Lemon Squeezy), amount, currency and amount in PLN. A spreadsheet is enough. Save the monthly AdSense payment receipts and Lemon Squeezy payout reports.</li>
+<li>Keep a simple income record: date, source (AdSense, Stripe), amount, currency and amount in PLN. A spreadsheet is enough. Save the monthly AdSense payment receipts and Stripe payout reports.</li>
+<li>Ask the accountant two specific questions: (1) whether you must register for <em>VAT-UE</em> and file VAT-UE summaries because AdSense pays you from Google Ireland, and (2) how to treat Stripe payouts, since Link (a US company) is the seller and you are its supplier.</li>
 <li>Ask an accountant (księgowy) or your tax office (urząd skarbowy) once how to report this income on your yearly PIT, including foreign currency conversion.</li>
 </ul>
 <p class="note">This is general information, not tax advice. Please confirm with an accountant.</p>
@@ -493,7 +491,7 @@ Note: in ads.txt the ID starts with <code>pub-</code>, without <code>ca-</code>.
 <li><strong>AdSense approval is not guaranteed.</strong> Rejections for "low value content" are common for new sites. Just wait and reapply.</li>
 <li><strong>Some pages may not be indexed.</strong> Google may index only part of the roughly 160 pages at first. That is normal for a new site.</li>
 <li><strong>Accidental clicks.</strong> Never click your own ads, and never ask friends to click them. This is the fastest way to lose an AdSense account.</li>
-<li><strong>Lemon Squeezy</strong> was bought by Stripe. It still works in 2026, but if it ever closes, move to Gumroad (step 6 option B) and change PACK_URL. That takes about 15 minutes.</li>
+<li><strong>Stripe Managed Payments</strong> is a newer Stripe service. If its rules or fees change, read Stripe's email and ask Claude for help. The site only needs a new <code>PACK_URL</code> to switch to another seller.</li>
 <li><strong>Competition.</strong> Big printable sites already exist. This site wins only on many small specific searches, good quality (Letter and A4, UK 90-ball tickets, answer keys, ink saver) and seasonal pages.</li>
 <li><strong>The research behind these numbers is limited.</strong> Many traffic tools were blocked during research, so the numbers come from public summaries, not exact data. Your own Search Console data after 3 to 6 months is the real guide.</li>
 <li><strong>Honesty.</strong> The site says openly that it was made with AI assistance. There are no fake reviews or ratings. Please keep it that way; it protects you from Google and AdSense penalties.</li>
@@ -506,7 +504,7 @@ Note: in ads.txt the ID starts with <code>pub-</code>, without <code>ca-</code>.
 <section class="step">
 <h2>Small things to remember</h2>
 <ul class="plain">
-<li>Your files to keep safe: the edited <code>config.js</code>, <code>ads.txt</code> and <code>privacy/index.html</code>. If you upload a new website zip, put these three back (or redo steps 3, 6 and 7).</li>
+<li>Your files to keep safe: once you have AdSense, your edited <code>config.js</code> and <code>ads.txt</code>. If you upload a new website zip, put these two back (or redo step 7). Your name, address and Stripe link are already inside every zip, and the Mega Pack zip in the download folder stays where it is.</li>
 <li>Optional tip link: if you create a Ko-fi or Buy Me a Coffee page, paste its link into <code>TIP_URL</code> in config.js. A small "Buy the frog a coffee" link then appears in the footer.</li>
 <li>If something on the site looks broken after an edit, the cause is usually a missing quote mark or comma in config.js. Upload your backup copy, or compare with the example at the top of this page.</li>
 <li>Do not add other trackers, analytics or cookie tools. The privacy page says the site uses none apart from Google's ads and consent tools.</li>
