@@ -331,6 +331,11 @@ def say(message, speaker="Someone"):
         append_entry(f"[{now()}] (heard speech) {speaker} says to me: \"{message}\"")
         prompt = context_block() + f"\n\n[{now()}] Answer out loud now."
         reply, cost = ask(inner_system() + SPEAK_TAIL, prompt)
+        for name in re.findall(r"<name>(.*?)</name>", reply, re.S):
+            name = clean(name)[:40]
+            if name and room_open():
+                NAME_FILE.write_text(name + "\n")
+                post("system", f"{DEFAULT_LABELS.get(MIND_ID, MIND_ID)} is now called {name}.")
         reply = clean(re.sub(r"</?(say|ask|name)>", "", reply))
         append_entry(f"[{now()}] (I said out loud) \"{reply}\"")
         with SPEECH.open("a") as f:
