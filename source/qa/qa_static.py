@@ -363,6 +363,9 @@ class QA:
                 v = html.unescape(v)
                 if v.startswith(("mailto:", "tel:", "javascript:", "data:")) or v == "":
                     continue
+                # The paid pack zip is uploaded by the owner straight to the server, never built.
+                if p.startswith("/pack-download-") and v == "frogsdream-Mega-Pack.zip":
+                    continue
                 u = urlparse(v)
                 if u.scheme in ("http", "https") and u.netloc and u.netloc != "frogsdream.com":
                     if u.scheme != "https":

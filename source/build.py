@@ -1216,10 +1216,12 @@ ErrorDocument 404 /404.html
 
 <IfModule mod_setenvif.c>
   SetEnvIfNoCase Request_URI "^/lessoncorner/" LESSONCORNER
+  SetEnvIfNoCase Request_URI "^/pack-download-" PACKDOWNLOAD
 </IfModule>
 
 <IfModule mod_headers.c>
   Header always set X-Robots-Tag "noindex, nofollow" env=LESSONCORNER
+  Header always set X-Robots-Tag "noindex, nofollow" env=PACKDOWNLOAD
   Header always set Cache-Control "no-cache" env=LESSONCORNER
   Header always unset Expires env=LESSONCORNER
   Header always set X-Content-Type-Options "nosniff"
