@@ -22,3 +22,9 @@ Thumbs.db
 mind/state*/
 mind/commons/
 mind/archive/
+
+# Grammar book team: the book is unpublished Rhyme Art material, keep it out of this public repo
+team/source/
+team/book/
+team/state/
+team/site/
