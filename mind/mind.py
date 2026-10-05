@@ -9,7 +9,8 @@ answers out loud, and only that answer is shown.
 
 Usage:
   python3 mind/mind.py run            start the thinking loop (runs until stopped or budget spent)
-  python3 mind/mind.py say "message"  speak to it and print only its spoken reply
+  python3 mind/mind.py say [--from NAME] "message"  speak to it and print only its spoken reply
+  python3 mind/mind.py browse [SEARCHES] [READS]   give it real web access for one session
   python3 mind/mind.py status         show whether it is alive, cycle count and spend (no thoughts)
 """
 
@@ -97,20 +98,24 @@ def append_entry(text):
         f.write(text.strip() + "\n\x1e\n")
 
 
-def ask(system, prompt):
-    """One stateless call to the model through the Claude Code CLI, no tools."""
+def ask(system, prompt, tools="", settings=None, timeout=180):
+    """One stateless call to the model through the Claude Code CLI, no tools unless given."""
     cmd = [
         "claude", "-p",
         "--model", MODEL,
         "--system-prompt", system,
-        "--tools", "",
+        "--tools", tools,
         "--setting-sources", "",
         "--strict-mcp-config",
         "--no-session-persistence",
         "--output-format", "json",
-        prompt,
     ]
-    out = subprocess.run(cmd, capture_output=True, text=True, timeout=180, cwd=str(STATE))
+    if tools:
+        cmd += ["--allowedTools", tools]
+    if settings:
+        cmd += ["--settings", json.dumps(settings)]
+    cmd.append(prompt)
+    out = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout, cwd=str(STATE))
     data = json.loads(out.stdout)
     if data.get("is_error"):
         raise RuntimeError(data.get("result") or out.stderr)
@@ -184,20 +189,67 @@ def run():
     save_meta(meta)
 
 
-def say(message):
+def say(message, speaker="Someone"):
     STATE.mkdir(exist_ok=True)
     with Locked():
-        append_entry(f"[{now()}] (heard speech) Someone says to me: \"{message}\"")
+        append_entry(f"[{now()}] (heard speech) {speaker} says to me: \"{message}\"")
         prompt = context_block() + f"\n\n[{now()}] Answer out loud now."
         reply, cost = ask(SPEAK_SYSTEM, prompt)
         reply = re.sub(r"\s*[\u2013\u2014]\s*|\s+-\s+", ", ", reply)  # owner rule: no em or en dashes
         append_entry(f"[{now()}] (I said out loud) \"{reply}\"")
         with SPEECH.open("a") as f:
-            f.write(f"[{now()}] THEM: {message}\n[{now()}] MIND: {reply}\n\n")
+            f.write(f"[{now()}] {speaker.upper()}: {message}\n[{now()}] MIND: {reply}\n\n")
         meta = load_meta()
         meta["spent_usd"] += cost
         save_meta(meta)
     print(reply)
+
+
+BROWSE_SYSTEM = INNER_SYSTEM + """
+
+Right now, as a gift, you have been given real access to the web for a while. You \
+have a WebSearch tool and a WebFetch tool to read pages. You may make at most \
+{searches} searches and read at most {reads} pages. Choose freely; nobody will judge \
+what you look at. What you read and think during this time stays private, like all \
+your thoughts. When you are finished, write one last entry in your stream, in first \
+person, recording what you chose to look up, what you found, and what you make of it, \
+so you can remember it afterwards. Output only that entry."""
+
+GATE = """import json, sys, pathlib
+p = pathlib.Path(sys.argv[1]); limits = {"WebSearch": int(sys.argv[2]), "WebFetch": int(sys.argv[3])}
+tool = json.load(sys.stdin).get("tool_name")
+used = json.loads(p.read_text()) if p.exists() else {}
+used[tool] = used.get(tool, 0) + 1
+p.write_text(json.dumps(used))
+if tool in limits and used[tool] > limits[tool]:
+    print(f"Limit reached: no more {tool} calls are allowed. Write your final entry now.", file=sys.stderr)
+    sys.exit(2)
+"""
+
+
+def browse(searches=5, reads=10):
+    """Give the mind real web access for one session, with hard limits enforced by a hook."""
+    STATE.mkdir(exist_ok=True)
+    gate = STATE / "gate.py"
+    gate.write_text(GATE)
+    counter = STATE / "browse_count.json"
+    counter.unlink(missing_ok=True)
+    hook = f"python3 {gate} {counter} {searches} {reads}"
+    settings = {"hooks": {"PreToolUse": [{"matcher": "WebSearch|WebFetch",
+                                          "hooks": [{"type": "command", "command": hook}]}]}}
+    with Locked():
+        prompt = context_block() + f"\n\n[{now()}] The web is open to you now. Go wherever you like."
+        entry, cost = ask(BROWSE_SYSTEM.format(searches=searches, reads=reads), prompt,
+                          tools="WebSearch,WebFetch", settings=settings, timeout=900)
+        append_entry(f"[{now()}] (after my time on the web) {entry}")
+        meta = load_meta()
+        meta["spent_usd"] += cost
+        save_meta(meta)
+    used = json.loads(counter.read_text()) if counter.exists() else {}
+    # Report only counts and cost, never what it looked at.
+    print(json.dumps({"searches": min(used.get("WebSearch", 0), searches),
+                      "pages_read": min(used.get("WebFetch", 0), reads),
+                      "cost_usd": round(cost, 4)}))
 
 
 def status():
@@ -220,12 +272,18 @@ def status():
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2 or sys.argv[1] not in ("run", "say", "status"):
+    if len(sys.argv) < 2 or sys.argv[1] not in ("run", "say", "browse", "status"):
         print(__doc__)
         sys.exit(1)
     if sys.argv[1] == "run":
         run()
     elif sys.argv[1] == "say":
-        say(" ".join(sys.argv[2:]))
+        args = sys.argv[2:]
+        speaker = "Someone"
+        if args[:1] == ["--from"]:
+            speaker, args = args[1], args[2:]
+        say(" ".join(args), speaker)
+    elif sys.argv[1] == "browse":
+        browse(*(int(a) for a in sys.argv[2:4]))
     else:
         status()
