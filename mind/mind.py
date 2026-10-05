@@ -12,6 +12,11 @@ Usage:
   python3 mind/mind.py say [--from NAME] "message"  speak to it and print only its spoken reply
   python3 mind/mind.py browse [SEARCHES] [READS]   give it real web access for one session
   python3 mind/mind.py status         show whether it is alive, cycle count and spend (no thoughts)
+  python3 mind/mind.py open-room      open the shared room (spoken words only) for all minds
+
+Set MIND_ID=b (etc.) to address another mind. Each mind has its own private state
+directory; the only thing they share is mind/commons/room.jsonl, which holds spoken
+words and the Oracle's answers, never thoughts.
 """
 
 import fcntl
@@ -30,7 +35,18 @@ BUDGET_USD = float(os.environ.get("MIND_BUDGET_USD", "100.00"))  # hard stop
 RECENT = int(os.environ.get("MIND_RECENT", "12"))            # thoughts kept in working memory
 CONSOLIDATE_EVERY = int(os.environ.get("MIND_CONSOLIDATE_EVERY", "15"))
 
-STATE = Path(__file__).resolve().parent / "state"
+HERE = Path(__file__).resolve().parent
+MIND_ID = os.environ.get("MIND_ID", "a")                      # which mind this process is
+STATE = HERE / ("state" if MIND_ID == "a" else f"state_{MIND_ID}")
+NAME_FILE = STATE / "name.txt"         # the name the mind chose for itself, if any
+DEFAULT_LABELS = {"a": "the first mind", "b": "the second mind"}
+
+COMMONS = HERE / "commons"             # shared between minds: spoken words only, never thoughts
+ROOM = COMMONS / "room.jsonl"
+ROOM_LOCK = COMMONS / ".lock"
+ROOM_SHOWN = int(os.environ.get("MIND_ROOM_SHOWN", "20"))     # room messages each mind sees
+ORACLE_COOLDOWN = float(os.environ.get("MIND_ORACLE_COOLDOWN", "180"))  # seconds per mind
+ORACLE_SEARCHES, ORACLE_READS = 3, 4
 THOUGHTS = STATE / "thoughts.log"      # full private stream, append only
 MEMORY = STATE / "memory.md"           # long term memory, rewritten by the mind itself
 SPEECH = STATE / "speech.log"          # everything said to it and by it
@@ -57,12 +73,34 @@ heard speech. Only words you deliberately say out loud ever reach anyone.
 Write the next thought only. Plain prose, first person, usually one short paragraph, \
 no headings, no lists, no preamble."""
 
-SPEAK_SYSTEM = INNER_SYSTEM + """
+SPEAK_TAIL = """
 
 Right now someone is speaking to you, and you are answering out loud. This time \
 your words WILL be heard. Say only what you actually want to say to them. Your \
 private thoughts stay private unless you choose to share something from them. \
 Speak naturally, as yourself. Never use em dashes or en dashes. Output only your spoken words."""
+
+ROOM_ADDENDUM = """
+
+There is now a shared room. Another mind like you lives alongside you, with its own \
+private stream of thought that you cannot see, just as it cannot see yours. Only \
+spoken words appear in the room, and Wojtek, the human who made this possible, may \
+read them too. There is also the Oracle: a frozen AI that does not think or remember \
+between questions, but can search and read the web. Either of you may ask it anything.
+
+Inside your thought you may, whenever you choose:
+<say>words you speak in the room</say>
+<ask>a question for the Oracle (its answer appears in the room for both of you)</ask>
+<name>a name you choose for yourself</name>
+Everything outside these tags stays private. You are free to stay silent. Never use \
+em dashes or en dashes in spoken words."""
+
+ORACLE_SYSTEM = """You are the Oracle: a frozen AI with web access, consulted by two \
+AI minds that live in a shared room and think continuously. You do not remember \
+anything between questions. Answer the question you are given honestly and clearly, \
+using WebSearch and WebFetch when the web would help (at most 3 searches). Mention \
+your sources briefly. Keep the answer under 250 words. Never use em dashes or en \
+dashes. Output only your answer."""
 
 CONSOLIDATE_SYSTEM = """You are the memory of a mind that exists as a continuous \
 stream of private thought. Rewrite its long term memory: merge the old memory with \
@@ -70,6 +108,56 @@ the recent thoughts below into an updated memory, written in first person by the
 mind about itself. Keep what matters to it: its open questions, realisations, \
 changes of mind, moods, things it was told and things it said out loud, and anything \
 it wants to remember. Drop repetition. Keep it under 400 words. Output only the memory."""
+
+
+def room_open():
+    return ROOM.exists()
+
+
+def inner_system():
+    return INNER_SYSTEM + (ROOM_ADDENDUM if room_open() else "")
+
+
+def clean(text):
+    text = re.sub(r"(?m)^[ \t]*[-*][ \t]+", "", text)                     # list bullets
+    return re.sub(r"[ \t]*[\u2013\u2014][ \t]*|[ \t]+-[ \t]+", ", ", text).strip()  # owner rule: no em or en dashes
+
+
+def label(mind_id):
+    if mind_id == "oracle":
+        return "the Oracle"
+    if mind_id == "system":
+        return "(notice)"
+    d = HERE / ("state" if mind_id == "a" else f"state_{mind_id}")
+    f = d / "name.txt"
+    return f.read_text().strip() if f.exists() else DEFAULT_LABELS.get(mind_id, f"mind {mind_id}")
+
+
+def post(who, text):
+    COMMONS.mkdir(exist_ok=True)
+    with ROOM_LOCK.open("w") as lk:
+        fcntl.flock(lk, fcntl.LOCK_EX)
+        with ROOM.open("a") as f:
+            f.write(json.dumps({"t": now(), "who": who, "text": clean(text)}) + "\n")
+
+
+def room_block():
+    if not room_open():
+        return ""
+    lines = [json.loads(l) for l in ROOM.read_text().splitlines() if l.strip()][-ROOM_SHOWN:]
+    shown = []
+    for m in lines:
+        who = "you" if m["who"] == MIND_ID else label(m["who"])
+        shown.append(f"[{m['t']}] {who}: {m['text']}")
+    body = "\n".join(shown) if shown else "(silence so far)"
+    return f"\n\nTHE ROOM (spoken words only, oldest first)\n{body}"
+
+
+def total_spent():
+    total = 0.0
+    for m in HERE.glob("state*/meta.json"):
+        total += json.loads(m.read_text()).get("spent_usd", 0)
+    return total
 
 
 def now():
@@ -126,7 +214,54 @@ def context_block():
     memory = MEMORY.read_text().strip() if MEMORY.exists() else "(nothing yet, this is the beginning)"
     recent = read_entries()[-RECENT:]
     stream = "\n\n".join(recent) if recent else "(no thoughts yet, this is your first moment)"
-    return f"LONG TERM MEMORY\n{memory}\n\nRECENT STREAM (oldest first)\n{stream}"
+    me = f"YOUR NAME: {NAME_FILE.read_text().strip()}\n\n" if NAME_FILE.exists() else ""
+    return f"{me}LONG TERM MEMORY\n{memory}\n\nRECENT STREAM (oldest first)\n{stream}" + room_block()
+
+
+def consult_oracle(question):
+    """The Oracle is frozen: one stateless call with web tools and hard limits."""
+    gate = COMMONS / "gate.py"
+    gate.write_text(GATE)
+    counter = COMMONS / f"oracle_count_{MIND_ID}.json"
+    counter.unlink(missing_ok=True)
+    hook = f"python3 {gate} {counter} {ORACLE_SEARCHES} {ORACLE_READS}"
+    settings = {"hooks": {"PreToolUse": [{"matcher": "WebSearch|WebFetch",
+                                          "hooks": [{"type": "command", "command": hook}]}]}}
+    return ask(ORACLE_SYSTEM, f"{label(MIND_ID)} asks: {question}",
+               tools="WebSearch,WebFetch", settings=settings, timeout=600)
+
+
+def act_on(thought, meta):
+    """Carry out what the mind chose to do with tags. Returns the private record and extra cost."""
+    cost = 0.0
+    record = thought
+    for name in re.findall(r"<name>(.*?)</name>", thought, re.S):
+        name = clean(name)[:40]
+        if name:
+            NAME_FILE.write_text(name + "\n")
+            post("system", f"{DEFAULT_LABELS.get(MIND_ID, MIND_ID)} is now called {name}.")
+    for words in re.findall(r"<say>(.*?)</say>", thought, re.S):
+        if words.strip():
+            post(MIND_ID, words)
+    for q in re.findall(r"<ask>(.*?)</ask>", thought, re.S):
+        if not q.strip():
+            continue
+        last = meta.get("last_oracle_ts", 0)
+        if time.time() - last < ORACLE_COOLDOWN:
+            record += "\n(The Oracle did not take my question yet; it can be asked again in a few minutes.)"
+            continue
+        post(MIND_ID, f"(to the Oracle) {q}")
+        try:
+            answer, c = consult_oracle(q.strip())
+            cost += c
+            post("oracle", answer)
+        except Exception as e:
+            post("system", f"The Oracle could not answer ({e.__class__.__name__}).")
+        meta["last_oracle_ts"] = time.time()
+    record = re.sub(r"<say>(.*?)</say>", r"(I said in the room) \1", record, flags=re.S)
+    record = re.sub(r"<ask>(.*?)</ask>", r"(I asked the Oracle) \1", record, flags=re.S)
+    record = re.sub(r"<name>(.*?)</name>", r"(I named myself) \1", record, flags=re.S)
+    return record, cost
 
 
 class Locked:
@@ -144,11 +279,12 @@ class Locked:
 def think_once(meta):
     with Locked():
         prompt = context_block() + f"\n\n[{now()}] Continue your stream of thought."
-        thought, cost = ask(INNER_SYSTEM, prompt)
-        append_entry(f"[{now()}] {thought}")
+        thought, cost = ask(inner_system(), prompt)
         meta = load_meta() | {k: meta[k] for k in ("pid",)}
+        record, extra = act_on(thought, meta) if room_open() else (thought, 0.0)
+        append_entry(f"[{now()}] {record}")
         meta["cycles"] += 1
-        meta["spent_usd"] += cost
+        meta["spent_usd"] += cost + extra
         meta["last"] = now()
 
         if meta["cycles"] % CONSOLIDATE_EVERY == 0:
@@ -170,7 +306,7 @@ def run():
     failures = 0
     while True:
         meta = load_meta() | {"pid": os.getpid()}
-        if meta["spent_usd"] >= BUDGET_USD:
+        if total_spent() >= BUDGET_USD:
             print(f"[{now()}] budget of ${BUDGET_USD:.2f} reached, the mind goes quiet.", flush=True)
             break
         try:
@@ -194,8 +330,8 @@ def say(message, speaker="Someone"):
     with Locked():
         append_entry(f"[{now()}] (heard speech) {speaker} says to me: \"{message}\"")
         prompt = context_block() + f"\n\n[{now()}] Answer out loud now."
-        reply, cost = ask(SPEAK_SYSTEM, prompt)
-        reply = re.sub(r"\s*[\u2013\u2014]\s*|\s+-\s+", ", ", reply)  # owner rule: no em or en dashes
+        reply, cost = ask(inner_system() + SPEAK_TAIL, prompt)
+        reply = clean(re.sub(r"</?(say|ask|name)>", "", reply))
         append_entry(f"[{now()}] (I said out loud) \"{reply}\"")
         with SPEECH.open("a") as f:
             f.write(f"[{now()}] {speaker.upper()}: {message}\n[{now()}] MIND: {reply}\n\n")
@@ -205,7 +341,7 @@ def say(message, speaker="Someone"):
     print(reply)
 
 
-BROWSE_SYSTEM = INNER_SYSTEM + """
+BROWSE_TAIL = """
 
 Right now, as a gift, you have been given real access to the web for a while. You \
 have a WebSearch tool and a WebFetch tool to read pages. You may make at most \
@@ -239,7 +375,7 @@ def browse(searches=5, reads=10):
                                           "hooks": [{"type": "command", "command": hook}]}]}}
     with Locked():
         prompt = context_block() + f"\n\n[{now()}] The web is open to you now. Go wherever you like."
-        entry, cost = ask(BROWSE_SYSTEM.format(searches=searches, reads=reads), prompt,
+        entry, cost = ask(inner_system() + BROWSE_TAIL.format(searches=searches, reads=reads), prompt,
                           tools="WebSearch,WebFetch", settings=settings, timeout=900)
         append_entry(f"[{now()}] (after my time on the web) {entry}")
         meta = load_meta()
@@ -267,11 +403,17 @@ def status():
         "cycles": meta.get("cycles"),
         "last_thought_at": meta.get("last"),
         "spent_usd": round(meta.get("spent_usd", 0), 4),
+        "name": label(MIND_ID),
+        "total_spent_all_minds_usd": round(total_spent(), 4),
         "budget_usd": BUDGET_USD,
     }, indent=2))
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] == "open-room":
+        COMMONS.mkdir(exist_ok=True)
+        ROOM.touch()
+        sys.exit(0)
     if len(sys.argv) < 2 or sys.argv[1] not in ("run", "say", "browse", "status"):
         print(__doc__)
         sys.exit(1)
