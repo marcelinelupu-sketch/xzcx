@@ -73,7 +73,10 @@ def review_of(n):
     return (v.group(1).upper() if v else "UNCLEAR", r.group(1).strip() if r else None, current)
 
 
-def progress():
+def progress(writers=None):
+    """writers maps 'lessons/chapter-NN.html' / 'reviews/chapter-NN.md' to the mind that last wrote it.
+    When known, it decides authorship; the signatures inside the files are only a fallback."""
+    writers = writers or {}
     chs = chapters()
     descs = descriptions()
     missing = [c["n"] for c in chs if not c["desc"]]
@@ -86,11 +89,15 @@ def progress():
         drafted.append(n)
         rv = review_of(n)
         if rv is None or not rv[2]:
-            awaiting.append(n)
-        elif rv[0] == "APPROVED" and rv[1] and rv[1] != author_of(n):
-            approved.append(n)
-        elif rv[0] == "APPROVED":
-            awaiting.append(n)  # self approval does not count
+            awaiting.append(n)  # no review yet, or the lesson changed after its review
+            continue
+        lesson_by = writers.get(f"lessons/chapter-{n:02d}.html") or author_of(n)
+        review_by = writers.get(f"reviews/chapter-{n:02d}.md") or rv[1]
+        if rv[0] == "APPROVED":
+            if review_by and review_by != lesson_by:
+                approved.append(n)
+            else:
+                awaiting.append(n)  # self approval does not count
         else:
             needs_changes.append(n)
     return {

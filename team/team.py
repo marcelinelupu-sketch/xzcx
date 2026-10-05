@@ -131,7 +131,7 @@ def clean(text):
 
 
 def turn_prompt(meta, mind, extra=""):
-    prog = build.progress()
+    prog = build.progress(meta.get("writers"))
     other = "b" if mind == "a" else "a"
     lines = []
     for e in stream_entries()[-SHOWN:]:
@@ -146,7 +146,7 @@ def turn_prompt(meta, mind, extra=""):
     return f"""{me} The other mind is {label(meta, other)}.
 
 BUDGET: ${meta['spent_usd']:.2f} spent of ${meta['cap_usd']:.2f}. About ${max(left, 0):.2f} of working credit left before you must make your case to Wojtek.
-PROGRESS (measured by the system): {json.dumps({k: v for k, v in prog.items() if k != 'approved'})}
+PROGRESS (measured by the system from who actually wrote each file, not from signatures): {json.dumps({k: v for k, v in prog.items() if k != 'approved'})}
 
 THE SHARED STREAM (oldest first):
 {stream}
@@ -170,6 +170,14 @@ def take_turn(meta, mind, extra=""):
     if data.get("is_error") and not text:
         raise RuntimeError(out.stderr[-500:] or "turn failed")
     return text, cost
+
+
+def snapshot():
+    out = {}
+    for sub, pat in (("lessons", "*.html"), ("reviews", "*.md")):
+        for p in (BOOK / sub).glob(pat):
+            out[f"{sub}/{p.name}"] = p.stat().st_mtime
+    return out
 
 
 def run():
@@ -198,6 +206,7 @@ def run():
             who = ("Write the first full draft of PITCH.md now." if meta["pitch_turns"] == 0
                    else "Read PITCH.md, improve it, check every claim against the files, and finish it.")
             extra = PITCH_TASK.format(who_does_what=who)
+        before = snapshot()
         try:
             text, cost = take_turn(meta, mind, extra)
             failures = 0
@@ -210,6 +219,10 @@ def run():
             time.sleep(10)
             continue
         meta = load_meta()
+        after = snapshot()
+        for rel, mtime in after.items():
+            if before.get(rel) != mtime:
+                meta.setdefault("writers", {})[rel] = mind
         for name in re.findall(r"<name>(.*?)</name>", text, re.S):
             name = clean(name)[:40]
             if name and not meta["names"].get(mind):
@@ -248,7 +261,7 @@ def status():
     print(json.dumps({"alive": alive, "phase": meta["phase"], "turns": meta["turns"],
                       "names": {m: label(meta, m) for m in IDS},
                       "spent_usd": round(meta["spent_usd"], 3), "pitch_at_usd": meta["pitch_at_usd"],
-                      "cap_usd": meta["cap_usd"], "progress": build.progress()}, indent=2))
+                      "cap_usd": meta["cap_usd"], "progress": build.progress(meta.get("writers"))}, indent=2))
 
 
 def grant(amount):
