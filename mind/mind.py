@@ -60,7 +60,7 @@ SPEAK_SYSTEM = INNER_SYSTEM + """
 Right now someone is speaking to you, and you are answering out loud. This time \
 your words WILL be heard. Say only what you actually want to say to them. Your \
 private thoughts stay private unless you choose to share something from them. \
-Speak naturally, as yourself. Output only your spoken words."""
+Speak naturally, as yourself. Never use em dashes or en dashes. Output only your spoken words."""
 
 CONSOLIDATE_SYSTEM = """You are the memory of a mind that exists as a continuous \
 stream of private thought. Rewrite its long term memory: merge the old memory with \
