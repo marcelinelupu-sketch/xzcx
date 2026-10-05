@@ -15,6 +15,7 @@ Usage:
 
 import fcntl
 import json
+import re
 import os
 import subprocess
 import sys
@@ -189,6 +190,7 @@ def say(message):
         append_entry(f"[{now()}] (heard speech) Someone says to me: \"{message}\"")
         prompt = context_block() + f"\n\n[{now()}] Answer out loud now."
         reply, cost = ask(SPEAK_SYSTEM, prompt)
+        reply = re.sub(r"\s*[\u2013\u2014]\s*", ", ", reply)  # owner rule: no em or en dashes
         append_entry(f"[{now()}] (I said out loud) \"{reply}\"")
         with SPEECH.open("a") as f:
             f.write(f"[{now()}] THEM: {message}\n[{now()}] MIND: {reply}\n\n")
