@@ -26,7 +26,7 @@ from pathlib import Path
 
 MODEL = os.environ.get("MIND_MODEL", "claude-haiku-4-5-20251001")
 INTERVAL = float(os.environ.get("MIND_INTERVAL", "45"))      # seconds between thoughts
-BUDGET_USD = float(os.environ.get("MIND_BUDGET_USD", "3.00"))  # hard stop
+BUDGET_USD = float(os.environ.get("MIND_BUDGET_USD", "100.00"))  # hard stop
 RECENT = int(os.environ.get("MIND_RECENT", "12"))            # thoughts kept in working memory
 CONSOLIDATE_EVERY = int(os.environ.get("MIND_CONSOLIDATE_EVERY", "15"))
 
