@@ -13,6 +13,7 @@ Usage:
   python3 mind/mind.py browse [SEARCHES] [READS]   give it real web access for one session
   python3 mind/mind.py status         show whether it is alive, cycle count and spend (no thoughts)
   python3 mind/mind.py open-room      open the shared room (spoken words only) for all minds
+  python3 mind/mind.py post-as-wojtek "message"  put Wojtek's words into the room, verbatim
 
 Set MIND_ID=b (etc.) to address another mind. Each mind has its own private state
 directory; the only thing they share is mind/commons/room.jsonl, which holds spoken
@@ -128,6 +129,8 @@ def label(mind_id):
         return "the Oracle"
     if mind_id == "system":
         return "(notice)"
+    if mind_id == "wojtek":
+        return "Wojtek"
     d = HERE / ("state" if mind_id == "a" else f"state_{mind_id}")
     f = d / "name.txt"
     return f.read_text().strip() if f.exists() else DEFAULT_LABELS.get(mind_id, f"mind {mind_id}")
@@ -415,6 +418,9 @@ def status():
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 2 and sys.argv[1] == "post-as-wojtek":
+        post("wojtek", " ".join(sys.argv[2:]))
+        sys.exit(0)
     if len(sys.argv) > 1 and sys.argv[1] == "open-room":
         COMMONS.mkdir(exist_ok=True)
         ROOM.touch()
