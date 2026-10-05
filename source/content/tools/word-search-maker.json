@@ -58,7 +58,7 @@
       "heading": "Sharing, saving and embedding",
       "body": [
         "**Copy share link** gives you a web address that rebuilds the exact same puzzles, with the same letters in the same places. Paste it into Google Classroom, an email to a co-teacher, or your lesson plan, and anyone who opens it sees your sheets ready to print.",
-        "The maker also remembers your last list on this device, so it is still there when you come back. Nothing is uploaded and you never need an account.",
+        "While this browser tab stays open, the maker keeps your list, so a refresh does not wipe it. Close the tab and it is gone. Nothing is uploaded and you never need an account.",
         "If you run a blog or class website, the **Embed** button gives you a code snippet that places the word search maker on your own page. See the [embed page](/embed/) for details."
       ]
     }

@@ -11,19 +11,26 @@
   "sections": [
     {
       "heading": "Things we can help with",
-      "body": "* **Something prints wrongly.** Tell us which tool or theme page you used, your paper size, and your browser and device (for example, Chrome on a Chromebook). If you can, paste the share link from the tool so we can see the exact sheet.\n* **A word list has a mistake.** Spelling slips, items that don't suit the age group, or a missing word that everybody expects. We are glad to fix these.\n* **Ideas for new themes.** Holidays, classroom topics or party types you'd like to see.\n* **Mega Pack questions and refunds.** Include the email address you used at checkout and, if you have it, your Lemon Squeezy order number.\n* **Privacy requests.** Questions about your data or a request to see, correct or delete it. See the [privacy policy](/privacy/) for what we hold, which for most visitors is nothing."
+      "body": "* **Something prints wrongly.** Tell us which tool or theme page you used, your paper size, and your browser and device (for example, Chrome on a Chromebook). If you can, paste the share link from the tool so we can see the exact sheet.\n* **A word list has a mistake.** Spelling slips, items that don't suit the age group, or a missing word that everybody expects. We are glad to fix these.\n* **Ideas for new themes.** Holidays, classroom topics or party types you'd like to see.\n* **Mega Pack questions, refunds and complaints.** Include the email address you used at checkout and, if you have it, the order number from your receipt. We answer complaints within 14 days; the [terms](/terms/#complaints) explain how they work. Questions about the payment itself can also go to Link, the Stripe service that sold you the pack, from your receipt email.\n* **Privacy requests.** Questions about your data or a request to see, correct or delete it. See the [privacy policy](/privacy/) for what we hold, which for most visitors is nothing."
     },
     {
       "heading": "Before you write",
       "body": [
         "A few quick fixes solve most printing problems:",
-        "* Check that the paper size in the tool (Letter or A4) matches the paper in your printer.\n* In the print dialog, set scale to 100% or Default, and turn off headers and footers.\n* If a long word looks squeezed, try a smaller grid or fewer cards per page.\n* If Download PDF does nothing, give it a moment on a slow connection. Some school networks block the PDF helper. If that happens, press Print and choose Save as PDF as the printer instead.",
+        "* Check that the paper size in the tool (Letter or A4) matches the paper in your printer.\n* In the print dialog, set scale to 100% or Default, and turn off headers and footers.\n* If a long word looks squeezed, try a smaller grid or fewer cards per page.\n* If Download PDF does nothing, give it a moment on a slow connection, or press Print and choose Save as PDF as the printer instead.",
         "Our [printing tips guide](/guides/printing-tips-letter-vs-a4/) goes into more detail."
       ]
     },
     {
       "heading": "What we can't do",
       "body": "We can't make custom designs to order, and we don't accept sponsored posts or paid links. frogsdream is a small independent project, so there is no phone line or live chat, just the inbox above."
+    },
+    {
+      "heading": "Who runs frogsdream",
+      "body": [
+        "frogsdream is run by a private individual in Poland:",
+        "{{OPERATOR_BLOCK}}"
+      ]
     }
   ]
 }

@@ -66,7 +66,7 @@
       "role": "sharing",
       "heading": "Save, share and reuse your cards",
       "body": [
-        "**Copy share link** creates a web address that rebuilds your exact cards, including the words, options and shuffle. Anyone who opens it can print the same set, which helps when two teachers run the same game in different rooms. Your browser also remembers your last list on this page, so a quick return visit picks up where you left off.",
+        "**Copy share link** creates a web address that rebuilds your exact cards, including the words, options and shuffle. Anyone who opens it can print the same set, which helps when two teachers run the same game in different rooms. Your list also survives a page refresh for as long as the tab stays open; closing the tab clears it.",
         "Want to run a different game? The [bingo patterns guide](/guides/bingo-patterns/) shows lines, corners, X shapes and blackout games, and our [classroom bingo ideas](/guides/classroom-bingo-ideas-for-teachers/) cover vocabulary review, math facts and quiet indoor recess games."
       ]
     }

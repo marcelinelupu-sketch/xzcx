@@ -4,7 +4,7 @@
   python3 source/build.py                     build into ./public_html
   python3 source/build.py --out /tmp/site     build somewhere else
   options: --content DIR   read content from another folder (tests/fixtures)
-           --date YYYY-MM-DD  build date (lastmod, policy dates); default today
+           --date YYYY-MM-DD  build date (sitemap lastmod, Article dates); default today
            --strict        treat warnings (broken links, < 3 inbound links, content rule breaks) as errors
            --force         allow wiping a non-empty --out that does not look like a previous build
            --quiet         fewer messages
@@ -761,15 +761,17 @@ class Builder:
                 "@context": "https://schema.org", "@type": "Product", "name": pr["name"], "description": pr.get("description", d["metaDescription"]),
                 "image": [self.url(i) if i.startswith("/") else i for i in pr.get("images", [])] or [self.base + "/assets/img/logo.png"],
                 "brand": {"@type": "Brand", "name": "frogsdream"},
-                # OWNER: when PACK_URL is set in config.js, change PreOrder to InStock (see the comment in premium/index.html).
+                # Availability comes from site.json "packAvailable" (true once the Stripe payment link is live and PACK_URL
+                # is set in config.js). While it is false nothing can be ordered, so the data says OutOfStock rather than
+                # PreOrder, which would claim the pack can be ordered now.
                 "offers": {"@type": "Offer", "price": pr.get("price", "7.00"), "priceCurrency": "USD", "url": self.url(p.path),
-                           "availability": "https://schema.org/" + pr.get("availability", "PreOrder")},
+                           "availability": "https://schema.org/" + ("InStock" if self.site.get("packAvailable") else "OutOfStock")},
             })
         robots = "noindex,follow" if p.noindex else None
         html_out = self.page_shell(p, d["title"], d["metaDescription"], body, ld, trail, d.get("scripts", []), robots=robots)
         if d.get("product"):
-            note = ("<!-- OWNER: the Product data below says availability PreOrder while the Buy button shows Coming soon. "
-                    "When you set PACK_URL in assets/js/config.js, change PreOrder to InStock in it, and keep the $ price here in sync with PACK_PRICE. -->")
+            note = ("<!-- The Product availability below is set from packAvailable in source/content/site.json at build time. "
+                    "Keep it in step with PACK_URL in assets/js/config.js, and keep the $ price in sync with PACK_PRICE. -->")
             html_out = html_out.replace('<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product"',
                                         note + '\n<script type="application/ld+json">{"@context":"https://schema.org","@type":"Product"', 1)
         return html_out
@@ -815,6 +817,38 @@ class Builder:
         ]
         return self.page_shell(p, d["title"], d["metaDescription"], body, ld, None)
 
+    # ------------------------------------------------------------ operator identity and legal dates
+    # The ONE place the operator's identity lives is site.json "operator": {"name": "", "address": ""}.
+    # Pages use these tokens (in raw HTML or plain prose):
+    #   {{OPERATOR_NAME}}   the name, or the visible placeholder [OWNER FULL NAME] while it is empty
+    #   {{OPERATOR_BLOCK}}  name, the postal address lines (left out entirely while "address" is empty) and the email
+    #   {{POLICY_DATE}}     site.json "legal.updated" (the date the privacy policy and terms last changed)
+    OPERATOR_PLACEHOLDER = "[OWNER FULL NAME]"
+
+    def operator(self):
+        op = self.site.get("operator") or {}
+        name = str(op.get("name") or "").strip()
+        addr = op.get("address") or ""
+        lines = addr if isinstance(addr, list) else str(addr).split("\n")
+        return name, [str(x).strip() for x in lines if str(x).strip()]
+
+    def policy_date(self):
+        d = (self.site.get("legal") or {}).get("updated") or self.date
+        d = dt.date.fromisoformat(d)
+        return f"{d:%B} {d.day}, {d.year}"
+
+    def fill_legal(self, h):
+        if "{{" not in h:
+            return h
+        name, lines = self.operator()
+        shown = E(name) if name else self.OPERATOR_PLACEHOLDER
+        block = (f'<p class="operator"><strong>{shown}</strong>'
+                 + "".join(f"<br>{E(x)}" for x in lines)
+                 + '<br>Email: <span data-email>hello at frogsdream dot com</span></p>')
+        h = h.replace("<p>{{OPERATOR_BLOCK}}</p>", block)  # the token written as its own prose block
+        return (h.replace("{{OPERATOR_NAME}}", shown).replace("{{OPERATOR_BLOCK}}", block)
+                .replace("{{POLICY_DATE}}", self.policy_date()))
+
     def render_404(self):
         p = Page("404", "/404.html", {"h1": "Page not found"})
         tools = "".join(f'<li><a class="tcard" href="{t["path"]}"><b>{E(t["name"])}</b></a></li>' for t in self.site["tools"] if self.built(t["path"]))
@@ -837,9 +871,10 @@ class Builder:
         for path, p in sorted(self.pages.items()):
             try:
                 p.html = renderers[p.kind](p)
-                if "{{BUILD_DATE}}" in p.html:  # e.g. the effective date on /privacy/ and /terms/
+                if "{{BUILD_DATE}}" in p.html:
                     bd = dt.date.fromisoformat(self.date)
                     p.html = p.html.replace("{{BUILD_DATE}}", f"{bd:%B} {bd.day}, {bd.year}")
+                p.html = self.fill_legal(p.html)
             except Exception as e:  # noqa: BLE001
                 self.error(f"{path}: render failed: {type(e).__name__}: {e}")
                 continue
@@ -1025,6 +1060,9 @@ class Builder:
             self.log(f"warn: {w}")
         for e in self.errors:
             print(f"ERROR: {e}")
+        if not self.operator()[0]:
+            print('WARNING: operator name is missing in source/content/site.json ("operator": {"name": ...}). '
+                  'The legal pages show [OWNER FULL NAME] until it is filled in and the site is rebuilt.')
         print(f"Built {n_pages} pages into {self.out} (build date {self.date}); css {self.stats['css']} B, shared js {self.stats['shared_js']} B; "
               f"{len(self.errors)} errors, {len(self.warnings)} warnings.")
         if self.errors or (self.a.strict and self.warnings):

@@ -1,88 +1,102 @@
 {
   "shortTitle": "Privacy",
   "title": "Privacy Policy for frogsdream Printables and Tools",
-  "metaDescription": "How frogsdream handles data. No accounts, browser-only storage, server logs, Google AdSense with consent, Lemon Squeezy purchases and your GDPR rights.",
+  "metaDescription": "How frogsdream handles personal data: no accounts, no analytics, tab-only tool storage, server logs, Stripe purchases, Google ads with consent and your rights.",
   "h1": "Privacy Policy",
   "noAds": true,
   "intro": [
-    "This policy explains what personal data is handled when you use frogsdream.com, who handles it, and the choices you have. The short version: we don't run accounts, we don't use analytics cookies, the words you type into our tools stay in your browser, and in the EEA, the UK and Switzerland, advertising cookies are used only if you agree to them.",
-    "**Effective date:** {{BUILD_DATE}}"
+    "This policy explains what personal data is handled when you use frogsdream.com, why, who handles it, how long it is kept and what your rights are. The short version: there are no accounts and no analytics, the words you type into our tools stay in your browser tab, and in the EEA, the UK and Switzerland, advertising cookies are used only if you agree to them.",
+    "**Effective date:** {{POLICY_DATE}}"
   ],
   "sections": [
     {
       "heading": "Who is responsible for your data",
       "body": [
-        "<p>The data controller for this website is <!-- OWNER: replace [OWNER FULL NAME] below with your full legal name --><strong>[OWNER FULL NAME]</strong>, Poland, who runs frogsdream as a small independent project.</p>\n<p>Contact for anything about privacy: <span data-email>hello at frogsdream dot com</span></p>",
-        "We have not appointed a data protection officer, because the law does not require one for a site of this size. Write to the email address above and your message comes straight to the person responsible."
+        "The data controller for this website is the private individual who runs frogsdream from Poland as a small, unregistered activity (in Polish, działalność nierejestrowana):",
+        "{{OPERATOR_BLOCK}}",
+        "Write to the email address above about anything in this policy. Your message comes straight to the person responsible. We have not appointed a data protection officer, because the law does not require one for a site of this size."
+      ]
+    },
+    {
+      "heading": "Summary of what we process and why",
+      "body": [
+        "<div class=\"gtable\"><table>\n<thead><tr><th scope=\"col\">Purpose</th><th scope=\"col\">Data</th><th scope=\"col\">Legal basis (GDPR)</th><th scope=\"col\">How long</th></tr></thead>\n<tbody>\n<tr><td>Delivering the website and keeping it secure (server logs at Hostinger)</td><td>IP address, date and time, page requested, referring page, browser and device type</td><td>Legitimate interest, Art. 6(1)(f)</td><td>Short period set by Hostinger, then deleted. We keep no copies.</td></tr>\n<tr><td>Answering your emails</td><td>Email address, name if given, your message</td><td>Legitimate interest, Art. 6(1)(f); for purchase questions, Art. 6(1)(b)</td><td>Until the matter is closed, at most 2 years after the last message, unless part of a purchase record</td></tr>\n<tr><td>Supporting a Mega Pack purchase (refunds, help, records)</td><td>Order details shared by Stripe: email, name, country, product, price, date, order number</td><td>Art. 6(1)(b) for support and refunds; Art. 6(1)(c) and 6(1)(f) for income records and legal claims</td><td>As long as Polish tax and accounting law requires, usually 5 years from the end of the year the tax was due</td></tr>\n<tr><td>Showing ads, if ads are switched on (Google AdSense)</td><td>Cookies and similar identifiers, IP address, device and browser details, page viewed</td><td>Your consent, Art. 6(1)(a), and Art. 399 of the Polish Electronic Communications Law (Art. 5(3) ePrivacy Directive)</td><td>Set by Google; see below</td></tr>\n<tr><td>Keeping your tool input through a page refresh</td><td>The title, list and options you typed, stored only in your own browser tab</td><td>Strictly necessary for the tool you are using, so no consent is needed (Art. 399 Electronic Communications Law)</td><td>Until you close the tab</td></tr>\n</tbody>\n</table></div>",
+        "You don't have to give us any personal data to use the site. Emailing us is voluntary. To buy the Mega Pack you have to give payment and billing details to Stripe, the seller, because the purchase can't happen without them."
       ]
     },
     {
       "heading": "What we don't collect",
-      "body": "* **No accounts.** There is nothing to sign up for, and no passwords or profiles.\n* **No forms.** We don't run newsletters, comment sections or contact forms. If you email us, see below.\n* **No analytics cookies or tracking pixels.** We don't use Google Analytics or similar tools.\n* **Your word lists stay with you.** The bingo, word search, scramble, scavenger hunt and chart tools build your sheets inside your browser. What you type is not sent to our server."
+      "body": "* **No accounts.** There is nothing to sign up for, and no passwords or profiles.\n* **No forms.** We don't run newsletters, comment sections or contact forms. If you email us, see below.\n* **No analytics and no tracking pixels.** We don't use Google Analytics or any similar tool.\n* **Your word lists stay with you.** The bingo, word search, scramble, scavenger hunt and chart tools and the bingo caller build everything inside your browser. What you type is never sent to our server.\n* **No third-party content.** Fonts, images, scripts and the PDF library all come from our own server. We don't load Google Fonts, video players, maps, social media buttons or other outside services. The only exception is Google's ad code, and only when ads are switched on (see below)."
     },
     {
+      "id": "storage",
       "heading": "Storage on your device",
       "body": [
-        "To save you retyping, the tools keep a few things in your browser's local storage: your last word list for each tool, your paper size and similar settings, and the current game in the bingo caller so a page refresh doesn't lose it. This stays on your device, is never sent to us, and is not a cookie. Because it only exists to provide features you asked for, it does not need consent. You can delete it at any time by clearing this site's data in your browser settings.",
-        "**Share links.** When you press Copy share link, your title, list and options are packed into the part of the web address after the # sign. Browsers do not send that part to our server, but anyone you give the link to can read the list, so don't put private information in a list you share."
+        "**We set no cookies.** frogsdream itself does not create any cookie.",
+        "**Session storage for the tools.** So that a page refresh doesn't wipe your work, each tool keeps your last title, word list and options in your browser's session storage, under a key such as fd:bingo, fd:wordsearch, fd:scavenger, fd:scramble, fd:routine or fd:reward. The bingo caller keeps the current game (mode, called numbers and settings) under fd:caller. This happens only when you use a tool, and it holds only what you typed or chose. Session storage is not a cookie and is never sent to us or anyone else. Your browser deletes it automatically when you close the tab. You can also clear it at any time by clearing this site's data in your browser settings.",
+        "Because this storage exists only to provide the tool you are actively using, it is strictly necessary and does not need consent under Article 399 of the Polish Electronic Communications Law (Prawo komunikacji elektronicznej), which implements Article 5(3) of the EU ePrivacy Directive. Embedded tools on other websites don't store anything.",
+        "**Share links.** When you press Copy share link, your title, list and options are packed into the part of the web address after the # sign. Browsers do not send that part to our server, but anyone you give the link to can read the list, so don't put private information in a list you share.",
+        "**Read-aloud in the bingo caller.** If you switch on the voice, the calls are spoken by your own browser or operating system. Some browsers send the text to an online voice service run by the browser maker. That is covered by your browser's privacy terms, not ours, and you can avoid it by choosing a voice marked as local or by leaving the voice off."
       ]
     },
     {
       "heading": "Server logs at our host",
       "body": [
-        "The site is hosted by **Hostinger International Ltd.** (Cyprus), which acts as our data processor. Like every web server, it automatically records basic information about each request: your IP address, the date and time, the page or file requested, the referring page, your browser and device type, and whether the request succeeded.",
-        "We use these logs only to deliver the site, keep it secure, fix errors, and see simple totals such as how many pages were visited in a month. Our legal basis is our legitimate interest in running a safe, working website (Article 6(1)(f) GDPR). We don't use the logs to identify visitors or combine them with other data. Hostinger keeps them for as long as it needs them for security, normally a few weeks, and then deletes them. See [Hostinger's privacy policy](https://www.hostinger.com/legal/privacy-policy)."
-      ]
-    },
-    {
-      "heading": "Other services the tools load",
-      "body": [
-        "* **PDF downloads.** When you press Download PDF, your browser loads a free PDF library (jsPDF) from **cdnjs**, a public file service run by Cloudflare, Inc. This sends your IP address and browser details to Cloudflare so it can deliver the file. It happens only when you click the button, because the download can't work without it (Article 6(1)(f) GDPR). See [Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/).\n* **Read-aloud in the bingo caller.** If you switch on the voice, the calls are spoken by your own browser or operating system. Some browsers use an online voice service from their maker for this; that is governed by your browser's privacy terms, not ours.\n* **Fonts and images** are served from our own host. We don't load Google Fonts or other third-party fonts."
+        "The site is hosted by **Hostinger International Ltd.**, based in Cyprus, which acts as our data processor under its data processing terms. Our email mailbox is hosted there too. Like every web server, it automatically records basic information about each request: your IP address, the date and time, the page or file requested, the referring page, your browser and device type, and whether the request succeeded.",
+        "We use these logs only to deliver the site, keep it secure, fix errors and see simple totals such as how many pages were requested in a month. Our legal basis is our legitimate interest in running a safe, working website (Article 6(1)(f) GDPR). We don't use the logs to identify visitors or combine them with other data. Hostinger keeps them for a limited time under its own retention rules and then deletes them, and we don't keep copies. See [Hostinger's privacy policy](https://www.hostinger.com/legal/privacy-policy)."
       ]
     },
     {
       "heading": "Advertising by Google AdSense",
       "body": [
-        "Some pages show ads from **Google AdSense**, provided in Europe by Google Ireland Limited. To show and measure ads and prevent fraud, Google and its certified ad partners may place or read cookies and similar identifiers in your browser and receive information such as your IP address, device and browser details, and the page you are viewing. Google acts as an independent controller for this data.",
-        "Where you have agreed, the ads may be personalized based on your interests. If you don't agree, Google may still show non-personalized or limited ads, which use less data. Our legal basis for ad cookies and personalization is your consent (Article 6(1)(a) GDPR). For some purposes, Google or its partners may rely on legitimate interest, which you can object to in the consent message.",
-        "Google may transfer data to the United States. Google LLC participates in the EU-U.S. Data Privacy Framework and also uses standard contractual clauses.",
-        "To learn more, read [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites) and the [Google Privacy Policy](https://policies.google.com/privacy). You can manage ad personalization for your Google account at [My Ad Center](https://myadcenter.google.com/).",
-        "Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website or other websites. Google's use of advertising cookies enables it and its partners to serve ads to you based on your visits to this and/or other sites. You can opt out of personalized advertising in Google's [Ads Settings](https://adssettings.google.com), or opt out of some third-party vendors' cookies at [aboutads.info](https://www.aboutads.info/choices/) or [youronlinechoices.eu](https://www.youronlinechoices.eu/).",
-        "There are no ads on the embedded tools, the bingo caller, the Mega Pack page, the contact page, this page, the terms page or the error page, and ads never appear in printouts."
+        "This section applies only while ads are switched on. When they are, some pages show ads from **Google AdSense**, provided in the EEA and Switzerland by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. To show and measure ads and to prevent fraud, Google and its certified ad partners may place or read cookies and similar identifiers in your browser (for example the AdSense cookies __gads and __gpi) and receive information such as your IP address, device and browser details, your approximate location and the page you are viewing.",
+        "We are responsible only for placing Google's ad code on our pages and for making sure your consent is asked for first. Google decides what it does with the data and acts as an independent controller for it under its own policies. Google decides how long its cookies last; you can see the details for each partner in the consent message.",
+        "Where you agree, ads may be personalized based on your interests, which Google works out from your activity on this and other sites. This is profiling for advertising, carried out by Google and only with your consent. If you don't agree, Google may still show non-personalized or limited ads, which use less data. Our legal basis for ad cookies and personalization is your consent (Article 6(1)(a) GDPR and Article 399 of the Polish Electronic Communications Law). For some purposes, Google or its partners may rely on legitimate interest, which you can object to in the consent message.",
+        "Read [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites), [How Google uses cookies in advertising](https://policies.google.com/technologies/ads) and the [Google Privacy Policy](https://policies.google.com/privacy). You can manage ad personalization at [My Ad Center](https://myadcenter.google.com/) or opt out of personalized ads in [Google's Ads Settings](https://adssettings.google.com), and you can opt out of some other vendors' cookies at [youronlinechoices.eu](https://www.youronlinechoices.eu/) or [aboutads.info](https://www.aboutads.info/choices/).",
+        "There are never ads on the embedded tools, the bingo caller, the Mega Pack page, the download page, the contact page, this page, the terms page or the error page, and ads never appear in printouts. frogsdream is made for adults, and we don't mark it as directed at children."
       ]
     },
     {
       "id": "choices",
       "heading": "Your consent and privacy choices",
       "body": [
-        "Visitors in the European Economic Area, the UK and Switzerland see a consent message the first time they visit. This message comes from **Google's certified consent management platform**, which follows the IAB Europe Transparency and Consent Framework. It lets you accept, refuse or choose individual purposes and partners. We don't set any cookies ourselves. Google's consent tool saves your choice in a cookie on this site so it isn't asked again, and Google's ad cookies are described above.",
+        "When ads are switched on, visitors in the European Economic Area, the UK and Switzerland see a consent message before any ad cookies are used. The message comes from **Google's certified consent management platform**, which follows the IAB Europe Transparency and Consent Framework. It lets you accept, refuse or choose individual purposes and partners. Google's consent tool saves your choice in a cookie on this site, so you aren't asked again on every page. We store nothing on your device before you choose, apart from the session storage for a tool you are using, described above.",
         "You can change or withdraw your consent at any time, as easily as you gave it. Use the **Privacy choices** link in the footer of every page, or the button below. Withdrawing consent does not affect anything that happened before.",
         "<p><a class=\"btn\" href=\"/privacy/#choices\" data-privacy-choices>Open privacy choices</a></p>",
-        "On this page and other pages without ads, the button takes you to the home page and opens the consent message there. If nothing appears, ads are not currently active for you, or the consent message has been blocked by an extension. You can also delete this site's cookies in your browser settings, and the message will appear again on your next visit."
+        "On this page and other pages without ads, the button takes you to the home page and opens the consent message there. If nothing appears, ads are not active, or the consent message has been blocked by a browser extension. You can also delete this site's cookies in your browser settings, and the message will appear again on your next visit."
       ]
     },
     {
       "heading": "Buying the Mega Pack",
       "body": [
-        "The optional Mega Pack is sold through **Lemon Squeezy**, which is the merchant of record for the sale. That means Lemon Squeezy, not us, collects your name, email address, billing country and payment details, charges any sales tax or VAT, checks for fraud, and delivers your download. It handles that data under its own [privacy policy](https://www.lemonsqueezy.com/privacy). Lemon Squeezy is based in the United States and explains its safeguards for international transfers there. We never see your full card details.",
-        "Lemon Squeezy shares the order details with us: your name, email address, country, what you bought, the price and the order number. We use them to answer support questions, handle refunds and keep our income records. Our legal bases are the performance of the purchase (Article 6(1)(b) GDPR) and our legal duty to keep tax and accounting records (Article 6(1)(c) GDPR). We keep order records as long as Polish tax and accounting law requires, usually five years from the end of the year in which the tax was due."
+        "The optional Mega Pack is sold through **Stripe Managed Payments**. The seller of record, also called the merchant of record, is **Link** (the legal entity is Sold through Link, LLC), a Stripe company based in the United States. At checkout you will see that the purchase is sold through Link. Link and Stripe, not us, collect your email address, name, billing details and payment details, work out and charge any sales tax or VAT, check for fraud, handle disputes and give support for the payment. They do this as independent controllers under the [Link privacy policy](https://link.com/privacy) and the [Stripe privacy policy](https://stripe.com/privacy). We never see your full card details.",
+        "Stripe shares the order details with us in our Stripe account: your email address, name, country, what you bought, the price, the date and the order number. We use them to deliver the pack, answer your questions, handle refunds and keep our income records. Our legal bases are the performance of the purchase (Article 6(1)(b) GDPR), our legal duty to keep tax records (Article 6(1)(c) GDPR) and our legitimate interest in dealing with any legal claims (Article 6(1)(f) GDPR). We keep these records for as long as Polish tax and accounting law requires, usually five years from the end of the year in which the tax was due.",
+        "After paying, you are sent to a private download page on frogsdream.com. Visiting it is recorded in the normal server logs described above, and nothing else."
       ]
     },
     {
       "heading": "When you email us",
-      "body": "If you write to us, we receive your email address, your name if you include it, and whatever is in your message. We use this only to reply and help you (Article 6(1)(f) GDPR, or Article 6(1)(b) GDPR for questions about a purchase). Our mailbox is hosted by Hostinger and may be forwarded to a Gmail inbox, in which case Google stores a copy as our email provider. We delete correspondence once it is no longer needed, unless it relates to a purchase and has to be kept with the order records."
+      "body": "If you write to us, we receive your email address, your name if you include it, and whatever is in your message. We use this only to reply and help you (Article 6(1)(f) GDPR, or Article 6(1)(b) GDPR for questions about a purchase). Our mailbox is hosted by Hostinger. If we forward it to a Gmail inbox, Google (Google Ireland Limited) stores a copy as our email provider and processor. We delete correspondence once the matter is closed and no longer needed, at the latest two years after the last message, unless it relates to a purchase and has to be kept with the order records, or we need it to deal with a legal claim."
     },
     {
       "heading": "Who receives data",
-      "body": "We don't sell personal data, and we don't share it with anyone except the services named on this page: Hostinger (hosting and email), Cloudflare (PDF library delivery), Google and its ad partners (ads, only as described above, and our email if forwarded) and Lemon Squeezy (purchases). We may also disclose data if the law requires it, for example to a court or tax authority. We don't make decisions about you based solely on automated processing that have legal or similarly significant effects. Ad personalization by Google is profiling for advertising, and it only happens with your consent."
+      "body": [
+        "We don't sell personal data, and we don't share it with anyone except these recipients:",
+        "* **Hostinger International Ltd.** (Cyprus): web hosting and email, as our processor.\n* **Google Ireland Limited:** our email provider if we forward mail to Gmail (as our processor), and, only while ads are on and as described above, the advertising service (as an independent controller), together with its certified ad partners where you consent.\n* **Link and Stripe:** the seller of record and payment provider for the Mega Pack, as independent controllers.\n* **Public authorities,** such as a court or the tax office, if the law requires us to disclose data.",
+        "We don't make decisions about you based solely on automated processing that have legal or similarly significant effects, and we don't profile visitors ourselves."
+      ]
+    },
+    {
+      "heading": "Transfers outside the European Economic Area",
+      "body": "Some recipients are in the United States or use service providers there. Google LLC and Stripe, Inc. take part in the EU-U.S. Data Privacy Framework, which the European Commission has found gives an adequate level of protection, and they also use the European Commission's standard contractual clauses. Hostinger relies on standard contractual clauses where its own providers are outside the EEA. You can read about these safeguards in each company's privacy policy linked above, or ask us for more information."
     },
     {
       "heading": "Your rights",
       "body": [
         "Under the GDPR you have the right to:",
-        "* **access** the personal data we hold about you and get a copy (Article 15)\n* **correct** data that is wrong (Article 16)\n* **have data deleted** (Article 17)\n* **restrict** how we use it (Article 18)\n* **receive your data** in a portable format (Article 20)\n* **object** to processing based on legitimate interest (Article 21)\n* **withdraw consent** at any time, for example through Privacy choices (Article 7(3))",
-        "To use any of these rights, email us. We will answer within one month, and it is free. We may ask for something that confirms the request is really from you, such as the email address used for a purchase. Keep in mind that for most visitors we hold no data that identifies them, and the advertising data is held by Google, which you can manage through the links above.",
-        "You also have the right to complain to a data protection authority. In Poland this is the President of the Personal Data Protection Office ([UODO](https://uodo.gov.pl/en)). You can also contact the [authority in your own country](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en)."
+        "* **access** the personal data we hold about you and get a copy (Article 15)\n* **correct** data that is wrong (Article 16)\n* **have data deleted** (Article 17)\n* **restrict** how we use it (Article 18)\n* **receive your data** in a portable format (Article 20)\n* **object** to processing based on legitimate interest (Article 21)\n* **withdraw consent** at any time, for example through Privacy choices, without affecting what happened before (Article 7(3))",
+        "To use any of these rights, email us. We will answer within one month, and it is free. We may ask for something that confirms the request is really from you, such as the email address used for a purchase. For most visitors we hold no data that identifies them, and the advertising data is held by Google, which you can manage through the links above.",
+        "You also have the right to complain to a data protection authority. In Poland this is the **President of the Personal Data Protection Office** (Prezes Urzędu Ochrony Danych Osobowych, PUODO), ul. Stawki 2, 00-193 Warszawa, Poland, [uodo.gov.pl](https://uodo.gov.pl/en). You can also complain to the [authority in the country where you live or work](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en)."
       ]
     },
     {
@@ -91,11 +105,11 @@
     },
     {
       "heading": "Security",
-      "body": "The whole site is served over an encrypted HTTPS connection. Because we keep so little data, there is very little that could be exposed, and what we do hold (emails and order records) is protected by the security measures of Hostinger, Google and Lemon Squeezy."
+      "body": "The whole site is served over an encrypted HTTPS connection. Because we keep so little data, there is very little that could be exposed. What we do hold, emails and order records, is protected by the security measures of Hostinger, Google and Stripe."
     },
     {
       "heading": "Changes to this policy",
-      "body": "If we change how data is handled, for example by adding a new service, we will update this page and the effective date at the top. Please check back from time to time. If you have any question about this policy, [contact us](/contact/)."
+      "body": "If we change how data is handled, for example by switching on ads or adding a new service, we will update this page and the effective date at the top before the change takes effect. If you have any question about this policy, [contact us](/contact/)."
     }
   ]
 }

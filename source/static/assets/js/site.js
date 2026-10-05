@@ -134,6 +134,8 @@
   }
 
   function init() {
+    /* Older versions kept tool input in localStorage. Remove those leftovers; tools now use sessionStorage only. */
+    try { for (var i = localStorage.length - 1; i >= 0; i--) { var k = localStorage.key(i); if (k && k.indexOf('fd:') === 0) localStorage.removeItem(k); } } catch (e) { /* storage blocked */ }
     $$('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
     var pack = (cfg.PACK_URL || '').trim();
     var price = cfg.PACK_PRICE || '$7';

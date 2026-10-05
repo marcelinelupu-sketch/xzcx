@@ -95,7 +95,7 @@
     },
     {
       "q": "Can I save my hunt and print it again later?",
-      "a": "Your last list is remembered in this browser. For a permanent copy, use **Download PDF**, or **Copy share link** to get a web address that rebuilds the exact same sheets, including the shuffled order."
+      "a": "Your list survives a page refresh while the tab stays open, and is cleared when you close the tab. For a permanent copy, use **Download PDF**, or **Copy share link** to get a web address that rebuilds the exact same sheets, including the shuffled order."
     }
   ]
 }

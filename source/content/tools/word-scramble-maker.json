@@ -77,7 +77,7 @@
     {
       "heading": "Saving and sharing your scramble",
       "body": [
-        "Your last list is remembered on this device, so you can close the tab and pick up where you left off. Nothing is uploaded to a server.",
+        "Your list stays in place through a page refresh while the tab is open, and closing the tab clears it. Nothing is uploaded to a server.",
         "**Copy share link** creates a web address that reopens the same title, words, options and scrambled letters. It is a quick way to post a puzzle to Google Classroom or send it to a parent helper. Bloggers and teachers with a class website can also use the **Embed** button to put this maker on their own pages; the [embed page](/embed/) explains how."
       ]
     }

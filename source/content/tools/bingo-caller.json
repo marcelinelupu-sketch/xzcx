@@ -50,7 +50,7 @@
       "role": "fair",
       "heading": "Tips for a smooth, fair game",
       "body": [
-        "* **Agree on the pattern first.** Say whether you are playing for a single line, four corners or a full card before the first call. Our [bingo patterns guide](/guides/bingo-patterns/) has pictures of popular patterns you can show on screen.\n* **Keep the same device.** Your game is saved in this browser, so a refresh or a closed tab will not lose the called numbers. Opening the page on another device starts a separate game.\n* **Use Undo honestly.** If you call by accident, Undo takes back only the most recent call and returns that item to the pool.\n* **Read the rules aloud.** New players appreciate a quick explanation, and our [how to play bingo](/guides/how-to-play-bingo-rules/) guide covers the basics for both 75-ball and 90-ball games."
+        "* **Agree on the pattern first.** Say whether you are playing for a single line, four corners or a full card before the first call. Our [bingo patterns guide](/guides/bingo-patterns/) has pictures of popular patterns you can show on screen.\n* **Keep the same device.** Your game is kept in this browser tab, so a refresh will not lose the called numbers. Closing the tab ends the game, and another device or tab starts a separate one.\n* **Use Undo honestly.** If you call by accident, Undo takes back only the most recent call and returns that item to the pool.\n* **Read the rules aloud.** New players appreciate a quick explanation, and our [how to play bingo](/guides/how-to-play-bingo-rules/) guide covers the basics for both 75-ball and 90-ball games."
       ]
     }
   ],
@@ -61,7 +61,7 @@
     },
     {
       "q": "Will I lose my game if I refresh the page?",
-      "a": "No. The caller saves the game in your browser's local storage after every call, so a refresh, a closed tab or a sleeping laptop brings back the same board. The game stays on your device and is never uploaded."
+      "a": "No. The caller saves the game in this browser tab after every call, so a refresh or a sleeping laptop brings back the same board. The game is cleared when you close the tab, and it is never uploaded."
     },
     {
       "q": "Can I use the bingo caller with my own words?",

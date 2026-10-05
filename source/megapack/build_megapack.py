@@ -1561,10 +1561,11 @@ def build_start_here(path, counts):
     h2("Your license")
     para("You may print these files as often as you like for your own home, your own parties and events, and the classes "
          "you teach yourself. Please do not resell or share the files, or upload them where others can download them. "
-         "Each teacher who wants the pack needs their own copy. Thank you for keeping a small project going.")
+         "Each teacher who wants the pack needs their own copy. Full terms: frogsdream.com/terms/.")
     h2("Need help?")
-    para("If a file does not open or print the way it should, write to us through frogsdream.com/contact/ and we will sort it out. "
-         "The free generators at frogsdream.com let you change any word list and make fresh cards whenever you need them.")
+    para("If a file does not work for you, email us through frogsdream.com/contact/ within 14 days of your purchase and we "
+         "will fix it or give you a full refund, whichever you prefer. The free generators at frogsdream.com let you change "
+         "any word list and make fresh cards whenever you need them.")
     if y < BOTTOM:
         warn("Start here page overflows")
     d.end_page("Start here")

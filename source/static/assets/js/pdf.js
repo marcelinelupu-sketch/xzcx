@@ -1,4 +1,4 @@
-/* frogsdream pdf.js: lazy jsPDF loader plus a small drawing helper for multi-page Letter/A4 PDFs.
+/* frogsdream pdf.js: lazy jsPDF loader (self-hosted copy, no third-party request) plus a small drawing helper for multi-page Letter/A4 PDFs.
    Usage (inside a tool's pdf hook):
      var P = await FD.pdf.create({ paper: 'letter', ink: false, stamp: true, title: 'My puzzle' });
      P.header('Christmas Word Scramble', 'Unscramble each word');   // returns y below the header
@@ -9,7 +9,9 @@
    minus a 0.3in band at the bottom reserved for the credit line. */
 (function (FD) {
   'use strict';
-  var SRC = 'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js';
+  /* jsPDF 2.5.1 (MIT licence, see /assets/js/vendor/jspdf-LICENSE.txt) is served from our own host, so pressing
+     Download PDF sends nothing to a third party. */
+  var SRC = '/assets/js/vendor/jspdf.umd.min.js?v=2.5.1';
   var FONT_URL = '/assets/fonts/fredoka-600.ttf';
   var loading = null, fontData = null;
   var COLORS = {
@@ -23,7 +25,7 @@
     if (loading) return loading;
     loading = new Promise(function (resolve, reject) {
       var s = document.createElement('script');
-      s.src = SRC; s.async = true; s.crossOrigin = 'anonymous';
+      s.src = SRC; s.async = true;
       s.onload = function () { window.jspdf && window.jspdf.jsPDF ? resolve(window.jspdf.jsPDF) : reject(new Error('jsPDF missing')); };
       s.onerror = function () { loading = null; reject(new Error('Could not load the PDF library. Check your connection and try again, or use Print and choose Save as PDF.')); };
       document.head.appendChild(s);

@@ -27,11 +27,8 @@ step() {  # step "name" command...
   if [ $rc -eq 0 ]; then STATUS+=("PASS"); elif [ $rc -eq 3 ]; then STATUS+=("SKIP"); else STATUS+=("FAIL"); FAILED=1; grep -E '^(FAIL|error|ERROR)' "$log" | head -n 15; fi
 }
 
-JSPDF="$QA/vendor/jspdf.umd.min.js"
-if [ ! -f "$JSPDF" ]; then
-  mkdir -p "$QA/vendor"
-  (cd "$QA/vendor" && npm pack jspdf@2.5.1 --silent >/dev/null 2>&1 && tar -xzf jspdf-2.5.1.tgz package/dist/jspdf.umd.min.js && mv package/dist/jspdf.umd.min.js . && rm -rf package jspdf-2.5.1.tgz) || true
-fi
+# jsPDF 2.5.1 is self-hosted in source/static/assets/js/vendor/, so the browser tests need no network
+# and fail on any request to another host.
 
 step "Content validator (all files)" python3 source/validate_content.py --all
 step "Build (strict) into $OUT" python3 source/build.py --out "$OUT" --strict --force
@@ -39,7 +36,7 @@ step "Static site QA" python3 "$QA/qa_static.py" "$OUT" --json "$REP/static.json
 step "Unit: 90-ball strip validity" node source/tests/test_bingo_90ball.cjs
 if [ -z "${QUICK:-}" ]; then step "Unit: bingo card uniqueness" node source/tests/test_bingo_unique.cjs; fi
 step "Unit: word search placement (200 seeds per list)" node source/tests/test_wordsearch.mjs
-step "Browser: bingo generator and caller" node source/tests/browser_bingo.cjs "$OUT" "$JSPDF"
+step "Browser: bingo generator and caller" node source/tests/browser_bingo.cjs "$OUT"
 if [ -z "${QUICK:-}" ]; then
   step "Browser: tools, embeds, themed pages (360/1280, all themes)" node "$QA/qa_browser.cjs" "$OUT" --all-themes --json "$REP/browser.json"
 else
@@ -56,6 +53,8 @@ step "Lighthouse mobile (95+ in all four categories)" env LH_DIR="$LH_DIR" node 
 printf '\n=========== QA SUMMARY ===========\n'
 for i in "${!NAMES[@]}"; do printf '%-4s  %s\n' "${STATUS[$i]}" "${NAMES[$i]}"; done
 printf 'Logs and JSON reports: %s\n' "$REP"
+# Owner reminders that do not fail the run (for example the operator name still missing in site.json)
+cat "$REP"/*.log 2>/dev/null | grep -h '^WARNING' | sort -u
 
 if [ $FAILED -eq 0 ] && [ "$OUT" = "$ROOT/public_html" ]; then
   mkdir -p "$ROOT/deliverables"

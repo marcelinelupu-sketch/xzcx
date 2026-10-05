@@ -1,6 +1,6 @@
 /* frogsdream toolkit.js: the shared generator shell. A tool file calls FD.tool.register({...});
    this file wires the standard controls (title, list, paper, ink saver, frog stamp, seed), the buttons
-   (Generate, Print, Download PDF, Copy share link, Reset), share links, localStorage and preview scaling.
+   (Generate, Print, Download PDF, Copy share link, Reset), share links, sessionStorage and preview scaling.
    See source/TOOL-CONTRACT.md for the full contract. */
 (function (FD) {
   'use strict';
@@ -42,8 +42,11 @@
   }
   FD.share = { encode: b64e, decode: b64d };
 
+  /* The last title, list and options live in sessionStorage: it survives a refresh but is cleared when the tab
+     closes, and it only holds what the visitor typed into the tool they are using (strictly necessary user-input
+     storage, so no consent is needed under ePrivacy Art. 5(3)). Nothing here is ever sent to a server. */
   function store(key, val) {
-    try { if (val === undefined) return JSON.parse(localStorage.getItem(key) || 'null'); localStorage.setItem(key, JSON.stringify(val)); } catch (e) { return null; }
+    try { if (val === undefined) return JSON.parse(sessionStorage.getItem(key) || 'null'); sessionStorage.setItem(key, JSON.stringify(val)); } catch (e) { return null; }
     return null;
   }
 

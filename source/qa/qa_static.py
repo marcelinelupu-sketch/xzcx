@@ -190,6 +190,7 @@ class QA:
     def __init__(self, site: Path):
         self.site = site
         self.results = []
+        self.notices = []
         self.pages = {}       # url path -> Doc
         self.raw = {}
         self.cat = fdlib.Catalog(SRC / "content")
@@ -794,7 +795,7 @@ class QA:
 
         # 17. Honesty and trademark spot checks
         probs = []
-        tm = re.compile(r"\b(Super Bowl|Disney|Pok[eé]mon|Harry Potter|Taboo|Pictionary|Wordle|Marvel|Lego|Barbie|Star Wars|Minecraft|Fortnite|Hello Kitty|Peppa Pig|Bluey|Paw Patrol|Sesame Street|M&M'?s|Oreo|Coca-Cola|Pepsi|Nerf|Play-Doh|Crayola|Monopoly|Scrabble|Jenga|Twister|Uno|Popsicle|Tupperware|Polaroid|Boogie board|Frisbee|Jell-O|Velcro|Post-it|Sharpie|Kleenex|Band-Aid|Ziploc|Crock-Pot|Bubble Wrap|Styrofoam|Q-tip|Jacuzzi)\b", re.I)
+        tm = re.compile(r"\b(Pixar|Hot Wheels|Elf on the Shelf|Olympics|Kahoot|iPads?|Netflix|Starbucks|Skittles|(?-i:Peeps)|Hershey'?s?|Rubik'?s|Slinky|Lunchables|Happy Meal|Super Bowl|Disney|Pok[eé]mon|Harry Potter|Taboo|Pictionary|Wordle|Marvel|Lego|Barbie|Star Wars|Minecraft|Fortnite|Hello Kitty|Peppa Pig|Bluey|Paw Patrol|Sesame Street|M&M'?s|Oreo|Coca-Cola|Pepsi|Nerf|Play-Doh|Crayola|Monopoly|Scrabble|Jenga|Twister|Uno|Popsicle|Tupperware|Polaroid|Boogie board|Frisbee|Jell-O|Velcro|Post-it|Sharpie|Kleenex|Band-Aid|Ziploc|Crock-Pot|Bubble Wrap|Styrofoam|Q-tip|Jacuzzi)\b", re.I)
         for p, d in self.pages.items():
             txt = "".join(d.text)
             for m in tm.finditer(txt):
@@ -813,10 +814,90 @@ class QA:
                 probs.append(f"{p}: placeholder text (lorem/TODO/FIXME)")
         if "Effective date" not in "".join(self.pages.get("/privacy/", Doc()).text):
             probs.append("/privacy/ has no effective date")
-        priv = self.raw.get("/privacy/", "")
-        if "OWNER: replace" not in priv or "[OWNER FULL NAME]" not in priv:
-            probs.append("/privacy/ lacks the OWNER: replace marker or placeholder")
-        self.check("Trademarks, fake ratings, About honesty and privacy owner placeholder", probs)
+        self.check("Trademarks, fake ratings, About honesty and privacy effective date", probs)
+
+        # 18. Operator identity (GDPR Art. 13, Polish e-services act Art. 5): one source, site.json "operator".
+        probs = []
+        op = self.cat.site.get("operator") or {}
+        name = str(op.get("name") or "").strip()
+        addr = op.get("address") or ""
+        lines = [str(x).strip() for x in (addr if isinstance(addr, list) else str(addr).split("\n")) if str(x).strip()]
+        shown = html.escape(name) if name else "[OWNER FULL NAME]"
+        for pg in ("/privacy/", "/terms/", "/contact/"):
+            raw = self.raw.get(pg, "")
+            if f'<p class="operator"><strong>{shown}</strong>' not in raw:
+                probs.append(f"{pg}: operator block with {shown} missing")
+            for ln in lines:
+                if html.escape(ln) not in raw:
+                    probs.append(f"{pg}: operator address line {ln!r} missing")
+            if not lines and '<p class="operator"><strong>' + shown + "</strong><br>Email:" not in raw:
+                probs.append(f"{pg}: address is empty in site.json but address lines were rendered")
+            if name and "[OWNER FULL NAME]" in raw:
+                probs.append(f"{pg}: still shows the [OWNER FULL NAME] placeholder")
+        self.check("Operator identity from site.json on /privacy/, /terms/ and /contact/", probs,
+                   f"name {'set' if name else 'EMPTY'}, address {'set' if lines else 'not shown'}")
+        if not name:
+            self.notices.append('WARNING: operator name is missing in source/content/site.json ("operator": {"name": ...}). '
+                                'The legal pages show [OWNER FULL NAME] until it is filled in and the site is rebuilt.')
+
+        # 19. Privacy and third parties: nothing loads from another host with config.js empty (fonts, images, scripts,
+        #     styles, frames), jsPDF and the font are self-hosted with their licences, no localStorage writes or cookies
+        #     from our own scripts, no stale payment provider, hidden download page is noindex and ad-free.
+        probs = []
+        ext_attr = re.compile(r"<(script|img|iframe|source|video|audio|embed|object|link)\b[^>]*?\s(src|href|data|srcset)=[\"']([^\"']+)", re.I)
+        for p, raw in self.raw.items():
+            for m in ext_attr.finditer(raw):
+                tag, val = m.group(1).lower(), m.group(3)
+                if tag == "link" and re.search(r"rel=[\"'](canonical|alternate)[\"']", m.group(0)):
+                    continue
+                for u in val.split(","):
+                    u = u.strip().split(" ")[0]
+                    host = urlparse(u).netloc
+                    if (u.startswith("//") or u.startswith("http")) and host and host != "frogsdream.com":
+                        probs.append(f"{p}: <{tag}> loads from a third party: {u}")
+            for m in re.finditer(r"@import|url\(\s*[\"']?(https?:)?//", raw):
+                probs.append(f"{p}: CSS import or url() to another host")
+        css = (site / "assets/css/site.css").read_text()
+        if re.search(r"@import|url\(\s*[\"']?(https?:)?//", css):
+            probs.append("site.css imports or loads a third-party resource")
+        allowed_js_hosts = {"frogsdream.com", "www.w3.org", "pagead2.googlesyndication.com"}  # AdSense: only when ADSENSE_CLIENT is set
+        for f in sorted((site / "assets/js").glob("*.js")):
+            t = f.read_text("utf-8")
+            for u in re.findall(r"https?://[A-Za-z0-9.-]+", t):
+                if urlparse(u).netloc not in allowed_js_hosts:
+                    probs.append(f"assets/js/{f.name}: references third-party host {u}")
+            code = re.sub(r"/\*.*?\*/", "", t, flags=re.S)
+            if re.search(r"localStorage\.setItem|document\.cookie\s*=", code):
+                probs.append(f"assets/js/{f.name}: writes localStorage or a cookie (tools must use sessionStorage only)")
+        jsp = site / "assets/js/vendor/jspdf.umd.min.js"
+        if not jsp.exists():
+            probs.append("self-hosted jsPDF missing at assets/js/vendor/jspdf.umd.min.js")
+        else:
+            head = jsp.read_text("utf-8")[:3000]
+            if "Version 2.5.1" not in head or "Permission is hereby granted" not in head:
+                probs.append("assets/js/vendor/jspdf.umd.min.js is not jsPDF 2.5.1 with its MIT licence header")
+        if not (site / "assets/js/vendor/jspdf-LICENSE.txt").exists():
+            probs.append("jsPDF licence file missing")
+        if "/assets/js/vendor/jspdf.umd.min.js" not in (site / "assets/js/pdf.js").read_text():
+            probs.append("pdf.js does not load the self-hosted jsPDF")
+        ofl = site / "assets/fonts/OFL.txt"
+        if not ofl.exists() or "SIL Open Font License" not in ofl.read_text("utf-8"):
+            probs.append("assets/fonts/OFL.txt (Fredoka licence) missing")
+        for f in [*site.rglob("*.html"), *(SRC / "content").rglob("*.json")]:
+            if re.search(r"lemon ?squeezy", f.read_text("utf-8"), re.I):
+                probs.append(f"{f}: mentions Lemon Squeezy (payments now go through Stripe Managed Payments)")
+        dl = [p for p in self.raw if p.startswith("/pack-download-")]
+        if not dl:
+            probs.append("hidden download page missing")
+        for p in dl:
+            raw = self.raw[p]
+            if not re.search(r'<meta name="robots" content="noindex', raw):
+                probs.append(f"{p}: not noindex")
+            if "data-no-ads" not in raw or "config.js" in raw or "adsbygoogle" in raw:
+                probs.append(f"{p}: could load ads")
+        if "X-Robots-Tag \"noindex, nofollow\" env=PACKDOWNLOAD" not in (site / ".htaccess").read_text():
+            probs.append(".htaccess does not send X-Robots-Tag noindex for the download folder")
+        self.check("No third-party loads, self-hosted jsPDF and font with licences, no cookies or localStorage, download page private", probs)
 
         return self.results
 
@@ -850,6 +931,8 @@ def main():
     res = q.run()
     fails = [r for r in res if not r["pass"]]
     print(f"\nStatic QA: {len(res) - len(fails)} passed, {len(fails)} failed")
+    for n in q.notices:
+        print(n)
     if "--json" in sys.argv:
         out = sys.argv[sys.argv.index("--json") + 1]
         Path(out).write_text(json.dumps(res, indent=1))

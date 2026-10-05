@@ -6,13 +6,15 @@
   "mascot": "celebrating",
   "intro": [
     "Everything on this site is free to make and print, and it will stay that way. The Mega Pack is for the times when you would rather not generate anything at all: one download with every theme already laid out as print-ready PDFs, in both US Letter and A4, with answer keys and caller sheets included.",
-    "<!-- OWNER: the $7 price below and in the Product data in this page's head must match PACK_PRICE in assets/js/config.js. Edit both if the price changes. -->\n<p class=\"btns\"><a class=\"btn btn-primary\" data-pack-buy data-label=\"Get the Mega Pack for $7\">Coming soon</a></p>\n<p>One payment of <strong><span data-pack-price>$7</span></strong>. No subscription.</p>"
+    "<!-- OWNER: the $7 price below and in the Product data in this page's head must match PACK_PRICE in assets/js/config.js and the price in Stripe. Edit all of them if the price changes. -->\n<p class=\"btns\"><a class=\"btn btn-primary\" data-pack-buy data-label=\"Get the Mega Pack for $7\">Coming soon</a></p>\n<p>One payment of <strong><span data-pack-price>$7</span></strong>, taxes included. No subscription. Sold through Link, Stripe's merchant of record service.</p>"
   ],
   "product": {
     "name": "frogsdream Mega Pack",
     "description": "Print-ready PDFs of every frogsdream bingo theme, word search, word scramble and scavenger hunt, plus bedtime and reward charts, in US Letter and A4 with answer keys and caller sheets.",
     "price": "7.00",
-    "images": ["/assets/img/premium/sample-bingo.png"]
+    "images": [
+      "/assets/img/premium/sample-bingo.png"
+    ]
   },
   "sections": [
     {
@@ -37,14 +39,17 @@
       "heading": "License",
       "body": [
         "Buying the pack gives you a personal license. You may print the files as often as you like for your own home, for your own parties and events, and for **a single classroom** (the classes you teach yourself). You may hand the printed sheets to your students, guests and players.",
-        "Please don't resell the files or printouts, upload them to a shared drive or website where others can download them, or pass the ZIP on to other people. If several teachers at a school want to use the pack, each teacher needs their own copy. The full wording is in our [terms](/terms/)."
+        "Please don't resell the files or printouts, upload them to a shared drive or website where others can download them, or pass the ZIP on to other people. If several teachers at a school want to use the pack, each teacher needs their own copy. The full wording is in our [terms](/terms/#mega-pack)."
       ]
     },
     {
-      "heading": "Payment and refunds",
+      "heading": "Who sells it, payment and refunds",
       "body": [
-        "Lemon Squeezy handles payment and VAT; if a file doesn't work for you, email us for a refund within 14 days.",
-        "Lemon Squeezy is the merchant of record for the sale. It takes the payment, works out and charges any sales tax or VAT for your country, sends your receipt and gives you the download link. We never see your card details. Your rights under consumer law in your country are not affected by anything on this page."
+        "**Who sells it.** The pack is sold through **Stripe Managed Payments**, and the seller of record (the merchant of record) is **Link**, a Stripe company. Your purchase is made with Link, which takes the payment, works out and pays any sales tax or VAT for your country, handles payment questions and disputes, and emails you a receipt. We make the files and help you with them. We never see your card details.",
+        "**Price.** $7 in total, including any sales tax or VAT. Checkout may show the amount in your local currency.",
+        "**Delivery.** Right after paying, you go straight to a download page for the ZIP file. Bookmark it to download the pack again later.",
+        "**Refunds.** If a file doesn't work for you, email us within 14 days of your purchase and we will fix it or give you a full refund, whichever you prefer.",
+        "This promise comes on top of your rights under consumer law, which nothing on this page limits. See the [terms](/terms/#mega-pack) for the details and how to make a [complaint](/terms/#complaints)."
       ]
     }
   ],
@@ -63,7 +68,7 @@
     },
     {
       "q": "How do I get a refund?",
-      "a": "If a file doesn't open, prints wrongly or is missing something, email us within 14 days of buying and tell us what went wrong. We will fix the file or refund you through Lemon Squeezy, whichever you prefer."
+      "a": "If a file doesn't work for you, email us within 14 days of your purchase and tell us what went wrong. We will fix the file or give you a full refund through Stripe, whichever you prefer."
     }
   ]
 }

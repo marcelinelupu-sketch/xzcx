@@ -1,31 +1,63 @@
 {
   "shortTitle": "Terms",
   "title": "Terms of Use for frogsdream Free Printables and Mega Pack",
-  "metaDescription": "How you may use frogsdream. A free license for home, classroom and event printables, embedding rules, the Mega Pack license, and Polish governing law.",
+  "metaDescription": "The rules for using frogsdream: who runs it, the free tools and license, technical needs, the Mega Pack sold through Stripe, complaints and Polish law.",
   "h1": "Terms of Use",
   "noAds": true,
   "intro": [
-    "These terms apply to frogsdream.com, its free tools and printables, the embeddable tools and the paid Mega Pack. They are written to be read, not to trip anyone up. By using the site you agree to them.",
-    "**Last updated:** {{BUILD_DATE}}"
+    "These terms are the rules for using frogsdream.com, its free tools and printables, the embeddable tools and the paid Mega Pack. Under Polish law they are also our regulamin, the service terms required by Article 8 of the Act on Providing Services by Electronic Means. They are free, and you can read, save or print this page at any time. By using the site you agree to them. They are written to be read, not to trip anyone up.",
+    "**Last updated:** {{POLICY_DATE}}"
   ],
   "sections": [
     {
-      "heading": "Who we are",
-      "body": "frogsdream is a small independent website run by a private individual in Poland. The person responsible is named in our [privacy policy](/privacy/), and you can reach us through the [contact page](/contact/)."
+      "heading": "Who runs frogsdream",
+      "body": [
+        "frogsdream is run by a private individual in Poland as a small, unregistered activity (in Polish, działalność nierejestrowana). It is not a company.",
+        "{{OPERATOR_BLOCK}}",
+        "You can reach us by email at any time. The [privacy policy](/privacy/) explains how we handle personal data."
+      ]
+    },
+    {
+      "heading": "The services we provide",
+      "body": [
+        "All of these are free and need no account:",
+        "* online generators for bingo cards, word searches, scavenger hunts, word scrambles, bedtime routine charts and reward charts, which make printable sheets and PDF files in your browser\n* an online bingo caller\n* ready-made themed word lists, printable pages, guides and articles\n* copy-and-paste codes to embed some of the tools on your own website\n* share links that rebuild the same sheets for anyone you send them to",
+        "We also offer one paid product, the frogsdream Mega Pack, a download of ready-made PDFs. It is sold through Stripe, as explained below.",
+        "We may add, change or remove tools, themes and pages. The free services come without any guarantee that a particular tool or page will stay available."
+      ]
+    },
+    {
+      "heading": "Technical requirements",
+      "body": "To use the tools you need a device connected to the internet with a current web browser (for example a recent version of Chrome, Edge, Firefox or Safari) with JavaScript switched on. If your browser blocks session storage, the tools still work, but your list won't survive a page refresh. To print you need a printer, and to open PDFs you need a PDF reader, which most browsers include. The Mega Pack is a ZIP file, so you need a computer or device that can open ZIP files and an email address for the purchase. Using the site is free, apart from the cost of your own internet connection."
+    },
+    {
+      "heading": "When an agreement starts and ends",
+      "body": [
+        "For the free services, an agreement between you and us starts when you open a page of frogsdream.com or start using a tool, and it ends when you leave the site or close the page. You can stop at any time, without notice and without giving a reason. There is nothing to cancel, because there is no account.",
+        "If you embed one of our tools, that permission lasts until you remove the code from your site, or until we withdraw it under the embedding rules below.",
+        "The purchase of the Mega Pack is a separate agreement with the seller, Link, made at the Stripe checkout. Your license to use the files starts when the payment goes through and does not end, as long as you keep to its terms."
+      ]
+    },
+    {
+      "heading": "Rules for using the site",
+      "body": [
+        "You must not provide unlawful content through the site. That means you must not type into the tools, put on your sheets or share through a share link anything that is illegal, such as hate speech, threats, content that infringes someone else's copyright, trademark or privacy, or other people's personal data that you have no right to share.",
+        "You also must not try to break, overload or get around the security of the site, use automated scraping that puts heavy load on the server, or use the site to send spam or malware. You are responsible for what you put on your sheets and for making sure it suits the people who will play."
+      ]
     },
     {
       "heading": "Free license for the tools and printables",
       "body": [
-        "The tools are free to use, with no account. You may print, copy and use the sheets you make on this site, as many times as you like:",
+        "You may print, copy and use the sheets you make on this site, as many times as you like:",
         "* at home and with your family\n* in your classroom, school, homeschool group, library, club or care home\n* at parties, showers, weddings, reunions and other events, including community and charity events\n* in online lessons, for example by sharing a PDF with your own students",
-        "You may not sell the generated files or printouts as a product, or offer them for sale as part of a bundle, on marketplaces such as teacher resource stores, print-on-demand shops or online craft stores. Using our cards at a school or charity fundraiser is fine (check your local rules on prize games); selling the cards themselves as printables is not.",
+        "You may not sell the generated files or printouts as a product, or offer them for sale as part of a bundle, on marketplaces such as teacher resource stores, print-on-demand shops or online craft stores. Using our cards at a school or charity fundraiser is fine, but charging players to take part or offering cash prizes can count as regulated gaming, so check your local rules first. Selling the cards themselves as printables is not allowed.",
         "Please leave the small credit line at the bottom of each sheet in place when you share files with others."
       ]
     },
     {
       "heading": "Your content",
       "body": [
-        "The words and titles you type into a tool are yours. They are processed in your browser and are not sent to us. You are responsible for what you put on your sheets and for making sure it suits the people who will play.",
+        "The words and titles you type into a tool are yours. They are processed in your browser and are not sent to us.",
         "If you create a share link, the list travels inside the link itself. Anyone with the link can see the list, so don't include private information."
       ]
     },
@@ -35,41 +67,60 @@
     },
     {
       "heading": "What belongs to us",
-      "body": "The site design, the frog mascot and illustrations, the code, the written guides and the curated theme lists belong to frogsdream. You may quote short parts of a guide with a link back. Please don't copy whole pages, the mascot artwork or the tools to another website, and don't use automated scraping that puts heavy load on the server."
+      "body": "The site design, the frog mascot and illustrations, the code, the written guides and the curated theme lists belong to frogsdream. You may quote short parts of a guide with a link back. Please don't copy whole pages, the mascot artwork or the tools to another website. The site uses the Fredoka font under the SIL Open Font License and the jsPDF library under the MIT License; their license files are published with them on this site."
     },
     {
+      "id": "mega-pack",
       "heading": "The Mega Pack",
       "body": [
-        "The Mega Pack is a paid download of ready-made PDFs. It is sold by **Lemon Squeezy** as merchant of record, which means your purchase contract and payment are handled by Lemon Squeezy under its own terms, and Lemon Squeezy charges any sales tax or VAT that applies. We provide the files and support.",
+        "**Who sells it.** The Mega Pack is sold through **Stripe Managed Payments**. The seller of record, also called the merchant of record, is **Link** (Sold through Link, LLC), a Stripe company. That means your purchase contract and payment are with Link, under the terms shown at checkout. Link charges any sales tax or VAT that applies, handles payment problems and disputes, and gives support for the transaction. We make the files and help you with them.",
+        "**Price.** The price is $7 in total, including any sales tax or VAT. Checkout may show the amount in your local currency. It is a one-time payment, not a subscription.",
+        "**Delivery.** Right after payment you are taken to a download page on frogsdream.com, where you can download the pack as one ZIP file. Bookmark that page to download it again later. You also get a receipt by email.",
         "**Mega Pack license.** When you buy the pack, you get a personal, non-transferable license to:",
         "* print the files as often as you like for your own home, your own parties and events, and **one classroom**, meaning the classes you teach yourself\n* hand printed copies to your students, guests and players\n* keep copies of the files on your own devices",
         "You may not resell, share, sublicense or give away the files or the ZIP, upload them to a public or shared website or drive where others can download them, or use them to make products for sale. Each teacher who wants to use the pack needs their own copy.",
-        "**Refunds.** Lemon Squeezy handles payment and VAT; if a file doesn't work for you, email us for a refund within 14 days.",
-        "**Your statutory rights.** If you are a consumer in the EU, you normally have 14 days to withdraw from an online purchase. For digital downloads, that right ends once the download starts, if you agreed at checkout to receive the files straight away and acknowledged that you lose the right of withdrawal. Our refund promise above applies in addition to that, and nothing in these terms limits the rights you have by law if the files are faulty or not as described."
+        "**Our refund promise.** If a file doesn't work for you, email us within 14 days of your purchase and we will fix it or give you a full refund, whichever you prefer. Refunds go back to your original payment method through Stripe.",
+        "**Your statutory rights.** This promise is in addition to your rights under consumer law, which it does not limit. If you are a consumer, any right of withdrawal from the purchase and your rights if the files are faulty or not as described still apply in full, and you can also contact Link support about them."
       ]
     },
     {
-      "heading": "No warranty",
+      "id": "complaints",
+      "heading": "Complaints",
       "body": [
-        "We work hard to keep the tools working and the word lists accurate and suitable, but the site and its printables are provided **as is**, without any promise that they will be error-free, always available or right for your particular purpose. Please check a sheet before printing a whole class set.",
+        "If something on the site or in the Mega Pack doesn't work as it should, you can make a complaint (in Polish, reklamacja). Email us and include:",
+        "* your email address, so we can reply\n* what the problem is, and which page, tool or file it concerns\n* when you noticed it\n* what you would like us to do\n* for the Mega Pack, the email address you used at checkout and, if you have it, the order number from your receipt",
+        "We will reply by email within **14 days** of receiving your complaint. If we need more details, we will ask, and the 14 days count from when we receive them. Complaints about the payment itself, such as a double charge, can also go straight to Link support from your receipt email."
+      ]
+    },
+    {
+      "heading": "No warranty for the free tools",
+      "body": [
+        "We work hard to keep the free tools working and the word lists accurate and suitable, but the free site and its printables are provided **as is**, without any promise that they will be error-free, always available or right for your particular purpose. Please check a sheet before printing a whole class set.",
         "Games and charts are for fun and learning. The bedtime and reward charts, and any guide that mentions children's sleep or behavior, are general ideas, not medical, psychological or professional advice. For scavenger hunts and outdoor games, the adults running them are responsible for supervision and safety."
       ]
     },
     {
       "heading": "Limitation of liability",
-      "body": "To the extent the law allows, frogsdream is not liable for indirect losses or for losses caused by using the free tools, such as wasted paper or ink. Our total liability relating to the Mega Pack is limited to the price you paid for it. Nothing in these terms excludes or limits liability for harm caused intentionally or through gross negligence, for death or personal injury, or any other liability that cannot be limited under applicable law, including mandatory consumer law."
+      "body": "To the extent the law allows, frogsdream is not liable for indirect losses or for losses caused by using the free tools, such as wasted paper or ink. Our total liability relating to the Mega Pack is limited to the price you paid for it. Nothing in these terms excludes or limits liability for harm caused intentionally or through gross negligence, for death or personal injury, or any other liability that cannot be limited under applicable law. **Your mandatory rights as a consumer are not affected by anything in these terms.**"
+    },
+    {
+      "heading": "Solving disputes",
+      "body": [
+        "If you are not happy with our answer to a complaint, please tell us, and we will look at it again. If you are a consumer, you can also use free out-of-court help. In Poland, that includes your local consumer ombudsman (rzecznik konsumentów) and the regional Trade Inspection (Inspekcja Handlowa). The Polish competition and consumer protection office keeps a list of these bodies at [polubowne.uokik.gov.pl](https://polubowne.uokik.gov.pl/rejestr,5,pl.html). Consumers in other EU countries can get free advice from the [European Consumer Centres Network](https://commission.europa.eu/topics/consumers/consumer-rights-and-complaints/resolve-your-consumer-complaint/european-consumer-centres-network-ecc-net_en). Taking part in out-of-court resolution is voluntary for both sides.",
+        "The European Commission's online dispute resolution (ODR) platform closed in July 2025, so we don't link to it."
+      ]
     },
     {
       "heading": "Links to other sites",
       "body": "Some pages link to other websites, for example sources for facts in our guides. We don't control those sites and are not responsible for their content or their privacy practices."
     },
     {
-      "heading": "Changes to the site and these terms",
-      "body": "We may add, change or remove tools, themes and pages, and we may update these terms. When we do, the date at the top of this page changes. A change does not take away a license you already have for a Mega Pack you bought."
+      "heading": "Changes to these terms",
+      "body": "We may update these terms, for example when we add a new service or the law changes. We will publish the new version on this page with a new date at the top before it takes effect. A change does not affect a purchase you already made or take away a license you already have for a Mega Pack you bought."
     },
     {
       "heading": "Governing law",
-      "body": "These terms are governed by the law of Poland. If you are a consumer living in another country, you keep the protection of the mandatory consumer laws of your own country, and you may bring a claim in the courts where you live. Otherwise, the courts of Poland have jurisdiction. If any part of these terms is found invalid, the rest still applies."
+      "body": "These terms are governed by the law of Poland. If you are a consumer living in another country, choosing Polish law does not take away the protection of the mandatory consumer laws of the country where you live, and you may bring a claim in the courts there. Otherwise, the courts of Poland have jurisdiction. If any part of these terms is found invalid, the rest still applies."
     },
     {
       "heading": "Questions",

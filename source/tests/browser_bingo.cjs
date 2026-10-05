@@ -1,11 +1,11 @@
 /* Headless Chromium check for the bingo card generator and the bingo caller.
-   Usage: node source/tests/browser_bingo.cjs <built site dir> [jspdf.umd.min.js] [screenshot dir]
-   Builds nothing itself: run python3 source/build.py --out DIR first. If a local jsPDF file is given, requests to
-   cdnjs are answered with it (for sandboxes without internet). Exits 1 on any failure. */
+   Usage: node source/tests/browser_bingo.cjs <built site dir> [screenshot dir]
+   Builds nothing itself: run python3 source/build.py --out DIR first. jsPDF is self-hosted in the site, so any
+   request to another host (including during Download PDF) is a failure. Exits 1 on any failure. */
 const http = require('http'), fs = require('fs'), path = require('path');
 const { chromium } = require(process.env.PW_PATH || '/opt/node22/lib/node_modules/playwright');
-const [SITE, JSPDF, SHOTS] = process.argv.slice(2);
-if (!SITE) { console.error('usage: node browser_bingo.cjs SITE_DIR [JSPDF] [SHOT_DIR]'); process.exit(2); }
+const [SITE, SHOTS] = process.argv.slice(2);
+if (!SITE) { console.error('usage: node browser_bingo.cjs SITE_DIR [SHOT_DIR]'); process.exit(2); }
 const TYPES = { '.html': 'text/html', '.js': 'application/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.ttf': 'font/ttf', '.woff2': 'font/woff2' };
 const server = http.createServer((req, res) => {
   let p = decodeURIComponent(req.url.split('?')[0].split('#')[0]);
@@ -24,9 +24,9 @@ const ok = (cond, msg) => { if (!cond) { fails++; console.log('FAIL ' + msg); } 
   const browser = await chromium.launch();
   for (const width of [360, 1280]) {
     const ctx = await browser.newContext({ viewport: { width, height: 900 }, acceptDownloads: true, locale: 'en-US' });
-    if (JSPDF) await ctx.route('https://cdnjs.cloudflare.com/**', r => r.fulfill({ path: JSPDF, contentType: 'application/javascript' }));
     const page = await ctx.newPage();
-    const errors = [];
+    const errors = [], external = [];
+    page.on('request', r => { const u = r.url(); if (!u.startsWith(base) && !u.startsWith('data:') && !u.startsWith('blob:')) external.push(u); });
     page.on('console', m => { if (m.type() === 'error') errors.push(m.text()); });
     page.on('pageerror', e => errors.push(String(e)));
     page.on('dialog', dlg => dlg.accept().catch(() => {}));
@@ -158,7 +158,7 @@ const ok = (cond, msg) => { if (!cond) { fails++; console.log('FAIL ' + msg); } 
     /* ---- caller ---- */
     await page.goto(base + '/bingo-caller/');
     await page.waitForSelector('#cl-board .cl-c');
-    await page.evaluate(() => localStorage.removeItem('fd:caller'));
+    await page.evaluate(() => sessionStorage.removeItem('fd:caller'));
     await page.reload(); await page.waitForSelector('#cl-board .cl-c');
     ok(await page.$$eval('#cl-board .cl-c', c => c.length) === 75, W + 'caller: 75-ball board');
     await page.click('#cl-next');
@@ -209,6 +209,12 @@ const ok = (cond, msg) => { if (!cond) { fails++; console.log('FAIL ' + msg); } 
     if (SHOTS) await page.screenshot({ path: path.join(SHOTS, 'caller_' + width + '.png'), fullPage: true });
 
     ok(errors.length === 0, W + 'no console errors ' + JSON.stringify(errors).slice(0, 300));
+    ok(external.length === 0, W + 'no third-party requests (jsPDF self-hosted) ' + JSON.stringify(external.slice(0, 3)));
+    /* ePrivacy: tools keep user input in sessionStorage only (cleared when the tab closes); no localStorage, no cookies */
+    const store = await page.evaluate(() => ({ ls: localStorage.length, ss: sessionStorage.length, ck: document.cookie }));
+    const cookies = await ctx.cookies();
+    ok(store.ls === 0 && !store.ck && cookies.length === 0 && store.ss > 0,
+      W + `storage: sessionStorage only (${store.ss} keys), localStorage ${store.ls}, cookies ${cookies.length}`);
     await ctx.close();
   }
   await browser.close();

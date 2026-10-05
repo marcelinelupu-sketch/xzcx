@@ -8,9 +8,9 @@
     {
       "heading": "Advertising",
       "body": [
-        "Some pages show ads served by **Google AdSense**. Google chooses which ads appear and where. We are paid by Google when ads are shown or clicked, and we do not pick, review or endorse the individual advertisers.",
+        "When ads are switched on, some pages show ads served by **Google AdSense**. Google chooses which ads appear and where. We are paid by Google when ads are shown or clicked, and we do not pick, review or endorse the individual advertisers.",
         "Some rules we keep:",
-        "* We keep ads out of the generators and leave space between ads and the Generate, Print and Download buttons. Ads never print on your sheets.\n* Where we add an ad space ourselves inside an article, it is labeled **Advertisement**.\n* There are no ads on the embedded tools, the bingo caller, the Mega Pack page, the contact page, the error page or the privacy and terms pages.\n* Advertisers have no say in what we write. Word lists, guides and recommendations are never paid for.",
+        "* We keep ads out of the generators and leave space between ads and the Generate, Print and Download buttons. Ads never print on your sheets.\n* Where we add an ad space ourselves inside an article, it is labeled **Advertisement**.\n* There are no ads on the embedded tools, the bingo caller, the Mega Pack page, the download page, the contact page, the error page or the privacy and terms pages.\n* Advertisers have no say in what we write. Word lists, guides and recommendations are never paid for.",
         "In the European Economic Area, the UK and Switzerland, Google asks for your consent before using cookies for ads, and you can change your choice at any time with the **Privacy choices** link in the footer. The [privacy policy](/privacy/) explains what data Google collects."
       ]
     },
@@ -18,7 +18,7 @@
       "heading": "The Mega Pack",
       "body": [
         "We sell one product of our own, the [frogsdream Mega Pack](/premium/), a download of ready-made PDFs. You'll see short mentions of it under some generators and in the site menu. Those are ads for our own product, and nobody else pays for them.",
-        "Everything in the pack can also be made for free with the tools on this site. The pack saves time; it doesn't unlock anything you can't otherwise do. The sale is handled by Lemon Squeezy, which acts as the merchant of record."
+        "Everything in the pack can also be made for free with the tools on this site. The pack saves time; it doesn't unlock anything you can't otherwise do. The sale is handled through Stripe Managed Payments, with Link, a Stripe company, as the merchant of record."
       ]
     },
     {

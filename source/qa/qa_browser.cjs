@@ -9,9 +9,10 @@
      Download PDF produces a real PDF with the credit on every page and no banned dashes,
      the share link (1280px) restores identical sheets.
    --all-themes also runs every themed page at 1280px (generate, print and PDF download).
-   jsPDF is served from source/qa/vendor (or $JSPDF) in place of cdnjs when the sandbox has no internet. */
+   jsPDF is self-hosted at /assets/js/vendor/jspdf.umd.min.js, so ANY request to another host fails the check,
+   including during Download PDF. */
 const fs = require('fs'), path = require('path'), os = require('os'), { execFileSync } = require('child_process');
-const { serve, launch, findJsPDF, reporter } = require('./lib.cjs');
+const { serve, launch, reporter } = require('./lib.cjs');
 
 const argv = process.argv.slice(2);
 const SITE = argv.find(a => !a.startsWith('--') && argv[argv.indexOf(a) - 1] !== '--json' && argv[argv.indexOf(a) - 1] !== '--shots');
@@ -19,7 +20,6 @@ const ALL = argv.includes('--all-themes');
 const JSON_OUT = argv.includes('--json') ? argv[argv.indexOf('--json') + 1] : null;
 const SHOTS = argv.includes('--shots') ? argv[argv.indexOf('--shots') + 1] : null;
 if (!SITE) { console.error('usage: node qa_browser.cjs SITE_DIR [--all-themes]'); process.exit(2); }
-const JSPDF = findJsPDF();
 const TMP = fs.mkdtempSync(path.join(os.tmpdir(), 'fdqa-'));
 const CREDIT = 'Made free at frogsdream.com';
 const BANNED = /[–—]/;
@@ -52,7 +52,6 @@ function pdfPages(file, buf) {
     const ctx = await browser.newContext({ viewport: { width, height: width < 500 ? 740 : 900 }, acceptDownloads: true, locale: 'en-US',
       isMobile: width < 500, hasTouch: width < 500, deviceScaleFactor: width < 500 ? 2 : 1 });
     await ctx.grantPermissions(['clipboard-read', 'clipboard-write'], { origin: base });
-    if (JSPDF) await ctx.route('https://cdnjs.cloudflare.com/**', r => r.fulfill({ path: JSPDF, contentType: 'application/javascript' }));
     return ctx;
   }
 
@@ -62,7 +61,7 @@ function pdfPages(file, buf) {
     const errors = [], external = [];
     page.on('console', m => { if (m.type() === 'error' || (m.type() === 'warning' && !/speech|voices/i.test(m.text()))) errors.push(m.type() + ': ' + m.text()); });
     page.on('pageerror', e => errors.push('pageerror: ' + e));
-    page.on('request', r => { const u = r.url(); if (!u.startsWith(base) && !u.startsWith('data:') && !u.startsWith('blob:') && !u.startsWith('https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/')) external.push(u); });
+    page.on('request', r => { const u = r.url(); if (!u.startsWith(base) && !u.startsWith('data:') && !u.startsWith('blob:')) external.push(u); });
     page.on('dialog', d => d.accept().catch(() => {}));
     await page.goto(base + url, { waitUntil: 'load' });
     try { await page.waitForSelector('.sheet', { timeout: 15000 }); } catch (e) { R.ok(false, W + 'preview rendered'); await page.close(); return; }
@@ -140,6 +139,8 @@ function pdfPages(file, buf) {
     }
     R.ok(errors.length === 0, W + 'no console errors or warnings ' + (errors.length ? JSON.stringify(errors.slice(0, 3)) : ''));
     R.ok(external.length === 0, W + 'no third-party requests ' + (external.length ? JSON.stringify(external.slice(0, 3)) : ''));
+    const store = await page.evaluate(() => ({ ls: localStorage.length, ck: document.cookie }));
+    R.ok(store.ls === 0 && !store.ck, W + `no localStorage or cookies set (ePrivacy; tools use sessionStorage only) ls=${store.ls}`);
     await page.close();
   }
 
@@ -189,7 +190,7 @@ function pdfPages(file, buf) {
   }
   await browser.close(); server.close();
   fs.rmSync(TMP, { recursive: true, force: true });
-  console.log(`\nBrowser QA: ${R.results.length - R.fails} passed, ${R.fails} failed` + (JSPDF ? ' (jsPDF served from local copy)' : ''));
+  console.log(`\nBrowser QA: ${R.results.length - R.fails} passed, ${R.fails} failed`);
   if (JSON_OUT) fs.writeFileSync(JSON_OUT, JSON.stringify(R.results, null, 1));
   process.exit(R.fails ? 1 : 0);
 })().catch(e => { console.error(e); process.exit(1); });

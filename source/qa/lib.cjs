@@ -31,12 +31,6 @@ function serve(root) {
   return new Promise(r => server.listen(0, '127.0.0.1', () => r({ server, base: 'http://127.0.0.1:' + server.address().port })));
 }
 
-/* Locate a local jsPDF 2.5.1 build for sandboxes without internet. */
-function findJsPDF() {
-  const cands = [process.env.JSPDF, path.join(__dirname, 'vendor', 'jspdf.umd.min.js')].filter(Boolean);
-  return cands.find(f => fs.existsSync(f)) || null;
-}
-
 function launch() {
   return chromium.launch();
 }
@@ -50,4 +44,4 @@ function reporter() {
   };
 }
 
-module.exports = { serve, findJsPDF, launch, reporter, chromium };
+module.exports = { serve, launch, reporter, chromium };
