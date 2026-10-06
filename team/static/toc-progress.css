@@ -1,0 +1,2 @@
+.ch-row.rp-viewed .ch-num{color:#A07828}
+.ch-row.rp-viewed .ch-num::after{content:'•';margin-left:.2em;color:#A07828}

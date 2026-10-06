@@ -1,20 +1,28 @@
 #!/usr/bin/env python3
-"""Build the grammar book site from the team's work, and measure their progress.
+"""Build the grammar book and measure everyone's progress from the files themselves.
 
-Inputs (written by the team, inside team/book/):
-  descriptions.json          {"<chapter number>": "short description", ...} for chapters that lack one
-  lessons/chapter-NN.html    lesson body fragments, first line <!-- author: NAME -->
-  reviews/chapter-NN.md      first lines "VERDICT: APPROVED" or "VERDICT: CHANGES NEEDED", then "Reviewer: NAME"
+Writers (two Sonnets) produce, inside team/book/:
+  lessons/chapter-NN.html     lesson body, first line <!-- author: NAME -->
+  reviews/chapter-NN.md       peer review: "VERDICT: APPROVED" or "VERDICT: CHANGES NEEDED"
+The exercise team (Opus expert + Sonnet exercise writer) produces:
+  blueprints/chapter-NN.md    the expert's plan for the chapter's exercises
+  checks/lesson-NN.md         expert grammar check of the lesson: "VERDICT: PASS" or "VERDICT: FIX NEEDED"
+  exercises/chapter-NN.json   the exercises (format in EXERCISES.md)
+  checks/exercises-NN.md      expert check of the exercises: "VERDICT: PASS" or "VERDICT: FIX NEEDED"
 
-Output: team/site/toc.html and team/site/chapter-NN.html
+Output: team/site/ (toc.html, chapter-NN.html, assets/). Vocabulary index: team/vocab/.
 
 Usage:
   python3 team/build.py           build the site and print progress
   python3 team/build.py status    print progress only
 """
 
+import hashlib
+import html as htmlmod
 import json
+import pickle
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -23,7 +31,13 @@ HERE = Path(__file__).resolve().parent
 SOURCE_TOC = HERE / "source" / "toc_original.html"
 BOOK = HERE / "book"
 SITE = HERE / "site"
+STATIC = HERE / "static"
 TEMPLATE = HERE / "template" / "lesson.html"
+REFS = HERE / "references"
+VOCAB = HERE / "vocab"
+NGRAM_CACHE = HERE / "state" / "ref_ngrams.pkl"
+NGRAM = 6
+TYPES = {"choice", "gap", "order", "error"}
 
 
 def clean(text):
@@ -37,78 +51,232 @@ def chapters():
 
 def descriptions():
     p = BOOK / "descriptions.json"
-    if not p.exists():
-        return {}
     try:
         return {str(k): clean(v).strip() for k, v in json.loads(p.read_text()).items() if str(v).strip()}
-    except (ValueError, AttributeError):
+    except (OSError, ValueError, AttributeError):
         return {}
 
 
-def lesson_path(n):
-    return BOOK / "lessons" / f"chapter-{n:02d}.html"
+def path(kind, n):
+    return {
+        "lesson": BOOK / "lessons" / f"chapter-{n:02d}.html",
+        "review": BOOK / "reviews" / f"chapter-{n:02d}.md",
+        "blueprint": BOOK / "blueprints" / f"chapter-{n:02d}.md",
+        "lesson_check": BOOK / "checks" / f"lesson-{n:02d}.md",
+        "exercises": BOOK / "exercises" / f"chapter-{n:02d}.json",
+        "exercise_check": BOOK / "checks" / f"exercises-{n:02d}.md",
+    }[kind]
 
 
-def review_path(n):
-    return BOOK / "reviews" / f"chapter-{n:02d}.md"
+def mtime(p):
+    return p.stat().st_mtime if p.exists() else None
+
+
+def verdict(p, after):
+    """(verdict, current). current = written after the thing it judges was last changed."""
+    if not p.exists():
+        return None, False
+    m = re.search(r"VERDICT:\s*(APPROVED|CHANGES NEEDED|PASS|FIX NEEDED)", p.read_text(), re.I)
+    v = m.group(1).upper() if m else "UNCLEAR"
+    return v, (after is not None and mtime(p) >= after)
 
 
 def author_of(n):
-    p = lesson_path(n)
+    p = path("lesson", n)
     if not p.exists():
         return None
     m = re.match(r"\s*<!--\s*author:\s*(.*?)\s*-->", p.read_text())
     return m.group(1).strip() if m else None
 
 
-def review_of(n):
-    """Returns (verdict, reviewer, is_current) or None."""
-    p = review_path(n)
+# ---------- copyright overlap ----------
+
+def words(text):
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = htmlmod.unescape(text)
+    return re.findall(r"[a-z0-9']+", text.lower())
+
+
+def h(gram):
+    return int.from_bytes(hashlib.blake2b(gram.encode(), digest_size=8).digest(), "big")
+
+
+def ref_ngrams():
+    if NGRAM_CACHE.exists():
+        return pickle.loads(NGRAM_CACHE.read_bytes())
+    grams = set()
+    for p in REFS.glob("*.md"):
+        if p.name == "README.md":
+            continue
+        w = words(p.read_text(errors="ignore"))
+        grams.update(h(" ".join(w[i:i + NGRAM])) for i in range(len(w) - NGRAM + 1))
+    NGRAM_CACHE.parent.mkdir(exist_ok=True)
+    NGRAM_CACHE.write_bytes(pickle.dumps(grams))
+    return grams
+
+
+def overlaps(text, grams):
+    w = words(text)
+    hits = []
+    for i in range(len(w) - NGRAM + 1):
+        if h(" ".join(w[i:i + NGRAM])) in grams:
+            hits.append(" ".join(w[i:i + NGRAM]))
+    # very common teaching phrases are tolerated if they are only one isolated hit
+    return hits if len(hits) >= 2 else []
+
+
+# ---------- exercises ----------
+
+def load_exercises(n):
+    p = path("exercises", n)
     if not p.exists():
-        return None
-    text = p.read_text()
-    v = re.search(r"VERDICT:\s*(APPROVED|CHANGES NEEDED)", text, re.I)
-    r = re.search(r"Reviewer:\s*(.+)", text)
-    current = lesson_path(n).exists() and p.stat().st_mtime >= lesson_path(n).stat().st_mtime
-    return (v.group(1).upper() if v else "UNCLEAR", r.group(1).strip() if r else None, current)
+        return None, ["missing"]
+    try:
+        data = json.loads(p.read_text())
+    except ValueError as e:
+        return None, [f"invalid JSON: {e}"]
+    errs = []
+    sets = data.get("sets") if isinstance(data, dict) else None
+    if not isinstance(sets, list) or not sets:
+        return None, ["no sets"]
+    if not 5 <= len(sets) <= 10:
+        errs.append(f"{len(sets)} sets (must be 5 to 10)")
+    for si, s in enumerate(sets):
+        items = s.get("items") or []
+        if not 3 <= len(items) <= 4:
+            errs.append(f"set {si + 1}: {len(items)} items (must be 3 or 4)")
+        for ii, it in enumerate(items):
+            t = it.get("type") or s.get("type")
+            where = f"set {si + 1} item {ii + 1}"
+            if t not in TYPES:
+                errs.append(f"{where}: unknown type {t!r}")
+                continue
+            try:
+                if t == "choice":
+                    assert isinstance(it["options"], list) and 2 <= len(it["options"]) <= 5
+                    assert 0 <= int(it["answer"]) < len(it["options"])
+                    assert it.get("q")
+                elif t == "gap":
+                    assert "___" in it["q"] and it["answer"]
+                elif t == "order":
+                    assert isinstance(it["words"], list) and len(it["words"]) >= 2 and it["answer"]
+                    ans = it["answer"] if isinstance(it["answer"], list) else [it["answer"]]
+                    for a in ans:
+                        assert sorted(re.sub(r"\s+", " ", a).strip().split(" ")) == sorted(it["words"]), "answer must use exactly the given words"
+                elif t == "error":
+                    assert isinstance(it["segments"], list) and len(it["segments"]) >= 2
+                    assert 0 <= int(it["answer"]) < len(it["segments"]) and it.get("fix")
+            except (KeyError, AssertionError, ValueError, TypeError) as e:
+                errs.append(f"{where} ({t}): malformed {e}".strip())
+    return data, errs
 
 
-def progress(writers=None):
-    """writers maps 'lessons/chapter-NN.html' / 'reviews/chapter-NN.md' to the mind that last wrote it.
-    When known, it decides authorship; the signatures inside the files are only a fallback."""
+# ---------- vocabulary ----------
+
+VSPAN = re.compile(r'<span class="v" data-def="([^"]+)">(.*?)</span>', re.S)
+
+
+def vocab_id(word, definition):
+    return hashlib.sha1(f"{word.strip().lower()}|{definition.strip().lower()}".encode()).hexdigest()[:10]
+
+
+def tag_vocab(text, found, context_of):
+    def sub(m):
+        d, w = m.group(1), m.group(2)
+        wid = vocab_id(re.sub(r"<[^>]+>", "", w), d)
+        if wid not in found:
+            found[wid] = {"word": re.sub(r"<[^>]+>", "", w), "def": htmlmod.unescape(d), "context": context_of(m)}
+        return f'<span class="v" data-id="{wid}" data-def="{d}">{w}</span>'
+    return VSPAN.sub(sub, text)
+
+
+def sentence_around(text, m):
+    plain_before = re.sub(r"<[^>]+>", "", text[max(0, m.start() - 300):m.start()])
+    plain_after = re.sub(r"<[^>]+>", "", text[m.end():m.end() + 300])
+    before = re.split(r"(?<=[.!?])\s|\n", plain_before)[-1]
+    after = re.split(r"(?<=[.!?])\s|\n", plain_after)[0]
+    return htmlmod.unescape((before + re.sub(r"<[^>]+>", "", m.group(2)) + after).strip())[:300]
+
+
+def translations():
+    p = VOCAB / "translations.json"
+    try:
+        return json.loads(p.read_text())
+    except (OSError, ValueError):
+        return {}
+
+
+# ---------- progress ----------
+
+def progress(writers=None, detail=False):
     writers = writers or {}
     chs = chapters()
     descs = descriptions()
-    missing = [c["n"] for c in chs if not c["desc"]]
-    desc_done = [n for n in missing if str(n) in descs]
-    drafted, approved, needs_changes, awaiting = [], [], [], []
+    grams = ref_ngrams()
+    missing_desc = [c["n"] for c in chs if not c["desc"] and str(c["n"]) not in descs]
+    rows = {}
     for c in chs:
         n = c["n"]
-        if not lesson_path(n).exists():
-            continue
-        drafted.append(n)
-        rv = review_of(n)
-        if rv is None or not rv[2]:
-            awaiting.append(n)  # no review yet, or the lesson changed after its review
-            continue
-        lesson_by = writers.get(f"lessons/chapter-{n:02d}.html") or author_of(n)
-        review_by = writers.get(f"reviews/chapter-{n:02d}.md") or rv[1]
-        if rv[0] == "APPROVED":
-            if review_by and review_by != lesson_by:
-                approved.append(n)
-            else:
-                awaiting.append(n)  # self approval does not count
-        else:
-            needs_changes.append(n)
-    return {
-        "descriptions_written": f"{len(desc_done)} of {len(missing)} missing",
-        "lessons_drafted": len(drafted),
-        "lessons_approved_by_the_other": len(approved),
-        "lessons_needing_changes": needs_changes,
-        "lessons_awaiting_review": awaiting,
-        "approved": approved,
+        lp = path("lesson", n)
+        r = {"lesson": lp.exists()}
+        if r["lesson"]:
+            lt = mtime(lp)
+            v, cur = verdict(path("review", n), lt)
+            lesson_by = writers.get(f"lessons/chapter-{n:02d}.html") or author_of(n)
+            review_by = writers.get(f"reviews/chapter-{n:02d}.md")
+            r["peer"] = ("approved" if v == "APPROVED" and cur and review_by != lesson_by else
+                         "changes" if v == "CHANGES NEEDED" and cur else
+                         "self-approved (does not count)" if v == "APPROVED" and cur else "awaiting")
+            ev, ecur = verdict(path("lesson_check", n), lt)
+            r["expert"] = "pass" if ev == "PASS" and ecur else "fix" if ev == "FIX NEEDED" and ecur else "awaiting"
+            r["copy_flags"] = overlaps(lp.read_text(), grams)[:3]
+            r["vocab_words"] = len(VSPAN.findall(lp.read_text()))
+        r["blueprint"] = path("blueprint", n).exists()
+        data, errs = load_exercises(n)
+        if data is not None or errs != ["missing"]:
+            r["exercise_errors"] = errs[:5]
+            xt = mtime(path("exercises", n))
+            xv, xcur = verdict(path("exercise_check", n), xt)
+            r["exercise_check"] = "pass" if xv == "PASS" and xcur else "fix" if xv == "FIX NEEDED" and xcur else "awaiting"
+            if data is not None:
+                r["exercise_copy_flags"] = overlaps(json.dumps(data), grams)[:3]
+        rows[n] = r
+
+    def L(cond):
+        return [n for n, r in rows.items() if cond(r)]
+
+    summary = {
+        "descriptions_missing": missing_desc,
+        "lessons_written": len(L(lambda r: r["lesson"])),
+        "lessons_finished (peer approved AND expert passed)": len(L(lambda r: r.get("peer") == "approved" and r.get("expert") == "pass")),
+        "lessons_awaiting_peer_review": L(lambda r: r["lesson"] and r["peer"] == "awaiting"),
+        "lessons_needing_changes_from_peer_review": L(lambda r: r.get("peer") == "changes"),
+        "lessons_awaiting_expert_check (peer approved)": L(lambda r: r.get("peer") == "approved" and r.get("expert") == "awaiting"),
+        "lessons_needing_fixes_from_expert": L(lambda r: r.get("expert") == "fix"),
+        "lessons_flagged_for_copying_reference_books": {n: r["copy_flags"] for n, r in rows.items() if r.get("copy_flags")},
+        "lessons_not_yet_written": L(lambda r: not r["lesson"]),
+        "blueprints_written": len(L(lambda r: r["blueprint"])),
+        "exercises_written": len(L(lambda r: "exercise_check" in r)),
+        "exercises_finished (expert passed, valid)": len(L(lambda r: r.get("exercise_check") == "pass" and not r.get("exercise_errors"))),
+        "exercises_with_format_errors": {n: r["exercise_errors"] for n, r in rows.items() if r.get("exercise_errors")},
+        "exercises_awaiting_expert_check": L(lambda r: r.get("exercise_check") == "awaiting"),
+        "exercises_needing_fixes_from_expert": L(lambda r: r.get("exercise_check") == "fix"),
+        "exercises_flagged_for_copying_reference_books": {n: r["exercise_copy_flags"] for n, r in rows.items() if r.get("exercise_copy_flags")},
         "total_chapters": len(chs),
     }
+    if detail:
+        summary["rows"] = rows
+    return summary
+
+
+# ---------- site ----------
+
+TOC_PATCH = """
+<link rel="stylesheet" href="assets/toc-progress.css">
+<script src="assets/progress-config.js"></script>
+<script src="assets/progress.js"></script>
+<script src="assets/toc-progress.js"></script>
+</body>"""
 
 
 def build_toc(descs):
@@ -123,20 +291,48 @@ for (const b of BANNERS) { n++; if (!b.intro.desc && D[n]) b.intro.desc = D[n];
 process.stdout.write(JSON.stringify(BANNERS, null, 1));
 """
     out = subprocess.run(["node", "-e", js, json.dumps(descs)], capture_output=True, text=True, check=True).stdout
-    return html[:start] + "const BANNERS = " + out + ";" + html[end:]
+    html = html[:start] + "const BANNERS = " + out + ";" + html[end:]
+    return html.replace("</body>", TOC_PATCH, 1)
 
 
-def build():
+def build(only_finished=False):
     SITE.mkdir(exist_ok=True)
+    (SITE / "assets").mkdir(exist_ok=True)
+    for f in STATIC.iterdir():
+        shutil.copy(f, SITE / "assets" / f.name)
     descs = descriptions()
     (SITE / "toc.html").write_text(build_toc(descs))
+    prog = progress(detail=True)
+    rows = prog["rows"]
     chs = chapters()
-    tpl = TEMPLATE.read_text()
-    existing = [c["n"] for c in chs if lesson_path(c["n"]).exists()]
     by_n = {c["n"]: c for c in chs}
+    tpl = TEMPLATE.read_text()
+    tr = translations()
+    existing = [c["n"] for c in chs if path("lesson", c["n"]).exists()]
+    if only_finished:
+        existing = [n for n in existing if rows[n].get("peer") == "approved" and rows[n].get("expert") == "pass"]
+    index = {}
     for n in existing:
         c = by_n[n]
-        body = re.sub(r"^\s*<!--\s*author:.*?-->\s*", "", lesson_path(n).read_text(), count=1)
+        found = {}
+        raw = re.sub(r"^\s*<!--\s*author:.*?-->\s*", "", path("lesson", n).read_text(), count=1)
+        body = tag_vocab(clean(raw), found, lambda m, raw=raw: sentence_around(raw, m))
+        ex_json = "null"
+        data, errs = load_exercises(n)
+        if data is not None and not errs and rows[n].get("exercise_check") == "pass":
+            def walk(x):
+                if isinstance(x, str):
+                    t = clean(x)
+                    return tag_vocab(t, found, lambda m, t=t: sentence_around(t, m))
+                if isinstance(x, list):
+                    return [walk(y) for y in x]
+                if isinstance(x, dict):
+                    return {k: walk(v) for k, v in x.items()}
+                return x
+            ex_json = json.dumps(walk(data), ensure_ascii=False).replace("</", "<\\/")
+        page_vocab = {k: {"def": v["def"], "tr": tr.get(k, {})} for k, v in found.items()}
+        for k, v in found.items():
+            index.setdefault(k, dict(v, chapters=[]))["chapters"].append(n)
         crumb = " · ".join(x for x in (c["section"], c["part"]) if x)
         desc = c["desc"] or descs.get(str(n), "")
         i = existing.index(n)
@@ -144,8 +340,12 @@ def build():
         nxt = f'<a class="next" href="chapter-{existing[i+1]:02d}.html"><span class="label">Next</span>{by_n[existing[i+1]]["title"]}</a>' if i + 1 < len(existing) else ""
         page = (tpl.replace("{{TITLE}}", c["title"]).replace("{{CRUMB}}", crumb).replace("{{NUM}}", str(n))
                 .replace("{{DESC}}", desc).replace("{{LEVEL}}", f'<span class="level">{c["cefr"]}</span>' if c["cefr"] else "")
-                .replace("{{PREV}}", prev).replace("{{NEXT}}", nxt).replace("{{BODY}}", clean(body)))
+                .replace("{{PREV}}", prev).replace("{{NEXT}}", nxt)
+                .replace("{{VOCAB}}", json.dumps(page_vocab, ensure_ascii=False).replace("</", "<\\/"))
+                .replace("{{EXERCISES}}", ex_json).replace("{{BODY}}", body))
         (SITE / f"chapter-{n:02d}.html").write_text(page)
+    VOCAB.mkdir(exist_ok=True)
+    (VOCAB / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1))
     return len(existing)
 
 
@@ -153,6 +353,5 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "status":
         print(json.dumps(progress(), indent=2))
     else:
-        pages = build()
+        pages = build(only_finished="--finished" in sys.argv)
         print(f"built toc.html and {pages} lesson pages into {SITE}")
-        print(json.dumps(progress(), indent=2))

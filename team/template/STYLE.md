@@ -1,97 +1,75 @@
-# How to write for this book
+# How to write lessons for this book
 
-This is "A Modern Guide to English Grammar" by Rhyme Art. Readers are people learning English, from complete beginners (A1) to advanced (C2). Many of them read slowly in their second language. Everything you write must be easy to read, correct, and kind.
+"A Modern Guide to English Grammar" by Rhyme Art. Readers are learning English, from A1 to C2, often slowly, in their second language.
 
-`chapters.json` lists all 135 chapters in order: number, section, part, level (CEFR), title, and description if one exists. Never edit it.
+The goal of every lesson: **a tired A2 learner understands it in under a minute and remembers it tomorrow.** Even C1 and C2 grammar is explained with A2 words.
 
-## 1. Descriptions (descriptions.json)
+`chapters.json` lists all 135 chapters (number, section, part, level, title, description). Never edit it. `old_lessons/` holds the first drafts of chapters 1 to 94: correct but too long and too plain. Use them as raw material, never as the standard.
 
-74 chapters have no description yet. Write them into `descriptions.json` as `{"<chapter number>": "description"}`. Keep the descriptions that are already in chapters.json as they are.
+## The rules
 
-Match the existing style exactly. Real examples from the book:
+1. **As short as possible, never less clear.** Cut every sentence that does not teach. No introductions, no "In this lesson", no summaries, no tips unless the concept truly needs one. Typical length: 80 to 250 words of English. Part intros and section intros: a few lines and the overview table.
+2. **Show, don't tell.** One formula, then examples. Explain in words only what the formula and examples cannot show.
+3. **A2 words only** in explanations, at every level. Grammar terms only when needed, and explained the first time.
+4. **Formatting serves understanding.** Same colors for the same roles everywhere. Center what should be seen at a glance.
+5. **Correct.** Teach only what you are sure of. A wrong rule harms a real learner.
+6. **The vibe:** examples live in an autumn atmosphere: falling leaves, rain on windows, letters, candles, long evenings, memory, longing, small beautiful sadness. Vary it widely; sometimes leave autumn completely (the sea, a night city, snow, a desert, early spring) so it never feels stuck. The mood comes from the scene, not from difficult words. At A1: "The leaves fall. She does not open the letter." At C1 the language can be literary. Every example must still make sense and sound natural.
+7. American spelling. Never use em dashes or en dashes.
 
-- The Basics: "Every word in English has a job. In this section, we explore each type of word and what its job is."
-- Articles: "Small words placed before a noun that point to its amount and familiarity."
-- Personal Pronouns: "The words used instead of a name, depending on who or what you are talking about."
-- Countable and Uncountable Nouns: "Why you can say 'two apples' but not 'two informations'."
-- Adverbs of Frequency: "How often something happens."
-- Used To and Would: "When the past is no longer true."
-- Present Continuous: "When something is in progress."
-- The Empty "It": "When 'it' doesn't refer to anything."
+## Components (use these exactly; nothing else)
 
-Rules: one short sentence, often a fragment. Plain everyday words. Say what the thing is for, not its technical definition. A good description makes a learner think "oh, I need that". Use `<strong>` only rarely, for one key word.
-
-## 2. Lessons (lessons/chapter-NN.html)
-
-One file per chapter, named with two digits: `chapter-07.html`, `chapter-115.html`. Write only the lesson body; the page header, navigation and design are added automatically. The very first line must be:
+First line of every file: `<!-- author: YourName -->`
 
 ```html
-<!-- author: YourName -->
-```
+<p class="lead">One or two sentences: what it is and when we use it.</p>
 
-### Shape of a good lesson
-
-1. A `lead` paragraph: what this is and why it matters, in one or two simple sentences.
-2. The idea, explained step by step with `h2` headings. One idea per section.
-3. Lots of short, natural examples. Highlight the grammar point with `<mark>`.
-4. Common mistakes, shown side by side.
-5. A short practice section with answers hidden.
-6. A short summary.
-
-Keep the level right: an A1 lesson uses only very simple words and short sentences; a C1 lesson can say more, but must still be clear. Explain like a patient teacher talking to one student. Prefer examples over terminology. Length: usually 500 to 1200 words of English. Part intros and section intros are shorter overviews that tell the learner what is coming in that part.
-
-### Components (use these class names exactly)
-
-```html
-<p class="lead">Nouns are words for people, places, things and ideas.</p>
-
-<h2>What is a noun?</h2>
-<p>Normal paragraph text.</p>
-
-<div class="rule"><p><strong>Rule:</strong> Add <mark>-s</mark> to most nouns to make them plural.</p></div>
+<div class="formula"><span class="s">I / you / we / they</span> <b>+</b> <span class="vb">verb</span> <b>+</b> <span class="o">object</span></div>
 
 <div class="examples">
-  <p>I have two <mark>cats</mark>.</p>
-  <p>She lives in <mark>London</mark>.</p>
+  <p><span class="s">She</span> <span class="vb">writes</span> a letter every autumn.</p>
+  <p>The rain <mark>has stopped</mark>.</p>
 </div>
+
+<h2>Short heading</h2>
+<p>Only when a second idea is needed.</p>
 
 <div class="compare">
-  <p class="wrong">I need an advice.</p>
-  <p class="right">I need some advice.</p>
+  <p class="wrong">She don't like rain.</p>
+  <p class="right">She doesn't like rain.</p>
 </div>
 
-<div class="tip"><p>Short helpful note.</p></div>
-
 <div class="table-wrap"><table class="grid">
-  <tr><th>Singular</th><th>Plural</th></tr>
-  <tr><td>cat</td><td>cats</td></tr>
+  <tr><th>Positive</th><th>Negative</th></tr>
+  <tr><td>I walk</td><td>I don't walk</td></tr>
 </table></div>
-
-<div class="practice"><ol>
-  <li>Choose: I saw ___ elephant. (a / an)
-    <details><summary>Answer</summary><p><strong>an</strong> elephant, because "elephant" starts with a vowel sound.</p></details></li>
-</ol></div>
-
-<div class="summary"><ul>
-  <li>One short line per key point.</li>
-</ul></div>
 ```
 
-Do not add `<style>`, `<script>`, `<html>`, `<head>` or `<body>`. Do not invent new classes.
+Role colors (use inside formulas, examples and tables, always for the same role):
+`<span class="s">` subject, `<span class="vb">` verb or verb form, `<span class="o">` object or complement, `<span class="x">` the extra part (time word, adverb, particle). Use `<mark>` for the one thing to notice in an example. Do not color everything; color what the lesson is about.
 
-## 3. Reviews (reviews/chapter-NN.md)
+Use `compare` only for mistakes learners really make. Tables are for patterns that are easier to see in rows and columns. Everything in tables is centered automatically.
 
-Review the other mind's lessons, never your own. Start the file with:
+## Vocabulary popups
+
+Mark every word that an A2 learner might not know (also words in examples):
+
+```html
+<span class="v" data-def="a short simple definition, for this meaning only">word</span>
+```
+
+The definition must fit the meaning **in this sentence** (leaves of a tree, not leaves = goes away). Use plain A2 words in definitions. Do not use double quotes inside data-def. Translations into the learner's language are added automatically from your definition and sentence, so the definition must be precise. Do not mark easy words.
+
+## Reviews (reviews/chapter-NN.md)
+
+Review the other writer's lessons, never your own:
 
 ```
 VERDICT: APPROVED
-Reviewer: YourName
 ```
+or `VERDICT: CHANGES NEEDED` followed by exactly what to fix. Check: correct? as short as possible? clear in one minute for an A2 reader? formatting right and helpful? examples natural and in the vibe? difficult words marked with good definitions? no copying from the reference books? A lesson changed after review needs a new review.
 
-or `VERDICT: CHANGES NEEDED`, then a short list of exactly what to fix. Check: is every grammar statement correct? Are the examples natural English? Is it right for the level? Is it clear and kind? Are the practice answers correct? Is the format right? Approve only what you would be proud to show a real student. A lesson that changes after review needs a new review.
+The expert (Opus) also checks every approved lesson (checks/lesson-NN.md). If it says FIX NEEDED, fix the lesson; it then needs a new peer review and a new expert check.
 
-## 4. Always
+## Reference books
 
-- American spelling, as in the existing book.
-- Never use em dashes or en dashes. Use commas, full stops, or brackets.
-- Correctness over speed. A wrong grammar rule taught to a learner does real harm.
+`../references/` holds Murphy's two Grammar in Use books and Williams' Style. Read its README first. Use them to check rules and to see how a topic is best taught and what learners get wrong. Never copy or closely paraphrase their sentences or examples. The build flags any text sharing 6 or more words in a row with them; flagged lessons must be rewritten.

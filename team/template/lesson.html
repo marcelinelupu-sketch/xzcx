@@ -7,80 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --bg:#F7F4EE;--bg-white:#FCFAF6;--bg-soft:#EDE8DC;
-  --text:#1A1916;--text-muted:#6B6760;
-  --accent:#4C2A1A;--part:#7A4A1C;--gold:#A07828;--gold-soft:rgba(176,128,48,0.14);
-  --border:#E6E0D2;
-  --right:#2F5D3A;--right-soft:rgba(47,93,58,0.08);
-  --wrong:#8A2E22;--wrong-soft:rgba(138,46,34,0.07);
-  --fd:'Cormorant Garamond',Georgia,serif;--fb:'Libre Baskerville',Georgia,serif;
-  --mw:780px;
-}
-html{scroll-behavior:smooth;overflow-x:hidden}
-body{background:var(--bg);color:var(--text);font-family:var(--fb);font-size:16px;line-height:1.75}
-a{color:var(--accent)}
-.page{max-width:var(--mw);margin:0 auto;padding:2.5rem 1rem 4rem}
-
-/* header */
-.top{display:flex;justify-content:space-between;align-items:center;gap:1rem;font-size:.8rem;color:var(--text-muted);margin-bottom:2rem}
-.top a{text-decoration:none;border-bottom:1px solid var(--border)}
-.head{background:var(--bg-white);border:1px solid var(--border);box-shadow:0 2px 16px rgba(76,42,26,.08);padding:2.25rem 2rem 2rem;margin-bottom:2.5rem}
-.crumb{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--part)}
-.head h1{font-family:var(--fd);font-weight:600;font-size:2.6rem;line-height:1.15;color:var(--accent);margin:.6rem 0 .5rem}
-.head .num{color:var(--gold);font-weight:500}
-.head .sub{font-style:italic;color:var(--text-muted)}
-.level{display:inline-block;margin-top:1rem;font-size:.72rem;letter-spacing:.08em;border:1px solid var(--gold);color:var(--gold);padding:.15rem .6rem}
-
-/* lesson body */
-.lesson h2{font-family:var(--fd);font-weight:600;font-size:1.75rem;color:var(--accent);margin:2.5rem 0 .75rem;line-height:1.25}
-.lesson h3{font-family:var(--fd);font-weight:600;font-size:1.3rem;color:var(--part);margin:1.75rem 0 .5rem}
-.lesson p{margin:.75rem 0}
-.lesson ul,.lesson ol{margin:.75rem 0 .75rem 1.5rem}
-.lesson li{margin:.35rem 0}
-.lesson strong{color:var(--accent)}
-.lesson mark{background:var(--gold-soft);color:inherit;padding:0 .15em;border-bottom:2px solid var(--gold)}
-.lead{font-size:1.12rem;line-height:1.7}
-.rule{background:var(--bg-white);border-left:4px solid var(--accent);padding:1rem 1.25rem;margin:1.5rem 0}
-.rule p:first-child{margin-top:0}.rule p:last-child{margin-bottom:0}
-.examples{border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:.5rem 0;margin:1.25rem 0}
-.examples p{margin:.5rem 0;padding-left:1.25rem;position:relative}
-.examples p::before{content:'›';position:absolute;left:.2rem;color:var(--gold)}
-.compare{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin:1.25rem 0}
-.compare p{margin:0;padding:.75rem 1rem}
-.compare .wrong{background:var(--wrong-soft);border-left:3px solid var(--wrong)}
-.compare .wrong::before{content:'✗  ';color:var(--wrong);font-weight:700}
-.compare .right{background:var(--right-soft);border-left:3px solid var(--right)}
-.compare .right::before{content:'✓  ';color:var(--right);font-weight:700}
-.tip{background:var(--gold-soft);padding:1rem 1.25rem;margin:1.5rem 0;font-size:.95rem}
-.tip::before{content:'Tip';display:block;font-family:var(--fd);font-weight:700;font-size:1.1rem;color:var(--part);margin-bottom:.25rem}
-table.grid{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.95rem;background:var(--bg-white)}
-table.grid th,table.grid td{border:1px solid var(--border);padding:.55rem .75rem;text-align:left;vertical-align:top}
-table.grid th{background:var(--bg-soft);font-family:var(--fd);font-size:1.05rem;color:var(--accent)}
-.table-wrap{overflow-x:auto}
-.practice{background:var(--bg-white);border:1px solid var(--border);padding:1.25rem 1.5rem;margin:2rem 0}
-.practice::before{content:'Practice';display:block;font-family:var(--fd);font-weight:700;font-size:1.4rem;color:var(--accent);margin-bottom:.5rem}
-.practice details{margin:.3rem 0 .6rem;font-size:.92rem}
-.practice summary{cursor:pointer;color:var(--part);font-style:italic}
-.practice details p{margin:.3rem 0}
-.summary{border-top:2px solid var(--accent);margin-top:2.5rem;padding-top:1rem}
-.summary::before{content:'In short';display:block;font-family:var(--fd);font-weight:700;font-size:1.4rem;color:var(--accent);margin-bottom:.25rem}
-
-/* nav */
-.nav{display:flex;justify-content:space-between;gap:1rem;margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--border);font-size:.9rem}
-.nav a{text-decoration:none;max-width:48%}
-.nav .label{display:block;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-muted)}
-.nav .next{text-align:right;margin-left:auto}
-footer{text-align:center;color:var(--text-muted);font-size:.8rem;margin-top:3rem}
-
-@media (max-width:600px){
-  .head{padding:1.5rem 1.25rem}
-  .head h1{font-size:2rem}
-  .compare{grid-template-columns:1fr}
-}
-</style>
+<link rel="stylesheet" href="assets/book.css">
 </head>
 <body>
 <div class="page">
@@ -97,8 +24,13 @@ footer{text-align:center;color:var(--text-muted);font-size:.8rem;margin-top:3rem
   <main class="lesson">
 {{BODY}}
   </main>
+  <div id="exercises"></div>
   <nav class="nav">{{PREV}}{{NEXT}}</nav>
   <footer>© 2026 Rhyme Art · <a href="https://rhymeart.com" target="_blank">rhymeart.com</a></footer>
 </div>
+<script>window.CHAPTER = {{NUM}}; window.VOCAB = {{VOCAB}}; window.EXERCISES = {{EXERCISES}};</script>
+<script src="assets/progress-config.js"></script>
+<script src="assets/progress.js"></script>
+<script src="assets/book.js"></script>
 </body>
 </html>
