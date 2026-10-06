@@ -129,8 +129,15 @@ def run_agent(system, prompt, effort="medium", tools=True):
         cmd += ["--allowedTools", t, "--add-dir", str(HERE / "references"), "--settings", json.dumps(settings)]
     cmd += ["--setting-sources", "", "--strict-mcp-config", "--no-session-persistence", "--output-format", "json", prompt]
     r = subprocess.run(cmd, capture_output=True, text=True, timeout=1800, cwd=str(BOOK))
-    data = json.loads(r.stdout)
-    return (data.get("result") or "").strip(), float(data.get("total_cost_usd") or 0)
+    try:
+        data = json.loads(r.stdout)
+    except ValueError:
+        raise RuntimeError(f"agent call failed: {r.stderr[-300:] or r.stdout[-300:]}")
+    text = (data.get("result") or "").strip()
+    cost = float(data.get("total_cost_usd") or 0)
+    if data.get("is_error") or (not text and cost == 0):
+        raise RuntimeError(f"agent call failed: {text[:300] or r.stderr[-300:]}")
+    return text, cost
 
 
 def done(stage, n):
@@ -154,6 +161,17 @@ def valid(n):
 
 # ---------- stage 1: deepen ----------
 
+def safe(fn):
+    def wrapped(*a):
+        try:
+            return fn(*a)
+        except Exception as e:
+            print(f"{fn.__name__} {a[0]['n'] if a and isinstance(a[0], dict) else ''} failed, will retry on next run: {e}", flush=True)
+    wrapped.__name__ = fn.__name__
+    return wrapped
+
+
+@safe
 def deepen_one(c, descs):
     n = c["n"]
     if done("deepen", n):
@@ -200,6 +218,7 @@ def review_toc(descs):
     print(f"review TOC: ${cost:.2f}", flush=True)
 
 
+@safe
 def review_lane(lane, chapters, descs):
     journal = REV / f"journal-{lane}.md"
     for c in chapters:
@@ -236,6 +255,7 @@ def fix_toc(descs):
     print(f"fix TOC: ${cost:.2f}", flush=True)
 
 
+@safe
 def fix_one(c, descs):
     n = c["n"]
     if done("fix", n) or not (REV / f"chapter-{n:02d}.md").exists():
@@ -254,6 +274,7 @@ def fix_one(c, descs):
 
 # ---------- stage 4: verify ----------
 
+@safe
 def verify_one(c, descs):
     n = c["n"]
     if done("verify", n):
