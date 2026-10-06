@@ -162,9 +162,9 @@ def work_for(team, prog):
         return bool(prog["lessons_not_yet_written"] or prog["lessons_awaiting_peer_review"]
                     or prog["lessons_needing_changes_from_peer_review"] or prog["lessons_needing_fixes_from_expert"]
                     or prog["lessons_flagged_for_copying_reference_books"] or prog["descriptions_missing"])
-    rows = build.progress(shared()["authors"], detail=True)["rows"]
-    ready_for_exercises = [n for n, r in rows.items() if r.get("expert") == "pass" and r.get("blueprint") and "exercise_check" not in r]
-    return bool(prog["lessons_awaiting_expert_check (peer approved)"] or ready_for_exercises
+    return bool(prog["lessons_awaiting_expert_check (peer approved)"]
+                or prog["chapters_ready_for_exercises (lesson passed, blueprint written, no exercises yet)"]
+                or prog["chapters_with_passed_lesson_but_no_blueprint"]
                 or prog["exercises_awaiting_expert_check"] or prog["exercises_needing_fixes_from_expert"]
                 or prog["exercises_with_format_errors"] or prog["exercises_flagged_for_copying_reference_books"])
 

@@ -79,8 +79,10 @@ def verdict(p, after):
     """(verdict, current). current = written after the thing it judges was last changed."""
     if not p.exists():
         return None, False
-    m = re.search(r"VERDICT:\s*(APPROVED|CHANGES NEEDED|PASS|FIX NEEDED)", p.read_text(), re.I)
-    v = m.group(1).upper() if m else "UNCLEAR"
+    m = re.search(r"VERDICT:?\**\s*\**\s*(APPROVED|PASS(?:ED)?|CHANGES? NEEDED|NEEDS? CHANGES?|FIX(?:ES)? NEEDED|NEEDS? FIX(?:ES)?|FAIL(?:ED)?)", p.read_text(), re.I)
+    raw = m.group(1).upper() if m else "UNCLEAR"
+    v = ("APPROVED" if raw == "APPROVED" else "PASS" if raw.startswith("PASS") else
+         "UNCLEAR" if raw == "UNCLEAR" else "FIX NEEDED" if "FIX" in raw or raw.startswith("FAIL") else "CHANGES NEEDED")
     return v, (after is not None and mtime(p) >= after)
 
 
@@ -290,6 +292,8 @@ def progress(writers=None, detail=False):
         "lessons_flagged_for_copying_reference_books": {n: r["copy_flags"] for n, r in rows.items() if r.get("copy_flags")},
         "lessons_not_yet_written": L(lambda r: not r["lesson"]),
         "blueprints_written": len(L(lambda r: r["blueprint"])),
+        "chapters_ready_for_exercises (lesson passed, blueprint written, no exercises yet)": L(lambda r: r.get("expert") == "pass" and r["blueprint"] and "exercise_check" not in r),
+        "chapters_with_passed_lesson_but_no_blueprint": L(lambda r: r.get("expert") == "pass" and not r["blueprint"]),
         "exercises_written": len(L(lambda r: "exercise_check" in r)),
         "exercises_finished (expert passed, valid)": len(L(lambda r: r.get("exercise_check") == "pass" and not r.get("exercise_errors"))),
         "exercises_with_format_errors": {n: r["exercise_errors"] for n, r in rows.items() if r.get("exercise_errors")},
