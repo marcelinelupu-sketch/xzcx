@@ -747,7 +747,7 @@ class Builder:
         aside = f'<img class="mascot-aside" src="/assets/img/frog-{pose}.svg" width="120" height="120" alt="">' if pose else ""
         intro = d.get("intro", "")
         body = (
-            f'<div class="page-head">{aside}<h1>{fdlib.inline(d["h1"])}</h1>'
+            f'<div class="page-head{" ph-l" if p.slug in ("privacy", "terms") else ""}">{aside}<h1>{fdlib.inline(d["h1"])}</h1>'
             + (f'<div class="lede">{fdlib.markup_to_html(intro)}</div>' if intro else "") + "</div>"
             + self.prose_sections(d.get("sections"), no_ads=True)
             + self.faq_block(d.get("faq"))
@@ -870,7 +870,7 @@ class Builder:
         tools = "".join(f'<li><a class="tcard" href="{t["path"]}"><b>{E(t["name"])}</b></a></li>' for t in self.site["tools"] if self.built(t["path"]))
         hubs = self.chips(self.site["footer"]["hubs"])
         body = (
-            '<section class="hero"><div><h1>This page hopped away</h1>'
+            '<section class="hero hero-c"><div><h1>This page hopped away</h1>'
             '<p class="lede">We could not find that page. It may have moved, or the link has a typo. These are good places to jump back in.</p>'
             '<p class="btns"><a class="btn btn-primary" href="/">Go to the home page</a></p></div>'
             '<img src="/assets/img/frog-sleeping.svg" width="260" height="260" alt="A sleepy frog in a nightcap"></section>'

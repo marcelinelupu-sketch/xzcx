@@ -7,6 +7,7 @@
 .cl-btns,.cl-last ol{display:flex;flex-wrap:wrap;gap:.5rem;margin:.8rem 0 .4rem;padding:0;list-style:none}
 .cl-btns .btn{flex:1 1 auto}
 .cl-next{flex-basis:100%!important;min-height:58px;font-size:1.25rem}
+.cl-count,.cl-last{text-align:center}.cl-last ol{justify-content:center}
 .cl-last li{background:var(--lily-l);border-radius:9px;padding:0 .6em}
 .cl-last li:first-child,.cl-c.now{background:var(--sun)}
 .cl-board{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:3px;align-content:start}

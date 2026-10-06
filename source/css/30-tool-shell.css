@@ -19,10 +19,11 @@
 .tool-actions .btn{flex:1 1 auto}
 .tool-actions .btn-primary{flex-basis:100%}
 @media (min-width:960px){.tool-actions{margin:0 -4px;padding:.6rem 4px}}
-.tool-more{display:flex;flex-wrap:wrap;gap:.35rem .9rem;margin-top:.6rem;font-size:.92rem}
+.tool-more{display:flex;flex-wrap:wrap;justify-content:center;gap:.35rem .9rem;margin-top:.6rem;font-size:.92rem}
 .linkish{background:none;border:0;padding:.2rem 0;color:var(--pond-d);text-decoration:underline;cursor:pointer;font:inherit;min-height:32px}
 .tool-preview{background:#EAF1E2 radial-gradient(rgba(47,143,91,.1) 1.2px,transparent 1.2px) 0 0/18px 18px;border-radius:14px;padding:12px;min-width:0;min-height:240px}
-.tool-status{font-size:.92rem;color:var(--muted);margin:0 0 .6rem}
+.tool-preview:has(.sheets:empty){display:grid;place-content:center}
+.tool-status{text-align:center;font-size:.92rem;color:var(--muted);margin:0 0 .6rem}
 .sheets{--sw:8.5in;--sh:11in;display:flex;flex-direction:column;align-items:center;gap:16px}
 .sheets[data-paper=a4]{--sw:210mm;--sh:297mm}
 .sheet-frame{width:calc(var(--sw) * var(--s,1));height:calc(var(--sh) * var(--s,1));flex:none}
