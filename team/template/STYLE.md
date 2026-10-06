@@ -49,15 +49,9 @@ Role colors (use inside formulas, examples and tables, always for the same role)
 
 Use `compare` only for mistakes learners really make. Tables are for patterns that are easier to see in rows and columns. Everything in tables is centered automatically.
 
-## Vocabulary popups
+## Vocabulary
 
-Mark every word that an A2 learner might not know (also words in examples):
-
-```html
-<span class="v" data-def="a short simple definition, for this meaning only">word</span>
-```
-
-The definition must fit the meaning **in this sentence** (leaves of a tree, not leaves = goes away). Use plain A2 words in definitions. Do not use double quotes inside data-def. Translations into the learner's language are added automatically from your definition and sentence, so the definition must be precise. Do not mark easy words.
+Do not add any vocabulary markup. The system automatically underlines every word with meaning and gives it a simple definition and a translation into the learner's language. Write naturally; avoid rare words where a simpler one works. If old lessons contain <span class="v" ...> markup, it is removed automatically.
 
 ## Reviews (reviews/chapter-NN.md)
 
@@ -66,7 +60,7 @@ Review the other writer's lessons, never your own:
 ```
 VERDICT: APPROVED
 ```
-or `VERDICT: CHANGES NEEDED` followed by exactly what to fix. Check: correct? as short as possible? clear in one minute for an A2 reader? formatting right and helpful? examples natural and in the vibe? difficult words marked with good definitions? no copying from the reference books? A lesson changed after review needs a new review.
+or `VERDICT: CHANGES NEEDED` followed by exactly what to fix. Check: correct? as short as possible? clear in one minute for an A2 reader? formatting right and helpful? examples natural and in the vibe? no copying from the reference books? A lesson changed after review needs a new review.
 
 The expert (Opus) also checks every approved lesson (checks/lesson-NN.md). If it says FIX NEEDED, fix the lesson; it then needs a new peer review and a new expert check.
 

@@ -70,7 +70,7 @@ table.grid th,table.grid td{border:1px solid var(--border);padding:.6rem .75rem;
 table.grid th{background:var(--bg-soft);font-family:var(--fd);font-size:1.12rem;color:var(--accent)}
 
 /* vocabulary */
-.v{cursor:help;border-bottom:2px dotted var(--vocab);color:var(--vocab)}
+.v{cursor:help;border-bottom:1.5px dotted rgba(122,74,107,.55)}
 .v.translated{border-bottom-style:solid}
 #vtip{position:absolute;display:none;z-index:60;background:var(--text);color:var(--bg);padding:.55rem .8rem;border-radius:6px;max-width:260px;font-size:.85rem;line-height:1.45;box-shadow:0 8px 20px rgba(0,0,0,.25);text-align:left}
 #vtip.show{display:block}

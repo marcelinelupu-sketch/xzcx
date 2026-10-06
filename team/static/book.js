@@ -5,7 +5,7 @@
 (function () {
   "use strict";
   var N = window.CHAPTER;
-  var LANG = (function () { try { return localStorage.getItem("bLang") || ""; } catch (e) { return ""; } })();
+  function lang() { try { return localStorage.getItem("bLang") || ""; } catch (e) { return ""; } }
   var P = window.RhymeProgress;
 
   /* ---------- vocabulary ---------- */
@@ -21,15 +21,16 @@
     el.style.left = Math.min(Math.max(left, 140), window.scrollX + document.documentElement.clientWidth - 140) + "px";
     el.style.transform = "translateX(-50%)";
   }
+  function entry(span) { return (window.VOCAB || {})[span.dataset.id] || null; }
   function translation(span) {
-    var v = (window.VOCAB || {})[span.dataset.id];
-    return v && v.tr && LANG && v.tr[LANG] ? v.tr[LANG] : null;
+    var v = entry(span), l = lang();
+    return v && v.tr && l && v.tr[l] ? v.tr[l] : null;
   }
   function show(span, mode) {
-    var tr = translation(span);
+    var v = entry(span), tr = translation(span);
     if (mode === "tr" && tr) { tip.textContent = tr; span.classList.add("translated"); }
     else {
-      tip.textContent = span.dataset.def || "";
+      tip.textContent = (v && v.def) || span.dataset.def || "";
       if (tr) { var s = document.createElement("small"); s.textContent = hoverable ? "click for translation" : "tap again for translation"; tip.appendChild(s); }
     }
     span.dataset.mode = mode;
@@ -38,20 +39,25 @@
   }
   function hide() { tip.classList.remove("show"); }
 
-  document.querySelectorAll(".v").forEach(function (span) {
-    if (hoverable) {
-      span.addEventListener("mouseenter", function () { show(span, span.classList.contains("translated") ? "tr" : "def"); });
-      span.addEventListener("mouseleave", hide);
-      span.addEventListener("click", function (e) { e.stopPropagation(); show(span, "tr"); });
-    } else {
-      span.addEventListener("click", function (e) {
-        e.stopPropagation();
-        var open = tip.classList.contains("show") && tip._for === span;
-        show(span, open && span.dataset.mode === "def" ? "tr" : "def");
-        tip._for = span;
-      });
-    }
-  });
+  function bind(root) {
+    (root || document).querySelectorAll(".v:not([data-bound])").forEach(function (span) {
+      span.dataset.bound = "1";
+      if (hoverable) {
+        span.addEventListener("mouseenter", function () { show(span, span.classList.contains("translated") ? "tr" : "def"); });
+        span.addEventListener("mouseleave", hide);
+        span.addEventListener("click", function (e) { e.preventDefault(); e.stopPropagation(); show(span, "tr"); });
+      } else {
+        span.addEventListener("click", function (e) {
+          e.preventDefault(); e.stopPropagation();
+          var open = tip.classList.contains("show") && tip._for === span;
+          show(span, open && span.dataset.mode === "def" ? "tr" : "def");
+          tip._for = span;
+        });
+      }
+    });
+  }
+  window.BookVocab = { bind: bind };
+  bind(document);
   document.addEventListener("click", hide);
   window.addEventListener("scroll", function () { if (!hoverable) hide(); }, { passive: true });
 
@@ -204,6 +210,7 @@
     root.appendChild(set);
   });
   root.appendChild(doneEl);
+  bind(root);
 
   // restore solved items from earlier visits
   if (P) {

@@ -1,2 +1,7 @@
 .ch-row.rp-viewed .ch-num{color:#A07828}
 .ch-row.rp-viewed .ch-num::after{content:'•';margin-left:.2em;color:#A07828}
+.v{cursor:help;border-bottom:1.5px dotted #7A4A6B}
+.v.translated{border-bottom-style:solid}
+#vtip{position:absolute;display:none;z-index:200;background:#1A1916;color:#F7F4EE;padding:.55rem .8rem;border-radius:6px;max-width:260px;font-size:.85rem;line-height:1.45;box-shadow:0 8px 20px rgba(0,0,0,.25);text-align:left;font-family:'Libre Baskerville',Georgia,serif}
+#vtip.show{display:block}
+#vtip small{display:block;opacity:.6;font-size:.72rem;margin-top:.25rem}

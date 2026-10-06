@@ -66,6 +66,6 @@ Rules:
 - `error`: `segments` split the sentence into 3 to 6 parts; exactly one is wrong; `fix` is its correct form.
 - Every item has a short `why` in A2 words: the reason, not just the answer.
 - Vary task types within a chapter; the order of sets goes from easy to hard.
-- Difficult words can get vocabulary popups exactly like in lessons: `<span class=\"v\" data-def=\"simple definition\">word</span>` (escape the quotes in JSON). Do not mark the word the learner must choose or write.
+- Do not add vocabulary markup: the system underlines and explains every word with meaning in titles, instructions, questions and explanations automatically.
 - Never use em dashes or en dashes. American spelling.
 - The build checks the format and flags any text that shares 6 or more words in a row with the reference books.

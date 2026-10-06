@@ -27,6 +27,9 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import vocabtag  # noqa: E402
+
 HERE = Path(__file__).resolve().parent
 SOURCE_TOC = HERE / "source" / "toc_original.html"
 BOOK = HERE / "book"
@@ -198,12 +201,43 @@ def sentence_around(text, m):
     return htmlmod.unescape((before + re.sub(r"<[^>]+>", "", m.group(2)) + after).strip())[:300]
 
 
-def translations():
-    p = VOCAB / "translations.json"
+def glossary():
     try:
-        return json.loads(p.read_text())
+        return json.loads((VOCAB / "glossary.json").read_text())
     except (OSError, ValueError):
-        return {}
+        return {"senses": {}, "words": {}, "occ": {}}
+
+
+def tagger(g, used):
+    def rep(key, word):
+        sid = g["occ"].get(key)
+        if not sid or sid not in g["senses"]:
+            return None
+        used.add(sid)
+        return f'<span class="v" data-id="{sid}">{word}</span>'
+    return rep
+
+
+def vocab_payload(g, used):
+    return {sid: {"def": g["senses"][sid]["def"], "tr": g["senses"][sid].get("tr", {})} for sid in sorted(used)}
+
+
+def build_toc_vocab(g, descs):
+    per_chapter, used, counter = {}, set(), {}
+    for c in chapters():
+        n = c["n"]
+        _, occ = vocabtag.walk(vocabtag.toc_text(c, c["desc"] or descs.get(str(n), "")), f"T{n}", counter)
+        m = {}
+        for key, word, ctx in occ:
+            sid = g["occ"].get(key)
+            lw = key.split("|")[1]
+            if sid in g["senses"] and lw not in m:
+                m[lw] = sid
+                used.add(sid)
+        per_chapter[n] = m
+    js = ("window.TOCVOCAB = " + json.dumps(per_chapter, ensure_ascii=False) + ";\n"
+          "window.VOCAB = " + json.dumps(vocab_payload(g, used), ensure_ascii=False) + ";\n")
+    (SITE / "assets" / "toc-vocab.js").write_text(js)
 
 
 # ---------- progress ----------
@@ -276,6 +310,8 @@ TOC_PATCH = """
 <script src="assets/progress-config.js"></script>
 <script src="assets/progress.js"></script>
 <script src="assets/toc-progress.js"></script>
+<script src="assets/toc-vocab.js"></script>
+<script src="assets/book.js"></script>
 </body>"""
 
 
@@ -307,32 +343,24 @@ def build(only_finished=False):
     chs = chapters()
     by_n = {c["n"]: c for c in chs}
     tpl = TEMPLATE.read_text()
-    tr = translations()
+    g = glossary()
+    build_toc_vocab(g, descs)
     existing = [c["n"] for c in chs if path("lesson", c["n"]).exists()]
     if only_finished:
         existing = [n for n in existing if rows[n].get("peer") == "approved" and rows[n].get("expert") == "pass"]
-    index = {}
     for n in existing:
         c = by_n[n]
-        found = {}
+        used, counter = set(), {}
+        rep = tagger(g, used)
         raw = re.sub(r"^\s*<!--\s*author:.*?-->\s*", "", path("lesson", n).read_text(), count=1)
-        body = tag_vocab(clean(raw), found, lambda m, raw=raw: sentence_around(raw, m))
+        body, _ = vocabtag.walk(clean(vocabtag.strip_manual(raw)), f"L{n}", counter, rep)
         ex_json = "null"
         data, errs = load_exercises(n)
         if data is not None and not errs and rows[n].get("exercise_check") == "pass":
-            def walk(x):
-                if isinstance(x, str):
-                    t = clean(x)
-                    return tag_vocab(t, found, lambda m, t=t: sentence_around(t, m))
-                if isinstance(x, list):
-                    return [walk(y) for y in x]
-                if isinstance(x, dict):
-                    return {k: walk(v) for k, v in x.items()}
-                return x
-            ex_json = json.dumps(walk(data), ensure_ascii=False).replace("</", "<\\/")
-        page_vocab = {k: {"def": v["def"], "tr": tr.get(k, {})} for k, v in found.items()}
-        for k, v in found.items():
-            index.setdefault(k, dict(v, chapters=[]))["chapters"].append(n)
+            for obj, f in vocabtag.exercise_fields(data):
+                obj[f], _ = vocabtag.walk(clean(obj[f]), f"X{n}", counter, rep)
+            ex_json = clean(json.dumps(data, ensure_ascii=False)).replace("</", "<\\/")
+        page_vocab = vocab_payload(g, used)
         crumb = " · ".join(x for x in (c["section"], c["part"]) if x)
         desc = c["desc"] or descs.get(str(n), "")
         i = existing.index(n)
@@ -344,8 +372,6 @@ def build(only_finished=False):
                 .replace("{{VOCAB}}", json.dumps(page_vocab, ensure_ascii=False).replace("</", "<\\/"))
                 .replace("{{EXERCISES}}", ex_json).replace("{{BODY}}", body))
         (SITE / f"chapter-{n:02d}.html").write_text(page)
-    VOCAB.mkdir(exist_ok=True)
-    (VOCAB / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=1))
     return len(existing)
 
 
