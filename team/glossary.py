@@ -79,7 +79,7 @@ def collect():
     descs = build.descriptions()
     for c in build.chapters():
         n = c["n"]
-        _, o = vocabtag.walk(vocabtag.toc_text(c, c["desc"] or descs.get(str(n), "")), f"T{n}", counter)
+        _, o = vocabtag.walk(vocabtag.toc_text(c, build.final_desc(c, descs)), f"T{n}", counter)
         occ.update({k: (w, ctx) for k, w, ctx in o})
         lp = build.path("lesson", n)
         if lp.exists():

@@ -60,6 +60,20 @@ def descriptions():
         return {}
 
 
+def desc_overrides():
+    """Improved descriptions from the final review, for chapters that already had one."""
+    try:
+        return {str(k): clean(v).strip() for k, v in json.loads((BOOK / "review" / "toc-description-changes.json").read_text()).items() if str(v).strip()}
+    except (OSError, ValueError, AttributeError):
+        return {}
+
+
+def final_desc(c, descs=None, ov=None):
+    descs = descriptions() if descs is None else descs
+    ov = desc_overrides() if ov is None else ov
+    return ov.get(str(c["n"])) or c["desc"] or descs.get(str(c["n"]), "")
+
+
 def path(kind, n):
     return {
         "lesson": BOOK / "lessons" / f"chapter-{n:02d}.html",
@@ -228,7 +242,7 @@ def build_toc_vocab(g, descs):
     per_chapter, used, counter = {}, set(), {}
     for c in chapters():
         n = c["n"]
-        _, occ = vocabtag.walk(vocabtag.toc_text(c, c["desc"] or descs.get(str(n), "")), f"T{n}", counter)
+        _, occ = vocabtag.walk(vocabtag.toc_text(c, final_desc(c, descs)), f"T{n}", counter)
         m = {}
         for key, word, ctx in occ:
             sid = g["occ"].get(key)
@@ -325,12 +339,12 @@ def build_toc(descs):
     end = html.index("\n];", start) + 3
     block = html[start:end]
     js = block + """
-const D = JSON.parse(process.argv[1]); let n = 0;
-for (const b of BANNERS) { n++; if (!b.intro.desc && D[n]) b.intro.desc = D[n];
-  for (const p of b.parts) for (const c of p.chapters) { n++; if (!c.desc && D[n]) c.desc = D[n]; } }
+const D = JSON.parse(process.argv[1]); const O = JSON.parse(process.argv[2]); let n = 0;
+for (const b of BANNERS) { n++; if (O[n]) b.intro.desc = O[n]; else if (!b.intro.desc && D[n]) b.intro.desc = D[n];
+  for (const p of b.parts) for (const c of p.chapters) { n++; if (O[n]) c.desc = O[n]; else if (!c.desc && D[n]) c.desc = D[n]; } }
 process.stdout.write(JSON.stringify(BANNERS, null, 1));
 """
-    out = subprocess.run(["node", "-e", js, json.dumps(descs)], capture_output=True, text=True, check=True).stdout
+    out = subprocess.run(["node", "-e", js, json.dumps(descs), json.dumps(desc_overrides())], capture_output=True, text=True, check=True).stdout
     html = html[:start] + "const BANNERS = " + out + ";" + html[end:]
     return html.replace("</body>", TOC_PATCH, 1)
 
@@ -366,7 +380,7 @@ def build(only_finished=False):
             ex_json = clean(json.dumps(data, ensure_ascii=False)).replace("</", "<\\/")
         page_vocab = vocab_payload(g, used)
         crumb = " · ".join(x for x in (c["section"], c["part"]) if x)
-        desc = c["desc"] or descs.get(str(n), "")
+        desc = final_desc(c, descs)
         i = existing.index(n)
         prev = f'<a class="prev" href="chapter-{existing[i-1]:02d}.html"><span class="label">Previous</span>{by_n[existing[i-1]]["title"]}</a>' if i > 0 else ""
         nxt = f'<a class="next" href="chapter-{existing[i+1]:02d}.html"><span class="label">Next</span>{by_n[existing[i+1]]["title"]}</a>' if i + 1 < len(existing) else ""
