@@ -56,7 +56,7 @@ Five decisions or tasks remain for you. They are in section 5.
 * `toolkit.js` and `caller.js` use sessionStorage instead of localStorage. `site.js` deletes leftover `fd:` keys from localStorage, and hides or shows the Mega Pack lines according to `PACK_URL`.
 * `source/content/site.json` has new entries: `operator` (name and address, the single source of truth), `legal.updated` (policy date), `packAvailable` (true).
 * `build.py` fills `{{OPERATOR_NAME}}`, `{{OPERATOR_BLOCK}}` and `{{POLICY_DATE}}`, sets the Product availability from `packAvailable`, prints a WARNING when the operator name is empty, and writes the Buy buttons and Mega Pack lines into the HTML already live when the shipped `config.js` has a `PACK_URL`.
-* `config.js` ships with `PACK_URL` set to `https://buy.stripe.com/6oU5kD4iYeTr5eJ4oN7kc05`.
+* `config.js` ships with `PACK_URL` set to `https://buy.stripe.com/14AdR9g0y4Y26Wn4zxaVa00`.
 
 **QA (made stricter, nothing weakened)**
 

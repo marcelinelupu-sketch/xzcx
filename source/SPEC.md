@@ -316,7 +316,7 @@ Common to all generators:
 window.FD_CONFIG = {
   ADSENSE_CLIENT: "",          // e.g. "ca-pub-1234567890123456" — paste after AdSense gives it
   AD_SLOT_IN_ARTICLE: "",      // optional, leave empty
-  PACK_URL: "https://buy.stripe.com/6oU5kD4iYeTr5eJ4oN7kc05", // Stripe payment link for the Mega Pack
+  PACK_URL: "https://buy.stripe.com/14AdR9g0y4Y26Wn4zxaVa00", // Stripe payment link for the Mega Pack
   PACK_PRICE: "$7",
   TIP_URL: "",                 // optional Ko-fi link
   CONTACT_EMAIL: "hello@frogsdream.com"
