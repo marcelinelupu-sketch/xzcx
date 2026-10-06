@@ -1563,8 +1563,8 @@ def build_start_here(path, counts):
          "you teach yourself. Please do not resell or share the files, or upload them where others can download them. "
          "Each teacher who wants the pack needs their own copy. Full terms: frogsdream.com/terms/.")
     h2("Need help?")
-    para("If a file does not work for you, email us through frogsdream.com/contact/ within 14 days of your purchase and we "
-         "will fix it or give you a full refund, whichever you prefer. The free generators at frogsdream.com let you change "
+    para("If a file is damaged or will not open, email us through frogsdream.com/contact/ and we will send you a working "
+         "copy, or a full refund if we cannot fix it. The free generators at frogsdream.com let you change "
          "any word list and make fresh cards whenever you need them.")
     if y < BOTTOM:
         warn("Start here page overflows")

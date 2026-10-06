@@ -305,7 +305,7 @@ Common to all generators:
 - Mega Pack (activated only when config.PACK_URL is non-empty, else every premium CTA and the /premium/ nav link are hidden; the /premium/ page itself shows 'Coming soon' and is noindex until a URL is set — implemented via JS adding a meta robots tag is unreliable, so: /premium/ is always indexable with honest copy, and the Buy button shows 'Coming soon' when no URL is set):
   - Buy button is a plain <a href=PACK_URL> (Stripe Payment Link with Managed Payments; no Stripe.js needed).
   - Price text '$7' is in HTML.
-  - /premium/ content: what's inside (exact counts), 3 preview images (PNG renders of real pack pages, watermarked 'SAMPLE'), licence (personal and single-classroom use; no resale), seller line (sold through Link, Stripe's merchant of record; price includes taxes), refund line ('If a file doesn't work for you, email us within 14 days of your purchase and we will fix it or give you a full refund, whichever you prefer'), FAQ.
+  - /premium/ content: what's inside (exact counts), 3 preview images (PNG renders of real pack pages, watermarked 'SAMPLE'), licence (personal and single-classroom use; no resale), seller line (sold through Link, Stripe's merchant of record; price includes taxes), refund line (no change-of-mind refunds once the download has started; a faulty file gets a working copy, or a refund if it cannot be fixed), FAQ.
 - Tip link: optional config.TIP_URL (Ko-fi/Buy Me a Coffee) shown as a small footer link 'Buy the frog a coffee' only if set.
 - No Amazon links at launch. The Amazon 3-sales-in-180-days rule makes early signup counterproductive. Leave a documented hook for later.
 - /disclosure/ page: explains ads, the paid pack, and that future affiliate links will be labelled.

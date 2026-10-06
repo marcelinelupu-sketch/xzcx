@@ -292,6 +292,7 @@ footer{color:var(--muted);font-size:.9rem;margin-top:30px}
 <li>Collect nothing extra: no shipping address, no phone number, no custom fields. Promotion codes are optional.</li>
 <li><span class="path">After payment</span>: choose <span class="path">Don't show confirmation page</span> (redirect your customers) and enter <code>https://frogsdream.com/pack-download-b0b5f94d131b/</code></li>
 <li>Set the support email in your Stripe public business details to <code>hello@frogsdream.com</code>, so Link can reach you about refunds.</li>
+<li><strong>Important for "no refunds":</strong> in the same public business details, set the <strong>Terms of service</strong> link to <code>https://frogsdream.com/terms/</code>. Then edit the payment link and switch on <strong>Require customers to accept your terms of service</strong>. Buyers then tick a box agreeing to the terms, which say they get the files immediately and lose the EU 14-day cancellation right once the download starts. Without that tick, EU law could let a buyer cancel within 14 days even after downloading.</li>
 </ol>
 <h3>b) Upload the pack to the hidden download folder</h3>
 <ol class="clicks">
@@ -308,6 +309,7 @@ footer{color:var(--muted);font-size:.9rem;margin-top:30px}
 <div class="note">The data that tells Google the pack is on sale (InStock) is already switched on in the build. If you ever change the price, change it in Stripe and in <code>PACK_PRICE</code> in config.js, and ask Claude to update the $7 text on the site and rebuild. If you ever stop selling, empty <code>PACK_URL</code> in config.js and ask Claude to set <code>packAvailable</code> to false in site.json.</div>
 <ul class="checks">
 <li><input type="checkbox" id="c6a"><label for="c6a">Managed Payments on, tax code and tax-included price checked, quantity off, nothing extra collected.</label></li>
+<li><input type="checkbox" id="c6t"><label for="c6t">Terms of service link set in Stripe, and "Require customers to accept your terms of service" switched on.</label></li>
 <li><input type="checkbox" id="c6b"><label for="c6b">After payment redirects to https://frogsdream.com/pack-download-b0b5f94d131b/</label></li>
 <li><input type="checkbox" id="c6c"><label for="c6c">frogsdream-Mega-Pack.zip uploaded (not extracted) into public_html/pack-download-b0b5f94d131b/.</label></li>
 <li><input type="checkbox" id="c6d"><label for="c6d">Test purchase works and the zip downloads.</label></li>
@@ -430,7 +432,7 @@ Note: in ads.txt the ID starts with <code>pub-</code>, without <code>ca-</code>.
 <ul class="checks">
 <li><input type="checkbox" id="c10a"><label for="c10a"><strong>Search Console:</strong> open the <span class="path">Overview</span>. Look for red errors or emails about problems. Look at <span class="path">Indexing → Pages</span>: the "Indexed" number should slowly grow.</label></li>
 <li><input type="checkbox" id="c10b"><label for="c10b"><strong>AdSense:</strong> look at earnings and the bell icon / <span class="path">Policy center</span> for any policy notices. If there is a notice, ask Claude for help with the exact text.</label></li>
-<li><input type="checkbox" id="c10c"><label for="c10c"><strong>Stripe:</strong> check sales, refund requests and messages from Link support. Answer complaints within 14 days (the terms promise this), and refund kindly: the site promises a fix or a full refund within 14 days if a file does not work.</label></li>
+<li><input type="checkbox" id="c10c"><label for="c10c"><strong>Stripe:</strong> check sales, refund requests and messages from Link support. Answer complaints within 14 days (the terms promise this), The site promises a working copy if a file is faulty, and a refund only if you cannot fix it. There are no change-of-mind refunds after the download has started.</label></li>
 <li><input type="checkbox" id="c10d"><label for="c10d"><strong>Email:</strong> check hello@frogsdream.com.</label></li>
 </ul>
 <p><strong>At months 3, 6 and 12:</strong> in Search Console, open <span class="path">Performance</span> (Queries tab and Pages tab) and <span class="path">Indexing → Pages</span>. Click <span class="path">Export</span> (top right) and paste the results into a new Claude chat. Ask Claude to improve the titles of pages that get views but few clicks, and to add new themes where people are searching. If many pages stay "Crawled, currently not indexed", the fix is to merge or hide the weakest pages, not to add more.</p>

@@ -48,7 +48,8 @@
         "**Who sells it.** The pack is sold through **Stripe Managed Payments**, and the seller of record (the merchant of record) is **Link**, a Stripe company. Your purchase is made with Link, which takes the payment, works out and pays any sales tax or VAT for your country, handles payment questions and disputes, and emails you a receipt. We make the files and help you with them. We never see your card details.",
         "**Price.** $7 in total, including any sales tax or VAT. Checkout may show the amount in your local currency.",
         "**Delivery.** Right after paying, you go straight to a download page for the ZIP file. Bookmark it to download the pack again later.",
-        "**Refunds.** If a file doesn't work for you, email us within 14 days of your purchase and we will fix it or give you a full refund, whichever you prefer.",
+        "**Instant download, so no change-of-mind refunds.** The files are yours the moment you pay. When you buy, you ask for immediate access and agree that once the download has started you can no longer cancel the purchase under the 14-day withdrawal right that EU consumer law gives for digital content.",
+        "**If a file is faulty.** If a file is damaged, won't open or is missing, email us and we will send you a working copy. If we can't fix it, you get a full refund.",
         "This promise comes on top of your rights under consumer law, which nothing on this page limits. See the [terms](/terms/#mega-pack) for the details and how to make a [complaint](/terms/#complaints)."
       ]
     }
@@ -67,8 +68,8 @@
       "a": "The PDFs are finished pages and can't be edited. If you want your own words, use the free generator for that theme, which starts with the same list and lets you edit every line."
     },
     {
-      "q": "How do I get a refund?",
-      "a": "If a file doesn't work for you, email us within 14 days of your purchase and tell us what went wrong. We will fix the file or give you a full refund through Stripe, whichever you prefer."
+      "q": "Can I get a refund?",
+      "a": "Because the pack is an instant download, we don't offer refunds if you simply change your mind. If a file is damaged, won't open or is missing, email us and tell us what went wrong. We will send you a working copy, and if we can't fix it, you get a full refund through Stripe."
     }
   ]
 }
