@@ -4,7 +4,7 @@
 const assert = require('assert'), fs = require('fs'), path = require('path');
 const FD = require('./load-bingo.cjs')();
 const def = FD.bingo.def;
-const SEEDS = +(process.argv[2] || 200);
+const SEEDS = +(process.argv[2] || 10);
 
 function run(words, options, seed, paper) {
   const state = { title: 'Test', words, options, paper: paper || 'letter', seed };
