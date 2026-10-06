@@ -250,8 +250,9 @@ def run(team):
         after = snapshot()
         with Locked():
             sh = shared()
+            own = ("lessons/", "reviews/") if team == "writers" else ("checks/", "blueprints/", "exercises/")
             for rel, m in after.items():
-                if before.get(rel) != m:
+                if before.get(rel) != m and rel.startswith(own):  # the other team may be writing at the same time
                     sh["authors"][rel] = mind
             for name in re.findall(r"<name>(.*?)</name>", text, re.S):
                 name = clean(name)[:40]
