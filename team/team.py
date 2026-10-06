@@ -232,9 +232,6 @@ def run(team):
             break
         prog = build.progress(shared()["authors"])
         if not work_for(team, prog):
-            if team == "writers" and not prog["lessons_not_yet_written"]:
-                print(f"[{now()}] {team}: all lessons done.", flush=True)
-                break
             time.sleep(45)
             continue
         mind = t["next"]
