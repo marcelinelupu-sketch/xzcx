@@ -279,7 +279,13 @@ def verify_one(c, descs):
     n = c["n"]
     if done("verify", n):
         return
-    note, cost = run_agent(VERIFY.replace("NN", f"{n:02d}"), f"{chapter_info(c, descs)}\nCheck chapter {n}.")
+    rows = build.progress(detail=True)["rows"][n]
+    flags = (rows.get("copy_flags") or []) + (rows.get("exercise_copy_flags") or [])
+    extra = ("" if not flags else
+             f" The copying check found these word sequences that also appear in the reference books: {flags}. "
+             "Rewrite every sentence containing them in fresh words of your own (instructions too), unless the words "
+             "are an unavoidable grammar term.")
+    note, cost = run_agent(VERIFY.replace("NN", f"{n:02d}"), f"{chapter_info(c, descs)}\nCheck chapter {n}.{extra}")
     log_cost("verify", n, cost)
     mark("verify", n, note)
     print(f"verify {n}: ${cost:.2f}", flush=True)
